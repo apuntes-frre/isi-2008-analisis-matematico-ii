@@ -531,9 +531,7 @@ intervalo $`(-\infty,0)`$.
 
 39. ¿Cómo podría utilizar el método de esta sección para resolver
 
-    $$
-    (x+2)^2y''+(x+2)y'+y=0?
-    $$
+    $`\displaystyle (x+2)^2y''+(x+2)y'+y=0?`$
 
     Lleve a cabo sus ideas. Exprese un intervalo en el cual esté definida la
     solución.
@@ -545,13 +543,11 @@ intervalo $`(-\infty,0)`$.
 01. Las condiciones iniciales $`y(0)=y_0`$, $`y'(0)=y_1`$ se aplican a cada una
     de las siguientes ecuaciones diferenciales:
 
-    $$
-    \begin{aligned}
-        x^2y''&=0,\cr
-        x^2y''-2xy'+2y&=0,\cr
-        x^2y''-4xy'+6y&=0.
-        \end{aligned}
-    $$
+    $`\displaystyle \begin{aligned}
+    x^2y''&=0,\\
+    x^2y''-2xy'+2y&=0,\\
+    x^2y''-4xy'+6y&=0.
+    \end{aligned}`$
 
     ¿Para qué valores de $`y_0`$ y $`y_1`$ cada problema con valores iniciales
     tiene una solución?

@@ -132,8 +132,8 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
                 errors.append("carácter perdido, privado o marcador cid: revisar el original")
             if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*<>]", token.content)):
                 errors.append("GitHub puede alterar metacaracteres Markdown en el bloque; usar un bloque ```math")
-            if token.type == "fence" and token.info.strip() == "math" and text.splitlines()[token.map[0]].startswith(" "):
-                errors.append("GitHub puede dejar como código las cercas math anidadas; usar $$ con comandos sin escapes Markdown")
+            if (token.type.startswith("math_block") or (token.type == "fence" and token.info.strip() == "math")) and text.splitlines()[token.map[0]].startswith(" "):
+                errors.append("GitHub puede dejar sin renderizar el bloque matemático anidado; usar $`\\displaystyle ...`$")
     output = formatted(text)
     equations = math_expressions(text)
     if equations != math_expressions(output):
@@ -240,7 +240,7 @@ c & d
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("```math\nf(x)=\\begin{cases}x&0<x<1\\end{cases}\n```"))
     if not any("comparaciones como HTML" in error for error in errors):
         raise ValueError("No se detecta la comparación vulnerable dentro del bloque")
-    for source, message in [("1. Texto\n\n   ```math\n   x+1\n   ```", "cercas math anidadas"), ("```math\n\\begin{aligned}x&=1\\tag{1}\\end{aligned}\n```", "tag dentro de aligned")]:
+    for source, message in [("1. Texto\n\n   ```math\n   x+1\n   ```", "bloque matemático anidado"), ("1. Texto\n\n   $$\n   x+1\n   $$", "bloque matemático anidado"), ("```math\n\\begin{aligned}x&=1\\tag{1}\\end{aligned}\n```", "tag dentro de aligned")]:
         errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
         if not any(message in error for error in errors):
             raise ValueError("No se detecta la incompatibilidad de GitHub: " + message)

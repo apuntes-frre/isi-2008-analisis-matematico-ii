@@ -93,12 +93,10 @@ de las cuatro páginas: `www.aprendematematicas.org.mx`.
 
 01. La fórmula se presenta en dos casos:
 
-    $$
-    \int\frac{du}{u\sqrt{a+bu}}=\begin{cases}
-        \frac1{\sqrt a}\ln\left|\frac{\sqrt{a+bu}-\sqrt a}{\sqrt{a+bu}+\sqrt a}\right|+C&(a\gt 0)\cr
-        \frac2{\sqrt{-a}}\tan^{-1}\sqrt{\frac{a+bu}{-a}}+C&(a\lt 0)
-        \end{cases}
-    $$
+    $`\displaystyle \int\frac{du}{u\sqrt{a+bu}}=\begin{cases}
+    \frac1{\sqrt a}\ln\left|\frac{\sqrt{a+bu}-\sqrt a}{\sqrt{a+bu}+\sqrt a}\right|+C&(a\gt 0)\\
+    \frac2{\sqrt{-a}}\tan^{-1}\sqrt{\frac{a+bu}{-a}}+C&(a\lt 0)
+    \end{cases}`$
 
 01. $`\int\frac{\sqrt{a+bu}}u\,du=2\sqrt{a+bu}+a\int\frac{du}{u\sqrt{a+bu}}`$
 
@@ -148,12 +146,10 @@ de las cuatro páginas: `www.aprendematematicas.org.mx`.
 
 01. La llave del original muestra estas dos expresiones alternativas:
 
-    $$
-    \int\sin^nu\cos^mu\thinspace du=\left\lbrace \begin{aligned}
-        &-\frac{\sin^{n-1}u\cos^{m+1}u}{n+m}+\frac{n-1}{n+m}\int\sin^{n-2}u\cos^mu\thinspace du\cr
-        &\frac{\sin^{n+1}u\cos^{m-1}u}{n+m}+\frac{m-1}{n+m}\int\sin^nu\cos^{m-2}u\thinspace du\thinspace du
-        \end{aligned}\right.
-    $$
+    $`\displaystyle \int\sin^nu\cos^mu\,du=\left\{\begin{aligned}
+    &-\frac{\sin^{n-1}u\cos^{m+1}u}{n+m}+\frac{n-1}{n+m}\int\sin^{n-2}u\cos^mu\,du\\
+    &\frac{\sin^{n+1}u\cos^{m-1}u}{n+m}+\frac{m-1}{n+m}\int\sin^nu\cos^{m-2}u\,du\,du
+    \end{aligned}\right.`$
 
 ### Formas trigonométricas inversas
 

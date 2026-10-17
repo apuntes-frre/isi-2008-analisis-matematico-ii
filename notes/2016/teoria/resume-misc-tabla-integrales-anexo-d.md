@@ -59,12 +59,10 @@ extracto no incluye autor ni año.
 
 01. La fórmula se presenta en dos casos:
 
-    $$
-    \int\cosh^{-1}\frac xa\thinspace dx=\begin{cases}
-        x\cosh^{-1}\frac xa-\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)\gt 0,\ a\gt 0]\cr
-        x\cosh^{-1}\frac xa+\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)\lt 0,\ a\gt 0]
-        \end{cases}
-    $$
+    $`\displaystyle \int\cosh^{-1}\frac xa\,dx=\begin{cases}
+    x\cosh^{-1}\frac xa-\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)\gt 0,\ a\gt 0]\\
+    x\cosh^{-1}\frac xa+\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)\lt 0,\ a\gt 0]
+    \end{cases}`$
 
 01. $`\int\tanh^{-1}\frac xa\,dx=x\tanh^{-1}\frac xa+\frac a2\log|a^2-x^2|`$
 
@@ -98,12 +96,10 @@ extracto no incluye autor ni año.
 
 01. La fórmula se presenta en dos casos:
 
-    $$
-    \int\frac1{x\sqrt{a+bx}}\thinspace dx=\begin{cases}
-        \frac1{\sqrt a}\log\left|\frac{\sqrt{a+bx}-\sqrt a}{\sqrt{a+bx}+\sqrt a}\right|&(a\gt 0)\cr
-        \frac2{\sqrt{-a}}\arctan\sqrt{\frac{a+bx}{-a}}&(a\gt 0)
-        \end{cases}
-    $$
+    $`\displaystyle \int\frac1{x\sqrt{a+bx}}\,dx=\begin{cases}
+    \frac1{\sqrt a}\log\left|\frac{\sqrt{a+bx}-\sqrt a}{\sqrt{a+bx}+\sqrt a}\right|&(a\gt 0)\\
+    \frac2{\sqrt{-a}}\arctan\sqrt{\frac{a+bx}{-a}}&(a\gt 0)
+    \end{cases}`$
 
 01. $`\int\frac{\sqrt{a^2-x^2}}x\,dx=\sqrt{a^2-x^2}-a\log\left|\frac{a+\sqrt{a^2-x^2}}x\right|`$
 
@@ -135,23 +131,19 @@ extracto no incluye autor ni año.
 
 01. La fórmula se presenta en dos casos:
 
-    $$
-    \int\frac1{ax^2+bx+c}\thinspace dx=\begin{cases}
-        \frac1{\sqrt{b^2-4ac}}\log\left|\frac{2ax+b-\sqrt{b^2-4ac}}{2ax+b+\sqrt{b^2-4ac}}\right|&(b^2\gt 4ac)\cr
-        \frac2{\sqrt{4ac-b^2}}\arctan\frac{2ax+b}{\sqrt{4ac-b^2}}&(b^2\lt 4ac)
-        \end{cases}
-    $$
+    $`\displaystyle \int\frac1{ax^2+bx+c}\,dx=\begin{cases}
+    \frac1{\sqrt{b^2-4ac}}\log\left|\frac{2ax+b-\sqrt{b^2-4ac}}{2ax+b+\sqrt{b^2-4ac}}\right|&(b^2\gt 4ac)\\
+    \frac2{\sqrt{4ac-b^2}}\arctan\frac{2ax+b}{\sqrt{4ac-b^2}}&(b^2\lt 4ac)
+    \end{cases}`$
 
 01. $`\int\frac x{ax^2+bx+c}\,dx=\frac1{2a}\log|ax^2+bx+c|-\frac b{2a}\int\frac1{ax^2+bx+c}\,dx`$
 
 01. La fórmula se presenta en dos casos:
 
-    $$
-    \int\frac1{\sqrt{ax^2+bx+c}}\thinspace dx=\begin{cases}
-        \frac1{\sqrt a}\log|2ax+b+2\sqrt a\sqrt{ax^2+bx+c}|&(a\gt 0)\cr
-        \frac1{\sqrt{-a}}\mathop{\mathrm{arcsen}}\nolimits \frac{-2ax-b}{\sqrt{b^2-4ac}}&(a\lt 0)
-        \end{cases}
-    $$
+    $`\displaystyle \int\frac1{\sqrt{ax^2+bx+c}}\,dx=\begin{cases}
+    \frac1{\sqrt a}\log|2ax+b+2\sqrt a\sqrt{ax^2+bx+c}|&(a\gt 0)\\
+    \frac1{\sqrt{-a}}\mathop{\mathrm{arcsen}}\nolimits \frac{-2ax-b}{\sqrt{b^2-4ac}}&(a\lt 0)
+    \end{cases}`$
 
 01. $`\int\sqrt{ax^2+bx+c}\,dx=\frac{2ax+b}{4a}\sqrt{ax^2+bx+c}+\frac{4ac-b^2}{8a}\int\frac1{\sqrt{ax^2+b+c}}\,dx`$
 
@@ -159,12 +151,10 @@ extracto no incluye autor ni año.
 
 01. La fórmula se presenta en dos casos:
 
-    $$
-    \int\frac1{x\sqrt{ax^2+bx+c}}\thinspace dx=\begin{cases}
-        -\frac1{\sqrt c}\log\left|\frac{2\sqrt c\sqrt{ax^2+bx+c}+bx+2c}x\right|&(c\gt 0)\cr
-        \frac1{\sqrt{-c}}\mathop{\mathrm{arcsen}}\nolimits \frac{bx+2c}{|x|\sqrt{b^2-4ac}}&(c\lt 0)
-        \end{cases}
-    $$
+    $`\displaystyle \int\frac1{x\sqrt{ax^2+bx+c}}\,dx=\begin{cases}
+    -\frac1{\sqrt c}\log\left|\frac{2\sqrt c\sqrt{ax^2+bx+c}+bx+2c}x\right|&(c\gt 0)\\
+    \frac1{\sqrt{-c}}\mathop{\mathrm{arcsen}}\nolimits \frac{bx+2c}{|x|\sqrt{b^2-4ac}}&(c\lt 0)
+    \end{cases}`$
 
 01. $`\int x^3\sqrt{x^2+a^2}\,dx=\left(\frac15x^2-\frac2{15}a^2\right)\sqrt{(a^2+x^2)^3}`$
 
@@ -184,13 +174,11 @@ extracto no incluye autor ni año.
 
 01. La fórmula se dispone en dos líneas enlazadas por igualdad:
 
-    $$
-    \begin{aligned}
-        \int\cos^mx\mathop{\mathrm{sen}}\nolimits ^nx\thinspace dx
-        &=\frac{\cos^{m-1}x\mathop{\mathrm{sen}}\nolimits ^{n-1}+x}{m+n}+\frac{m-1}{m+n}\int\cos^{m-2}x\mathop{\mathrm{sen}}\nolimits ^nx\thinspace dx=\cr
-        &=-\frac{\mathop{\mathrm{sen}}\nolimits ^{n-1}x\cos^{n+1}x}{m+n}+\frac{n-1}{m+n}\int\cos^mx\mathop{\mathrm{sen}}\nolimits ^{n-2}x\thinspace dx
-        \end{aligned}
-    $$
+    $`\displaystyle \begin{aligned}
+    \int\cos^mx\mathop{\mathrm{sen}}\nolimits ^nx\,dx
+    &=\frac{\cos^{m-1}x\mathop{\mathrm{sen}}\nolimits ^{n-1}+x}{m+n}+\frac{m-1}{m+n}\int\cos^{m-2}x\mathop{\mathrm{sen}}\nolimits ^nx\,dx=\\
+    &=-\frac{\mathop{\mathrm{sen}}\nolimits ^{n-1}x\cos^{n+1}x}{m+n}+\frac{n-1}{m+n}\int\cos^mx\mathop{\mathrm{sen}}\nolimits ^{n-2}x\,dx
+    \end{aligned}`$
 
 01. $`\int x^n\mathop{\mathrm{sen}}\nolimits ax\,dx=-\frac1ax^n\cos ax+\frac na\int x^{n-1}\cos ax\,dx`$
 
