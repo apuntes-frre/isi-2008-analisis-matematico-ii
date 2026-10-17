@@ -144,3 +144,13 @@ del runtime con `load_workspace_dependencies`.
 1. Trabajar en una rama de revisión, preservar cambios existentes y entregar el
    material con su procedencia, comprobaciones y pérdidas pendientes. Publicar o
    fusionar según la autorización del usuario para esta tarea.
+
+## Nombres de archivos de esta materia
+
+Nombrar apuntes y medios por tema, en español, ASCII y kebab-case. Omitir
+prefijos de formato o lote (`office-`, `pdf2020-`, `resume-`) y hashes en los
+nombres publicados. Usar autor, parte, fecha `aaaa-mm-dd` (o `aaaa-mm` si no
+consta el día) o `version-1` cuando sea necesario distinguir documentos. El
+año de archivo ya está en la carpeta; conservar los nombres originales y
+SHA-256 en el inventario y los registros de fuentes. Al renombrar, actualizar
+la guía, los enlaces a medios y las rutas del inventario.

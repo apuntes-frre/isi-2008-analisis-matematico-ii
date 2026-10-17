@@ -36,24 +36,24 @@ páginas revisadas.
 ## Cobertura temática por unidad
 
 Se toma como referencia el
-[programa archivado en 2020](../notes/2020/teoria/pdf2020-069-programa.md), que
-identifica ISI, IEM e IQ y contiene once unidades. Esta matriz es una relación
-temática editorial: los números de las ocho partes de la guía general y los del
+[programa archivado en 2020](../notes/2020/teoria/programa.md), que identifica
+ISI, IEM e IQ y contiene once unidades. Esta matriz es una relación temática
+editorial: los números de las ocho partes de la guía general y los del
 cronograma intensivo se conservan como aparecen en sus propias fuentes.
 
 | Unidad del programa | Contenido y transcripciones de referencia |
 | -- | -- |
-| 1 | Espacios, conjuntos y funciones de varias variables: [espacio métrico](../notes/2016/teoria/pdf2016-espacio-metrico.md), [campos escalares](../notes/2016/teoria/pdf2016-funciones-de-dos-o-mas-variables.md), [gráficas](../notes/2016/teoria/resume-misc-grafica-funciones-dos-variables.md). |
-| 2 | Límites dobles, iterados y continuidad: [guía de límites y continuidad](../notes/2016/practica/office-limites-y-continuidad-1-da57352e.md), parte 2 de la [guía completa](../notes/2016/practica/pdf2016-guia-completa-tp.md). |
-| 3 | Derivadas, funciones implícitas, Taylor y extremos: [interpretación geométrica](../notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md), [sistema implícito](../notes/2016/teoria/resume-misc-sistema-funciones-implicitas.md), [Taylor](../notes/2016/teoria/office-taylor-en-dos-variables-24c0fef0.md), [Lagrange](../notes/2016/teoria/pdf2016-multiplicadores-de-lagrange.md). |
-| 4 | Diferenciales y errores: [práctica de diferenciales](../notes/2016/practica/pdf2016-diferenciales.md), [Diferenciales BIS](../notes/2016/practica/office-diferenciales-bis-eed625bc.md), ejercicios 18–22 y 36–46 de la guía completa. |
-| 5 | Integrales múltiples, curvilíneas y de superficie: [29 diapositivas de integrales múltiples](../notes/2016/teoria/pdf2016-integrales-multiples.md), [integrales de línea](../notes/2016/practica/pdf2016-integrales-de-linea.md), [área de superficie](../notes/2020/practica/pdf2020-076-area-superficie.md), [ejercicios de Green](../notes/2020/practica/pdf2020-083-ejercicios-resueltos-green.md). |
-| 6 | Curvas en el espacio y funciones vectoriales: [funciones vectoriales](../notes/2016/practica/pdf2016-funciones-vectoriales.md). |
-| 7 | Gradiente, divergencia y rotacional: [gradiente](../notes/2016/teoria/pdf2016-gradiente.md), [análisis vectorial](../notes/2016/practica/pdf2016-analisis-vectorial.md), [Stokes](../notes/2020/teoria/office-teorema-de-stokes-ead627d9.md). |
-| 8 | EDO de primer orden y aplicaciones: [teoría](../notes/2016/teoria/resume-teoria-ecuaciones-diferenciales.md), [apunte de Urrutia, primer orden](../notes/2020/teoria/pdf2020-087-edo-01-primer-orden.md), [aplicaciones](../notes/2016/practica/pdf2016-aplicaciones-edo-primer-orden.md). |
-| 9 | EDO de segundo orden: [apunte de Urrutia, segundo orden](../notes/2020/teoria/pdf2020-087-edo-02-segundo-orden.md), [extracto de Zill](2020/pdf2020-zill-cobertura.md), [hoja de ruta de la unidad 9](../notes/2020/teoria/pdf2020-092-hoja-ruta-unidad-9.md), [masa, resorte y circuitos](../notes/2022/teoria/pdf2022-masa-resorte-circuitos.md). |
+| 1 | Espacios, conjuntos y funciones de varias variables: [espacio métrico](../notes/2016/teoria/espacio-metrico.md), [campos escalares](../notes/2016/teoria/funciones-de-dos-o-mas-variables.md), [gráficas](../notes/2016/teoria/grafica-funciones-dos-variables.md). |
+| 2 | Límites dobles, iterados y continuidad: [guía de límites y continuidad](../notes/2016/practica/limites-y-continuidad-ejercicios.md), parte 2 de la [guía completa](../notes/2016/practica/guia-completa-tp.md). |
+| 3 | Derivadas, funciones implícitas, Taylor y extremos: [interpretación geométrica](../notes/2016/teoria/interpretacion-geometrica-derivada-parcial.md), [sistema implícito](../notes/2016/teoria/sistema-funciones-implicitas.md), [Taylor](../notes/2016/teoria/taylor-en-dos-variables.md), [Lagrange](../notes/2016/teoria/multiplicadores-de-lagrange.md). |
+| 4 | Diferenciales y errores: [práctica de diferenciales](../notes/2016/practica/diferenciales.md), [Diferenciales BIS](../notes/2016/practica/diferenciales-bis-version-2.md), ejercicios 18–22 y 36–46 de la guía completa. |
+| 5 | Integrales múltiples, curvilíneas y de superficie: [29 diapositivas de integrales múltiples](../notes/2016/teoria/integrales-multiples.md), [integrales de línea](../notes/2016/practica/integrales-de-linea.md), [área de superficie](../notes/2020/practica/area-superficie.md), [ejercicios de Green](../notes/2020/practica/ejercicios-resueltos-green.md). |
+| 6 | Curvas en el espacio y funciones vectoriales: [funciones vectoriales](../notes/2016/practica/funciones-vectoriales.md). |
+| 7 | Gradiente, divergencia y rotacional: [gradiente](../notes/2016/teoria/gradiente.md), [análisis vectorial](../notes/2016/practica/analisis-vectorial.md), [Stokes](../notes/2020/teoria/teorema-de-stokes.md). |
+| 8 | EDO de primer orden y aplicaciones: [teoría](../notes/2016/teoria/ecuaciones-diferenciales.md), [apunte de Urrutia, primer orden](../notes/2020/teoria/edo-01-primer-orden.md), [aplicaciones](../notes/2016/practica/aplicaciones-edo-primer-orden.md). |
+| 9 | EDO de segundo orden: [apunte de Urrutia, segundo orden](../notes/2020/teoria/edo-02-segundo-orden.md), [extracto de Zill](2020/zill-cobertura.md), [hoja de ruta de la unidad 9](../notes/2020/teoria/hoja-ruta-unidad-9.md), [masa, resorte y circuitos](../notes/2022/teoria/masa-resorte-circuitos.md). |
 | 10 | Ecuaciones en derivadas parciales: parte 8 y ejercicio 133 de la guía completa. Se conserva el alcance disponible, de cuatro problemas propuestos. |
-| 11 | Series de Fourier: [consideraciones](../notes/2016/teoria/resume-teoria-consideraciones-series-fourier.md), [teoría de 22 páginas](../notes/2016/teoria/resume-teoria-series-fourier.md), [práctica](../notes/2016/practica/resume-misc-series-fourier.md), [apunte de César Flores](../notes/2020/teoria/pdf2020-fourier-flores.md). |
+| 11 | Series de Fourier: [consideraciones](../notes/2016/teoria/consideraciones-series-fourier.md), [teoría de 22 páginas](../notes/2016/teoria/series-fourier.md), [práctica](../notes/2016/practica/series-fourier.md), [apunte de César Flores](../notes/2020/teoria/fourier-flores.md). |
 
 La guía completa conserva 133 números de ejercicio, sus incisos y las hojas de
 Mathcad. El apunte de EDO de Urrutia conserva 89 ejercicios sin completar sus
@@ -66,11 +66,11 @@ carpeta vacía.
 
 Se registran ocho fuentes bibliográficas separadas: siete archivos de libros y
 un solucionario de Kasero. El extracto de Zill, de 91 páginas, se incorpora como
-[lectura bibliográfica transcrita](2020/pdf2020-zill-cobertura.md), con
-atribución separada. Se identificaron por portadas, legales o índices y se
-conservaron sus hashes. No se declara lectura o transcripción de todos esos
-volúmenes. Las dos copias de Larson y las de Rabuffetti tienen hashes distintos
-y conservan entradas separadas.
+[lectura bibliográfica transcrita](2020/zill-cobertura.md), con atribución
+separada. Se identificaron por portadas, legales o índices y se conservaron sus
+hashes. No se declara lectura o transcripción de todos esos volúmenes. Las dos
+copias de Larson y las de Rabuffetti tienen hashes distintos y conservan
+entradas separadas.
 
 El examen de Álgebra y Geometría Analítica de 2022 queda separado de AMII. La
 lista administrativa, una evaluación nominativa y la carátula sin contenido
