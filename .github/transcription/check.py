@@ -17,8 +17,9 @@ from urllib.parse import unquote, urlsplit
 import mdformat
 from markdown_it import MarkdownIt
 from mdit_py_plugins.dollarmath import dollarmath_plugin
+from mdit_py_plugins.footnote import footnote_plugin
 
-PARSER = MarkdownIt("commonmark").enable("table").use(dollarmath_plugin)
+PARSER = MarkdownIt("commonmark").enable("table").use(dollarmath_plugin).use(footnote_plugin)
 FORMAT_OPTIONS = {"wrap": 80, "compact_tables": True}
 CONTENT_DIRS = {"notes", "resources", "study-guides"}
 BAD_TEXT = re.compile(r"\ufffd|\(cid:\d+\)|[\ue000-\uf8ff\U000f0000-\U000ffffd\U00100000-\U0010fffd]")
@@ -115,14 +116,53 @@ def link_errors(root: Path, source: Path, text: str) -> list[str]:
     return errors
 
 
+def published_path_errors(root: Path, path: Path) -> list[str]:
+    """Exige nombres públicos por tema; no modifica nombres canónicos externos."""
+    relative = path.resolve().relative_to(root.resolve())
+    if not relative.parts or relative.parts[0] not in CONTENT_DIRS:
+        return []
+    errors = []
+    for index, part in enumerate(relative.parts[1:], 1):
+        stem = Path(part).stem if index == len(relative.parts) - 1 and path.suffix else part
+        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", stem) or part != part.lower():
+            errors.append(f"nombre publicado debe ser ASCII kebab-case: {part}")
+        if re.match(r"^(?:office|pdf[0-9]{4}|resume)(?:-|$)", stem) or re.search(r"-[0-9a-f]{8,64}$", stem):
+            errors.append(f"nombre publicado contiene prefijo de lote o hash; usar tema/autor/fecha/versión: {part}")
+    return errors
+
+
 def check_text(root: Path, path: Path, text: str) -> list[str]:
-    errors = link_errors(root, path, text)
+    errors = published_path_errors(root, path) + link_errors(root, path, text)
     if not text.strip():
         errors.append("Markdown vacío")
     # Los ejemplos de código pueden documentar marcadores defectuosos literalmente.
+    footnote_depth = 0
     for token in PARSER.parse(text):
+        if token.type == "footnote_open":
+            footnote_depth += 1
+        elif token.type == "footnote_close":
+            footnote_depth -= 1
+        if footnote_depth and (token.type.startswith("math_block") or
+                               (token.type == "fence" and token.info.strip() == "math")):
+            errors.append("GitHub deja matemática sin renderizar en una nota al pie; moverla a una nota enlazada")
         if token.type == "inline":
-            for child in token.children or []:
+            emphasis_depth = 0
+            children = token.children or []
+            for child_index, child in enumerate(children):
+                if child.type == "em_open":
+                    emphasis_depth += 1
+                elif child.type == "em_close":
+                    emphasis_depth -= 1
+                if child.type == "math_inline":
+                    if emphasis_depth and child_index + 1 < len(children) and children[child_index + 1].type == "em_close":
+                        errors.append("GitHub deja matemática sin renderizar al final de cursivas; sacar la fórmula del cierre de énfasis")
+                    if footnote_depth:
+                        errors.append("GitHub deja matemática sin renderizar en una nota al pie; moverla a una nota enlazada")
+                    raw = child.content
+                    ticks = len(raw) - len(raw.lstrip("`"))
+                    if ticks and raw.endswith("`" * ticks):
+                        if re.search(r"(?<!`)`{" + str(ticks) + r"}(?!`)", raw[ticks:-ticks]):
+                            errors.append("el acento grave corta el delimitador; usar más backticks exteriores")
                 if child.type in {"text", "math_inline"} and BAD_TEXT.search(child.content):
                     errors.append("carácter perdido, privado o marcador cid: revisar el original")
                 if child.type == "math_inline" and MARKDOWN_ESCAPE.search(child.content):
@@ -171,12 +211,17 @@ def git(root: Path, *args: str) -> list[str]:
     return [p for p in result.stdout.decode().split("\0") if p]
 
 
-def changed_paths(root: Path, base: str) -> tuple[list[Path], list[Path]]:
+def changed_content_paths(root: Path, base: str) -> tuple[list[Path], list[Path]]:
     changed = set(git(root, "diff", "--name-only", "--no-renames", "--diff-filter=ACMR", "-z", base, "--"))
     changed.update(git(root, "ls-files", "--others", "--exclude-standard", "-z"))
     removed = [root / p for p in git(root, "diff", "--name-only", "--no-renames", "--diff-filter=D", "-z", base, "--")]
-    notes = [root / p for p in sorted(changed) if Path(p).parts[0] in CONTENT_DIRS and p.lower().endswith(".md")]
-    return notes, removed
+    content = [root / p for p in sorted(changed) if Path(p).parts[0] in CONTENT_DIRS]
+    return content, removed
+
+
+def changed_paths(root: Path, base: str) -> tuple[list[Path], list[Path]]:
+    content, removed = changed_content_paths(root, base)
+    return [p for p in content if p.suffix.lower() == ".md"], removed
 
 
 def removed_link_errors(root: Path, removed: list[Path], changed: list[Path]) -> list[str]:
@@ -243,7 +288,14 @@ c & d
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("```math\nf(x)=\\begin{cases}x&0<x<1\\end{cases}\n```"))
     if not any("comparaciones como HTML" in error for error in errors):
         raise ValueError("No se detecta la comparación vulnerable dentro del bloque")
-    for source, message in [("1. Texto\n\n   ```math\n   x+1\n   ```", "bloque matemático anidado"), ("1. Texto\n\n   $$\n   x+1\n   $$", "bloque matemático anidado"), ("```math\n\\begin{aligned}x&=1\\tag{1}\\end{aligned}\n```", "tag dentro de aligned")]:
+    for source, message in [
+        ("1. Texto\n\n   ```math\n   x+1\n   ```", "bloque matemático anidado"),
+        ("1. Texto\n\n   $$\n   x+1\n   $$", "bloque matemático anidado"),
+        ("```math\n\\begin{aligned}x&=1\\tag{1}\\end{aligned}\n```", "tag dentro de aligned"),
+        (r"*Forma $`g(x)`$*", "cursivas"),
+        ("Texto[^nota].\n\n[^nota]: $`x+1`$", "nota al pie"),
+        (r"$`x^{`}`$", "acento grave"),
+    ]:
         errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
         if not any(message in error for error in errors):
             raise ValueError("No se detecta la incompatibilidad de GitHub: " + message)
@@ -261,10 +313,14 @@ def main() -> int:
         return 0
     root = Path(subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip())
     if args.files:
-        paths, removed = [p.resolve() for p in args.files], []
+        content, removed = [p.resolve() for p in args.files], []
     else:
-        paths, removed = changed_paths(root, args.base)
+        content, removed = changed_content_paths(root, args.base)
+    paths = [p for p in content if p.suffix.lower() == ".md"]
     errors = removed_link_errors(root, removed, paths)
+    for path in content:
+        if path not in paths:
+            errors.extend(f"{path.relative_to(root)}: {error}" for error in published_path_errors(root, path))
     for path in paths:
         errors.extend(f"{path.relative_to(root)}: {error}" for error in check_text(root, path, path.read_text(encoding="utf-8")))
     if paths:
