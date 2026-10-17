@@ -2,7 +2,7 @@
 
 Fuente canónica indicada por el usuario:
 `OneDrive-FacultadRegionalResistencia/Facultad/Materias Homogeneas/Analisis Matemático II`.
-Inventario inicial del 15 de octubre de 2026 y cierre del 16 de octubre de 2026.
+Inventario inicial del 15 de octubre de 2026 y cierre del 17 de octubre de 2026.
 
 Los originales se preservaron. El preflight materializó copias, verificó SHA-256
 y contó las páginas PDF. Se reconfirmaron los hashes de los 172 originales y sus
