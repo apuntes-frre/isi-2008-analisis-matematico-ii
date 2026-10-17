@@ -1,0 +1,61 @@
+# Práctico de EDO de Primer Orden –Continuación
+
+> Fuente:
+> `2020/4-Ec Diferenciales de Primer Orden/Práctico de EDO de Primer Orden.pdf`.
+> Transcripción de la página 1 de 1; no consta autor ni año impreso. Controles
+> en [cobertura](../../../resources/2020/pdf2020-cobertura.md).
+
+## 1.-Resolver las siguientes ecuaciones diferenciales lineales de primer orden o de Bernoulli
+
+1. Verificar que la siguiente ecuación es lineal y resolverla:
+   $y'+\operatorname{sen}x\,(y-1)=0$.
+1. Ídem para $xy'-e^{2x}+y=xy$.
+1. Ídem para $(1+x^2)y'-2xy=(1+x^2)^2$.
+1. Ídem para $x(y'-y)=(1+x^2)e^x$.
+1. Ídem para $y'+y=\cos x$.
+1. Ídem para $y'+\frac{1-2x}{x^2}y=1$.
+1. Solución particular en $(0;3)$ para $y'-\frac{2y}{x+1}=(x+1)^3$.
+1. Resolver la siguiente ecuación de Bernoulli $x^2y'+2xy=y^3$.
+1. Ídem para $xy'+y=x^2y^2$.
+1. Ídem para $y'-4y=2e^x y^{1/2}$.
+1. Ídem para $xy'-2y=4x^3y^{1/2}$.
+
+## 2.- Resolver las siguientes ecuaciones diferenciales decidiendo el método adecuado
+
+$$
+y'-y=e^x
+$$
+
+$$
+y'=e^{2x}+y-1
+$$
+
+$$
+y'=\frac{y^2+2xy}{x^2}
+$$
+
+$$
+y'=y+\operatorname{sen}x+\cos2x
+$$
+
+$$
+y'+\frac{2y}{x}=\frac{y^3}{x^3}
+$$
+
+$$
+(2x+3)+(2y-2)y'=0
+$$
+
+$$
+xe^{-x}\,dx+\frac{dy}{y}=0
+$$
+
+$$
+y'+\frac{2y}{x}=\frac{y^3}{x^3}
+$$
+
+$$
+y'+2xy+x=e^{(-x^2)}
+$$
+
+> Nota de transcripción: se conserva la ecuación repetida del original.
