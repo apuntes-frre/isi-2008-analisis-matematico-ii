@@ -21,7 +21,7 @@ situación.
   está sometido aumenta en 0.0497 atmósferas.
 
 - [ ] La presión que experimentaba el buzo a los *x* metros de profundidad se
-  modela con la función $y(x)=0.0994x$
+  modela con la función $`y(x)=0.0994x`$
 
 - [ ] Para calcular la presión a la que se encuentra el buzo al llegar a la
   profundidad de *x* metros se debe dividir 0.0994 entre *x* y agregar 1.
@@ -88,27 +88,27 @@ establecen un resultado válido con esta información.
 
 **Question 5**
 
-Un tanque cilíndrico está llenándose de agua. En el instante $x=0$ se observa la
-acción simultánea de dos llaves, la llave superior que alimenta al tanque de
+Un tanque cilíndrico está llenándose de agua. En el instante $`x=0`$ se observa
+la acción simultánea de dos llaves, la llave superior que alimenta al tanque de
 agua con una rapidez constante de *v*1 litros por minuto, y la llave inferior
 que desaloja el agua del tanque con una rapidez constante de *v*2 litros por
 minuto. Considera que la cantidad de agua en el tanque está representada por el
-modelo lineal $y(x)=20+2.5x$ donde *y* se mide en litros. Selecciona las
+modelo lineal $`y(x)=20+2.5x`$ donde *y* se mide en litros. Selecciona las
 opciones que son válidas para esta situación.
 
-- [ ] $v1=6$ litros / minuto y $v2=3.5$ litros / minuto.
+- [ ] $`v1=6`$ litros / minuto y $`v2=3.5`$ litros / minuto.
 
-- [ ] $v1=3.5$ litros / minuto y $v2=6$ litros / minuto.
+- [ ] $`v1=3.5`$ litros / minuto y $`v2=6`$ litros / minuto.
 
 - [ ] Llegará un momento en el que el tanque se llena.
 
 - [ ] El tanque se vacía a los 8 minutos.
 
-- [ ] $v1=20$ litros / minuto y $v2=2.5$ litros / minuto.
+- [ ] $`v1=20`$ litros / minuto y $`v2=2.5`$ litros / minuto.
 
 **Question 6**
 
-Considera la función lineal $y(x)=a+bx$ donde *y* representa la longitud en
+Considera la función lineal $`y(x)=a+bx`$ donde *y* representa la longitud en
 centímetros de una varilla que se ha estado calentando, y *x* representa los
 grados de temperatura que se irán agregando a la temperatura original de la
 varilla. Supongamos que por un período de un minuto, esta situación de
@@ -116,13 +116,13 @@ alargamiento se modelará con un cambio uniforme, como lo expresa la función.
 Decide si son correctas las interpretaciones siguientes con respecto a la
 situación.
 
-- [ ] $y(x)=a+bx$ representa cuántos grados se requieren de temperatura para que
-  la varilla llegue a la longitud de *x* centímetros.
+- [ ] $`y(x)=a+bx`$ representa cuántos grados se requieren de temperatura para
+  que la varilla llegue a la longitud de *x* centímetros.
 
 - [ ] La letra *b* debe representar a un número negativo en esta situación.
 
-- [ ] $y(x)=a+bx$ expresa la longitud en centímetros de la varilla cuando se han
-  agregado *x* grados a su temperatura.
+- [ ] $`y(x)=a+bx`$ expresa la longitud en centímetros de la varilla cuando se
+  han agregado *x* grados a su temperatura.
 
 - [ ] La letra *a* está representando la longitud inicial que tenía la varilla
   cuando se le comienza a aplicar el calor.
@@ -135,62 +135,62 @@ situación.
 Entre las siguientes opciones, escoge la representación algebraica de las rectas
 a las cuales pertenece el punto (34,57).
 
-- [ ] $4x-7y+2=0$
+- [ ] $`4x-7y+2=0`$
 
-- [ ] $34x+57y=0$
+- [ ] $`34x+57y=0`$
 
-- [ ] $28x-42y+9=0$
+- [ ] $`28x-42y+9=0`$
 
-- [ ] $20x+21y=30$
+- [ ] $`20x+21y=30`$
 
-- [ ] $43x+75y=2$
+- [ ] $`43x+75y=2`$
 
 **Question 8**
 
 Escoge entre las opciones siguientes las que representan a la recta que tiene
 pendiente 4 y que pasa por el punto (0,2).
 
-- [ ] $2x-y+4=0$
+- [ ] $`2x-y+4=0`$
 
-- [ ] $y=2+4x$
+- [ ] $`y=2+4x`$
 
-- [ ] $4x+y-2=0$
+- [ ] $`4x+y-2=0`$
 
-- [ ] $4x-y+2=0$
+- [ ] $`4x-y+2=0`$
 
-- [ ] $x+4y+2=0$
+- [ ] $`x+4y+2=0`$
 
 **Question 9**
 
-Considera la expresión algebraica de la recta dada por $2x-3y+5=0$ y realiza el
-procedimiento algebraico señalado en cada opción para que escojas solamente las
-opciones que establecen el resultado correctamente.
+Considera la expresión algebraica de la recta dada por $`2x-3y+5=0`$ y realiza
+el procedimiento algebraico señalado en cada opción para que escojas solamente
+las opciones que establecen el resultado correctamente.
 
-- [ ] Si despejo *y*, obtengo $y=23x+5$.
+- [ ] Si despejo *y*, obtengo $`y=23x+5`$.
 
-- [ ] Si sustituyo *x* por 13, obtengo $y=179$.
+- [ ] Si sustituyo *x* por 13, obtengo $`y=179`$.
 
-- [ ] Si sustituyo *y* por 27 obtengo $x=2914$.
+- [ ] Si sustituyo *y* por 27 obtengo $`x=2914`$.
 
-- [ ] Si despejo *x*, obtengo $x=32y+52$.
+- [ ] Si despejo *x*, obtengo $`x=32y+52`$.
 
-- [ ] Si divido entre 6 toda la expresión, obtengo $x3-y2=-56$.
+- [ ] Si divido entre 6 toda la expresión, obtengo $`x3-y2=-56`$.
 
 **Question 10**
 
-Considera la expresión $1x-1=23$ (no siendo *x* igual a 1) y realiza en ella los
-procedimientos algebraicos necesarios que te permitan decidir cuáles de las
+Considera la expresión $`1x-1=23`$ (no siendo *x* igual a 1) y realiza en ella
+los procedimientos algebraicos necesarios que te permitan decidir cuáles de las
 siguientes opciones representan un paso correcto buscando despejar *x*.
 
-- [ ] $2(x-1)=3$
+- [ ] $`2(x-1)=3`$
 
-- [ ] $1x-1=23$
+- [ ] $`1x-1=23`$
 
-- [ ] $x-11=32$
+- [ ] $`x-11=32`$
 
-- [ ] $1-23=x-1$
+- [ ] $`1-23=x-1`$
 
-- [ ] $3=2x-1$
+- [ ] $`3=2x-1`$
 
 ## Observación sobre la notación de la fuente
 

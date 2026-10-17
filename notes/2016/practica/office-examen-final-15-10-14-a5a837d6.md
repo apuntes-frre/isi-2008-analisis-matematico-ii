@@ -10,36 +10,36 @@ Condición: Regular/Promocionado (tache lo que no corresponda)
 
 Alumnos regulares
 
-A) Siendo $F(x,y)=xy+\frac1x+\frac1y$
+A) Siendo $`F(x,y)=xy+\frac1x+\frac1y`$
 
 1-Indique su dominio por comprensión y expréselo gráficamente
 
-2- Represente la función por sus curvas de nivel, para las cotas $K=4$; $k=5$;
-$k=6$.
+2- Represente la función por sus curvas de nivel, para las cotas $`K=4`$;
+$`k=5`$; $`k=6`$.
 
 3- Descubra sus puntos críticos y analice que condición cumplen
 
-B) Es $f(x)$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo
+B) Es $`f(x)`$ función desarrollable según la serie de Fourier, periódica o no,
+y definida en el intervalo
 
-$$
-c\leq x\leq c+2L\quad\text{con }c,L\in\mathbb R,\quad L>0.
-$$
+```math
+c\leq x\leq c+2L\quad\text{con }c,L\in\mathbb R,\quad L\gt 0.
+```
 
-Bajo las condiciones conocidas de $f(x)$, el alumno debe encontrar la serie de
+Bajo las condiciones conocidas de $`f(x)`$, el alumno debe encontrar la serie de
 Fourier de
 
-$$
+```math
 g(x)=h\,f(x)+k
-$$
+```
 
-Con $h,k\in\mathbb R$
+Con $`h,k\in\mathbb R`$
 
 C) Encontrar el volumen del sólido acotado por
 
-$$
+```math
 z=x,\ y=x,\ x+y=2,\ z=0
-$$
+```
 
 Describir gráficamente
 

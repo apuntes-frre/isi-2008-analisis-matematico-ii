@@ -58,14 +58,14 @@ de PDF 20 coincide con el borde de la página escaneada.
   hojas contiguas no es íntegra. PDF 19 también corta una continuación al pie.
   Los cortes se señalan en la segunda nota; no se inventó el texto faltante.
 - PDF 23: se mantienen las normas impresas de las funciones seno, incluida la
-  expresión $1/\sqrt\pi$, aunque sean inconsistentes con la definición.
+  expresión $`1/\sqrt\pi`$, aunque sean inconsistentes con la definición.
 - PDF 33: se conserva el signo más en el primer miembro después de anunciar la
   resta, seguido por el signo menos de la línea siguiente.
 - PDF 35–36: se conservan los signos, denominadores, límites laterales y el
-  intervalo $(+\pi,0)$ de las funciones auxiliares tal como aparecen, aunque
+  intervalo $`(+\pi,0)`$ de las funciones auxiliares tal como aparecen, aunque
   contradigan otras líneas de la demostración.
-- PDF 39: se conserva «con» en el integrando del cálculo de $b_n$.
-- PDF 41: se conserva el exponente $2n-1$ de la potencia de menos uno.
+- PDF 39: se conserva «con» en el integrando del cálculo de $`b_n`$.
+- PDF 41: se conserva el exponente $`2n-1`$ de la potencia de menos uno.
 - PDF 43 y 45: se conserva el límite superior 2 en la integral después del
   cambio de variable. Estas hojas repiten el mismo contenido visible, pero son
   dos escaneos, no archivos de imagen idénticos.
@@ -73,12 +73,12 @@ de PDF 20 coincide con el borde de la página escaneada.
   del seno. Las líneas posteriores conservan sus propios signos.
 - PDF 50: se conserva la igualdad impresa de la exponencial con menos uno y las
   potencias posteriores; también la notación hiperbólica «Sh».
-- PDF 54: se conserva el factor exponencial con $x$ en la definición de
-  $F(\omega)$, y las repeticiones del texto sobre el límite.
-- PDF 56, ejercicio 6: se conserva $\pi<x<0$, sin agregar el signo menos que
-  sugeriría el gráfico.
-- PDF 57, tercer gráfico: no se distingue un signo de comparación entre $-\pi$ y
-  $x$ en la primera condición. Se marca expresamente esa ausencia.
+- PDF 54: se conserva el factor exponencial con $`x`$ en la definición de
+  $`F(\omega)`$, y las repeticiones del texto sobre el límite.
+- PDF 56, ejercicio 6: se conserva $`\pi\lt x\lt 0`$, sin agregar el signo menos
+  que sugeriría el gráfico.
+- PDF 57, tercer gráfico: no se distingue un signo de comparación entre $`-\pi`$
+  y $`x`$ en la primera condición. Se marca expresamente esa ausencia.
 
 Estas observaciones describen el original. No se corrigieron de manera
 silenciosa sus demostraciones, afirmaciones, numeración ni ejercicios. La

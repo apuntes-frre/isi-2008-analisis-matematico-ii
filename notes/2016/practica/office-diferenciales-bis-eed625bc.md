@@ -26,20 +26,20 @@ error relativo*?
 
 1\. Hallar la diferencial total de las funciones:
 
-a. $z = xcosy - ycosx$
+a. $`z = xcosy - ycosx`$
 
-b. $z = e^{x}seny$
+b. $`z = e^{x}seny`$
 
-c. $w(x,y,z) = \frac{x + y}{z - 2y}$
+c. $`w(x,y,z) = \frac{x + y}{z - 2y}`$
 
 2\. Evaluar f(1,2) y f(1.05,2.1) y calcular Δz., luego utilizar la diferencial
 total dz para aproximar Δz.
 
-a. $f(x,y) = 9 - x^{2} - y^{2}$
+a. $`f(x,y) = 9 - x^{2} - y^{2}`$
 
-b. $f(x,y) = xseny$
+b. $`f(x,y) = xseny`$
 
-c. $f(x,y) = \frac{x}{y}$
+c. $`f(x,y) = \frac{x}{y}`$
 
 3\. El radio y la altura de un cilindro circular recto se miden con posibles
 errores de 4% y 2%, respectivamente. Aproximar el máximo error porcentual
@@ -55,35 +55,35 @@ entre ellos forman un ángulo de 45°. Los posibles errores de medición son 1/1
 pulgadas en los lados y 0.02 radianes en el ángulo. Aproximar el máximo error
 posible al calcular el área.
 
-6\. La potencia eléctrica P está dada por $P = \frac{E^{2}}{R}$ , donde E es el
+6\. La potencia eléctrica P está dada por $`P = \frac{E^{2}}{R}`$ , donde E es el
 voltaje y R la resistencia. Aproximar el máximo error porcentual al calcular la
 potencia si se aplican 200 volts a una resistencia de 4.000 ohms y los posibles
 errores porcentuales al medir E y R son 2% y 3%, respectivamente.
 
 7\. La aceleración centrípeta de una partícula que se mueve en un círculo es
-$a = \frac{v^{2}}{r}$, donde *v* es la velocidad y *r* es el radio del círculo.
-Aproximar el error porcentual máximo al medir la aceleración debido a errores de
-3% en *v* y 2% en *r*.
+$`a = \frac{v^{2}}{r}`$, donde *v* es la velocidad y *r* es el radio del
+círculo. Aproximar el error porcentual máximo al medir la aceleración debido a
+errores de 3% en *v* y 2% en *r*.
 
 8\. Demuestre que
-$f_{x}(0,0)y\ f_{y}(0,0)existen\ y\ que\ f\ no\ es\ diferenciable$ en (0,0).
+$`f_{x}(0,0)y\ f_{y}(0,0)existen\ y\ que\ f\ no\ es\ diferenciable`$ en (0,0).
 
 a.
 
 a)
 
-$$
+```math
 f(x,y) = \left\{ \begin{array}{r}
 \frac{3x^{2}y}{x^{4} + y^{2}}\ \ \ \ \ \ (x,y) \neq (0,0) \\
 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (x,y) \neq (0,0)
 \end{array} \right.
-$$
+```
 
 b)
 
-$$
+```math
 f(x,y) = \left\{ \begin{array}{r}
 \frac{5x^{2}y}{x^{3} + y^{2}}\ \ \ \ \ \ (x,y) \neq (0,0) \\
 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (x,y) \neq (0,0)
 \end{array} \right.
-$$
+```

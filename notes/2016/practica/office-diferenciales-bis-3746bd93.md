@@ -8,19 +8,19 @@
 
 **Práctico:**
 
-**1)** **a)** Encontrar los extremos de $F(x,y)=x^2y^2+x^2-xy^2+5x-7$
+**1)** **a)** Encontrar los extremos de $`F(x,y)=x^2y^2+x^2-xy^2+5x-7`$
 
 **b)** Esbozar una gráfica de la superficie, empleando *Curvas de Nivel,* para
 confirmar si hay ***máximo*** o ***mínimo***.
 
-**2)** Determinar el volumen V de la región limitada por $z = x^{2} + y^{2};$
+**2)** Determinar el volumen V de la región limitada por $`z = x^{2} + y^{2};`$
 
-$z = 10 - x^{2} - 2y^{2}$.
+$`z = 10 - x^{2} - 2y^{2}`$.
 
 Grafique ambas superficies en gráficos separados y el dominio de integración.
 
 **3)** Hallar el trabajo realizado por la fuerza
-$F(x,y) = \left( x^{2} - y^{2} \right)\mathbf{i} + 2xy\text{j}$ para desplazar
+$`F(x,y) = \left( x^{2} - y^{2} \right)\mathbf{i} + 2xy\text{j}`$ para desplazar
 una partícula en sentido contrario a las agujas del reloj alrededor del cuadrado
 con vértices en (0,0);(a,0),(a,a);(0,a), a>0.
 
@@ -44,5 +44,5 @@ Ecuaciones diferenciales:
   diferencial? ¿Qué tipo de problemas se pueden resolver con una ecuación
   diferencial?
 
-- Dada una familia de curvas $y = \varphi(x,C)$ , explique cómo halla una
+- Dada una familia de curvas $`y = \varphi(x,C)`$ , explique cómo halla una
   familia de curvas ortogonales a la misma.

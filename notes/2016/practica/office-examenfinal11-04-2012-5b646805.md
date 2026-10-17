@@ -10,7 +10,7 @@
 
 <u>Primera parte.</u> Tiempo disponible: 45 minutos
 
-1\) Defina punto de acumulación $p_{0}\epsilon\ E_{2}$ ¿Dónde utiliza su
+1\) Defina punto de acumulación $`p_{0}\epsilon\ E_{2}`$ ¿Dónde utiliza su
 concepto? Trate de ejemplificar.
 
 2\) ¿Qué significa que un conjunto sea simplemente conexo?
@@ -37,22 +37,23 @@ vectoriales conservativos.
 <u>Segunda parte.</u>
 
 1\) Obtenga la solución general de la ecuación diferencial
-$y''-5y'+6y=\operatorname{tg}x$ ; describa el criterio teórico usado
+$`y''-5y'+6y=\mathop{\mathrm{tg}}\nolimits x`$ ; describa el criterio teórico
+usado
 
 2\) Desarrolle en serie de Fourier la función
 
-$$
+```math
 f(x) = \left\{ \begin{array}{r}
-(x + 2)\ \ si\frac{\  - 1}{2} < x < \frac{1}{2} \\
+(x + 2)\ \ si\frac{\  - 1}{2} \lt  x \lt  \frac{1}{2} \\
 0\ \ \ si\ \ \ \left\{ \begin{array}{r}
-- 1 < x < - \frac{1}{2}\ \  \\
-\frac{1}{2} < x < 1
+- 1 \lt  x \lt  - \frac{1}{2}\ \  \\
+\frac{1}{2} \lt  x \lt  1
 \end{array} \right.\
 \end{array} \right.
-$$
+```
 
 ; describa el criterio teórico usado
 
-3\) Encuentre el gradiente de **φ**=x.y.z+2$f(x,y,z) = x^{2}.e^{y.z^{2}}$ ,
+3\) Encuentre el gradiente de **φ**=x.y.z+2$`f(x,y,z) = x^{2}.e^{y.z^{2}}`$ ,
 ¿Dirección donde es máxima la derivada direccional, en (1,1,1)? ; describa el
 criterio teórico usado.

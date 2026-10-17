@@ -13,7 +13,8 @@ desea construir un techo parabólico sin paredes verticales cuya base sea de
 en el origen. Enuncie analíticamente el Dominio, Imagen y defina el Rango y
 Recorrido tal que tenga las dimensiones solicitadas.
 
-2\. Dibuje el objeto en 3D, obtenga trazas y 3 curvas de nivel incluyendo $Z=4$.
+2\. Dibuje el objeto en 3D, obtenga trazas y 3 curvas de nivel incluyendo
+$`Z=4`$.
 
 3\. Se necesita perforar el techo utilizando como referencia una circunferencia
 de radio 2 en el plano XY (piso) centrada en (0,0). Calcule la altura máxima y

@@ -86,10 +86,10 @@ las notas.
 
 ## Pérdidas y particularidades localizadas
 
-- Taylor, figura 6: parte del coeficiente de $x^3$ está tapada por la gráfica y
-  el final después de $-2$ no aparece. Se transcriben los fragmentos visibles y
-  se conservan las 13 imágenes. Las expresiones de las figuras 7 y 8 se
-  recuperaron.
+- Taylor, figura 6: parte del coeficiente de $`x^3`$ está tapada por la gráfica
+  y el final después de $`-2`$ no aparece. Se transcriben los fragmentos
+  visibles y se conservan las 13 imágenes. Las expresiones de las figuras 7 y 8
+  se recuperaron.
 - Fourier de 2016, página 13: un recuadro oculta parte de una viñeta y su
   fórmula. Se marca la ocultación en la transcripción.
 - Fourier de Urrutia de 2020: cortes de continuaciones en PDF 17–19 y borde del
@@ -104,7 +104,7 @@ las notas.
   se conservan los cinco gráficos con sus ejes y leyendas visibles.
 - Repaso intensivo de 2022: el enunciado remite a una gráfica que falta en el
   original. Hoja de ruta del práctico 6, página 4, ejercicio 8: no se distingue
-  una prima sobre $-6y$; se transcribe lo visible y se señala.
+  una prima sobre $`-6y`$; se transcribe lo visible y se señala.
 - Las animaciones del SmartArt de Presentación ISI no se reproducen. Se
   recuperan sus 25 etiquetas y jerarquía desde el XML, y se conservan las
   figuras estáticas.

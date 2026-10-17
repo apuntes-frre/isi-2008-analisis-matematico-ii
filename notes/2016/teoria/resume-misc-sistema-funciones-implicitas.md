@@ -5,5 +5,6 @@ Fuente: `Sist de fn implícitas y derivadas.jpg`, una imagen.
 
 ![Gráfico original de dos superficies, roja y amarilla, con ejes X, Y y Z](../../../resources/2016/resume-misc-sistema-funciones-implicitas.jpg)
 
-El original contiene únicamente este gráfico tridimensional, con ejes $X$, $Y$ y
-$Z$ y marcas numéricas. No incluye ecuaciones, enunciado ni texto explicativo.
+El original contiene únicamente este gráfico tridimensional, con ejes $`X`$,
+$`Y`$ y $`Z`$ y marcas numéricas. No incluye ecuaciones, enunciado ni texto
+explicativo.

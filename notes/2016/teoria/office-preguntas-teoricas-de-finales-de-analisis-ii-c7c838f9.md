@@ -24,7 +24,7 @@ Series de Fourier:
 - ¿Qué significado tiene que una función periódica se desarrolle por medio de la
   Serie Fourier?
 
-- Serie de Fourier para $L \neq 2\pi$. Ejemplificar el Desarrollo en Serie de
+- Serie de Fourier para $`L \neq 2\pi`$. Ejemplificar el Desarrollo en Serie de
   SENOS y/o de COSENOS. Interpretación Gráfica de las Armónicas.
 
 Ecuaciones diferenciales:
@@ -33,12 +33,12 @@ Ecuaciones diferenciales:
   diferencial? ¿Qué tipo de problemas se pueden resolver con una ecuación
   diferencial?
 
-- Dada una familia de curvas $y = \varphi(x,C)$ , explique cómo halla una
+- Dada una familia de curvas $`y = \varphi(x,C)`$ , explique cómo halla una
   familia de curvas ortogonales a la misma.
 
 - **Defina** solución general y solución particular de una ecuación diferencial
-  ordinaria de orden $n$. Dada $y''-y'=0$, **halle** la solución particular que
-  en el punto $(0;y_0)$ tiene recta tangente de ecuación $y=2$.
+  ordinaria de orden $`n`$. Dada $`y''-y'=0`$, **halle** la solución particular
+  que en el punto $`(0;y_0)`$ tiene recta tangente de ecuación $`y=2`$.
 
 - Ecuaciones diferenciales lineales de primer orden.
 

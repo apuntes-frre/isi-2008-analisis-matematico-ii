@@ -10,6 +10,7 @@ import argparse
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import string
 import subprocess
 from urllib.parse import unquote, urlsplit
 
@@ -21,6 +22,7 @@ PARSER = MarkdownIt("commonmark").enable("table").use(dollarmath_plugin)
 FORMAT_OPTIONS = {"wrap": 80, "compact_tables": True}
 CONTENT_DIRS = {"notes", "resources", "study-guides"}
 BAD_TEXT = re.compile(r"\ufffd|\(cid:\d+\)|[\ue000-\uf8ff\U000f0000-\U000ffffd\U00100000-\U0010fffd]")
+MARKDOWN_ESCAPE = re.compile(r"\\[" + re.escape(string.punctuation) + "]")
 
 
 def formatted(text: str) -> str:
@@ -30,11 +32,14 @@ def formatted(text: str) -> str:
 def math_expressions(text: str) -> list[tuple[str, bool]]:
     expressions = []
     for token in PARSER.parse(text):
-        if token.type.startswith("math_block"):
+        if token.type.startswith("math_block") or (token.type == "fence" and token.info.strip() == "math"):
             expressions.append((token.content.strip(), True))
         for child in token.children or []:
             if child.type == "math_inline":
-                expressions.append((child.content, False))
+                content = child.content
+                if content.startswith("`") and content.endswith("`"):
+                    content = content[1:-1]
+                expressions.append((content, False))
     return expressions
 
 
@@ -119,9 +124,14 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
             for child in token.children or []:
                 if child.type in {"text", "math_inline"} and BAD_TEXT.search(child.content):
                     errors.append("carácter perdido, privado o marcador cid: revisar el original")
-        elif token.type.startswith("math_block") or token.type == "html_block":
+                if child.type == "math_inline" and MARKDOWN_ESCAPE.search(child.content):
+                    if not (child.content.startswith("`") and child.content.endswith("`")):
+                        errors.append("GitHub altera escapes Markdown en LaTeX en línea; usar $`...`$")
+        elif token.type.startswith("math_block") or token.type == "html_block" or (token.type == "fence" and token.info.strip() == "math"):
             if BAD_TEXT.search(token.content):
                 errors.append("carácter perdido, privado o marcador cid: revisar el original")
+            if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*_<>]", token.content)):
+                errors.append("GitHub puede alterar metacaracteres Markdown en el bloque; usar un bloque ```math")
     output = formatted(text)
     equations = math_expressions(text)
     if equations != math_expressions(output):
@@ -137,6 +147,12 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
     if display_lines:
         errors.append("delimitador $$ sin bloque matemático reconocido")
     for expression, display in equations:
+        if "<" in expression or ">" in expression:
+            errors.append("GitHub puede interpretar comparaciones como HTML; usar \\lt y \\gt")
+            continue
+        if re.search(r"\\operatorname\b", expression):
+            errors.append("GitHub rechaza \\operatorname; usar \\mathop{\\mathrm{nombre}}\\nolimits")
+            continue
         command = ["katex"] + (["--display-mode"] if display else [])
         result = subprocess.run(command, input=expression, text=True, capture_output=True)
         if result.returncode:
@@ -179,12 +195,16 @@ def self_test() -> None:
 
 Negación: $F = \overline{A}B + A\overline{B}$; fracción: $\frac{a_1}{2^n}$.
 
-$$
+Operador compatible con GitHub: $\mathop{\mathrm{sen}}\nolimits x$.
+
+Escapes protegidos: $`\{x\in\mathbb R\mid x\gt 0\}`$ y $`x\,dx`$.
+
+```math
 \begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}
-$$
+```
 
 - [x] GFM
 
@@ -198,6 +218,23 @@ $$
     for expression, display in math_expressions(output):
         subprocess.run(["katex"] + (["--display-mode"] if display else []), input=expression,
                        text=True, check=True, stdout=subprocess.DEVNULL)
+    for source in [r"$\operatorname{sen}x$", "$$\n\\operatorname{sen}x\n$$", "```math\n\\operatorname{sen}x\n```"]:
+        errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
+        if not any("GitHub rechaza" in error for error in errors):
+            raise ValueError("No se detecta la macro que GitHub rechaza")
+    if math_expressions(r"$`x\,dx`$") != [(r"x\,dx", False)]:
+        raise ValueError("No se extrae la expresión protegida de GitHub")
+    errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(r"$x\,dx$"))
+    if not any("GitHub altera escapes" in error for error in errors):
+        raise ValueError("No se detecta el escape Markdown sin protección")
+    if math_expressions("```math\nx+1\n```") != [("x+1", True)]:
+        raise ValueError("No se extrae el bloque matemático de GitHub")
+    errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("$$\nx^*+\\left\\{x\\right\\}\n$$"))
+    if not any("GitHub puede alterar" in error for error in errors):
+        raise ValueError("No se detecta el bloque con metacaracteres sin protección")
+    errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("```math\nf(x)=\\begin{cases}x&0<x<1\\end{cases}\n```"))
+    if not any("comparaciones como HTML" in error for error in errors):
+        raise ValueError("No se detecta la comparación vulnerable dentro del bloque")
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 
