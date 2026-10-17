@@ -28,10 +28,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-2do-parcial-iq-2016-f26d5b94.md"
+        "notes/2016/practica/segundo-parcial-iq.md"
       ],
       "status": "transcrito-atribucion-pendiente",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -47,10 +47,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-analisis-vectorial.md"
+        "notes/2016/practica/analisis-vectorial.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -65,10 +65,10 @@
       "pdf_pages": 2,
       "duplicate_of": 2,
       "outputs": [
-        "notes/2016/practica/pdf2016-analisis-vectorial.md"
+        "notes/2016/practica/analisis-vectorial.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -119,7 +119,7 @@
       ],
       "losses": [],
       "outputs": [
-        "notes/2016/teoria/resume-teoria-consideraciones-series-fourier.md"
+        "notes/2016/teoria/consideraciones-series-fourier.md"
       ]
     },
     {
@@ -131,10 +131,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-derivadas-parciales.md"
+        "notes/2016/practica/derivadas-parciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -148,10 +148,10 @@
       "pdf_pages": 1,
       "duplicate_of": 7,
       "outputs": [
-        "notes/2016/practica/pdf2016-derivadas-parciales.md"
+        "notes/2016/practica/derivadas-parciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -165,10 +165,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-diferenciales-bis-eed625bc.md"
+        "notes/2016/practica/diferenciales-bis-version-2.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -183,10 +183,10 @@
       "pdf_pages": null,
       "duplicate_of": 9,
       "outputs": [
-        "notes/2016/practica/office-diferenciales-bis-eed625bc.md"
+        "notes/2016/practica/diferenciales-bis-version-2.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -201,10 +201,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-diferenciales.md"
+        "notes/2016/practica/diferenciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -218,10 +218,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/pdf2016-espacio-metrico.md"
+        "notes/2016/teoria/espacio-metrico.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -236,10 +236,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-evaluacion-3-c3dbf264.md"
+        "notes/2016/practica/evaluacion-3.md"
       ],
       "status": "transcrito-atribucion-pendiente",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -260,10 +260,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-extremos-condicionados.md"
+        "notes/2016/practica/extremos-condicionados.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -277,10 +277,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-extremos-absolutos-y-relativos.md"
+        "notes/2016/practica/extremos-absolutos-y-relativos.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -295,10 +295,10 @@
       "pdf_pages": 4,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/pdf2016-funciones-de-dos-o-mas-variables.md"
+        "notes/2016/teoria/funciones-de-dos-o-mas-variables.md"
       ],
       "status": "transcrito-con-limites-de-fuente",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -318,10 +318,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-funciones-vectoriales.md"
+        "notes/2016/practica/funciones-vectoriales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -336,10 +336,10 @@
       "pdf_pages": 3,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/pdf2016-gradiente.md"
+        "notes/2016/teoria/gradiente.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -374,7 +374,7 @@
         "definitions": 4
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-grafica-funciones-dos-variables.md"
+        "notes/2016/teoria/grafica-funciones-dos-variables.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -387,10 +387,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-graficas-cuadricas.md"
+        "notes/2016/practica/graficas-cuadricas.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -404,10 +404,10 @@
       "pdf_pages": 30,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-guia-completa-tp.md"
+        "notes/2016/practica/guia-completa-tp.md"
       ],
       "status": "transcrito-con-limites-de-fuente",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -453,10 +453,10 @@
       "pdf_pages": 3,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-integrales-de-linea.md"
+        "notes/2016/practica/integrales-de-linea.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -472,10 +472,10 @@
       "pdf_pages": 29,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/pdf2016-integrales-multiples.md"
+        "notes/2016/teoria/integrales-multiples.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -532,7 +532,7 @@
         "figure_groups": 3
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+        "notes/2016/teoria/interpretacion-geometrica-derivada-parcial.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -560,7 +560,7 @@
         "figure_groups": 3
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+        "notes/2016/teoria/interpretacion-geometrica-derivada-parcial.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -588,7 +588,7 @@
         "figure_groups": 3
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+        "notes/2016/teoria/interpretacion-geometrica-derivada-parcial.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -616,7 +616,7 @@
         "figure_groups": 3
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+        "notes/2016/teoria/interpretacion-geometrica-derivada-parcial.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -629,10 +629,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-limites-y-continuidad-1-da57352e.md"
+        "notes/2016/practica/limites-y-continuidad-ejercicios.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -647,10 +647,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-limites-y-continuidad-fd2ed1c3.md"
+        "notes/2016/practica/limites-y-continuidad-trabajo-practico.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -664,10 +664,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-diferenciales-bis-3746bd93.md"
+        "notes/2016/practica/diferenciales-bis-version-1.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -681,10 +681,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-examen-final-15-10-14-a5a837d6.md"
+        "notes/2016/practica/examen-final-archivo-2014-10-15.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -699,10 +699,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-examen-final-abril-2015-2d848173.md"
+        "notes/2016/practica/examen-final-2015-04.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -716,10 +716,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-examen-final-09-2012-f411a299.md"
+        "notes/2016/practica/examen-final-2012-09.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -735,10 +735,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-examen-final-01-08-2012-cc2b304a.md"
+        "notes/2016/practica/examen-final-2012-08-01.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -752,10 +752,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-examen-final-octubre-2013-e1308258.md"
+        "notes/2016/practica/examen-final-2013-10.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -773,10 +773,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-examenfinal11-04-2012-5b646805.md"
+        "notes/2016/practica/examen-final-2012-04-11.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -790,10 +790,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-final-ana2-julio-2015-150daf17.md"
+        "notes/2016/practica/examen-final-2015-07.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -807,10 +807,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-ex-fin-15-12-2010-1-b7896a58.md"
+        "notes/2016/practica/examen-final-2010-12-15.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -824,10 +824,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-ex-final-23-2-11-1-be3df17f.md"
+        "notes/2016/practica/examen-final-2011-02-23.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -842,10 +842,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-ex-final-9-2-11-1-b4eb29d7.md"
+        "notes/2016/practica/examen-final-2011-02-09.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -860,10 +860,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-exam-final-5ago-2015-46dfb1c1.md"
+        "notes/2016/practica/examen-final-2015-08-05.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -879,10 +879,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-final-diciembre-2012-26158830.md"
+        "notes/2016/practica/examen-final-2012-12.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -898,10 +898,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-final-julio-5337d596.md"
+        "notes/2016/practica/examen-final-2012-07-11.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -918,10 +918,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-final-0aae5398.md"
+        "notes/2016/practica/examen-final-sin-fecha.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -935,10 +935,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-prop-final-19-de-diciembre-2014-2-a467c3c1.md"
+        "notes/2016/practica/propuesta-examen-final-2014-12-19-version-2.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -954,10 +954,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+        "notes/2016/practica/modelos-de-ejercicios.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -971,10 +971,10 @@
       "pdf_pages": null,
       "duplicate_of": 46,
       "outputs": [
-        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+        "notes/2016/practica/modelos-de-ejercicios.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -988,10 +988,10 @@
       "pdf_pages": null,
       "duplicate_of": 46,
       "outputs": [
-        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+        "notes/2016/practica/modelos-de-ejercicios.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1005,10 +1005,10 @@
       "pdf_pages": null,
       "duplicate_of": 46,
       "outputs": [
-        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+        "notes/2016/practica/modelos-de-ejercicios.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1022,10 +1022,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/office-preguntas-teoricas-de-finales-de-analisis-ii-c7c838f9.md"
+        "notes/2016/teoria/preguntas-teoricas-de-finales-de-analisis-ii.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -1053,10 +1053,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-practica-cuarto-parcial.md"
+        "notes/2016/practica/practica-cuarto-parcial.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1070,10 +1070,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/office-presentacion-isi-f9625638.md"
+        "notes/2016/teoria/presentacion-isi.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -1095,10 +1095,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/pdf2016-aplicaciones-edo-primer-orden.md"
+        "notes/2016/practica/aplicaciones-edo-primer-orden.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1127,7 +1127,7 @@
         "notes": 4
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-puntos-criticos.md"
+        "notes/2016/teoria/puntos-criticos.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1140,10 +1140,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/pdf2016-que-esperamos-del-estudiante.md"
+        "notes/2016/teoria/que-esperamos-del-estudiante.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1172,7 +1172,7 @@
         "tables": 1
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-resumen-cuadricas.md"
+        "notes/2016/teoria/resumen-cuadricas.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1197,7 +1197,7 @@
         "figures": 3
       },
       "outputs": [
-        "notes/2016/practica/resume-misc-series-fourier.md"
+        "notes/2016/practica/series-fourier.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1238,7 +1238,7 @@
         "Página 13: parte de última viñeta y fórmula tapadas por recuadro de a_n en el PDF original; marcado explícitamente."
       ],
       "outputs": [
-        "notes/2016/teoria/resume-teoria-series-fourier.md"
+        "notes/2016/teoria/series-fourier.md"
       ]
     },
     {
@@ -1259,7 +1259,7 @@
         "figures": 1
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-sistema-funciones-implicitas.md"
+        "notes/2016/teoria/sistema-funciones-implicitas.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1272,10 +1272,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/office-taylor-en-dos-variables-24c0fef0.md"
+        "notes/2016/teoria/taylor-en-dos-variables.md"
       ],
       "status": "transcrito-con-fragmentos-ocultos-en-original",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -1332,7 +1332,7 @@
       ],
       "losses": [],
       "outputs": [
-        "notes/2016/teoria/resume-teoria-ecuaciones-diferenciales.md"
+        "notes/2016/teoria/ecuaciones-diferenciales.md"
       ]
     },
     {
@@ -1344,10 +1344,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/teoria/pdf2016-multiplicadores-de-lagrange.md"
+        "notes/2016/teoria/multiplicadores-de-lagrange.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -1362,10 +1362,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-trab-practico-para-2o-parc-amii-iq-utn-2237ac28.md"
+        "notes/2016/practica/trabajo-practico-segundo-parcial-iq.md"
       ],
       "status": "transcrito-atribucion-pendiente",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -1394,7 +1394,7 @@
         "formulas": 120
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-integrales-tabla-120.md"
+        "notes/2016/teoria/integrales-tabla-120.md"
       ],
       "status": "transcrito-revisado",
       "printed_date": "1979 en referencia bibliográfica; no fecha propia del apunte"
@@ -1421,10 +1421,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2016/practica/office-repaso-c3fa8140.md"
+        "notes/2016/practica/repaso.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1452,7 +1452,7 @@
         "formulas": 85
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-tabla-integrales-anexo-d.md"
+        "notes/2016/teoria/tabla-integrales-anexo-d.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1476,7 +1476,7 @@
         "pages": 4
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-069-programa.md"
+        "notes/2020/teoria/programa.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1489,10 +1489,10 @@
       "pdf_pages": 1,
       "duplicate_of": 56,
       "outputs": [
-        "notes/2016/teoria/pdf2016-que-esperamos-del-estudiante.md"
+        "notes/2016/teoria/que-esperamos-del-estudiante.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -1518,7 +1518,7 @@
         "formulas": 120
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-integrales-tabla-120.md"
+        "notes/2016/teoria/integrales-tabla-120.md"
       ],
       "status": "transcrito-revisado",
       "printed_date": "1979 en referencia bibliográfica; no fecha propia del apunte"
@@ -1546,7 +1546,7 @@
         "formulas": 85
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-tabla-integrales-anexo-d.md"
+        "notes/2016/teoria/tabla-integrales-anexo-d.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1567,7 +1567,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-073-integrales-multiples.md"
+        "notes/2020/practica/integrales-multiples.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1580,10 +1580,10 @@
       "pdf_pages": 29,
       "duplicate_of": 23,
       "outputs": [
-        "notes/2016/teoria/pdf2016-integrales-multiples.md"
+        "notes/2016/teoria/integrales-multiples.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -1638,7 +1638,7 @@
         "pages": 6
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-075-trabajo-practico-5.md"
+        "notes/2020/practica/trabajo-practico-5.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1660,7 +1660,7 @@
         "pages": 2
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-076-area-superficie.md"
+        "notes/2020/practica/area-superficie.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1695,7 +1695,7 @@
         "cover_illustration": 1
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-077-analisis-vectorial-libro.md"
+        "notes/2020/teoria/analisis-vectorial-libro.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1708,10 +1708,10 @@
       "pdf_pages": 2,
       "duplicate_of": 2,
       "outputs": [
-        "notes/2016/practica/pdf2016-analisis-vectorial.md"
+        "notes/2016/practica/analisis-vectorial.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -1735,7 +1735,7 @@
         "pages": 2
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-079-campos-vectoriales.md"
+        "notes/2020/practica/campos-vectoriales.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1748,10 +1748,10 @@
       "pdf_pages": 2,
       "duplicate_of": 17,
       "outputs": [
-        "notes/2016/practica/pdf2016-funciones-vectoriales.md"
+        "notes/2016/practica/funciones-vectoriales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -1766,10 +1766,10 @@
       "pdf_pages": 3,
       "duplicate_of": 22,
       "outputs": [
-        "notes/2016/practica/pdf2016-integrales-de-linea.md"
+        "notes/2016/practica/integrales-de-linea.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -1785,10 +1785,10 @@
       "pdf_pages": 3,
       "duplicate_of": 22,
       "outputs": [
-        "notes/2016/practica/pdf2016-integrales-de-linea.md"
+        "notes/2016/practica/integrales-de-linea.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -1816,7 +1816,7 @@
         "pages": 5
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-083-ejercicios-resueltos-green.md"
+        "notes/2020/practica/ejercicios-resueltos-green.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -1863,9 +1863,9 @@
         "tables": 1,
         "figures": 7
       },
-      "coverage": "resources/2020/pdf2020-green-vallejo-cobertura.md",
+      "coverage": "resources/2020/green-vallejo-cobertura.md",
       "outputs": [
-        "notes/2020/teoria/pdf2020-green-vallejo.md"
+        "notes/2020/teoria/green-vallejo.md"
       ],
       "status": "transcrito-revisado",
       "attribution": "material-externo-o-atribucion-pendiente",
@@ -1926,9 +1926,9 @@
         "emblems": 1,
         "media": 4
       },
-      "coverage": "resources/2020/resume-integrales-am-cobertura.md",
+      "coverage": "resources/2020/integrales-am-cobertura.md",
       "outputs": [
-        "notes/2020/teoria/resume-integrales-am.md"
+        "notes/2020/teoria/integrales-am.md"
       ],
       "status": "transcrito-revisado",
       "attribution": "material-externo-o-atribucion-pendiente",
@@ -1944,10 +1944,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2020/teoria/office-teorema-de-stokes-ead627d9.md"
+        "notes/2020/teoria/teorema-de-stokes.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2020/office-cobertura.md",
+      "coverage": "resources/2020/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -2024,10 +2024,10 @@
         "exercise_groups": 8
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-087-edo-01-primer-orden.md",
-        "notes/2020/teoria/pdf2020-087-edo-02-segundo-orden.md",
-        "notes/2020/teoria/pdf2020-087-edo-03-series-metodos-numericos.md",
-        "notes/2020/teoria/pdf2020-087-edo-04-operadores-ejercitacion.md"
+        "notes/2020/teoria/edo-01-primer-orden.md",
+        "notes/2020/teoria/edo-02-segundo-orden.md",
+        "notes/2020/teoria/edo-03-series-metodos-numericos.md",
+        "notes/2020/teoria/edo-04-operadores-ejercitacion.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2040,21 +2040,21 @@
       "pdf_pages": 91,
       "duplicate_of": null,
       "outputs": [
-        "notes/2020/teoria/pdf2020-zill-01-a-teoria-lineal.md",
-        "notes/2020/teoria/pdf2020-zill-01-b-reduccion-orden.md",
-        "notes/2020/teoria/pdf2020-zill-01-c-coeficientes-constantes.md",
-        "notes/2020/teoria/pdf2020-zill-01-d-superposicion.md",
-        "notes/2020/teoria/pdf2020-zill-02-44-superposicion.md",
-        "notes/2020/teoria/pdf2020-zill-02-45-anulador.md",
-        "notes/2020/teoria/pdf2020-zill-02-46-variacion.md",
-        "notes/2020/teoria/pdf2020-zill-02-47-cauchy-euler.md",
-        "notes/2020/teoria/pdf2020-zill-02-48-eliminacion.md",
-        "notes/2020/teoria/pdf2020-zill-02-49-no-lineales.md",
-        "notes/2020/teoria/pdf2020-zill-03-01-no-lineales-repaso.md",
-        "notes/2020/teoria/pdf2020-zill-03-02-modelos-valores-iniciales.md",
-        "notes/2020/teoria/pdf2020-zill-03-03-ejercicios-modelos.md",
-        "notes/2020/teoria/pdf2020-zill-03-04-valores-frontera.md",
-        "notes/2020/teoria/pdf2020-zill-03-05-modelos-no-lineales.md"
+        "notes/2020/teoria/zill-01-a-teoria-lineal.md",
+        "notes/2020/teoria/zill-01-b-reduccion-orden.md",
+        "notes/2020/teoria/zill-01-c-coeficientes-constantes.md",
+        "notes/2020/teoria/zill-01-d-superposicion.md",
+        "notes/2020/teoria/zill-02-44-superposicion.md",
+        "notes/2020/teoria/zill-02-45-anulador.md",
+        "notes/2020/teoria/zill-02-46-variacion.md",
+        "notes/2020/teoria/zill-02-47-cauchy-euler.md",
+        "notes/2020/teoria/zill-02-48-eliminacion.md",
+        "notes/2020/teoria/zill-02-49-no-lineales.md",
+        "notes/2020/teoria/zill-03-01-no-lineales-repaso.md",
+        "notes/2020/teoria/zill-03-02-modelos-valores-iniciales.md",
+        "notes/2020/teoria/zill-03-03-ejercicios-modelos.md",
+        "notes/2020/teoria/zill-03-04-valores-frontera.md",
+        "notes/2020/teoria/zill-03-05-modelos-no-lineales.md"
       ],
       "status": "transcrito-con-limites-de-fuente",
       "reviewed_pages": [
@@ -2153,7 +2153,7 @@
       "author": "Zill, según el nombre del archivo; edición y año no identificados en el extracto",
       "attribution": "lectura-bibliografica-externa",
       "attribution_reason": "Extracto sin portada; no se atribuye a la cátedra ISI",
-      "coverage": "resources/2020/pdf2020-zill-cobertura.md",
+      "coverage": "resources/2020/zill-cobertura.md",
       "counts_by_range": [
         {
           "reviewed_pages": 30,
@@ -2221,7 +2221,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-089-ejemplo-edo-2.md"
+        "notes/2020/teoria/ejemplo-edo-2.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2242,7 +2242,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-090-ejemplo-edo-3.md"
+        "notes/2020/teoria/ejemplo-edo-3.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2263,7 +2263,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-091-ejemplo-edo.md"
+        "notes/2020/teoria/ejemplo-edo.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2284,7 +2284,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/teoria/pdf2020-092-hoja-ruta-unidad-9.md"
+        "notes/2020/teoria/hoja-ruta-unidad-9.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2374,13 +2374,13 @@
           "detail": "Third graph first condition: no distinguishable comparison sign between -pi and x; explicitly marked."
         }
       ],
-      "coverage": "resources/2020/pdf2020-fourier-urrutia-cobertura.md",
+      "coverage": "resources/2020/fourier-urrutia-cobertura.md",
       "outputs": [
-        "notes/2020/teoria/pdf2020-fourier-urrutia-01-conceptos.md",
-        "notes/2020/teoria/pdf2020-fourier-urrutia-02-ortogonalidad.md",
-        "notes/2020/teoria/pdf2020-fourier-urrutia-03-series.md",
-        "notes/2020/teoria/pdf2020-fourier-urrutia-04-ejemplos.md",
-        "notes/2020/teoria/pdf2020-fourier-urrutia-05-otras-formas.md"
+        "notes/2020/teoria/fourier-urrutia-01-conceptos.md",
+        "notes/2020/teoria/fourier-urrutia-02-ortogonalidad.md",
+        "notes/2020/teoria/fourier-urrutia-03-series.md",
+        "notes/2020/teoria/fourier-urrutia-04-ejemplos.md",
+        "notes/2020/teoria/fourier-urrutia-05-otras-formas.md"
       ],
       "author": "Ing. Leopoldo S. de Urrutia"
     },
@@ -2421,7 +2421,7 @@
         "Página 13: parte de última viñeta y fórmula tapadas por recuadro de a_n en el PDF original; marcado explícitamente."
       ],
       "outputs": [
-        "notes/2016/teoria/resume-teoria-series-fourier.md"
+        "notes/2016/teoria/series-fourier.md"
       ]
     },
     {
@@ -2445,7 +2445,7 @@
         "figures": 3
       },
       "outputs": [
-        "notes/2016/practica/resume-misc-series-fourier.md"
+        "notes/2016/practica/series-fourier.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2480,7 +2480,7 @@
       "author": "Ing. César Flores",
       "printed_year": null,
       "outputs": [
-        "notes/2020/teoria/pdf2020-fourier-flores.md"
+        "notes/2020/teoria/fourier-flores.md"
       ]
     },
     {
@@ -2513,7 +2513,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-098-edo-primer-orden-continuacion.md"
+        "notes/2020/practica/edo-primer-orden-continuacion.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2535,7 +2535,7 @@
         "pages": 2
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-099-edo-primer-orden-parte-ii.md"
+        "notes/2020/practica/edo-primer-orden-parte-ii.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2548,10 +2548,10 @@
       "pdf_pages": 1,
       "duplicate_of": 54,
       "outputs": [
-        "notes/2016/practica/pdf2016-aplicaciones-edo-primer-orden.md"
+        "notes/2016/practica/aplicaciones-edo-primer-orden.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -2583,7 +2583,7 @@
       ],
       "losses": [],
       "outputs": [
-        "notes/2016/teoria/resume-teoria-ecuaciones-diferenciales.md"
+        "notes/2016/teoria/ecuaciones-diferenciales.md"
       ]
     },
     {
@@ -2621,10 +2621,10 @@
       "pdf_pages": 2,
       "duplicate_of": 12,
       "outputs": [
-        "notes/2016/teoria/pdf2016-espacio-metrico.md"
+        "notes/2016/teoria/espacio-metrico.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -2639,10 +2639,10 @@
       "pdf_pages": 4,
       "duplicate_of": 16,
       "outputs": [
-        "notes/2016/teoria/pdf2016-funciones-de-dos-o-mas-variables.md"
+        "notes/2016/teoria/funciones-de-dos-o-mas-variables.md"
       ],
       "status": "transcrito-con-limites-de-fuente",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -2674,7 +2674,7 @@
         "pages": 5
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-106-campos-escalares.md"
+        "notes/2020/practica/campos-escalares.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2706,7 +2706,7 @@
         "definitions": 4
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-grafica-funciones-dos-variables.md"
+        "notes/2016/teoria/grafica-funciones-dos-variables.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2734,7 +2734,7 @@
         "pages": 8
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-108-guia-complementaria.md"
+        "notes/2020/practica/guia-complementaria.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2747,10 +2747,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2020/practica/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5.md"
+        "notes/2020/practica/problemas-de-aplicacion-campo-escalar.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2020/office-cobertura.md",
+      "coverage": "resources/2020/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -2780,7 +2780,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-110-problema-aplicacion.md"
+        "notes/2020/practica/problema-aplicacion.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2793,10 +2793,10 @@
       "pdf_pages": 1,
       "duplicate_of": 7,
       "outputs": [
-        "notes/2016/practica/pdf2016-derivadas-parciales.md"
+        "notes/2016/practica/derivadas-parciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -2825,7 +2825,7 @@
         "figure_groups": 3
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+        "notes/2016/teoria/interpretacion-geometrica-derivada-parcial.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2838,10 +2838,10 @@
       "pdf_pages": 1,
       "duplicate_of": 11,
       "outputs": [
-        "notes/2016/practica/pdf2016-diferenciales.md"
+        "notes/2016/practica/diferenciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -2855,10 +2855,10 @@
       "pdf_pages": 3,
       "duplicate_of": 18,
       "outputs": [
-        "notes/2016/teoria/pdf2016-gradiente.md"
+        "notes/2016/teoria/gradiente.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -2874,10 +2874,10 @@
       "pdf_pages": 1,
       "duplicate_of": 14,
       "outputs": [
-        "notes/2016/practica/pdf2016-extremos-condicionados.md"
+        "notes/2016/practica/extremos-condicionados.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -2891,10 +2891,10 @@
       "pdf_pages": 2,
       "duplicate_of": 15,
       "outputs": [
-        "notes/2016/practica/pdf2016-extremos-absolutos-y-relativos.md"
+        "notes/2016/practica/extremos-absolutos-y-relativos.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -2924,7 +2924,7 @@
         "notes": 4
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-puntos-criticos.md"
+        "notes/2016/teoria/puntos-criticos.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -2937,10 +2937,10 @@
       "pdf_pages": 2,
       "duplicate_of": 63,
       "outputs": [
-        "notes/2016/teoria/pdf2016-multiplicadores-de-lagrange.md"
+        "notes/2016/teoria/multiplicadores-de-lagrange.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -2981,10 +2981,10 @@
       "pdf_pages": null,
       "duplicate_of": 31,
       "outputs": [
-        "notes/2016/practica/office-examen-final-15-10-14-a5a837d6.md"
+        "notes/2016/practica/examen-final-archivo-2014-10-15.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -2999,10 +2999,10 @@
       "pdf_pages": null,
       "duplicate_of": 32,
       "outputs": [
-        "notes/2016/practica/office-examen-final-abril-2015-2d848173.md"
+        "notes/2016/practica/examen-final-2015-04.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3016,10 +3016,10 @@
       "pdf_pages": null,
       "duplicate_of": 33,
       "outputs": [
-        "notes/2016/practica/office-examen-final-09-2012-f411a299.md"
+        "notes/2016/practica/examen-final-2012-09.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -3035,10 +3035,10 @@
       "pdf_pages": null,
       "duplicate_of": 34,
       "outputs": [
-        "notes/2016/practica/office-examen-final-01-08-2012-cc2b304a.md"
+        "notes/2016/practica/examen-final-2012-08-01.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3052,10 +3052,10 @@
       "pdf_pages": null,
       "duplicate_of": 35,
       "outputs": [
-        "notes/2016/practica/office-examen-final-octubre-2013-e1308258.md"
+        "notes/2016/practica/examen-final-2013-10.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -3073,10 +3073,10 @@
       "pdf_pages": null,
       "duplicate_of": 36,
       "outputs": [
-        "notes/2016/practica/office-examenfinal11-04-2012-5b646805.md"
+        "notes/2016/practica/examen-final-2012-04-11.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3090,10 +3090,10 @@
       "pdf_pages": null,
       "duplicate_of": 37,
       "outputs": [
-        "notes/2016/practica/office-final-ana2-julio-2015-150daf17.md"
+        "notes/2016/practica/examen-final-2015-07.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3107,10 +3107,10 @@
       "pdf_pages": null,
       "duplicate_of": 30,
       "outputs": [
-        "notes/2016/practica/office-diferenciales-bis-3746bd93.md"
+        "notes/2016/practica/diferenciales-bis-version-1.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3124,10 +3124,10 @@
       "pdf_pages": null,
       "duplicate_of": 38,
       "outputs": [
-        "notes/2016/practica/office-ex-fin-15-12-2010-1-b7896a58.md"
+        "notes/2016/practica/examen-final-2010-12-15.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3141,10 +3141,10 @@
       "pdf_pages": null,
       "duplicate_of": 39,
       "outputs": [
-        "notes/2016/practica/office-ex-final-23-2-11-1-be3df17f.md"
+        "notes/2016/practica/examen-final-2011-02-23.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3159,10 +3159,10 @@
       "pdf_pages": null,
       "duplicate_of": 40,
       "outputs": [
-        "notes/2016/practica/office-ex-final-9-2-11-1-b4eb29d7.md"
+        "notes/2016/practica/examen-final-2011-02-09.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3177,10 +3177,10 @@
       "pdf_pages": null,
       "duplicate_of": 41,
       "outputs": [
-        "notes/2016/practica/office-exam-final-5ago-2015-46dfb1c1.md"
+        "notes/2016/practica/examen-final-2015-08-05.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -3196,10 +3196,10 @@
       "pdf_pages": null,
       "duplicate_of": 42,
       "outputs": [
-        "notes/2016/practica/office-final-diciembre-2012-26158830.md"
+        "notes/2016/practica/examen-final-2012-12.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -3215,10 +3215,10 @@
       "pdf_pages": null,
       "duplicate_of": 43,
       "outputs": [
-        "notes/2016/practica/office-final-julio-5337d596.md"
+        "notes/2016/practica/examen-final-2012-07-11.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3235,10 +3235,10 @@
       "pdf_pages": null,
       "duplicate_of": 44,
       "outputs": [
-        "notes/2016/practica/office-final-0aae5398.md"
+        "notes/2016/practica/examen-final-sin-fecha.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3252,10 +3252,10 @@
       "pdf_pages": null,
       "duplicate_of": 45,
       "outputs": [
-        "notes/2016/practica/office-prop-final-19-de-diciembre-2014-2-a467c3c1.md"
+        "notes/2016/practica/propuesta-examen-final-2014-12-19-version-2.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/office-cobertura.md",
+      "coverage": "resources/2016/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -3279,7 +3279,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-137-recuperatorio-segundo-parcial-k21.md"
+        "notes/2020/practica/recuperatorio-segundo-parcial-k21.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -3300,7 +3300,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-138-recuperatorio-segundo-parcial-k22.md"
+        "notes/2020/practica/recuperatorio-segundo-parcial-k22.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -3321,7 +3321,7 @@
         "pages": 1
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-139-segundo-parcial.md"
+        "notes/2020/practica/segundo-parcial.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -3334,10 +3334,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2020/practica/office-clase-practica-limites-3c5ba326.md"
+        "notes/2020/practica/clase-practica-limites.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2020/office-cobertura.md",
+      "coverage": "resources/2020/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3390,10 +3390,10 @@
       "pdf_pages": 9,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/teoria/pdf2022-masa-resorte-circuitos.md"
+        "notes/2022/teoria/masa-resorte-circuitos.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -3415,10 +3415,10 @@
       "pdf_pages": 5,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-hoja-ruta-practico-6.md"
+        "notes/2022/practica/hoja-ruta-practico-6.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -3449,10 +3449,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/teoria/pdf2022-cronograma-intensivo.md"
+        "notes/2022/teoria/cronograma-intensivo.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -3467,10 +3467,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-gradiente-derivadas-direccionales.md"
+        "notes/2022/practica/gradiente-derivadas-direccionales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3485,10 +3485,10 @@
       "pdf_pages": 3,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-derivadas-parciales.md"
+        "notes/2022/practica/derivadas-parciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -3504,10 +3504,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-diferenciales.md"
+        "notes/2022/practica/diferenciales.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3534,10 +3534,10 @@
       "pdf_pages": 2,
       "duplicate_of": 12,
       "outputs": [
-        "notes/2016/teoria/pdf2016-espacio-metrico.md"
+        "notes/2016/teoria/espacio-metrico.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3552,10 +3552,10 @@
       "pdf_pages": 2,
       "duplicate_of": 15,
       "outputs": [
-        "notes/2016/practica/pdf2016-extremos-absolutos-y-relativos.md"
+        "notes/2016/practica/extremos-absolutos-y-relativos.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "coverage": "resources/2016/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3582,7 +3582,7 @@
         "pages": 5
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-106-campos-escalares.md"
+        "notes/2020/practica/campos-escalares.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -3607,7 +3607,7 @@
         "pages": 5
       },
       "outputs": [
-        "notes/2020/practica/pdf2020-106-campos-escalares.md"
+        "notes/2020/practica/campos-escalares.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -3620,10 +3620,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/teoria/pdf2022-lagrange-variacion-parametros.md"
+        "notes/2022/teoria/lagrange-variacion-parametros.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3637,10 +3637,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-integrales-dobles.md"
+        "notes/2022/practica/integrales-dobles.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3655,10 +3655,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-repaso-edo-manuscrito.md"
+        "notes/2022/practica/repaso-edo-manuscrito.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3685,10 +3685,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/teoria/pdf2022-para-rendir-coloquio.md"
+        "notes/2022/teoria/para-rendir-coloquio.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3702,10 +3702,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-plano-tangente-linealizacion.md"
+        "notes/2022/practica/plano-tangente-linealizacion.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3719,10 +3719,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/teoria/pdf2022-temario.md"
+        "notes/2022/teoria/temario.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3736,10 +3736,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-repaso-primer-parcial-intensivo.md"
+        "notes/2022/practica/repaso-primer-parcial-intensivo.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3753,10 +3753,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-repaso-primer-parcial.md"
+        "notes/2022/practica/repaso-primer-parcial.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3770,10 +3770,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/office-series-de-fourier-06f15262.md"
+        "notes/2022/practica/series-de-fourier.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/office-cobertura.md",
+      "coverage": "resources/2022/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -3791,10 +3791,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/teoria/office-temario-para-coloquio-teorico-a32af611.md"
+        "notes/2022/teoria/temario-para-coloquio-teorico.md"
       ],
       "status": "transcrito-atribucion-pendiente",
-      "coverage": "resources/2022/office-cobertura.md",
+      "coverage": "resources/2022/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1,
         2,
@@ -3826,7 +3826,7 @@
         "formulas": 85
       },
       "outputs": [
-        "notes/2016/teoria/resume-misc-tabla-integrales-anexo-d.md"
+        "notes/2016/teoria/tabla-integrales-anexo-d.md"
       ],
       "status": "transcrito-revisado"
     },
@@ -3839,10 +3839,10 @@
       "pdf_pages": 2,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-teorema-green.md"
+        "notes/2022/practica/teorema-green.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1,
         2
@@ -3857,10 +3857,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-tercer-parcial-2020-isi.md"
+        "notes/2022/practica/tercer-parcial-2020-isi.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ],
@@ -3875,10 +3875,10 @@
       "pdf_pages": 1,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/pdf2022-tercer-parcial-k22.md"
+        "notes/2022/practica/tercer-parcial-k22.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "coverage": "resources/2022/documentos-pdf-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3892,10 +3892,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/office-trabajo-practico-1-62164cd9.md"
+        "notes/2022/practica/trabajo-practico-1.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/office-cobertura.md",
+      "coverage": "resources/2022/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3909,10 +3909,10 @@
       "pdf_pages": null,
       "duplicate_of": null,
       "outputs": [
-        "notes/2022/practica/office-repaso-2e04ae39.md"
+        "notes/2022/practica/repaso.md"
       ],
       "status": "transcrito-revisado",
-      "coverage": "resources/2022/office-cobertura.md",
+      "coverage": "resources/2022/documentos-editables-cobertura.md",
       "reviewed_pages": [
         1
       ]
@@ -3928,7 +3928,7 @@
         "2020/Modelos Exámenes finales/ejercicios de final.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-diferenciales-bis-3746bd93.md"
+        "notes/2016/practica/diferenciales-bis-version-1.md"
       ]
     },
     {
@@ -3940,7 +3940,7 @@
         "2020/Modelos Exámenes finales/ex_fin_15_12_2010[1].docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-ex-fin-15-12-2010-1-b7896a58.md"
+        "notes/2016/practica/examen-final-2010-12-15.md"
       ]
     },
     {
@@ -3952,7 +3952,7 @@
         "2020/Modelos Exámenes finales/ex_final_23-2-11[1].docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-ex-final-23-2-11-1-be3df17f.md"
+        "notes/2016/practica/examen-final-2011-02-23.md"
       ]
     },
     {
@@ -3964,7 +3964,7 @@
         "2020/Modelos Exámenes finales/ex_final_9-2-11[1].docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-ex-final-9-2-11-1-b4eb29d7.md"
+        "notes/2016/practica/examen-final-2011-02-09.md"
       ]
     },
     {
@@ -3976,7 +3976,7 @@
         "2020/Modelos Exámenes finales/exam final 5ago 2015.doc"
       ],
       "outputs": [
-        "notes/2016/practica/office-exam-final-5ago-2015-46dfb1c1.md"
+        "notes/2016/practica/examen-final-2015-08-05.md"
       ]
     },
     {
@@ -3988,7 +3988,7 @@
         "2020/Modelos Exámenes finales/Examen Final  09-2012.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-examen-final-09-2012-f411a299.md"
+        "notes/2016/practica/examen-final-2012-09.md"
       ]
     },
     {
@@ -4000,7 +4000,7 @@
         "2020/Modelos Exámenes finales/Examen Final 01 08 2012.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-examen-final-01-08-2012-cc2b304a.md"
+        "notes/2016/practica/examen-final-2012-08-01.md"
       ]
     },
     {
@@ -4012,7 +4012,7 @@
         "2020/Modelos Exámenes finales/EXAMEN FINAL 15-10-14.doc"
       ],
       "outputs": [
-        "notes/2016/practica/office-examen-final-15-10-14-a5a837d6.md"
+        "notes/2016/practica/examen-final-archivo-2014-10-15.md"
       ]
     },
     {
@@ -4024,7 +4024,7 @@
         "2020/Modelos Exámenes finales/EXAMEN FINAL abril 2015.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-examen-final-abril-2015-2d848173.md"
+        "notes/2016/practica/examen-final-2015-04.md"
       ]
     },
     {
@@ -4036,7 +4036,7 @@
         "2020/Modelos Exámenes finales/Examen Final Octubre 2013.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-examen-final-octubre-2013-e1308258.md"
+        "notes/2016/practica/examen-final-2013-10.md"
       ]
     },
     {
@@ -4048,7 +4048,7 @@
         "2020/Modelos Exámenes finales/ExamenFinal11-04-2012.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-examenfinal11-04-2012-5b646805.md"
+        "notes/2016/practica/examen-final-2012-04-11.md"
       ]
     },
     {
@@ -4060,7 +4060,7 @@
         "2020/Modelos Exámenes finales/Final ANA2 Julio 2015.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-final-ana2-julio-2015-150daf17.md"
+        "notes/2016/practica/examen-final-2015-07.md"
       ]
     },
     {
@@ -4072,7 +4072,7 @@
         "2020/Modelos Exámenes finales/final diciembre 2012.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-final-diciembre-2012-26158830.md"
+        "notes/2016/practica/examen-final-2012-12.md"
       ]
     },
     {
@@ -4084,7 +4084,7 @@
         "2020/Modelos Exámenes finales/final julio.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-final-julio-5337d596.md"
+        "notes/2016/practica/examen-final-2012-07-11.md"
       ]
     },
     {
@@ -4096,7 +4096,7 @@
         "2020/Modelos Exámenes finales/final.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-final-0aae5398.md"
+        "notes/2016/practica/examen-final-sin-fecha.md"
       ]
     },
     {
@@ -4108,7 +4108,7 @@
         "2020/Modelos Exámenes finales/prop final 19 de diciembre 2014_2.docx"
       ],
       "outputs": [
-        "notes/2016/practica/office-prop-final-19-de-diciembre-2014-2-a467c3c1.md"
+        "notes/2016/practica/propuesta-examen-final-2014-12-19-version-2.md"
       ]
     }
   ]

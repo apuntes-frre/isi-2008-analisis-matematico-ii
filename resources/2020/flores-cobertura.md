@@ -4,7 +4,7 @@ Fuente: `2020/3-Series de Fourier/fourier.pdf`. SHA-256:
 `53f931d5baece0f847a1b616c9bf1a97dbad10e45aec9ba3d17a9070e29daa51`. Autor
 impreso: Ing. César Flores. Año impreso no indicado.
 
-[Transcripción](../../notes/2020/teoria/pdf2020-fourier-flores.md).
+[Transcripción](../../notes/2020/teoria/fourier-flores.md).
 
 Las 14 páginas se cotejaron visualmente con renders completos de Poppler y
 `pdftotext -layout`. Las ecuaciones se recuperaron manualmente en LaTeX. Se
