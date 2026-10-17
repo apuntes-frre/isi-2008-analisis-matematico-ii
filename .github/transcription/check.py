@@ -137,6 +137,9 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
     if display_lines:
         errors.append("delimitador $$ sin bloque matemático reconocido")
     for expression, display in equations:
+        if re.search(r"\\operatorname\b", expression):
+            errors.append("GitHub rechaza \\operatorname; usar \\mathop{\\mathrm{nombre}}\\nolimits")
+            continue
         command = ["katex"] + (["--display-mode"] if display else [])
         result = subprocess.run(command, input=expression, text=True, capture_output=True)
         if result.returncode:
@@ -179,6 +182,8 @@ def self_test() -> None:
 
 Negación: $F = \overline{A}B + A\overline{B}$; fracción: $\frac{a_1}{2^n}$.
 
+Operador compatible con GitHub: $\mathop{\mathrm{sen}}\nolimits x$.
+
 $$
 \begin{bmatrix}
 a & b \\
@@ -198,6 +203,10 @@ $$
     for expression, display in math_expressions(output):
         subprocess.run(["katex"] + (["--display-mode"] if display else []), input=expression,
                        text=True, check=True, stdout=subprocess.DEVNULL)
+    for source in [r"$\operatorname{sen}x$", "$$\n\\operatorname{sen}x\n$$"]:
+        errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
+        if not any("GitHub rechaza" in error for error in errors):
+            raise ValueError("No se detecta la macro que GitHub rechaza")
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 
