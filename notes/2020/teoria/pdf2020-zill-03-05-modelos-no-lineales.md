@@ -31,7 +31,7 @@ $`\lambda_4`$.
 
 **38.** $`y^{(4)}-\lambda y=0`$, $`y(0)=0`$, $`y'(0)=0`$, $`y(1)=0`$,
 $`y'(1)=0`$. \[*Sugerencia*: considere sólo $`\lambda=\alpha^4`$,
-$`\alpha>0`$.\]
+$`\alpha\gt 0`$.\]
 
 ### 5.3 Modelos no lineales
 

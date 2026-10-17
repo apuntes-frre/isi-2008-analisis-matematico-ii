@@ -23,8 +23,8 @@ Representar los conjuntos de puntos definidos a continuación
 | Conjunto | Conjunto |
 | -- | -- |
 | $`A=\{(x,y)/x-y\ge0\}`$ | $`F=\{(x,y)/x\cdot y\le1\}`$ |
-| $`B=\{(x,y)/x^2+y^2\le9\}`$ | $`G=\{(x,y)/r^2<x^2+y^2\le R^2\}`$ $`r<R`$ y ambos reales |
-| $`C=\{(x,y)/y\ge2x-3\}`$ | $`H=\{(x,y)/\lvert x\rvert<1\land\lvert y\rvert<2\}`$ |
+| $`B=\{(x,y)/x^2+y^2\le9\}`$ | $`G=\{(x,y)/r^2\lt x^2+y^2\le R^2\}`$ $`r\lt R`$ y ambos reales |
+| $`C=\{(x,y)/y\ge2x-3\}`$ | $`H=\{(x,y)/\lvert x\rvert\lt 1\land\lvert y\rvert\lt 2\}`$ |
 | $`D=\{(x,y)/y\ge x^2+2x-1\}`$ | $`I=\{(x,y)/d(P,A)=d(P,B)\}`$ con $`P(x,y)`$; $`A(x_a,y_a)`$; $`B(x_b,y_b)`$; $`d=`$ distancia |
 | $`E=\{(x,y)/x=1/n;\ n\in\mathbb N\}`$ | $`J=\{(x,y,z)/x^2+y^2+z^2\le4\}`$ |
 
@@ -104,11 +104,11 @@ $`(1,1)`$.
 
 Adicional:
 
-1. Probar que si $`x^2+2xy+y^2=(x+y)^2\ge0`$ entonces $`4x^2+6xy+4y^2<0`$ (notar
-   que esto genera una contradicción y lo solicitado es falso)
+1. Probar que si $`x^2+2xy+y^2=(x+y)^2\ge0`$ entonces $`4x^2+6xy+4y^2\lt 0`$
+   (notar que esto genera una contradicción y lo solicitado es falso)
 
-1. Para que valores de $`\alpha`$, es siempre $`x^2+\alpha xy+y^2>0`$, siempre
-   que $`x`$ e $`y`$ no sean nulos ambos?
+1. Para que valores de $`\alpha`$, es siempre $`x^2+\alpha xy+y^2\gt 0`$,
+   siempre que $`x`$ e $`y`$ no sean nulos ambos?
 
 ## PARTE Nº 2
 
@@ -651,10 +651,10 @@ H(x,y)=g_{xx}g_{yy}-(g_{xy})^2=(-2)(-2)-(-1)^2=4-1=3
 ```
 
 ```math
-H(x_1,y_1)=3>0
+H(x_1,y_1)=3\gt 0
 ```
 
-$`g_{xx}(x_1,y_1)=-2<0\to(x_1,y_1)=(200,200)`$ corresponde a un máximo local
+$`g_{xx}(x_1,y_1)=-2\lt 0\to(x_1,y_1)=(200,200)`$ corresponde a un máximo local
 
 La terna de valores que sumada da 600 es (200,200,200) y esta hace máximo la
 suma de productos binarios de ellos, siendo 200.200+200.200+200.200= 120.000
@@ -699,7 +699,7 @@ y=\frac{\begin{vmatrix}2&4\\4&6\end{vmatrix}}{\begin{vmatrix}2&4\\4&10\end{vmatr
 =\frac{12-16}4=-1
 ```
 
-$`H(x,y)=2\cdot10-16=4>0`$ deriv parc seg =2 hay minimo en (4,-1)
+$`H(x,y)=2\cdot10-16=4\gt 0`$ deriv parc seg =2 hay minimo en (4,-1)
 
 El valor mínimo es 2.
 
@@ -861,7 +861,7 @@ $`f(t)=a\cos(t)i+a\mathop{\mathrm{sen}}\nolimits (t)j`$.
 
 Tazar la curva representada por:
 $`r(t)=a\cos t i+a\mathop{\mathrm{sen}}\nolimits t j+bt k`$; siendo
-$`b>0\le t\le\infty`$.
+$`b\gt 0\le t\le\infty`$.
 
 ### nº51
 
@@ -1080,7 +1080,7 @@ cuál es el valor de $`\iint_R f(x,y)\,dA`$.
 Determinar si las siguientes afirmaciones son verdaderas (V) o falsas(F).
 Justificar la respuesta.
 
-a) Si $`\iint_R f(r,\theta)\,dA>0\Rightarrow f(r,\theta)>0`$;
+a) Si $`\iint_R f(r,\theta)\,dA\gt 0\Rightarrow f(r,\theta)\gt 0`$;
 $`\forall(r,\theta)`$
 
 b)
@@ -1483,7 +1483,7 @@ cualquier tiempo t > [glifo no representado en la fuente] 0 esta dado por a = 16
 ![Partícula P sobre el eje X](../../../resources/2016/pdf2016-guia-ej108.png)
 
 Encuentre la posición de la partícula, medida desde el origen en cualquier
-tiempo $`t>`$ siendo su posición en t=0, x = 2 y su velocidad v = -5
+tiempo $`t\gt `$ siendo su posición en t=0, x = 2 y su velocidad v = -5
 
 Encuentre la posición de la partícula medida desde el origen en cualquier tiempo
 t > 0 sabiendo que inicialmente la partícula esta ubicada en x = 2 y que cuando
@@ -1514,7 +1514,7 @@ Resuelva $`xy'-3y=0`$
 Compare la solución encontrada con la función
 
 ```math
-y(x)=\begin{cases}4x^3&\forall x>\text{[glifo no representado]}\,0\\0&\forall x<0\end{cases}
+y(x)=\begin{cases}4x^3&\forall x\gt \text{[glifo no representado]}\,0\\0&\forall x\lt 0\end{cases}
 ```
 
 Esta función es solución de la E.D.?
@@ -1694,7 +1694,7 @@ La solución entrante es de 0,36 kg de sal por litro
 1. $`y''+y=f(x)`$
 
 ```math
-f(x)=\begin{cases}x,&0\le x\le\pi\\0,&x>\pi\end{cases}
+f(x)=\begin{cases}x,&0\le x\le\pi\\0,&x\gt \pi\end{cases}
 ```
 
 $`y(0)=y'(0)=0`$
@@ -1781,47 +1781,50 @@ para funciones pares e impares. Convergencia para la serie de Fourier.
 Desarrollar en series de Fourier las siguientes funciones periódicas de periodo
 $`2\pi`$.
 
-1. $`f(x)=\begin{cases}-1,&-\pi<x<0\\1,&0<x<\pi\end{cases}`$;
+1. $`f(x)=\begin{cases}-1,&-\pi\lt x\lt 0\\1,&0\lt x\lt \pi\end{cases}`$;
    $`f(x)=f(x+2\pi)`$.
 
 ![Función 131.1](../../../resources/2016/pdf2016-guia-ej131-01.png)
 
-2. $`f(x)=\begin{cases}2,&-\pi/2<x<\pi/2\\0,&-\pi<x<-\pi/2\ \text{o}\ \pi/2<x<\pi\end{cases}`$;
+2. $`f(x)=\begin{cases}2,&-\pi/2\lt x\lt \pi/2\\0,&-\pi\lt x\lt -\pi/2\ \text{o}\ \pi/2\lt x\lt \pi\end{cases}`$;
    período $`2\pi`$.
 
 ![Función 131.2](../../../resources/2016/pdf2016-guia-ej131-02.png)
 
-3. $`f(x)=\begin{cases}0,&-\pi<x<0\\3,&0<x<\pi\end{cases}`$; período $`2\pi`$.
+3. $`f(x)=\begin{cases}0,&-\pi\lt x\lt 0\\3,&0\lt x\lt \pi\end{cases}`$; período
+   $`2\pi`$.
 
 ![Función 131.3](../../../resources/2016/pdf2016-guia-ej131-03.png)
 
-4. $`f(x)=\begin{cases}x,&0<x<\pi\\-x,&-\pi<x<0\end{cases}`$; período $`2\pi`$.
+4. $`f(x)=\begin{cases}x,&0\lt x\lt \pi\\-x,&-\pi\lt x\lt 0\end{cases}`$;
+   período $`2\pi`$.
 
 ![Función 131.4](../../../resources/2016/pdf2016-guia-ej131-04.png)
 
-5. $`f(x)=x`$, $`-\pi<x<\pi`$; período $`2\pi`$.
+5. $`f(x)=x`$, $`-\pi\lt x\lt \pi`$; período $`2\pi`$.
 
 ![Función 131.5](../../../resources/2016/pdf2016-guia-ej131-05.png)
 
-6. $`f(x)=\begin{cases}x,&0<x<\pi\\\pi,&-\pi<x<0\end{cases}`$; período $`2\pi`$.
+6. $`f(x)=\begin{cases}x,&0\lt x\lt \pi\\\pi,&-\pi\lt x\lt 0\end{cases}`$;
+   período $`2\pi`$.
 
 ![Función 131.6](../../../resources/2016/pdf2016-guia-ej131-06.png)
 
-7. $`f(x)=\begin{cases}0,&-\pi<x<0\\\mathop{\mathrm{sen}}\nolimits x,&0<x<\pi\end{cases}`$;
+7. $`f(x)=\begin{cases}0,&-\pi\lt x\lt 0\\\mathop{\mathrm{sen}}\nolimits x,&0\lt x\lt \pi\end{cases}`$;
    período $`2\pi`$.
 
 ![Función 131.7](../../../resources/2016/pdf2016-guia-ej131-07.png)
 
-8. $`f(x)=x^2`$, $`-\pi<x<\pi`$; período $`2\pi`$.
+8. $`f(x)=x^2`$, $`-\pi\lt x\lt \pi`$; período $`2\pi`$.
 
 ![Función 131.8](../../../resources/2016/pdf2016-guia-ej131-08.png)
 
-9. $`f(x)=e^x`$, $`-\pi<x<\pi`$; período $`2\pi`$.
+9. $`f(x)=e^x`$, $`-\pi\lt x\lt \pi`$; período $`2\pi`$.
 
 ![Función 131.9](../../../resources/2016/pdf2016-guia-ej131-09.png)
 
-10. $`f(x)=\begin{cases}0,&-\pi<x<0\\x^2,&0<x<\pi\end{cases}`$; período
-    $`2\pi`$.
+10. $`f(x)=\begin{cases}0,&-\pi\lt x\lt 0\\x^2,&0\lt x\lt \pi\end{cases}`$;
+    período $`2\pi`$.
 
 ![Función 131.10](../../../resources/2016/pdf2016-guia-ej131-10.png)
 
@@ -1830,15 +1833,16 @@ $`2\pi`$.
 Desarrollar en series de Fourier las siguientes funciones periódicas de periodo
 $`2L\ne2\pi`$.
 
-1. $`f(x)=\begin{cases}0,&-2<x<0\\x,&0<x<2\end{cases}`$; período $`2L=4`$.
+1. $`f(x)=\begin{cases}0,&-2\lt x\lt 0\\x,&0\lt x\lt 2\end{cases}`$; período
+   $`2L=4`$.
 
 ![Función 132.1](../../../resources/2016/pdf2016-guia-ej132-01.png)
 
-2. $`f(x)=-x`$, $`-3<x<3`$; período $`2L=6`$.
+2. $`f(x)=-x`$, $`-3\lt x\lt 3`$; período $`2L=6`$.
 
 ![Función 132.2](../../../resources/2016/pdf2016-guia-ej132-02.png)
 
-3. $`f(x)=\begin{cases}-\mathop{\mathrm{sen}}\nolimits 4x,&-\pi/4<x<0\\\cos4x,&0<x<\pi/4\end{cases}`$;
+3. $`f(x)=\begin{cases}-\mathop{\mathrm{sen}}\nolimits 4x,&-\pi/4\lt x\lt 0\\\cos4x,&0\lt x\lt \pi/4\end{cases}`$;
    período $`2L=\pi/2`$.
 
 ![Función 132.3](../../../resources/2016/pdf2016-guia-ej132-03.png)

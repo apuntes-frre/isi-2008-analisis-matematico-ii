@@ -169,7 +169,7 @@ La gráfica de esta función se muestra en la figura 6.
 Para cada valor de $`k`$, hacemos $`f(x,y)=k`$ y dibujamos la curva resultante
 en el plano $`xy`$. Para esto analicemos tres casos:
 
-- Si $`k<0`$, digamos que $`k=-c^2`$, entonces
+- Si $`k\lt 0`$, digamos que $`k=-c^2`$, entonces
 
   ```math
   y^2-x^2=-c^2\Rightarrow\frac{x^2}{c^2}-\frac{y^2}{c^2}=1
@@ -184,7 +184,7 @@ asíntotas $`y=\pm x`$.
   y^2-x^2=0\Rightarrow y=\pm x\quad\text{(rectas)}
   ```
 
-- Si $`k>0`$, digamos que $`k=c^2`$, entonces
+- Si $`k\gt 0`$, digamos que $`k=c^2`$, entonces
 
   ```math
   y^2-x^2=-c^2\Rightarrow\frac{x^2}{c^2}-\frac{y^2}{c^2}=1
@@ -207,7 +207,7 @@ Trazar el mapa de contorno para el paraboloide $`z=x^2+y^2+1`$.
 
 Vamos a analizar tres casos:
 
-- Si $`k>1`$, digamos que $`k=c^2+1`$ con $`c=\pm1`$, entonces
+- Si $`k\gt 1`$, digamos que $`k=c^2+1`$ con $`c=\pm1`$, entonces
 
   ```math
   x^2+y^2+1=1+c^2\Rightarrow x^2+y^2=c^2
@@ -223,7 +223,7 @@ Entonces las curvas de nivel son círculos con centro en $`(0,0)`$ y radio $`r`$
 
 lo cual corresponde al punto $`(0,0)`$.
 
-- Si $`k<1`$, digamos que $`k=1-c^2`$ con $`c\ne0`$, entonces
+- Si $`k\lt 1`$, digamos que $`k=1-c^2`$ con $`c\ne0`$, entonces
 
   ```math
   x^2+y^2+1=1-c^2\Rightarrow x^2+y^2=-c^2
@@ -269,7 +269,7 @@ z=(x-3)^2-\frac{(y-5)^2}{4}
 
 > Nota de transcripción: se conservan las erratas del original: la cadena
 > $`x^2+2(y-2)^2=1`$ y la posterior elipse de la página 4 no son equivalentes;
-> en el caso $`k>0`$ de la página 6 se repite la ecuación del caso negativo; la
-> página 7 imprime $`c=\pm1`$ y «radio r»; se conserva «hiperboloide parabólico»
-> y la afirmación sobre proporcionalidad del radio. No se han corregido
-> silenciosamente.
+> en el caso $`k\gt 0`$ de la página 6 se repite la ecuación del caso negativo;
+> la página 7 imprime $`c=\pm1`$ y «radio r»; se conserva «hiperboloide
+> parabólico» y la afirmación sobre proporcionalidad del radio. No se han
+> corregido silenciosamente.

@@ -23,9 +23,9 @@ extracto no incluye autor ni año.
 ## Página 228
 
 10. $`\int\csc x\,dx=\log|\csc x-\cot x|=\log\left|\tan\frac12x\right|`$
-01. $`\int\mathop{\mathrm{arcsen}}\nolimits \frac xa\,dx=x\mathop{\mathrm{arcsen}}\nolimits \frac xa+\sqrt{a^2-x^2}\quad(a>0)`$
-01. $`\int\arccos\frac xa\,dx=x\arccos\frac xa-\sqrt{a^2-x^2}\quad(a>0)`$
-01. $`\int\arctan\frac xa\,dx=x\arctan\frac xa-\frac a2\log(a^2+x^2)\quad(a>0)`$
+01. $`\int\mathop{\mathrm{arcsen}}\nolimits \frac xa\,dx=x\mathop{\mathrm{arcsen}}\nolimits \frac xa+\sqrt{a^2-x^2}\quad(a\gt 0)`$
+01. $`\int\arccos\frac xa\,dx=x\arccos\frac xa-\sqrt{a^2-x^2}\quad(a\gt 0)`$
+01. $`\int\arctan\frac xa\,dx=x\arctan\frac xa-\frac a2\log(a^2+x^2)\quad(a\gt 0)`$
 01. $`\int\mathop{\mathrm{sen}}\nolimits ^2mx\,dx=\frac1{2m}(mx-\mathop{\mathrm{sen}}\nolimits mx\cos mx)`$
 01. $`\int\cos^2mx\,dx=\frac1{2m}(mx+\mathop{\mathrm{sen}}\nolimits mx\cos mx)`$
 01. $`\int\sec^2x\,dx=\tan x`$
@@ -55,28 +55,28 @@ extracto no incluye autor ni año.
 
 01. $`\int\mathop{\mathrm{sech}}\nolimits ^2x\,dx=\tanh x`$
 
-01. $`\int\mathop{\mathrm{senh}}\nolimits ^{-1}\frac xa\,dx=x\mathop{\mathrm{senh}}\nolimits ^{-1}\frac xa-\sqrt{x^2-a^2}\quad(a>0)`$
+01. $`\int\mathop{\mathrm{senh}}\nolimits ^{-1}\frac xa\,dx=x\mathop{\mathrm{senh}}\nolimits ^{-1}\frac xa-\sqrt{x^2-a^2}\quad(a\gt 0)`$
 
 01. La fórmula se presenta en dos casos:
 
     ```math
     \int\cosh^{-1}\frac xa\,dx=\begin{cases}
-        x\cosh^{-1}\frac xa-\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)>0,\ a>0]\\
-        x\cosh^{-1}\frac xa+\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)<0,\ a>0]
+        x\cosh^{-1}\frac xa-\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)\gt 0,\ a\gt 0]\\
+        x\cosh^{-1}\frac xa+\sqrt{x^2-a^2}&[\cosh^{-1}(\frac xa)\lt 0,\ a\gt 0]
         \end{cases}
     ```
 
 01. $`\int\tanh^{-1}\frac xa\,dx=x\tanh^{-1}\frac xa+\frac a2\log|a^2-x^2|`$
 
-01. $`\int\frac1{\sqrt{a^2+x^2}}\,dx=\log\left(x+\sqrt{a^2+x^2}\right)=\mathop{\mathrm{sen}}\nolimits \,h^{-1}\frac xa\quad(a>0)`$
+01. $`\int\frac1{\sqrt{a^2+x^2}}\,dx=\log\left(x+\sqrt{a^2+x^2}\right)=\mathop{\mathrm{sen}}\nolimits \,h^{-1}\frac xa\quad(a\gt 0)`$
 
-01. $`\int\frac1{a^2+x^2}\,dx=\frac12\arctan\frac xa\quad(a>0)`$
+01. $`\int\frac1{a^2+x^2}\,dx=\frac12\arctan\frac xa\quad(a\gt 0)`$
 
-01. $`\int\sqrt{a^2-x^2}\,dx=\frac x2\sqrt{a^2-x^2}+\frac{a^2}2\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a>0)`$
+01. $`\int\sqrt{a^2-x^2}\,dx=\frac x2\sqrt{a^2-x^2}+\frac{a^2}2\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a\gt 0)`$
 
-01. $`\int(a^2-x^2)^{3/2}\,dx=\frac x8(5a^2-2x^2)\sqrt{a^2-x^2}+\frac{3a^4}8\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a>0)`$
+01. $`\int(a^2-x^2)^{3/2}\,dx=\frac x8(5a^2-2x^2)\sqrt{a^2-x^2}+\frac{3a^4}8\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a\gt 0)`$
 
-01. $`\int\frac1{\sqrt{a^2-x^2}}\,dx=\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a>0)`$
+01. $`\int\frac1{\sqrt{a^2-x^2}}\,dx=\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a\gt 0)`$
 
 01. $`\int\frac1{a^2-x^2}\,dx=\frac1{2a}\log\left|\frac{a+x}{a-x}\right|`$
 
@@ -86,7 +86,7 @@ extracto no incluye autor ni año.
 
 01. $`\int\sqrt{x^2\pm a^2}\,dx=\frac x2\sqrt{x^2\pm a^2}\pm\frac{a^2}2\log|x+\sqrt{x^2\pm a^2}|`$
 
-01. $`\int\frac1{\sqrt{x^2-a^2}}\,dx=\log|x+\sqrt{x^2-a^2}|=\cosh^{-1}\frac xa\quad(a>0)`$
+01. $`\int\frac1{\sqrt{x^2-a^2}}\,dx=\log|x+\sqrt{x^2-a^2}|=\cosh^{-1}\frac xa\quad(a\gt 0)`$
 
 01. $`\int\frac1{x(a+bx)}\,dx=\frac1a\log\left|\frac x{a+bx}\right|`$
 
@@ -100,8 +100,8 @@ extracto no incluye autor ni año.
 
     ```math
     \int\frac1{x\sqrt{a+bx}}\,dx=\begin{cases}
-        \frac1{\sqrt a}\log\left|\frac{\sqrt{a+bx}-\sqrt a}{\sqrt{a+bx}+\sqrt a}\right|&(a>0)\\
-        \frac2{\sqrt{-a}}\arctan\sqrt{\frac{a+bx}{-a}}&(a>0)
+        \frac1{\sqrt a}\log\left|\frac{\sqrt{a+bx}-\sqrt a}{\sqrt{a+bx}+\sqrt a}\right|&(a\gt 0)\\
+        \frac2{\sqrt{-a}}\arctan\sqrt{\frac{a+bx}{-a}}&(a\gt 0)
         \end{cases}
     ```
 
@@ -109,25 +109,25 @@ extracto no incluye autor ni año.
 
 01. $`\int x\sqrt{a^2-x^2}\,dx=-\frac13(a^2-x^2)^{3/2}`$
 
-01. $`\int x^2\sqrt{a^2-x^2}\,dx=\frac x8(2x^2-a^2)\sqrt{a^2-x^2}+\frac{a^4}8\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a>0)`$
+01. $`\int x^2\sqrt{a^2-x^2}\,dx=\frac x8(2x^2-a^2)\sqrt{a^2-x^2}+\frac{a^4}8\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a\gt 0)`$
 
 01. $`\int\frac1{x\sqrt{a^2-x^2}}\,dx=-\frac1a\log\left|\frac{a+\sqrt{a^2-x^2}}x\right|`$
 
 01. $`\int\frac x{\sqrt{a^2-x^2}}\,dx=-\sqrt{a^2-x^2}`$
 
-01. $`\int\frac{x^2}{\sqrt{a^2-x^2}}\,dx=-\frac x2\sqrt{a^2-x^2}+\frac{a^2}2\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a>0)`$
+01. $`\int\frac{x^2}{\sqrt{a^2-x^2}}\,dx=-\frac x2\sqrt{a^2-x^2}+\frac{a^2}2\mathop{\mathrm{arcsen}}\nolimits \frac xa\quad(a\gt 0)`$
 
 01. $`\int\frac{\sqrt{x^2+a^2}}x\,dx=\sqrt{x^2+a^2}-a\log\left|\frac{a+\sqrt{x^2+a^2}}x\right|`$
 
 ## Página 231
 
-57. $`\int\frac{\sqrt{x^2-a^2}}x\,dx=\sqrt{x^2-a^2}-a\arccos\frac a{|x|}=\sqrt{x^2-a^2}-\mathop{\mathrm{arcsec}}\nolimits \left(\frac xa\right)\quad(a>0)`$
+57. $`\int\frac{\sqrt{x^2-a^2}}x\,dx=\sqrt{x^2-a^2}-a\arccos\frac a{|x|}=\sqrt{x^2-a^2}-\mathop{\mathrm{arcsec}}\nolimits \left(\frac xa\right)\quad(a\gt 0)`$
 
 01. $`\int x\sqrt{x^2\pm a^2}\,dx=\frac13(x^2\pm a^2)^{3/2}`$
 
 01. $`\int\frac1{x\sqrt{x^2+a^2}}\,dx=\frac1a\log\left|\frac x{a+\sqrt{x^2+a^2}}\right|`$
 
-01. $`\int\frac1{x\sqrt{x^2-a^2}}\,dx=\frac1a\arccos\frac a{|x|}\quad(a>0)`$
+01. $`\int\frac1{x\sqrt{x^2-a^2}}\,dx=\frac1a\arccos\frac a{|x|}\quad(a\gt 0)`$
 
 01. $`\int\frac1{x^2\sqrt{x^2\pm a^2}}\,dx=\pm\frac{\sqrt{x^2\pm a^2}}{a^2x}`$
 
@@ -137,8 +137,8 @@ extracto no incluye autor ni año.
 
     ```math
     \int\frac1{ax^2+bx+c}\,dx=\begin{cases}
-        \frac1{\sqrt{b^2-4ac}}\log\left|\frac{2ax+b-\sqrt{b^2-4ac}}{2ax+b+\sqrt{b^2-4ac}}\right|&(b^2>4ac)\\
-        \frac2{\sqrt{4ac-b^2}}\arctan\frac{2ax+b}{\sqrt{4ac-b^2}}&(b^2<4ac)
+        \frac1{\sqrt{b^2-4ac}}\log\left|\frac{2ax+b-\sqrt{b^2-4ac}}{2ax+b+\sqrt{b^2-4ac}}\right|&(b^2\gt 4ac)\\
+        \frac2{\sqrt{4ac-b^2}}\arctan\frac{2ax+b}{\sqrt{4ac-b^2}}&(b^2\lt 4ac)
         \end{cases}
     ```
 
@@ -148,8 +148,8 @@ extracto no incluye autor ni año.
 
     ```math
     \int\frac1{\sqrt{ax^2+bx+c}}\,dx=\begin{cases}
-        \frac1{\sqrt a}\log|2ax+b+2\sqrt a\sqrt{ax^2+bx+c}|&(a>0)\\
-        \frac1{\sqrt{-a}}\mathop{\mathrm{arcsen}}\nolimits \frac{-2ax-b}{\sqrt{b^2-4ac}}&(a<0)
+        \frac1{\sqrt a}\log|2ax+b+2\sqrt a\sqrt{ax^2+bx+c}|&(a\gt 0)\\
+        \frac1{\sqrt{-a}}\mathop{\mathrm{arcsen}}\nolimits \frac{-2ax-b}{\sqrt{b^2-4ac}}&(a\lt 0)
         \end{cases}
     ```
 
@@ -161,8 +161,8 @@ extracto no incluye autor ni año.
 
     ```math
     \int\frac1{x\sqrt{ax^2+bx+c}}\,dx=\begin{cases}
-        -\frac1{\sqrt c}\log\left|\frac{2\sqrt c\sqrt{ax^2+bx+c}+bx+2c}x\right|&(c>0)\\
-        \frac1{\sqrt{-c}}\mathop{\mathrm{arcsen}}\nolimits \frac{bx+2c}{|x|\sqrt{b^2-4ac}}&(c<0)
+        -\frac1{\sqrt c}\log\left|\frac{2\sqrt c\sqrt{ax^2+bx+c}+bx+2c}x\right|&(c\gt 0)\\
+        \frac1{\sqrt{-c}}\mathop{\mathrm{arcsen}}\nolimits \frac{bx+2c}{|x|\sqrt{b^2-4ac}}&(c\lt 0)
         \end{cases}
     ```
 
@@ -212,7 +212,7 @@ extracto no incluye autor ni año.
 
 > Nota de transcripción: se mantienen las erratas impresas: signos y exponentes
 > de 21 y 23; separación «sen hx» en 27 y «sen h» en 36; radical $`x^2-a^2`$ en
-> 33; coeficiente $`1/2`$ en 37; ambas condiciones $`a>0`$ en 49; ausencia de
+> 33; coeficiente $`1/2`$ en 37; ambas condiciones $`a\gt 0`$ en 49; ausencia de
 > factor $`a`$ ante arcsec en 57; $`ax^2+b+c`$ en 66; signos de 72–73; en 76
 > aparece $`\mathop{\mathrm{sen}}\nolimits ^{n-1}+x`$ y luego $`\cos^{n+1}x`$.
 > Las expresiones se transcriben sin corregirlas.

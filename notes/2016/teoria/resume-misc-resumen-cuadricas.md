@@ -160,7 +160,7 @@ Por ejemplo,
 
 ## Página 698
 
-La curva cortada a la superficie por el plano $`z=z_0`$, $`|z_0|<c`$, es la
+La curva cortada a la superficie por el plano $`z=z_0`$, $`|z_0|\lt c`$, es la
 elipse
 
 ```math
@@ -176,7 +176,7 @@ iguales, la superficie es una esfera.
 El **paraboloide hiperbólico**
 
 ```math
-\frac{y^2}{b^2}-\frac{x^2}{a^2}=\frac zc,\qquad c>0
+\frac{y^2}{b^2}-\frac{x^2}{a^2}=\frac zc,\qquad c\gt 0
 ```
 
 tiene simetría con respecto a los planos $`x=0`$ y $`y=0`$ (figura 12.46). Las
@@ -193,8 +193,8 @@ y=0:\quad\text{la parábola }z=-\frac c{a^2}x^2.\tag{2}
 En el plano $`x=0`$, la parábola se abre hacia arriba a partir del origen. La
 parábola en el plano $`y=0`$ se abre hacia abajo.
 
-Si cortamos a la superficie con un plano $`z=z_0>0`$, la sección transversal es
-una hipérbola,
+Si cortamos a la superficie con un plano $`z=z_0\gt 0`$, la sección transversal
+es una hipérbola,
 
 ```math
 \frac{y^2}{b^2}-\frac{x^2}{a^2}=\frac{z_0}c,
@@ -207,9 +207,9 @@ los vértices están sobre la parábola de la ecuación (2).
 ![Figura 12.46: El paraboloide hiperbólico](../../../resources/2016/resume-misc-cuadricas-12-46.png)
 
 **Figura 12.46** El paraboloide hiperbólico $`(y^2/b^2)-(x^2/a^2)=z/c`$,
-$`c>0`$. Las secciones transversales por planos perpendiculares al eje $`z`$ por
-arriba y por abajo del plano $`xy`$ son hipérbolas. Las secciones transversales
-por planos perpendiculares a los otros ejes son parábolas.
+$`c\gt 0`$. Las secciones transversales por planos perpendiculares al eje $`z`$
+por arriba y por abajo del plano $`xy`$ son hipérbolas. Las secciones
+transversales por planos perpendiculares a los otros ejes son parábolas.
 
 Cerca del origen, la superficie tiene la forma de una silla de montar o de un
 paso de montaña. Para una persona que viaja a lo largo de la superficie en el
@@ -232,7 +232,7 @@ ecuación).
 | CONO ELÍPTICO | $`\frac{x^2}{a^2}+\frac{y^2}{b^2}=\frac{z^2}{c^2}`$ |
 | HIPERBOLOIDE DE UNA HOJA | $`\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1`$ |
 | HIPERBOLOIDE DE DOS HOJAS | $`\frac{z^2}{c^2}-\frac{x^2}{a^2}-\frac{y^2}{b^2}=1`$ |
-| PARABOLOIDE HIPERBÓLICA | $`\frac{y^2}{b^2}-\frac{x^2}{a^2}=\frac zc`$, $`c>0`$ |
+| PARABOLOIDE HIPERBÓLICA | $`\frac{y^2}{b^2}-\frac{x^2}{a^2}=\frac zc`$, $`c\gt 0`$ |
 
 ![Tabla 12.1: seis gráficos originales con sus secciones y etiquetas](../../../resources/2016/resume-misc-cuadricas-tabla-12-1.png)
 

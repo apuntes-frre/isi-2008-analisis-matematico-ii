@@ -95,7 +95,7 @@ rectangular:
 ## Página PDF 42 — Hoja N° 41
 
 ```math
-f(x)=\begin{cases}-K&\text{si }-\pi<x<0\\K&\text{si }0<x<\pi\end{cases}
+f(x)=\begin{cases}-K&\text{si }-\pi\lt x\lt 0\\K&\text{si }0\lt x\lt \pi\end{cases}
 \quad\text{siendo }f(x)=f(x+2\pi)
 ```
 
@@ -193,7 +193,7 @@ f(x)=\frac{4K}\pi\left(\mathop{\mathrm{sen}}\nolimits x+\frac13\cdot\mathop{\mat
 ahora con un período arbitrario $`2L\ne2\pi`$.
 
 ```math
-f(x)=\begin{cases}K&\text{si }0<x<2\\-K&\text{si }-2<x<0\end{cases}
+f(x)=\begin{cases}K&\text{si }0\lt x\lt 2\\-K&\text{si }-2\lt x\lt 0\end{cases}
 ```
 
 ```math

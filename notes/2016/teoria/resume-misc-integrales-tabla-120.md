@@ -95,8 +95,8 @@ de las cuatro páginas: `www.aprendematematicas.org.mx`.
 
     ```math
     \int\frac{du}{u\sqrt{a+bu}}=\begin{cases}
-        \frac1{\sqrt a}\ln\left|\frac{\sqrt{a+bu}-\sqrt a}{\sqrt{a+bu}+\sqrt a}\right|+C&(a>0)\\
-        \frac2{\sqrt{-a}}\tan^{-1}\sqrt{\frac{a+bu}{-a}}+C&(a<0)
+        \frac1{\sqrt a}\ln\left|\frac{\sqrt{a+bu}-\sqrt a}{\sqrt{a+bu}+\sqrt a}\right|+C&(a\gt 0)\\
+        \frac2{\sqrt{-a}}\tan^{-1}\sqrt{\frac{a+bu}{-a}}+C&(a\lt 0)
         \end{cases}
     ```
 

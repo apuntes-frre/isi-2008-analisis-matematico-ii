@@ -396,7 +396,7 @@ de las formas trigonométricas por sustitución.
 ![Ejercicio 1: onda rectangular de valores menos uno y uno](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-1.png)
 
 ```math
-f(x)\begin{cases}-1&\text{si }-\pi<x<0\\1&\text{si }0<x<\pi\end{cases}
+f(x)\begin{cases}-1&\text{si }-\pi\lt x\lt 0\\1&\text{si }0\lt x\lt \pi\end{cases}
 \qquad f(x)=f(x\pm2\pi)
 ```
 
@@ -405,7 +405,7 @@ f(x)\begin{cases}-1&\text{si }-\pi<x<0\\1&\text{si }0<x<\pi\end{cases}
 ![Ejercicio 2: pulso rectangular centrado de altura dos](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-2.png)
 
 ```math
-f(x)\begin{cases}2&\text{si }-\pi/2<x<\pi/2\\0&\text{si }\begin{cases}-\pi<x<-\pi/2\\\pi/2<x<\pi\end{cases}\end{cases}
+f(x)\begin{cases}2&\text{si }-\pi/2\lt x\lt \pi/2\\0&\text{si }\begin{cases}-\pi\lt x\lt -\pi/2\\\pi/2\lt x\lt \pi\end{cases}\end{cases}
 \qquad f(x)=f(x\pm2\pi)
 ```
 
@@ -414,7 +414,7 @@ f(x)\begin{cases}2&\text{si }-\pi/2<x<\pi/2\\0&\text{si }\begin{cases}-\pi<x<-\p
 ![Ejercicio 3: pulso de altura tres en el semiperíodo positivo](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-3.png)
 
 ```math
-f(x)\begin{cases}0&\text{si }-\pi<x<0\\3&\text{si }0<x<\pi\end{cases}
+f(x)\begin{cases}0&\text{si }-\pi\lt x\lt 0\\3&\text{si }0\lt x\lt \pi\end{cases}
 \qquad p=2\pi
 ```
 
@@ -423,7 +423,7 @@ f(x)\begin{cases}0&\text{si }-\pi<x<0\\3&\text{si }0<x<\pi\end{cases}
 ![Ejercicio 4: onda triangular con vértices en menos pi, cero y pi](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-4.png)
 
 ```math
-f(x)=\begin{cases}x&\text{si }0<x<\pi\\-x&\text{si }-\pi<x<0\end{cases}
+f(x)=\begin{cases}x&\text{si }0\lt x\lt \pi\\-x&\text{si }-\pi\lt x\lt 0\end{cases}
 \qquad p=2\pi
 ```
 
@@ -432,7 +432,7 @@ f(x)=\begin{cases}x&\text{si }0<x<\pi\\-x&\text{si }-\pi<x<0\end{cases}
 ![Ejercicio 5: onda de dientes de sierra creciente](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-5.png)
 
 ```math
-f(x)=x\,,\quad\text{si }-\pi<x<\pi\qquad p=2\pi
+f(x)=x\,,\quad\text{si }-\pi\lt x\lt \pi\qquad p=2\pi
 ```
 
 #### 6)
@@ -440,19 +440,19 @@ f(x)=x\,,\quad\text{si }-\pi<x<\pi\qquad p=2\pi
 ![Ejercicio 6: tramos constantes y rectas crecientes alternados](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-6.png)
 
 ```math
-f(x)\begin{cases}x&\text{si }0<x<\pi\\\pi&\text{si }\pi<x<0\end{cases}
+f(x)\begin{cases}x&\text{si }0\lt x\lt \pi\\\pi&\text{si }\pi\lt x\lt 0\end{cases}
 \qquad p=2\pi
 ```
 
 > Nota de transcripción: el segundo intervalo se conserva como aparece en el
-> original: $`\pi<x<0`$.
+> original: $`\pi\lt x\lt 0`$.
 
 #### 7)
 
 ![Ejercicio 7: semionda senoidal y tramo nulo](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-7.png)
 
 ```math
-f(x)\begin{cases}0&\text{si }-\pi<x<0\\\mathop{\mathrm{sen}}\nolimits x&\text{si }0<x<\pi\end{cases}
+f(x)\begin{cases}0&\text{si }-\pi\lt x\lt 0\\\mathop{\mathrm{sen}}\nolimits x&\text{si }0\lt x\lt \pi\end{cases}
 ```
 
 ## Página PDF 57 — Hoja N° 55
@@ -463,15 +463,15 @@ Los seis gráficos de esta página aparecen sin numeración. Sus expresiones, en
 orden vertical del original, son:
 
 ```math
-f(x)=x^2\,,\quad-\pi<x<\pi\qquad p=2\pi
+f(x)=x^2\,,\quad-\pi\lt x\lt \pi\qquad p=2\pi
 ```
 
 ```math
-f(x)=e^x\,,\quad-\pi<x<\pi\qquad f(x)=f(x+2\pi)
+f(x)=e^x\,,\quad-\pi\lt x\lt \pi\qquad f(x)=f(x+2\pi)
 ```
 
 ```math
-f(x)\begin{cases}0&\text{si }-\pi\;x<0\\x^2&\text{si }0<x<\pi\end{cases}
+f(x)\begin{cases}0&\text{si }-\pi\;x\lt 0\\x^2&\text{si }0\lt x\lt \pi\end{cases}
 \qquad p=2\pi
 ```
 
@@ -479,15 +479,15 @@ f(x)\begin{cases}0&\text{si }-\pi\;x<0\\x^2&\text{si }0<x<\pi\end{cases}
 > distingue un signo de comparación entre $`-\pi`$ y $`x`$ en el original.
 
 ```math
-f(x)=\begin{cases}0&\text{si }-2<x<0\\x&\text{si }0<x<2\end{cases}
+f(x)=\begin{cases}0&\text{si }-2\lt x\lt 0\\x&\text{si }0\lt x\lt 2\end{cases}
 \qquad p=2L=4
 ```
 
 ```math
-f(x)=-x\quad\text{si }-3<x<3\qquad 2L=6
+f(x)=-x\quad\text{si }-3\lt x\lt 3\qquad 2L=6
 ```
 
 ```math
-f(x)\begin{cases}-\mathop{\mathrm{sen}}\nolimits 4x&-\pi/4<x<0\\\cos4x&0<x<\pi/4\end{cases}
+f(x)\begin{cases}-\mathop{\mathrm{sen}}\nolimits 4x&-\pi/4\lt x\lt 0\\\cos4x&0\lt x\lt \pi/4\end{cases}
 \qquad p=2L=\frac\pi2
 ```

@@ -18,9 +18,9 @@
 
    a. $`\int_0^x (2x-y)\,dy`$
 
-   b. $`\int_1^{2y} \frac{y}{x}\,dx\quad\text{con }y>0`$
+   b. $`\int_1^{2y} \frac{y}{x}\,dx\quad\text{con }y\gt 0`$
 
-   c. $`\int_{e^y}^y \frac{y\ln x}{x}\,dx\quad y>0`$
+   c. $`\int_{e^y}^y \frac{y\ln x}{x}\,dx\quad y\gt 0`$
 
 1. Evaluar las integrales iteradas:
 

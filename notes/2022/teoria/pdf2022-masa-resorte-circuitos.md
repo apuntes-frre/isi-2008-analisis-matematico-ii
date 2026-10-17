@@ -168,9 +168,9 @@ Y la ecuación característica
 \qquad\alpha=\frac c{2m},\quad\beta=\frac1{2m}\sqrt{c^2-4mK}.
 ```
 
-- Caso I. $`c^2>4mK`$: raíces reales y distintas ⇒ Sobreamortiguamiento.
+- Caso I. $`c^2\gt 4mK`$: raíces reales y distintas ⇒ Sobreamortiguamiento.
 - Caso II. $`c^2=4mK`$: raíces reales iguales ⇒ Amortiguamiento crítico.
-- Caso III. $`c^2<4mK`$: raíces complejas conjugadas ⇒ Sub amortiguamiento.
+- Caso III. $`c^2\lt 4mK`$: raíces complejas conjugadas ⇒ Sub amortiguamiento.
 
 ## Página 5
 
@@ -180,7 +180,8 @@ Y la ecuación característica
 y(t)=C_1e^{-(\alpha-\beta t)}+C_2e^{-(\alpha+\beta t)}\qquad(4).
 ```
 
-Sabemos que $`\alpha>0`$; $`\beta>0`$ y $`\beta^2=\alpha^2-K/m<\alpha^2`$.
+Sabemos que $`\alpha\gt 0`$; $`\beta\gt 0`$ y
+$`\beta^2=\alpha^2-K/m\lt \alpha^2`$.
 
 Por lo tanto ambos términos de (4) tienden a cero, es decir a la posición de
 equilibrio estático, esto se debe a que el amortiguamiento toma energía del
@@ -207,12 +208,13 @@ Es similar al caso I.
 
 ### Caso III
 
-Este es el caso más interesante ya que si $`c`$ es pequeña $`c^2<4mK\Rightarrow
+Este es el caso más interesante ya que si $`c`$ es pequeña
+$`c^2\lt 4mK\Rightarrow
 \beta`$ es imaginario puro.
 
 ```math
 \beta=i\omega^*\Rightarrow
-\omega^*=\frac1{2m}\sqrt{4mK-c^2}=\sqrt{\frac Km-\frac{c^2}{4m^2}}>0.
+\omega^*=\frac1{2m}\sqrt{4mK-c^2}=\sqrt{\frac Km-\frac{c^2}{4m^2}}\gt 0.
 ```
 
 Así
@@ -283,7 +285,7 @@ a=F_0\frac{K-m\omega^2}{(K-m\omega^2)^2+\omega^2c},
 \qquad b=F_0\frac{\omega c}{(K-m\omega^2)^2+\omega^2c^2}.
 ```
 
-Sabemos que $`\sqrt{K/m}=\omega_0>0`$:
+Sabemos que $`\sqrt{K/m}=\omega_0\gt 0`$:
 
 ```math
 a=F_0\frac{m(\omega_0^2-\omega^2)}{m^2(\omega_0^2-\omega^2)^2+\omega^2c^2},

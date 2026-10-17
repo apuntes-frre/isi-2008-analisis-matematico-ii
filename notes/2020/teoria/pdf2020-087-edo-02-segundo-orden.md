@@ -239,11 +239,11 @@ r_{1,2}=\frac{-a_1\pm\sqrt{a_1^2-4a_2}}2
 por ser una ecuación de 2do grado, por lo tanto es necesario un análisis para
 los distintos casos:
 
-1º) si $`a_1^2-4a_2>0\Rightarrow r_1\ne r_2;\quad r_1\land r_2\in\mathbb R`$
+1º) si $`a_1^2-4a_2\gt 0\Rightarrow r_1\ne r_2;\quad r_1\land r_2\in\mathbb R`$
 
 2º) si $`a_1^2-4a_2=0\Rightarrow r_1=r_2=r=-a_1/2\in\mathbb R`$
 
-3º) si $`a_1^2-4a_2<0\Rightarrow r_{1,2}=\alpha\pm\beta i\in\mathbb C`$
+3º) si $`a_1^2-4a_2\lt 0\Rightarrow r_{1,2}=\alpha\pm\beta i\in\mathbb C`$
 
 ### Caso de raíces reales y distintas
 
@@ -740,7 +740,7 @@ La solución complementaria: $`Y_c=C_1e^{2x}+C_2e^{-3x}`$ ya calculada.
 ## Página 26
 
 de la misma forma con las mismas excepciones a ecuaciones diferenciales de orden
-$`n>2`$.
+$`n\gt 2`$.
 
 ### MÉTODO DE LAGRANGE (o de Variación de Parámetros)
 

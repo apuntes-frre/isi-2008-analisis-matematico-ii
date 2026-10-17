@@ -195,7 +195,7 @@ Supongamos ahora que $`g(r)`$, definida para r=1,2,3; lo está también para otr
 valores de r de modo que pueda representar a la siguiente función escalón (1).
 
 ```math
-g(r)=\begin{cases}g(1)&\text{cuando }0<r\le1\\g(2)&\text{cuando }1<r\le2\\g(3)&\text{cuando }2<r\le3\end{cases}\tag{1}
+g(r)=\begin{cases}g(1)&\text{cuando }0\lt r\le1\\g(2)&\text{cuando }1\lt r\le2\\g(3)&\text{cuando }2\lt r\le3\end{cases}\tag{1}
 ```
 
 ![Función escalón asociada al vector](../../../resources/2020/pdf2020-fourier-urrutia/p21-vector-escalon.png)
@@ -332,7 +332,7 @@ arbitrariamente en aquel intervalo por medio de una combinación lineal de
 aquellas funciones generalizadas a una serie infinita,
 
 ```math
-f(x)=c_1\cdot\phi_1(x)+c_2\cdot\phi_2(x)+\cdots+c_n\phi_n(x)+\cdots\quad(a<x<b)\tag{1}
+f(x)=c_1\cdot\phi_1(x)+c_2\cdot\phi_2(x)+\cdots+c_n\phi_n(x)+\cdots\quad(a\lt x\lt b)\tag{1}
 ```
 
 Esta representación corresponde a la representación de un vector del E3, en

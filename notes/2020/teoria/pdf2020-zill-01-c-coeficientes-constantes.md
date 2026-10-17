@@ -82,9 +82,9 @@ Esta última ecuación se llama **ecuación auxiliar** de la ecuación diferenci
 $`m_2=(-b-\sqrt{b^2-4ac})/2a`$, habrá tres formas de la solución general de (2)
 que corresponden a los tres casos:
 
-- $`m_1`$ y $`m_2`$ reales y distintas $`(b^2-4ac>0)`$,
+- $`m_1`$ y $`m_2`$ reales y distintas $`(b^2-4ac\gt 0)`$,
 - $`m_1`$ y $`m_2`$ reales e iguales $`(b^2-4ac=0)`$, y
-- $`m_1`$ y $`m_2`$ números conjugados complejos $`(b^2-4ac<0)`$.
+- $`m_1`$ y $`m_2`$ números conjugados complejos $`(b^2-4ac\lt 0)`$.
 
 Analicemos cada uno de estos casos.
 
@@ -119,7 +119,7 @@ y=c_1e^{m_1x}+c_2xe^{m_1x}.\tag{6}
 
 **CASO III: RAÍCES COMPLEJAS CONJUGADAS.** Si $`m_1`$ y $`m_2`$ son complejas,
 entonces se puede escribir $`m_1=\alpha+i\beta`$ y $`m_2=\alpha-i\beta`$, donde
-$`\alpha`$ y $`\beta>0`$ son reales $`i^2=-1`$. De manera formal, no hay
+$`\alpha`$ y $`\beta\gt 0`$ son reales $`i^2=-1`$. De manera formal, no hay
 diferencia entre este caso y el caso I y, por tanto,
 
 ```math
@@ -357,7 +357,7 @@ y=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x+c_3x\cos x+c_4x\mathop{\mathrm{s
 ```
 
 El ejemplo 4 ilustra un caso especial cuando la ecuación auxiliar tiene raíces
-repetidas complejas. En general, si $`m_1=\alpha+i\beta`$, $`\beta>0`$ es una
+repetidas complejas. En general, si $`m_1=\alpha+i\beta`$, $`\beta\gt 0`$ es una
 raíz compleja de multiplicidad $`k`$ de una ecuación auxiliar con coeficientes
 reales, entonces su conjugada $`m_2=\alpha-i\beta`$ es también una raíz de
 multiplicidad $`k`$. De las $`2k`$ soluciones con valores complejos

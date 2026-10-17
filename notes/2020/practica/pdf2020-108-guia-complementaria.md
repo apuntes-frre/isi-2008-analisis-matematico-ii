@@ -157,11 +157,11 @@ Calcular: a) $`f(1;0)`$ b) $`f(2;2)`$ c) $`f(0;0)`$ d) $`f(x;0)`$
 
    $`A=\{(x;y)/y-\frac x2\geq0\}`$
 
-   $`B=\{(x;y)/y<x^2\land y<2\}`$
+   $`B=\{(x;y)/y\lt x^2\land y\lt 2\}`$
 
-   $`C=\{(x;y)/[(x-1)^2+y^2<1]\lor[(x-1)^2+y^2>3]\}`$
+   $`C=\{(x;y)/[(x-1)^2+y^2\lt 1]\lor[(x-1)^2+y^2\gt 3]\}`$
 
-   $`D=\{(x;y)/\frac{x^2}4+\frac{y^2}9<1\land y\geq1\}`$
+   $`D=\{(x;y)/\frac{x^2}4+\frac{y^2}9\lt 1\land y\geq1\}`$
 
    $`E=\{(x;y)/|x+y|\leq1\}`$
 
@@ -217,7 +217,7 @@ $`f(a;1/a)`$
 
    a) $`f(x;y)=\frac{2xy}{y^2-x^2}`$ para $`|x|=|y|`$
 
-   b) $`f(x;y)=\frac1{\sqrt{x-y}}`$ para $`x>y`$
+   b) $`f(x;y)=\frac1{\sqrt{x-y}}`$ para $`x\gt y`$
 
 ### Puntos interiores, exteriores y frontera. Conjuntos abiertos, cerrados, acotados y conexos
 
@@ -235,15 +235,15 @@ $`f(a;1/a)`$
 
    f) Decir si son o no conexos
 
-   $`A=\{(x;y)/|x-y|\leq4\land|y-4|<2\}`$
+   $`A=\{(x;y)/|x-y|\leq4\land|y-4|\lt 2\}`$
 
    $`B=\{(x;y)/2\leq x^2+\frac{y^2}2\leq8\}`$
 
-   $`C=\{(x;y)/x^2+y^2<1\land y\geq0\}`$
+   $`C=\{(x;y)/x^2+y^2\lt 1\land y\geq0\}`$
 
-   $`D=\{(x;y)/0\leq x<2\land0\leq y<1\}`$
+   $`D=\{(x;y)/0\leq x\lt 2\land0\leq y\lt 1\}`$
 
-   $`E=\{(x;y)/x^2+y^2>0\}\cap\{(x;y)/x^2+y^2<1\}`$
+   $`E=\{(x;y)/x^2+y^2\gt 0\}\cap\{(x;y)/x^2+y^2\lt 1\}`$
 
 1. Describir analíticamente los siguientes conjuntos de puntos.
 

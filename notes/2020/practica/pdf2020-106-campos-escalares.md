@@ -23,9 +23,9 @@ e. $`E=\{(x,y)/x=1/n;\ n\in\mathbb N\}`$
 
 f. $`F=\{(x,y)/x\cdot y\leq1\}`$
 
-g. $`G=\{(x,y)/r^2<x^2+y^2\leq R^2\}`$ $`r<R`$ y ambos reales
+g. $`G=\{(x,y)/r^2\lt x^2+y^2\leq R^2\}`$ $`r\lt R`$ y ambos reales
 
-h. $`H=\{(x,y)/|x|<1\land|y|<2\}`$
+h. $`H=\{(x,y)/|x|\lt 1\land|y|\lt 2\}`$
 
 i. $`I=\{(x,y)/d(P,A)=d(P,B)\}`$ con $`P(x,y)`$; $`A(x_a,y_a)`$; $`B(x_b,y_b)`$
 $`d=`$ distancia

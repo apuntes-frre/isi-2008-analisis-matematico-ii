@@ -54,7 +54,7 @@ Fuente: `Extremos_absolutos_y_relativos.pdf`, páginas 1–2.
 
 1. Analice la existencia de extremos relativos de la función $`f(x,y)=xy`$
    restringido a los puntos del dominio pertenecientes a $`x^2-1+y=0`$, con
-   $`x>0`$ e $`y>0`$.
+   $`x\gt 0`$ e $`y\gt 0`$.
 
 1. Sea $`\pi_0`$ el plano tangente a la superficie de ecuación $`z=xy-x^2`$ en
    $`(1,1,0)`$, halle el punto más cercano al $`(3,1,2)`$.

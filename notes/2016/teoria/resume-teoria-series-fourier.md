@@ -159,7 +159,7 @@ periódica se repite en intervalos consecutivos cuya amplitud es “p”.
 Representamos la función de período 2π definida por:
 
 ```math
-f(x)=\begin{cases}x&\text{si }0<x<\pi\\\pi&\text{si }\pi<x<2\pi\end{cases}
+f(x)=\begin{cases}x&\text{si }0\lt x\lt \pi\\\pi&\text{si }\pi\lt x\lt 2\pi\end{cases}
 ```
 
 ![Función periódica definida por tramos](../../../resources/2016/resume-teoria-series-fourier/p05-tramos.png)
@@ -178,7 +178,7 @@ p=π.
 ## Página 6
 
 **Propiedad 2:** Si f(x) es una función periódica de período p, f(ax) es otra
-función de período p/a $`\forall a>0`$.
+función de período p/a $`\forall a\gt 0`$.
 
 Demostración: en la función f(ax) le asignaremos a x el valor x+p/a
 
@@ -519,23 +519,23 @@ reemplazando resulta
 +\int_a^{b-\frac\pi\lambda}|f(x)-f(x+\tfrac\pi\lambda)|\cdot dx\;\therefore
 ```
 
-Para λ > K₁ es $`\frac\pi\lambda<\frac\varepsilon{b-a}`$ siendo
+Para λ > K₁ es $`\frac\pi\lambda\lt \frac\varepsilon{b-a}`$ siendo
 $`\varepsilon\in\mathbb R`$ arbitrario
 
-Para λ > K₂ es $`|f(x)-f(x+\frac\pi\lambda)|<\frac\varepsilon{b-a}`$ por ser
+Para λ > K₂ es $`|f(x)-f(x+\frac\pi\lambda)|\lt \frac\varepsilon{b-a}`$ por ser
 f(x) continua en (a,b)
 
 ```math
 \int_a^{b-\frac\pi\lambda}|f(x)-f(x+\tfrac\pi\lambda)|dx
-<\frac\varepsilon{b-a}\int_a^{b-\frac\pi\lambda}dx
-=\frac\varepsilon{b-a}(b-a-\tfrac\pi\lambda)<\varepsilon
+\lt \frac\varepsilon{b-a}\int_a^{b-\frac\pi\lambda}dx
+=\frac\varepsilon{b-a}(b-a-\tfrac\pi\lambda)\lt \varepsilon
 ```
 
 En consecuencia:
 
 ```math
 2\cdot|I(\lambda)|\le2M\cdot\frac\varepsilon{2M}+\varepsilon
-\Rightarrow|I(\lambda)|<\varepsilon;\quad\forall\lambda>i\lambda
+\Rightarrow|I(\lambda)|\lt \varepsilon;\quad\forall\lambda\gt i\lambda
 \quad\text{siendo }\lambda i=\mathop{\mathrm{máx}}\nolimits (K_1,K_2)
 ```
 
@@ -568,7 +568,7 @@ negativos de la onda (presente en la gran mayoría de electrodomésticos) se
 obtiene la función definida de la siguiente forma:
 
 ```math
-f(t)=\begin{cases}0&\text{si }-p/2<t<0\\E\cdot\mathop{\mathrm{sen}}\nolimits \omega t&\text{si }0<t<p/2\end{cases}
+f(t)=\begin{cases}0&\text{si }-p/2\lt t\lt 0\\E\cdot\mathop{\mathrm{sen}}\nolimits \omega t&\text{si }0\lt t\lt p/2\end{cases}
 \quad\text{siendo }p=\frac{2\pi}\omega
 ```
 
@@ -825,7 +825,7 @@ Además como las derivadas existen a ambos lados de $`x_0`$, será entonces:
 partiendo de esta hipótesis, demostraremos que:
 
 ```math
-|S_n(x_0)-f(x_0)|<\xi\quad\text{para }n>k
+|S_n(x_0)-f(x_0)|\lt \xi\quad\text{para }n\gt k
 ```
 
 Por la fórmula de Dirichlet:
@@ -870,7 +870,7 @@ s=0, por lo que g(s) es seccionalmente continua en el período $`[-\pi,\pi]`$.
 Aplicando el lema de Rieman-Lebesgue ya visto, es:
 
 $`\lim_{n\to\infty}\frac1\pi\int_{-\pi}^{\pi}g(s)\cdot\mathop{\mathrm{sen}}\nolimits [(n+\frac12)\cdot s]ds=0`$
-por lo tanto: $`|S_n(x_0)-f(x_0)|<\varepsilon`$ para $`n>K`$.
+por lo tanto: $`|S_n(x_0)-f(x_0)|\lt \varepsilon`$ para $`n\gt K`$.
 
 **Segundo caso:** Cuando x₀ es un punto de discontinuidad de f(x).
 
@@ -1162,7 +1162,7 @@ f(x)=\frac{4K}\pi(\cos x-\tfrac13\cos3x+\tfrac15\cos5x-\tfrac17\cos7x+\cdots)
 onda rectangular:
 
 ```math
-f(x)=\begin{cases}-K&\text{si }-\pi<x<0\\K&\text{si }0<x<\pi\end{cases}
+f(x)=\begin{cases}-K&\text{si }-\pi\lt x\lt 0\\K&\text{si }0\lt x\lt \pi\end{cases}
 ```
 
 siendo f(x)=f(x+2)

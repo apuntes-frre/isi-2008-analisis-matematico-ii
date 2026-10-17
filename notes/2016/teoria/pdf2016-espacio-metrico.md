@@ -26,7 +26,7 @@ Si el centro no pertenece al entorno, se obtiene la definición de entorno
 reducido.
 
 **Entorno reducido** de $`\bar A\in R^n`$;
-$`E'(\bar A,r)=\{\bar P\in R^n/0<d(\bar P,\bar A)\le r\}`$
+$`E'(\bar A,r)=\{\bar P\in R^n/0\lt d(\bar P,\bar A)\le r\}`$
 
 $`\bar P`$ es **punto de acumulación** de un conjunto $`A`$ si cualquier entorno
 reducido de $`\bar P`$ contiene algún punto de $`A`$.
@@ -63,13 +63,13 @@ Graficar el conjunto de puntos dado y caracterizarlo. (Ver gráfico al final del
 texto)
 
 ```math
-B=\{(x,y)/|x-2|<1\land|y-1|\le2\lor x=4\lor(x,y)=(5,2)\}
+B=\{(x,y)/|x-2|\lt 1\land|y-1|\le2\lor x=4\lor(x,y)=(5,2)\}
 ```
 
 **Puntos interiores** son los que están en el rectángulo coloreado:
 
 ```math
-B_i=\{(x,y)/|x-2|<1\land|y-1|\le2\lor x\ne4\lor(x,y)\ne(5,2)\}
+B_i=\{(x,y)/|x-2|\lt 1\land|y-1|\le2\lor x\ne4\lor(x,y)\ne(5,2)\}
 ```
 
 **Punto aislado:** $`(5,2)`$

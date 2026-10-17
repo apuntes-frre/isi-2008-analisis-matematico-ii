@@ -516,7 +516,7 @@ W&=\int_{t=0}^{t=1}((3t^4-2t)4t^3+(t+2t^2)-t^8 2t)\,dt\\
 1. Calcular el trabajo realizado por una fuerza proporcional al vector dirigido
    hacia el origen, sobre el recorrido del primer cuadrante de la elipse
    $`x^2/a^2+y^2/b^2=1`$, desde el punto $`(a,0)`$ hasta el $`(0,b)`$. Solución:
-   $`\frac k2(a^2-b^2)`$ con $`k>0`$.
+   $`\frac k2(a^2-b^2)`$ con $`k\gt 0`$.
 
 1. Calcular la integral
 

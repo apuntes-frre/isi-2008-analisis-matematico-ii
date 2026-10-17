@@ -44,10 +44,10 @@ usado
 
 ```math
 f(x) = \left\{ \begin{array}{r}
-(x + 2)\ \ si\frac{\  - 1}{2} < x < \frac{1}{2} \\
+(x + 2)\ \ si\frac{\  - 1}{2} \lt  x \lt  \frac{1}{2} \\
 0\ \ \ si\ \ \ \left\{ \begin{array}{r}
-- 1 < x < - \frac{1}{2}\ \  \\
-\frac{1}{2} < x < 1
+- 1 \lt  x \lt  - \frac{1}{2}\ \  \\
+\frac{1}{2} \lt  x \lt  1
 \end{array} \right.\
 \end{array} \right.
 ```

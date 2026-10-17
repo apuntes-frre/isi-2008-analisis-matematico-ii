@@ -147,6 +147,9 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
     if display_lines:
         errors.append("delimitador $$ sin bloque matemático reconocido")
     for expression, display in equations:
+        if "<" in expression or ">" in expression:
+            errors.append("GitHub puede interpretar comparaciones como HTML; usar \\lt y \\gt")
+            continue
         if re.search(r"\\operatorname\b", expression):
             errors.append("GitHub rechaza \\operatorname; usar \\mathop{\\mathrm{nombre}}\\nolimits")
             continue
@@ -194,7 +197,7 @@ Negación: $F = \overline{A}B + A\overline{B}$; fracción: $\frac{a_1}{2^n}$.
 
 Operador compatible con GitHub: $\mathop{\mathrm{sen}}\nolimits x$.
 
-Escapes protegidos: $`\{x\in\mathbb R\mid x>0\}`$ y $`x\,dx`$.
+Escapes protegidos: $`\{x\in\mathbb R\mid x\gt 0\}`$ y $`x\,dx`$.
 
 ```math
 \begin{bmatrix}
@@ -229,6 +232,9 @@ c & d
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("$$\nx^*+\\left\\{x\\right\\}\n$$"))
     if not any("GitHub puede alterar" in error for error in errors):
         raise ValueError("No se detecta el bloque con metacaracteres sin protección")
+    errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("```math\nf(x)=\\begin{cases}x&0<x<1\\end{cases}\n```"))
+    if not any("comparaciones como HTML" in error for error in errors):
+        raise ValueError("No se detecta la comparación vulnerable dentro del bloque")
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 

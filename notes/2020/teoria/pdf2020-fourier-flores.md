@@ -192,8 +192,8 @@ cumpliendo:
 \phi(u,v)=\phi(v,u)
 ```
 
-$`\phi(u,u)>0`$ si $`u\ne0`$ el producto interior del vector por sí mismo es un
-real positivo.
+$`\phi(u,u)\gt 0`$ si $`u\ne0`$ el producto interior del vector por sí mismo es
+un real positivo.
 
 **Ejercite su interpretación**
 
@@ -204,7 +204,7 @@ Cumple con las propiedades enunciadas.
 
 **Ejercite su interpretación**
 
-Si $`a<b\in\mathbb R`$, y
+Si $`a\lt b\in\mathbb R`$, y
 $`C[a,b]=\{f:[a,b]\to\mathbb R\mathrel{\therefore}f\ \text{es continua}\}`$.
 Demuestre que $`C[a,b]`$ es un $`\mathbb R`$espacio vectorial (espacio vectorial
 de las funciones continuas en el intervalo [a,b]

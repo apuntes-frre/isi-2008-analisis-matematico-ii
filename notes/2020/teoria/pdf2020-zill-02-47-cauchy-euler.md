@@ -206,8 +206,8 @@ $`k`$ soluciones.
 ### Caso III: raíces complejas conjugadas
 
 Si las raíces de (1) son el par conjugado $`m_1=\alpha+i\beta`$,
-$`m_2=\alpha-i\beta`$, donde $`\alpha`$ y $`\beta>0`$ son reales, entonces una
-solución es
+$`m_2=\alpha-i\beta`$, donde $`\alpha`$ y $`\beta\gt 0`$ son reales, entonces
+una solución es
 
 ```math
 y=C_1x^{\alpha+i\beta}+C_2x^{\alpha-i\beta}.
@@ -260,7 +260,7 @@ y_1=2x^\alpha\cos(\beta\ln x)
 
 también son soluciones. Como
 $`W(x^\alpha\cos(\beta\ln x),x^\alpha\mathop{\mathrm{sen}}\nolimits (\beta\ln x))
-=\beta x^{2\alpha-1}\ne0`$, $`\beta>0`$ en el intervalo $`(0,\infty)`$, se
+=\beta x^{2\alpha-1}\ne0`$, $`\beta\gt 0`$ en el intervalo $`(0,\infty)`$, se
 concluye que
 
 ```math
@@ -401,10 +401,10 @@ generales respectivas son
 
 ```math
 y=c_1e^{m_1x}+c_2e^{m_2x}
-\quad\text{y}\quad y=c_1x^{m_1}+c_2x^{m_2},\quad x>0. \tag{5}
+\quad\text{y}\quad y=c_1x^{m_1}+c_2x^{m_2},\quad x\gt 0. \tag{5}
 ```
 
-Usando la identidad $`e^{\ln x}=x`$, $`x>0`$, la segunda solución dada en (5)
+Usando la identidad $`e^{\ln x}=x`$, $`x\gt 0`$, la segunda solución dada en (5)
 puede expresarse en la misma forma que la primera solución:
 
 ```math
@@ -558,7 +558,7 @@ intervalo $`(-\infty,0)`$.
 
 01. ¿Cuáles son las intersecciones con el eje $`x`$ de la curva solución que se
     muestra en la figura 4.7.1? ¿Cuántas intersecciones con el eje $`x`$ hay en
-    $`0<x<\frac12`$?
+    $`0\lt x\lt \frac12`$?
 
 ### Tarea para el laboratorio de computación
 
@@ -577,6 +577,6 @@ para encontrar las raíces (aproximadas) de la ecuación auxiliar.
 
 Se conservan las referencias originales a “secciones 4.5 y 4.6” en la página 166
 y a “último ejemplo” en la página 167. El enunciado sobre $`\alpha`$ y
-$`\beta>0`$ en el caso III se mantiene como aparece impreso. Los cuadros en las
-fórmulas sustituyen el sombreado original; las indicaciones de igualdad de
+$`\beta\gt 0`$ en el caso III se mantiene como aparece impreso. Los cuadros en
+las fórmulas sustituyen el sombreado original; las indicaciones de igualdad de
 órdenes se mantienen mediante anotaciones matemáticas.

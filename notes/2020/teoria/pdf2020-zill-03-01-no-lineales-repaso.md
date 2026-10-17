@@ -181,7 +181,7 @@ fuerza inverso del cuadrado de $`x`$ es
 ```
 
 Suponga que en $`t=0`$ el cuerpo comienza a partir del reposo en la posición
-$`x=x_0`$, $`x_0>0`$. Muestre que la velocidad del cuerpo en el tiempo $`t`$
+$`x=x_0`$, $`x_0\gt 0`$. Muestre que la velocidad del cuerpo en el tiempo $`t`$
 está dada por $`v^2=2k^2(1/x-1/x_0)`$. Use la última expresión y un SAC para
 realizar la integración para expresar al tiempo $`t`$ en términos de $`x`$.
 

@@ -75,8 +75,8 @@ de PDF 20 coincide con el borde de la página escaneada.
   potencias posteriores; también la notación hiperbólica «Sh».
 - PDF 54: se conserva el factor exponencial con $`x`$ en la definición de
   $`F(\omega)`$, y las repeticiones del texto sobre el límite.
-- PDF 56, ejercicio 6: se conserva $`\pi<x<0`$, sin agregar el signo menos que
-  sugeriría el gráfico.
+- PDF 56, ejercicio 6: se conserva $`\pi\lt x\lt 0`$, sin agregar el signo menos
+  que sugeriría el gráfico.
 - PDF 57, tercer gráfico: no se distingue un signo de comparación entre $`-\pi`$
   y $`x`$ en la primera condición. Se marca expresamente esa ausencia.
 

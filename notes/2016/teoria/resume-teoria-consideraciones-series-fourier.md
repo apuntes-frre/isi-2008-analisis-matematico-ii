@@ -15,7 +15,7 @@ presentan cambios de amplitud, fase y frecuencia entre ambas.
 Arnaldo César Flores
 
 Es $`f(x)`$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L>0`$.
+definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L\gt 0`$.
 
 ```math
 f(x)=\frac{a_0}{2}+\sum_{n=1}^{\infty}(a_n\cos[n\omega x]+b_n\sin[n\omega x])
@@ -42,7 +42,7 @@ b_n=\frac1L\int_c^{c+2L}f(x)\sin(n\omega x)\,dx
 (Jerga técnica: sumamos una continua)
 
 Sea $`g(x)`$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L>0`$,
+definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L\gt 0`$,
 condiciones iguales a $`f(x)`$ y sea:
 
 ```math
@@ -102,7 +102,7 @@ a'_n=a_n;\qquad b'_n=b_n
 ### Segundo Caso: Cambio de amplitud
 
 Sea $`g(x)`$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L>0`$,
+definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L\gt 0`$,
 condiciones iguales a $`f(x)`$ y sea:
 
 ```math
@@ -143,15 +143,15 @@ Conduce a
 temporal, cuando la variable es tiempo)
 
 Es $`f(x)`$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L>0`$.
+definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L\gt 0`$.
 
 ```math
 f(x)=\frac{a_0}{2}+\sum_{n=1}^{\infty}(a_n\cos[n\omega x]+b_n\sin[n\omega x])
 ```
 
 Es $`g(x')`$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo $`c'\le x\le c'+2L`$ con $`c',L\in\mathbb R`$, $`L>0`$,
-$`c'\ne c`$.
+definida en el intervalo $`c'\le x\le c'+2L`$ con $`c',L\in\mathbb R`$,
+$`L\gt 0`$, $`c'\ne c`$.
 
 La imagen de $`f(x)`$ es igual a la imagen de $`g(x')`$ pero difieren en el
 intervalo de definición, no así, en su extensión $`2L`$, es común a ambas
@@ -207,7 +207,7 @@ achicándose o agrandándose, en otras palabras, cambiamos la frecuencia.
 Ejemplo:
 
 Es $`f(x)`$ función desarrollable según la serie de Fourier, periódica o no, y
-definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L>0`$.
+definida en el intervalo $`c\le x\le c+2L`$ con $`c,L\in\mathbb R`$, $`L\gt 0`$.
 
 ```math
 f(x)=x;\qquad c=0;\qquad 2L=1
@@ -215,7 +215,7 @@ f(x)=x;\qquad c=0;\qquad 2L=1
 
 Sea $`g(x')`$ función desarrollable según la serie de Fourier, periódica o no, y
 definida en el intervalo $`c'\le x\le c'+2L'`$ con $`c',L'\in\mathbb R`$,
-$`L'>0`$.
+$`L'\gt 0`$.
 
 ```math
 g(x')=2x';\qquad c'=0;\qquad 2L'=0{,}5

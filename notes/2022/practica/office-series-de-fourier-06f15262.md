@@ -28,10 +28,10 @@ g.$`\int_{- \pi}^{\pi}{\cos(mx)cos(nx)\ dx = \pi}\ si\ m = n`$
 
 ```math
 f(x) = \left\{ \begin{array}{r}
-2\ \ \ si\ –\frac{\pi}{2} < x < \frac{\pi}{2} \\
+2\ \ \ si\ –\frac{\pi}{2} \lt  x \lt  \frac{\pi}{2} \\
 0\ \ \ si\ \ \ \left\{ \begin{array}{r}
-- \pi < x < - \frac{\pi}{2}\ \ o \\
-\frac{\pi}{2} < x < \pi
+- \pi \lt  x \lt  - \frac{\pi}{2}\ \ o \\
+\frac{\pi}{2} \lt  x \lt  \pi
 \end{array} \right.\
 \end{array} \right.
 ```
@@ -52,18 +52,18 @@ Indique como obtiene los coeficientes, calcule los primeros.
 
 ![Figura del original](../../../resources/2022/office-series-de-fourier-06f15262/image1.png)
 
-5\. Sea la función periódica $`f(x) = x\ \ \ \  - \pi < x < \pi`$ cuyo período es
-$`2\pi`$ y su desarrollo de Fourier
+5\. Sea la función periódica $`f(x) = x\ \ \ \  - \pi \lt  x \lt  \pi`$ cuyo
+período es $`2\pi`$ y su desarrollo de Fourier
 $`f(x) = 2\ \left( \frac{\sin x}{1} - \frac{\sin{2\ x}}{2} + \frac{\sin{3x}}{3} - \ \ldots \right)`$,
 según los datos dados, obtenga el desarrollo de la función periódica
-$`f(x) = x + 3\ \ \ \ \  - 0.5 < x < 0.5`$ de período 1.
+$`f(x) = x + 3\ \ \ \ \  - 0.5 \lt  x \lt  0.5`$ de período 1.
 
 6\. Desarrollar en serie de Fourier la Función:
 
 ```math
 f(x) = \left\{ \begin{array}{r}
-\frac{\mathbf{1}}{\mathbf{2}}\mathbf{x}\mathbf{+}\mathbf{1}\mathbf{\ \ \ }\mathbf{si}\mathbf{\ \ }\mathbf{-}\mathbf{2}\mathbf{\leq}\mathbf{x} < 0 \\
-\mathbf{0}\mathbf{\ \ \ \ \ \ \ \ \ \ \ }\mathbf{si}\mathbf{\ \ \ \ \ \ \ }\mathbf{0} < x \leq 6 \\
+\frac{\mathbf{1}}{\mathbf{2}}\mathbf{x}\mathbf{+}\mathbf{1}\mathbf{\ \ \ }\mathbf{si}\mathbf{\ \ }\mathbf{-}\mathbf{2}\mathbf{\leq}\mathbf{x} \lt  0 \\
+\mathbf{0}\mathbf{\ \ \ \ \ \ \ \ \ \ \ }\mathbf{si}\mathbf{\ \ \ \ \ \ \ }\mathbf{0} \lt  x \leq 6 \\
 \mathbf{de}\mathbf{\ }\mathbf{per}\mathbf{í}\mathbf{odo}\mathbf{\ }\mathbf{8}
 \end{array} \right\}
 ```
@@ -81,8 +81,8 @@ gráfico de aproximación a la función de la serie obtenida para **$`n=4`$.**
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\mathbf{=}\left\{ \begin{array}{r}
-\mathbf{- x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \  - \pi} < x \leq 0 \\
-\mathbf{\pi\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \ 0} < x < \pi\  \\
+\mathbf{- x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \  - \pi} \lt  x \leq 0 \\
+\mathbf{\pi\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \ 0} \lt  x \lt  \pi\  \\
 \\
 \mathbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ período\ 2}\mathbf{\pi}
 \end{array} \right\}
@@ -92,9 +92,9 @@ gráfico de aproximación a la función de la serie obtenida para **$`n=4`$.**
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\mathbf{=}\left\{ \begin{array}{r}
-\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \  - \pi \leq x} < 0 \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \  - \pi \leq x} \lt  0 \\
 \mathbf{- 2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \ 0 \leq x \leq}\frac{\mathbf{\pi}}{\mathbf{2}} \\
-\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \pi/2} < x \leq \pi\  \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \pi/2} \lt  x \leq \pi\  \\
 \\
 \mathbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ período\ 2}\mathbf{\pi}
 \end{array} \right\}
@@ -106,7 +106,7 @@ a.
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\mathbf{=}\left\{ \begin{array}{r}
-\mathbf{\ \ 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \  - \pi \leq x} < 0 \\
+\mathbf{\ \ 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \  - \pi \leq x} \lt  0 \\
 \mathbf{sen\ x\ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ 0 \leq x \leq \ \pi\ } \\
 \\
 \mathbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ período\ 2}\mathbf{\pi}
@@ -117,8 +117,8 @@ b.
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\mathbf{=}\left\{ \begin{array}{r}
-\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \  - \pi} < x \leq 0 \\
-\mathbf{x}^{\mathbf{2}}\mathbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \ 0} < x < \pi\  \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \  - \pi} \lt  x \leq 0 \\
+\mathbf{x}^{\mathbf{2}}\mathbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ \ \ \ 0} \lt  x \lt  \pi\  \\
 \\
 \mathbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ período\ 2}\mathbf{\pi}
 \end{array} \right\}
@@ -154,8 +154,8 @@ Siendo
 
 ```math
 f(x) = \left\{ \begin{array}{r}
-x + \frac{\pi}{2}\ \ \  - \pi < x < 0 \\
-- x + \frac{\pi}{2}\ \ 0 < x < \pi
+x + \frac{\pi}{2}\ \ \  - \pi \lt  x \lt  0 \\
+- x + \frac{\pi}{2}\ \ 0 \lt  x \lt  \pi
 \end{array} \right.
 ```
 
@@ -167,8 +167,8 @@ desarrollo de
 
 ```math
 h(t) = \left\{ \begin{array}{r}
-t + 1\ \ \ \ \  - 1 < t < 0 \\
-- t + 1\ \ 0 < t < 1
+t + 1\ \ \ \ \  - 1 \lt  t \lt  0 \\
+- t + 1\ \ 0 \lt  t \lt  1
 \end{array} \right.
 ```
 
@@ -183,21 +183,21 @@ a.
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\left\{ \begin{array}{r}
-\mathbf{0\ \ \ \ \ si\ \ \ \ \ \ \  - 2} < x < 0 \\
-\mathbf{x\ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ 0} < x < 2 \\
+\mathbf{0\ \ \ \ \ si\ \ \ \ \ \ \  - 2} \lt  x \lt  0 \\
+\mathbf{x\ \ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ 0} \lt  x \lt  2 \\
 \\
 \mathbf{de\ período\ \ 2}\mathbf{L = 4}
 \end{array} \right\}
 ```
 
-b. $`f(x) = - x\ \ \ si - 3 < x < 3,\ \ \ \ 2L = 6`$
+b. $`f(x) = - x\ \ \ si - 3 \lt  x \lt  3,\ \ \ \ 2L = 6`$
 
 c.
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\left\{ \begin{array}{r}
-\mathbf{- senx\ \ \ \ si\ \ \ \ \ \ \  -}\frac{\mathbf{\pi}}{\mathbf{4}}\mathbf{<}x < 0 \\
-\mathbf{\cos}{\mathbf{4}\mathbf{x}}\mathbf{\ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ 0} < x < \frac{\mathbf{\pi}}{\mathbf{4}} \\
+\mathbf{- senx\ \ \ \ si\ \ \ \ \ \ \  -}\frac{\mathbf{\pi}}{\mathbf{4}}\mathbf{\lt }x \lt  0 \\
+\mathbf{\cos}{\mathbf{4}\mathbf{x}}\mathbf{\ \ \ \ \ \ si\ \ \ \ \ \ \ \ \ \ \ 0} \lt  x \lt  \frac{\mathbf{\pi}}{\mathbf{4}} \\
 \\
 \mathbf{de\ período\ }\frac{\mathbf{\pi}}{\mathbf{2}}
 \end{array} \right\}

@@ -20,7 +20,7 @@ Ejercicio N° 1
 Representar gráficamente los conjuntos, e indicar si son abiertos o cerrados y
 expresar por comprensión su frontera
 
-$`C = \ \left\{ (x,y)\text{   /   }x^{2} + 2x\  < \ \ y\  + \ \ 3\ \ ;\ \ |x\  + \ \ 2| \leq 2\ \  \right\}`$
+$`C = \ \left\{ (x,y)\text{   /   }x^{2} + 2x\  \lt  \ \ y\  + \ \ 3\ \ ;\ \ |x\  + \ \ 2| \leq 2\ \  \right\}`$
 
 Ejercicio N° 3
 

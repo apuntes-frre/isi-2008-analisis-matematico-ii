@@ -84,12 +84,12 @@ Hf(x_0,y_0)=\begin{pmatrix}f_{xx}(x_0,y_0)&f_{xy}(x_0,y_0)\\f_{yx}(x_0,y_0)&f_{y
 
 Con esto:
 
-- Si $`(x_0,y_0)`$ es un punto crítico de $`f`$, entonces si $`AC-B^2>0`$ y
-  $`A<0`$ $`\Rightarrow(x_0,y_0)`$ es máximo.
-- Si $`(x_0,y_0)`$ es un punto crítico de $`f`$, entonces si $`AC-B^2>0`$ y
-  $`A>0`$ $`\Rightarrow(x_0,y_0)`$ es mínimo.
-- Si $`(x_0,y_0)`$ es un punto crítico y $`AC-B^2<0`$ $`\Rightarrow(x_0,y_0)`$
-  es un punto de silla.
+- Si $`(x_0,y_0)`$ es un punto crítico de $`f`$, entonces si $`AC-B^2\gt 0`$ y
+  $`A\lt 0`$ $`\Rightarrow(x_0,y_0)`$ es máximo.
+- Si $`(x_0,y_0)`$ es un punto crítico de $`f`$, entonces si $`AC-B^2\gt 0`$ y
+  $`A\gt 0`$ $`\Rightarrow(x_0,y_0)`$ es mínimo.
+- Si $`(x_0,y_0)`$ es un punto crítico y $`AC-B^2\lt 0`$
+  $`\Rightarrow(x_0,y_0)`$ es un punto de silla.
 - Si $`(x_0,y_0)`$ es un punto crítico y $`AC-B^2=0`$, el caso es dudoso: puede
   tratarse de un máximo, de un mínimo o de un punto de silla.
 
@@ -117,21 +117,21 @@ Los puntos críticos son: $`(1,2)`$; $`(-1,-2)`$; $`(2,1)`$; $`(-2,-1)`$.
 
 Punto $`(1,2)`$
 $`\longrightarrow Hf(1,2)=\begin{pmatrix}6&12\\12&6\end{pmatrix}`$
-$`\longrightarrow |H|=36-144<0\Rightarrow(1,2)`$ es punto de silla.
+$`\longrightarrow |H|=36-144\lt 0\Rightarrow(1,2)`$ es punto de silla.
 
 Punto $`(-1,-2)`$
 $`\longrightarrow Hf(-1,-2)=\begin{pmatrix}-6&-12\\-12&-6\end{pmatrix}`$
-$`\longrightarrow |H|=36-144<0\Rightarrow(-1,-2)`$ es punto de silla.
+$`\longrightarrow |H|=36-144\lt 0\Rightarrow(-1,-2)`$ es punto de silla.
 
 Punto $`(2,1)`$
 $`\longrightarrow Hf(2,1)=\begin{pmatrix}12&6\\6&12\end{pmatrix}`$
-$`\longrightarrow |H|=144-36>0`$; $`A>0\Rightarrow(2,1)`$ es un mínimo local. Su
-valor es $`f(2,1)=-28`$.
+$`\longrightarrow |H|=144-36\gt 0`$; $`A\gt 0\Rightarrow(2,1)`$ es un mínimo
+local. Su valor es $`f(2,1)=-28`$.
 
 Punto $`(-2,-1)`$
 $`\longrightarrow Hf(-2,-1)=\begin{pmatrix}-12&-6\\-6&-12\end{pmatrix}`$
-$`\longrightarrow |H|=144-36>0`$; $`A<0\Rightarrow(-2,-1)`$ es un máximo local.
-Su valor es $`f(-2,-1)=28`$.
+$`\longrightarrow |H|=144-36\gt 0`$; $`A\lt 0\Rightarrow(-2,-1)`$ es un máximo
+local. Su valor es $`f(-2,-1)=28`$.
 
 ![Máximo, mínimo y puntos de silla del ejemplo a](../../../resources/2016/resume-misc-criticos-ejemplo-a.png)
 
@@ -178,10 +178,11 @@ c) Estudio de los extremos relativos de la función $`f(x,y)=x^3-3xy^2`$.
     \longrightarrow |H|=0\longrightarrow\text{Caso dudoso}.
   ```
 
-En cualquier entorno de $`(0,0)`$ existen puntos que hacen que $`f(x,y)>f(0,0)`$
-y otros que hacen que $`f(x,y)<f(0,0)`$. En concreto, para puntos de la forma
-$`(m,m)`$, con $`m`$ tan pequeño como se desee, $`f(m,m)=-2m^3`$ que toma
-valores mayores o menores que 0 dependiendo del signo de $`m`$.
+En cualquier entorno de $`(0,0)`$ existen puntos que hacen que
+$`f(x,y)\gt f(0,0)`$ y otros que hacen que $`f(x,y)\lt f(0,0)`$. En concreto,
+para puntos de la forma $`(m,m)`$, con $`m`$ tan pequeño como se desee,
+$`f(m,m)=-2m^3`$ que toma valores mayores o menores que 0 dependiendo del signo
+de $`m`$.
 
 ![Punto de silla (0,0)](../../../resources/2016/resume-misc-criticos-ejemplo-c.png)
 
@@ -215,8 +216,8 @@ f'((x_0,y_0),\vec v)=\lim_{h\to0}\frac{f((x_0,y_0)+h(v_1,v_2))-f(x_0,y_0)}h\le0
 Como $`f(x,y)-f(x_0,y_0)\le0`$:
 
 ```math
-\text{para }h<0\Rightarrow f'((x_0,y_0),\vec v)=\left[\frac{(-)}{(-)}\right]\ge0;
-\quad\text{y para }h>0\Rightarrow f'((x_0,y_0),\vec v)=\left[\frac{(-)}{(+)}\right]\le0
+\text{para }h\lt 0\Rightarrow f'((x_0,y_0),\vec v)=\left[\frac{(-)}{(-)}\right]\ge0;
+\quad\text{y para }h\gt 0\Rightarrow f'((x_0,y_0),\vec v)=\left[\frac{(-)}{(+)}\right]\le0
 ```
 
 Por tanto, $`f'((x_0,y_0),\vec v)=0`$. En particular:
@@ -306,10 +307,10 @@ $`(v_1,v_2)\cdot(v_1,v_2)=1`$.)
 En consecuencia:
 
 - si ambos autovalores son positivos $`\Rightarrow`$
-  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}>0\Rightarrow f(x_0,y_0)\le f(x,y)`$
+  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}\gt 0\Rightarrow f(x_0,y_0)\le f(x,y)`$
   $`\longrightarrow`$ en $`(x_0,y_0)`$ se tiene un mínimo.
 - si ambos autovalores son negativos $`\Rightarrow`$
-  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}<0\Rightarrow f(x_0,y_0)\ge f(x,y)`$
+  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}\lt 0\Rightarrow f(x_0,y_0)\ge f(x,y)`$
   $`\longrightarrow`$ en $`(x_0,y_0)`$ se tiene un máximo.
 - si los autovalores tienen signos distintos $`\Rightarrow`$
   $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}`$ toma signos distintos
@@ -340,20 +341,20 @@ $`\lambda_1`$ y $`\lambda_2`$, cumplen:
 
 Luego:
 
-- Si $`AC-B^2<0`$ los autovalores tienen signos opuestos $`\longrightarrow`$ en
-  $`(x_0,y_0)`$ se tiene un punto de silla.
+- Si $`AC-B^2\lt 0`$ los autovalores tienen signos opuestos $`\longrightarrow`$
+  en $`(x_0,y_0)`$ se tiene un punto de silla.
 
-- Si los autovalores tienen signos iguales $`\Rightarrow AC-B^2>0`$
-  $`\Rightarrow AC>B^2`$, que sólo puede darse si $`A`$ y $`C`$ tienen el mismo
-  signo, que además coincide con el signo de $`\lambda_1`$ y $`\lambda_2`$, ya
-  que $`A+C=\lambda_1+\lambda_2`$.
+- Si los autovalores tienen signos iguales $`\Rightarrow AC-B^2\gt 0`$
+  $`\Rightarrow AC\gt B^2`$, que sólo puede darse si $`A`$ y $`C`$ tienen el
+  mismo signo, que además coincide con el signo de $`\lambda_1`$ y
+  $`\lambda_2`$, ya que $`A+C=\lambda_1+\lambda_2`$.
 
 - Luego:
 
-  si $`AC-B^2>0`$ y $`A>0`$, $`\lambda_1`$ y $`\lambda_2`$ son positivos
+  si $`AC-B^2\gt 0`$ y $`A\gt 0`$, $`\lambda_1`$ y $`\lambda_2`$ son positivos
   $`\longrightarrow`$ en $`(x_0,y_0)`$ se tiene un mínimo.
 
-  si $`AC-B^2>0`$ y $`A<0`$, $`\lambda_1`$ y $`\lambda_2`$ son negativos
+  si $`AC-B^2\gt 0`$ y $`A\lt 0`$, $`\lambda_1`$ y $`\lambda_2`$ son negativos
   $`\longrightarrow`$ en $`(x_0,y_0)`$ se tiene un máximo.
 
 > Nota de transcripción: se mantienen las erratas del original: en el ejemplo c

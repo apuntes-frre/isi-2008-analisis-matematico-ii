@@ -33,10 +33,10 @@ gráficamente
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\mathbf{=}\left\{ \begin{array}{r}
-\mathbf{\ 2\ \ \ \ si\ }\mathbf{- \ }\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{<}x < \ \frac{\mathbf{\pi}}{\mathbf{2}} \\
+\mathbf{\ 2\ \ \ \ si\ }\mathbf{- \ }\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{\lt }x \lt  \ \frac{\mathbf{\pi}}{\mathbf{2}} \\
 \\
-\mathbf{\ \ \ \ \ \ \ \ \ }\mathbf{0}\mathbf{\ }\mathbf{\ \ \ \ }\mathbf{si}\mathbf{- \pi < x < -}\frac{\mathbf{\pi}}{\mathbf{2}} \\
-\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ si\ }\mathbf{-}\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{< x < \pi} \\
+\mathbf{\ \ \ \ \ \ \ \ \ }\mathbf{0}\mathbf{\ }\mathbf{\ \ \ \ }\mathbf{si}\mathbf{- \pi \lt  x \lt  -}\frac{\mathbf{\pi}}{\mathbf{2}} \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ si\ }\mathbf{-}\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{\lt  x \lt  \pi} \\
 
 \end{array} \right.
 ```

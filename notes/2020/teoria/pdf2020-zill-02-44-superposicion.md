@@ -184,13 +184,13 @@ $`y'`$ sean continuas en $`x=\pi/2`$ (problema 41) y en $`x=\pi`$ (problema
 41. $`y''+4y=g(x),\quad y(0)=1,\ y'(0)=2`$, donde
 
     ```math
-    g(x)=\begin{cases}\mathop{\mathrm{sen}}\nolimits x,&0\le x\le\pi/2,\\0,&x>\pi/2.\end{cases}
+    g(x)=\begin{cases}\mathop{\mathrm{sen}}\nolimits x,&0\le x\le\pi/2,\\0,&x\gt \pi/2.\end{cases}
     ```
 
 01. $`y''-2y'+10y=g(x),\quad y(0)=0,\ y'(0)=0`$, donde
 
     ```math
-    g(x)=\begin{cases}20,&0\le x\le\pi,\\0,&x>\pi.\end{cases}
+    g(x)=\begin{cases}20,&0\le x\le\pi,\\0,&x\gt \pi.\end{cases}
     ```
 
 ### Problemas para analizar

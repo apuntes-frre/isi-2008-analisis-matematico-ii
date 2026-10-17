@@ -146,7 +146,7 @@ c) De (5) y (6), con $`\alpha=2`$ y $`n=2`$, se tiene que
 (D-2)^2(4e^{2x}-10xe^{2x})=0.
 ```
 
-Cuando $`\alpha`$ y $`\beta`$, $`\beta>0`$ son números reales, la fórmula
+Cuando $`\alpha`$ y $`\beta`$, $`\beta\gt 0`$ son números reales, la fórmula
 cuadrática revela que $`[m^2-2\alpha m+(\alpha^2+\beta^2)]^n=0`$ tiene raíces
 complejas $`\alpha+i\beta`$, $`\alpha-i\beta`$, ambas de multiplicidad $`n`$.
 Del análisis al final de la sección 4.3, se tiene el siguiente resultado.

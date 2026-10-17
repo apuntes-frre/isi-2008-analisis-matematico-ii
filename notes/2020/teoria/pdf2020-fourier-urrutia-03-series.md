@@ -23,7 +23,7 @@ media onda, que anula sus valores negativos de la onda se obtiene la función
 definida de la siguiente forma:
 
 ```math
-f(t)=\begin{cases}0&\text{si }-p/2<t<0\\E\cdot\mathop{\mathrm{sen}}\nolimits \omega t&\text{si }0<t<p/2\end{cases}
+f(t)=\begin{cases}0&\text{si }-p/2\lt t\lt 0\\E\cdot\mathop{\mathrm{sen}}\nolimits \omega t&\text{si }0\lt t\lt p/2\end{cases}
 \quad\text{siendo }p=\frac{2\pi}\omega
 ```
 
@@ -302,7 +302,7 @@ además como las derivadas existen a ambos lados de $`x_{0}`$, será entonces:
 partiendo de esta hipótesis, demostraremos que:
 
 ```math
-|S_n(x_0)-f(x_0)|<\xi\quad\text{para }n>K
+|S_n(x_0)-f(x_0)|\lt \xi\quad\text{para }n\gt K
 ```
 
 Por la fórmula de Dirichlet:
@@ -355,7 +355,7 @@ $`\lim_{n\to\infty}\frac1\pi\int_{-\pi}^{\pi}g(s)\cdot\mathop{\mathrm{sen}}\noli
 por lo tanto:
 
 ```math
-|S_n(x_0)-f(x_0)|<\xi\quad\text{para }n>K
+|S_n(x_0)-f(x_0)|\lt \xi\quad\text{para }n\gt K
 ```
 
 **2do)** Caso en que $`x_{0}`$ es un punto de discontinuidad de $`f(x)`$,

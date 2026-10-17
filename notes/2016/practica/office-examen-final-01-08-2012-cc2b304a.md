@@ -24,8 +24,8 @@ Siendo
 
 ```math
 f(x) = \left\{ \begin{array}{r}
-x + \frac{\pi}{2}\ \ \  - \pi < x < 0 \\
-- x + \frac{\pi}{2}\ \ 0 < x < \pi
+x + \frac{\pi}{2}\ \ \  - \pi \lt  x \lt  0 \\
+- x + \frac{\pi}{2}\ \ 0 \lt  x \lt  \pi
 \end{array} \right.
 ```
 
@@ -36,8 +36,8 @@ desarrollo de
 
 ```math
 h(t) = \left\{ \begin{array}{r}
-t + 1\ \ \ \ \  - 1 < t < 0 \\
-- t + 1\ \ 0 < t < 1
+t + 1\ \ \ \ \  - 1 \lt  t \lt  0 \\
+- t + 1\ \ 0 \lt  t \lt  1
 \end{array} \right.
 ```
 

@@ -140,7 +140,8 @@ R, cuál es el valor de $`\iint_R f(x,y)\,dA`$.
 Determinar si las siguientes afirmaciones son verdaderas (V) o falsas(F).
 Justificar la respuesta.
 
-a) Si $`\iint_R f(r,\theta)\,dA>0\Rightarrow f(r,\theta)>0;\forall(r,\theta)`$
+a) Si
+$`\iint_R f(r,\theta)\,dA\gt 0\Rightarrow f(r,\theta)\gt 0;\forall(r,\theta)`$
 
 b)
 

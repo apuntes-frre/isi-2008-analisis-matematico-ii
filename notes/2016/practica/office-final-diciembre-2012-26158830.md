@@ -65,10 +65,10 @@ orden.** $`\mathbf{r}^{\mathbf{4}}\mathbf{-}`$**1=
 
 ```math
 \mathbf{f}\left( \mathbf{x} \right)\mathbf{=}\left\{ \begin{array}{r}
-\mathbf{2\ \ \ \ \ \ \ \ \ \ \ \ si\ \  - \ }\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{<}x < \ \frac{\mathbf{\pi}}{\mathbf{2}} \\
+\mathbf{2\ \ \ \ \ \ \ \ \ \ \ \ si\ \  - \ }\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{\lt }x \lt  \ \frac{\mathbf{\pi}}{\mathbf{2}} \\
 \\
-\mathbf{0\ \ \ \ \ \ \ \ \ \ si\ }\left\{ \mathbf{–\pi} < x < \mathbf{-}\mathbf{\ }\frac{\mathbf{\pi}}{\mathbf{2}} \right\} \\
-\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ si\ }\left\{ \mathbf{\ \ \ \ \ }\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{<}x < \ \mathbf{\pi} \right\} \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ si\ }\left\{ \mathbf{–\pi} \lt  x \lt  \mathbf{-}\mathbf{\ }\frac{\mathbf{\pi}}{\mathbf{2}} \right\} \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ \ \ \ si\ }\left\{ \mathbf{\ \ \ \ \ }\frac{\mathbf{\pi}}{\mathbf{2}}\mathbf{\lt }x \lt  \ \mathbf{\pi} \right\} \\
 
 \end{array} \right\}
 ```

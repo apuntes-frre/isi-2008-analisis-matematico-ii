@@ -47,8 +47,8 @@ Fuente: `Series de Fourier- Práctica.pdf`, páginas 1–3.
 
    ```math
    f(x)=\begin{cases}
-      2&\text{si }-\frac{\pi}{2}<x<\frac{\pi}{2}\\
-      0&\text{si }-\pi<x<-\frac{\pi}{2}\ \text{o}\ \frac{\pi}{2}<x<\pi
+      2&\text{si }-\frac{\pi}{2}\lt x\lt \frac{\pi}{2}\\
+      0&\text{si }-\pi\lt x\lt -\frac{\pi}{2}\ \text{o}\ \frac{\pi}{2}\lt x\lt \pi
       \end{cases}
    ```
 
@@ -67,22 +67,22 @@ Fuente: `Series de Fourier- Práctica.pdf`, páginas 1–3.
 
 ### 4.-
 
-Sea la función periódica $`f(x)=x`$, $`-\pi<x<\pi`$ cuyo período es $`2\pi`$ y
-su desarrollo de Fourier
+Sea la función periódica $`f(x)=x`$, $`-\pi\lt x\lt \pi`$ cuyo período es
+$`2\pi`$ y su desarrollo de Fourier
 
 ```math
 f(x)=2\left(\frac{\sin x}{1}-\frac{\sin 2x}{2}+\frac{\sin 3x}{3}-\cdots\right),
 ```
 
 según los datos dados, obtenga el desarrollo de la función periódica
-$`f(x)=x+3`$, $`-0.5<x<0.5`$, de período 1.
+$`f(x)=x+3`$, $`-0.5\lt x\lt 0.5`$, de período 1.
 
 ### 5.- Desarrollar en serie de Fourier la Función:
 
 ```math
 f(x)=\begin{cases}
-\frac12x+1&\text{si }-2\le x<0\\
-0&\text{si }0<x\le6
+\frac12x+1&\text{si }-2\le x\lt 0\\
+0&\text{si }0\lt x\le6
 \end{cases}
 \qquad\text{de período }8
 ```
@@ -125,8 +125,8 @@ Siendo
 
 ```math
 f(x)=\begin{cases}
-x+\frac\pi2&-\pi<x<0\\
--x+\frac\pi2&0<x<\pi
+x+\frac\pi2&-\pi\lt x\lt 0\\
+-x+\frac\pi2&0\lt x\lt \pi
 \end{cases}
 \quad\text{con } f(x)=f(x+2\pi),
 ```
@@ -142,8 +142,8 @@ desarrollo de
 
 ```math
 h(t)=\begin{cases}
-t+1&-1<t<0\\
--t+1&0<t<1
+t+1&-1\lt t\lt 0\\
+-t+1&0\lt t\lt 1
 \end{cases}
 \quad\text{con }h(t+2)=h(t).
 ```

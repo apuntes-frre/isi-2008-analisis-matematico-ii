@@ -49,7 +49,7 @@ mínimos.
 
 ## Ejemplo 1
 
-Hallar el máximo de $`f(x,y)=4xy`$ donde $`x>0`$ e $`y>0`$, sujeto a la
+Hallar el máximo de $`f(x,y)=4xy`$ donde $`x\gt 0`$ e $`y\gt 0`$, sujeto a la
 restricción o ligadura
 $`\left(\frac{x^2}{9}\right)+\left(\frac{y^2}{4}\right)=1`$.
 
@@ -83,8 +83,8 @@ que sustituyendo en la tercera ecuación nos queda:
 \Rightarrow y^2=8\Rightarrow y=\pm2\sqrt2
 ```
 
-pero como $`y>0`$ se elige el valor positivo $`y=2\sqrt2`$ para hallar el valor
-de $`x`$ $`\Rightarrow`$ reemplazando en $`x^2=\frac9{16}y^2`$ nos queda
+pero como $`y\gt 0`$ se elige el valor positivo $`y=2\sqrt2`$ para hallar el
+valor de $`x`$ $`\Rightarrow`$ reemplazando en $`x^2=\frac9{16}y^2`$ nos queda
 $`x=\frac3{\sqrt2}`$
 
 Por tanto, el valor máximo de $`f`$ es

@@ -194,7 +194,7 @@ función periódica se repite en intervalos consecutivos cuya amplitud es “p�
 Representamos la función de período $`2\pi`$ definida por:
 
 ```math
-f(x)=\begin{cases}x&\text{si }0<x<\pi\\\pi&\text{si }\pi<x<2\pi\end{cases}
+f(x)=\begin{cases}x&\text{si }0\lt x\lt \pi\\\pi&\text{si }\pi\lt x\lt 2\pi\end{cases}
 ```
 
 ![Función periódica por tramos](../../../resources/2020/pdf2020-fourier-urrutia/p06-tramos.png)
@@ -210,8 +210,8 @@ también períodos de la función tangente, $`\pm2\pi`$, $`\pm3\pi`$, $`\pm4\pi`
 etc., pero el período primitivo de la función es $`p=\pi`$.
 
 **3.** Si $`f(x)`$ es una función periódica de período p, f(ax) es otra función
-periódica de período p/a $`\forall a>0`$. Para su demostración reemplacemos en
-la función f(ax), a la variable (x) por el valor (x+p/a).
+periódica de período p/a $`\forall a\gt 0`$. Para su demostración reemplacemos
+en la función f(ax), a la variable (x) por el valor (x+p/a).
 
 ## Página PDF 7 — Hoja N° 6
 
@@ -561,20 +561,20 @@ reemplazando resulta:
 
 ## Página PDF 15 — Hoja N° 14
 
-para $`\lambda>K_2`$ es $`|f(x)-f(x+\pi/\lambda)|<\frac\xi{b-a}`$ por ser
+para $`\lambda\gt K_2`$ es $`|f(x)-f(x+\pi/\lambda)|\lt \frac\xi{b-a}`$ por ser
 $`f(x)`$ continua en (a,b)
 
 ```math
 \int_a^{b-\pi/\lambda}|f(x)-f(x+\pi/\lambda)|\cdot dx
-<\frac\xi{b-a}\int_a^{b-\pi/\lambda}dx
-=\frac\xi{b-a}(b-a-\pi/\lambda)<\xi
+\lt \frac\xi{b-a}\int_a^{b-\pi/\lambda}dx
+=\frac\xi{b-a}(b-a-\pi/\lambda)\lt \xi
 ```
 
 en consecuencia:
 
 ```math
-2|I(\lambda)|<2M\cdot\frac\xi{2M}+\xi\Rightarrow|I(\lambda)|<\xi;
-\quad\forall\lambda>i\lambda\;(i\lambda=\mathop{\mathrm{máx}}\nolimits K_1,K_2)
+2|I(\lambda)|\lt 2M\cdot\frac\xi{2M}+\xi\Rightarrow|I(\lambda)|\lt \xi;
+\quad\forall\lambda\gt i\lambda\;(i\lambda=\mathop{\mathrm{máx}}\nolimits K_1,K_2)
 ```
 
 Este teorema puede extenderse a funciones seccionalmente continuas en un

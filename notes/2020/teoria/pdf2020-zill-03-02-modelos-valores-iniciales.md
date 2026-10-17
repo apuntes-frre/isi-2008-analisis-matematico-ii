@@ -132,9 +132,9 @@ donde $`\omega^2=k/m`$. Se dice que la ecuación (2) describe el **movimiento
 armónico simple o movimiento libre no amortiguado**. Dos condiciones iniciales
 obvias relacionadas con (2) son $`x(0)=x_0`$ y $`x'(0)=x_1`$, el desplazamiento
 inicial y la velocidad inicial de la masa, respectivamente. Por ejemplo, si
-$`x_0>0`$, $`x_1<0`$, la masa parte de un punto *abajo* de la posición de
+$`x_0\gt 0`$, $`x_1\lt 0`$, la masa parte de un punto *abajo* de la posición de
 equilibrio con una velocidad impartida hacia *arriba*. Cuando $`x'(0)=0`$, se
-dice que la masa se libera a partir del reposo. Por ejemplo, si $`x_0<0`$,
+dice que la masa se libera a partir del reposo. Por ejemplo, si $`x_0\lt 0`$,
 $`x_1=0`$, la masa se libera desde el *reposo* de un punto $`|x_0|`$ unidades
 *arriba* de la posición de equilibrio.
 
@@ -271,9 +271,10 @@ por (7). Con $`c_1=\frac23`$ y $`c_2=-\frac16`$ se encuentra $`\tan\phi=-4`$ y,
 con una calculadora se obtiene $`\tan^{-1}(-4)=-1.326`$ rad. Este *no* es el
 ángulo de fase, puesto que $`\tan^{-1}(-4)`$ se localiza en el *cuarto
 cuadrante* y por tanto contradice el hecho de que
-$`\mathop{\mathrm{sen}}\nolimits \phi>0`$ y $`\cos\phi<0`$ porque $`c_1>0`$ y
-$`c_2<0`$. Por tanto, se debe considerar que $`\phi`$ es un ángulo del *segundo
-cuadrante* $`\phi=\pi+(-1.326)=1.816`$ rad. Así la ecuación (5) es igual a
+$`\mathop{\mathrm{sen}}\nolimits \phi\gt 0`$ y $`\cos\phi\lt 0`$ porque
+$`c_1\gt 0`$ y $`c_2\lt 0`$. Por tanto, se debe considerar que $`\phi`$ es un
+ángulo del *segundo cuadrante* $`\phi=\pi+(-1.326)=1.816`$ rad. Así la ecuación
+(5) es igual a
 
 ```math
 x(t)=\frac{\sqrt{17}}6\mathop{\mathrm{sen}}\nolimits (8t+1.816).\tag{9}
@@ -317,18 +318,18 @@ está en movimiento durante un largo tiempo, el resorte se debilita; en otras
 palabras, varía la “constante de resorte”, de manera más específica, decae con
 el tiempo. En un modelo para el **resorte cada vez más viejo** la constante de
 resorte $`k`$ en (1) se reemplaza con la función decreciente
-$`K(t)=ke^{-\alpha t}`$, $`k>0`$, $`\alpha>0`$. La ecuación diferencial lineal
-$`mx''+ke^{-\alpha t}x=0`$ no se puede resolver con los métodos considerados en
-el capítulo 4. Sin embargo, es posible obtener dos soluciones linealmente
-independientes con los métodos del capítulo 6. Véase el problema 15 en los
-ejercicios 5.1, el ejemplo 4 de la sección 6.3 y los problemas 33 y 39 de los
-ejercicios 6.3.
+$`K(t)=ke^{-\alpha t}`$, $`k\gt 0`$, $`\alpha\gt 0`$. La ecuación diferencial
+lineal $`mx''+ke^{-\alpha t}x=0`$ no se puede resolver con los métodos
+considerados en el capítulo 4. Sin embargo, es posible obtener dos soluciones
+linealmente independientes con los métodos del capítulo 6. Véase el problema 15
+en los ejercicios 5.1, el ejemplo 4 de la sección 6.3 y los problemas 33 y 39 de
+los ejercicios 6.3.
 
 ## Página PDF 70 — Página impresa 186
 
 Cuando un sistema resorte/masa se somete a un ambiente en el cual la temperatura
 disminuye con rapidez, podría tener sentido reemplazar la constante $`k`$ con
-$`K(t)=kt`$, $`k>0`$, una función que se incrementa con el tiempo. El modelo
+$`K(t)=kt`$, $`k\gt 0`$, una función que se incrementa con el tiempo. El modelo
 resultante, $`mx''+ktx=0`$, es una forma de la **ecuación diferencial de Airy**.
 Al igual que la ecuación para un resorte viejo, la ecuación de Airy se resuelve
 con los métodos del capítulo 6. Véase el problema 16 de los ejercicios 5.1, el
@@ -386,10 +387,10 @@ m_2=-\lambda-\sqrt{\lambda^2-\omega^2}.
 
 Ahora se pueden distinguir tres casos posibles dependiendo del signo algebraico
 de $`\lambda^2-\omega^2`$. Puesto que cada solución contiene el *factor de
-amortiguamiento* $`e^{-\lambda t}`$, $`\lambda>0`$, los desplazamientos de la
+amortiguamiento* $`e^{-\lambda t}`$, $`\lambda\gt 0`$, los desplazamientos de la
 masa se vuelven despreciables conforme el tiempo $`t`$ aumenta.
 
-### Caso I: $`\lambda^2-\omega^2>0`$
+### Caso I: $`\lambda^2-\omega^2\gt 0`$
 
 En esta situación el sistema está **sobreamortiguado** porque el coeficiente de
 amortiguamiento $`\beta`$ es grande comparado con la constante del resorte
@@ -424,7 +425,7 @@ más una vez.
 
 ![Figura 5.1.7. Movimiento de un sistema críticamente amortiguado](../../../resources/2020/pdf2020-zill-03/p71-figura-5-1-7.png)
 
-### Caso III: $`\lambda^2-\omega^2<0`$
+### Caso III: $`\lambda^2-\omega^2\lt 0`$
 
 En este caso el sistema está **subamortiguado** puesto que el coeficiente de
 amortiguamiento es pequeño comparado con la constante del resorte. Las raíces
@@ -698,7 +699,7 @@ t-\frac{86}{51}\mathop{\mathrm{sen}}\nolimits t\right)-\frac{25}{102}\cos4t+\fra
 
 Cuando $`F`$ es una función periódica, como
 $`F(t)=F_0\mathop{\mathrm{sen}}\nolimits \gamma t`$ o $`F(t)=F_0\cos\gamma t`$,
-la solución general de (25) para $`\lambda>0`$ es la suma de una función no
+la solución general de (25) para $`\lambda\gt 0`$ es la suma de una función no
 periódica $`x_c(t)`$ y una función periódica $`x_p(t)`$. Además $`x_c(t)`$ se
 desvanece conforme se incrementa el tiempo, es decir,
 $`\lim_{t\to\infty}x_c(t)=0`$. Así, para valores grandes de tiempo, los
@@ -735,7 +736,7 @@ estable}}.
 
 Las curvas solución para valores seleccionados de la velocidad inicial $`x_1`$
 aparecen en la figura 5.1.13. Las gráficas muestran que la influencia del
-término transitorio es despreciable para un valor aproximado de $`t>3\pi/2`$.
+término transitorio es despreciable para un valor aproximado de $`t\gt 3\pi/2`$.
 
 ![Figura 5.1.13. Gráfica de la solución del ejemplo 7 para diferentes x1](../../../resources/2020/pdf2020-zill-03/p74-figura-5-1-13.png)
 
@@ -889,11 +890,11 @@ Si $`E(t)=0`$, se dice que las **vibraciones eléctricas** del circuito están
 habrá tres formas de solución con $`R\ne0`$, dependiendo del valor del
 discriminante $`R^2-4L/C`$. Se dice que el circuito es
 
-**sobreamortiguado** si $`R^2-4L/C>0`$,
+**sobreamortiguado** si $`R^2-4L/C\gt 0`$,
 
 **críticamente amortiguado** si $`R^2-4L/C=0`$,
 
-y **subamortiguado** si $`R^2-4L/C<0`$.
+y **subamortiguado** si $`R^2-4L/C\lt 0`$.
 
 En cada uno de estos tres casos, la solución general de (34) contiene el factor
 $`e^{-Rt/2L}`$, así $`q(t)\to0`$ conforme $`t\to\infty`$. En el caso

@@ -239,16 +239,16 @@ d) Trace la gráfica de la ecuación de movimiento.
 
 **27.** Una masa que pesa 10 libras produce un alargamiento de 2 pies en un
 resorte. La masa se une a un dispositivo amortiguador que ofrece una fuerza de
-amortiguamiento igual a $`\beta`$ ($`\beta>0`$) veces la velocidad instantánea.
-Determine los valores de la constante de amortiguamiento $`\beta`$ por lo que el
-movimiento posterior sea **a)** sobreamortiguado, **b)** críticamente
-amortiguado y **c)** subamortiguado.
+amortiguamiento igual a $`\beta`$ ($`\beta\gt 0`$) veces la velocidad
+instantánea. Determine los valores de la constante de amortiguamiento $`\beta`$
+por lo que el movimiento posterior sea **a)** sobreamortiguado, **b)**
+críticamente amortiguado y **c)** subamortiguado.
 
 **28.** Una masa que pesa 24 libras alarga 4 pies un resorte. El movimiento
 posterior toma lugar en un medio que ofrece una fuerza de amortiguamiento igual
-a $`\beta`$ ($`\beta>0`$) veces la velocidad instantánea. Si al inicio la masa
-se libera desde la posición de equilibrio con una velocidad ascendente de 2
-pies/s, muestre que cuando $`\beta>3\sqrt2`$ la ecuación de movimiento es
+a $`\beta`$ ($`\beta\gt 0`$) veces la velocidad instantánea. Si al inicio la
+masa se libera desde la posición de equilibrio con una velocidad ascendente de 2
+pies/s, muestre que cuando $`\beta\gt 3\sqrt2`$ la ecuación de movimiento es
 
 ```math
 x(t)=\frac{-3}{\sqrt{\beta^2-18}}e^{-2\beta

@@ -307,7 +307,7 @@ Dos ejemplos sencillos de parametrización de superficies son los siguientes:
    puede parametrizar utilizando coordenadas polares:
 
    ```math
-   \{(x,y,k),\ x,y\in\mathbb R\}=\{(r\cos\phi,r\sin\phi,k),\ r\ge0,\ 0\le\phi<2\pi\}.
+   \{(x,y,k),\ x,y\in\mathbb R\}=\{(r\cos\phi,r\sin\phi,k),\ r\ge0,\ 0\le\phi\lt 2\pi\}.
    ```
 
 1. **Parametrización de una esfera mediante coordenadas esféricas.** Una esfera
@@ -324,7 +324,7 @@ Dos ejemplos sencillos de parametrización de superficies son los siguientes:
    De modo que la esfera $`S`$ es:
 
    ```math
-   S=\{(x(\theta,\phi),y(\theta,\phi),z(\theta,\phi))\ 0\le\theta<\pi,\ 0\le\phi\le2\pi\}
+   S=\{(x(\theta,\phi),y(\theta,\phi),z(\theta,\phi))\ 0\le\theta\lt \pi,\ 0\le\phi\le2\pi\}
    ```
 
 ## Página 16/32: Integrales de Superficie
@@ -645,7 +645,7 @@ identificadas durante el cotejo:
   tres componentes.
 - Página 13: se conserva la equivalencia final tal como aparece, sin agregar
   hipótesis topológicas.
-- Página 15: la parametrización de la esfera imprime $`0\le\theta<\pi`$ y
+- Página 15: la parametrización de la esfera imprime $`0\le\theta\lt \pi`$ y
   $`0\le\phi\le2\pi`$.
 - Página 17: «las superficie» y el paréntesis «si esto es así ... no es suave»
   siguen a la condición de producto vectorial distinto de cero.

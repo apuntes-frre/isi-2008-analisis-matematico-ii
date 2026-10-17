@@ -17,7 +17,7 @@ f(x)=x^2-1;\quad g(x)=x^5\quad\text{en el intervalo }[-\pi,\pi]
 2\. Encontrar el desarrollo en a) serie de senos b) cosenos de la función
 
 ```math
-f(x)=\begin{cases}x&\text{si }0<x<1\\1&\text{si }1\leq x<2\end{cases}
+f(x)=\begin{cases}x&\text{si }0\lt x\lt 1\\1&\text{si }1\leq x\lt 2\end{cases}
 ```
 
 3\. Determinar el **a)** dominio de la función, **b)** graficarlo y **c)**

@@ -23,7 +23,7 @@ B) Es $`f(x)`$ función desarrollable según la serie de Fourier, periódica o n
 y definida en el intervalo
 
 ```math
-c\leq x\leq c+2L\quad\text{con }c,L\in\mathbb R,\quad L>0.
+c\leq x\leq c+2L\quad\text{con }c,L\in\mathbb R,\quad L\gt 0.
 ```
 
 Bajo las condiciones conocidas de $`f(x)`$, el alumno debe encontrar la serie de

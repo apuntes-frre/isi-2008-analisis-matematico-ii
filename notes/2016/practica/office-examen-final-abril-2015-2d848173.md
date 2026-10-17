@@ -20,8 +20,8 @@ ocurra en dirección paralela al eje z
 
 ```math
 f(x) = \left\{ \begin{array}{r}
-\frac{\mathbf{1}}{\mathbf{2}}\mathbf{x + 1\ \ \ si\ \  - 2 \leq x} < 0 \\
-\mathbf{0\ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ 0} < x \leq 6 \\
+\frac{\mathbf{1}}{\mathbf{2}}\mathbf{x + 1\ \ \ si\ \  - 2 \leq x} \lt  0 \\
+\mathbf{0\ \ \ \ \ \ \ \ \ \ \ si\ \ \ \ \ \ \ 0} \lt  x \leq 6 \\
 \mathbf{de\ período\ 8}
 \end{array} \right\}
 ```

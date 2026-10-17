@@ -126,7 +126,7 @@ Tabla 5.1
 
 Una viga de longitud $`L`$ está empotrada en ambos extremos. Encuentre la
 deflexión de la viga si una carga constante $`w_0`$ está uniformemente
-distribuida a lo largo de su longitud, es decir, $`w(x)=w_0`$, $`0<x<L`$.
+distribuida a lo largo de su longitud, es decir, $`w(x)=w_0`$, $`0\lt x\lt L`$.
 
 **Solución** De (4) vemos que la deflexión $`y(x)`$ satisface
 
@@ -198,19 +198,20 @@ Resuelva el problema con valores en la frontera
 y''+\lambda y=0,\qquad y(0)=0,\quad y(L)=0.
 ```
 
-**Solución** Consideraremos tres casos: $`\lambda=0`$, $`\lambda<0`$ y
-$`\lambda>0`$.
+**Solución** Consideraremos tres casos: $`\lambda=0`$, $`\lambda\lt 0`$ y
+$`\lambda\gt 0`$.
 
 **Caso I:** Para $`\lambda=0`$ la solución de $`y''=0`$ es $`y=c_1x+c_2`$. Las
 condiciones $`y(0)=0`$ y $`y(L)=0`$ aplicadas a esta solución implican, a su
 vez, $`c_2=0`$ y $`c_1=0`$. Por tanto, para $`\lambda=0`$ la única solución del
 problema con valores en la frontera es la solución trivial $`y=0`$.
 
-**Caso II:** Para $`\lambda<0`$ es conveniente escribir $`\lambda=-\alpha^2`$,
-donde $`\alpha`$ denota un número positivo. Con esta notación las raíces de la
-ecuación auxiliar $`m^2-\alpha^2=0`$ son $`m_1=\alpha`$ y $`m_2=-\alpha`$.
-Puesto que el intervalo en el que se está trabajando es finito, se elige
-escribir la solución general de $`y''-\alpha^2y=0`$ como
+**Caso II:** Para $`\lambda\lt 0`$ es conveniente escribir
+$`\lambda=-\alpha^2`$, donde $`\alpha`$ denota un número positivo. Con esta
+notación las raíces de la ecuación auxiliar $`m^2-\alpha^2=0`$ son
+$`m_1=\alpha`$ y $`m_2=-\alpha`$. Puesto que el intervalo en el que se está
+trabajando es finito, se elige escribir la solución general de
+$`y''-\alpha^2y=0`$ como
 $`y=c_1\cosh\alpha x+c_2\mathop{\mathrm{senh}}\nolimits \alpha x`$. Ahora
 $`y(0)`$ es
 
@@ -228,7 +229,7 @@ es la solución trivial $`y=0`$.
 > Observe que aquí se emplean funciones hiperbólicas. Vuelva a leer “Dos
 > ecuaciones que merecen conocerse” de la página 135.
 
-**Caso III:** Para $`\lambda>0`$ se escribe $`\lambda=\alpha^2`$, donde
+**Caso III:** Para $`\lambda\gt 0`$ se escribe $`\lambda=\alpha^2`$, donde
 $`\alpha`$ es un número positivo. Debido a que la ecuación auxiliar
 $`m^2+\alpha^2=0`$ tiene raíces complejas $`m_1=i\alpha`$ y $`m_2=-i\alpha`$, la
 solución general de $`y''+\alpha^2y=0`$ es
@@ -471,26 +472,26 @@ En los problemas 1 a 5 resuelva la ecuación (4) sujeta a las condiciones de
 frontera adecuadas. La viga es de longitud $`L`$ y $`w_0`$ es una constante.
 
 **1.** a) La viga está empotrada en su extremo izquierdo y libre en su extremo
-derecho y $`w(x)=w_0`$, $`0<x<L`$.
+derecho y $`w(x)=w_0`$, $`0\lt x\lt L`$.
 
 b) Use un programa de graficación para trazar la curva de deflexión cuando
 $`w_0=24EI`$ y $`L=1`$.
 
 **2.** a) La viga está apoyada simplemente en ambos extremos, y $`w(x)=w_0`$,
-$`0<x<L`$.
+$`0\lt x\lt L`$.
 
 b) Use un programa de graficación para trazar la curva de deflexión cuando
 $`w_0=24EI`$ y $`L=1`$.
 
 **3.** a) La viga está empotrada en su extremo izquierdo y apoyada simplemente
-en su extremo derecho, y $`w(x)=w_0`$, $`0<x<L`$.
+en su extremo derecho, y $`w(x)=w_0`$, $`0\lt x\lt L`$.
 
 b) Use un programa de graficación para trazar la curva de deflexión cuando
 $`w_0=48EI`$ y $`L=1`$.
 
 **4.** a) La viga está empotrada en su extremo izquierdo y apoyada simplemente
 en su extremo derecho, y $`w(x)=w_0\mathop{\mathrm{sen}}\nolimits (\pi x/L)`$,
-$`0<x<L`$.
+$`0\lt x\lt L`$.
 
 b) Utilice un programa de graficación para trazar la curva de deflexión cuando
 $`w_0=2\pi^3EI`$ y $`L=1`$.
@@ -500,7 +501,7 @@ gráfica) aproxime el punto en la gráfica del inciso b) en el que ocurre la
 máxima deflexión. ¿Cuál es la máxima deflexión?
 
 **5.** a) La viga está simplemente soportada en ambos extremos y $`w(x)=w_0x`$,
-$`0<x<L`$.
+$`0\lt x\lt L`$.
 
 b) Utilice un programa de graficación para trazar la curva de deflexión cuando
 $`w_0=36EI`$ y $`L=1`$.
@@ -529,8 +530,8 @@ ecuación diferencial
 EIy''=Py-w(x)\frac x2.
 ```
 
-Encuentre la deflexión de la viga en voladizo si $`w(x)=w_0x`$, $`0<x<L`$ y
-$`y(0)=0`$, $`y'(L)=0`$.
+Encuentre la deflexión de la viga en voladizo si $`w(x)=w_0x`$, $`0\lt x\lt L`$
+y $`y(0)=0`$, $`y'(L)=0`$.
 
 ![Figura 5.2.7. Deflexión de la viga en voladizo del problema 7](../../../resources/2020/pdf2020-zill-03/p88-figura-5-2-7.png)
 
@@ -544,7 +545,8 @@ deflexión es
 EIy''=-Py-w(x)\frac x2.
 ```
 
-Resuelva esta ecuación si $`w(x)=w_0x`$, $`0<x<L`$, y $`y(0)=0`$, $`y'(L)=0`$.
+Resuelva esta ecuación si $`w(x)=w_0x`$, $`0\lt x\lt L`$, y $`y(0)=0`$,
+$`y'(L)=0`$.
 
 ### Eigenvalores y funciones propias — continuación, PDF 89
 
@@ -573,7 +575,7 @@ problema con valores en la frontera dado.
 
 En los problemas 19 y 20 determine los eigenvalores y las funciones propias del
 problema con valores en la frontera dado. Considere sólo el caso
-$`\lambda=\alpha^4`$, $`\alpha>0`$.
+$`\lambda=\alpha^4`$, $`\alpha\gt 0`$.
 
 **19.** $`y^{(4)}-\lambda y=0`$, $`y(0)=0`$, $`y''(0)=0`$, $`y(1)=0`$,
 $`y''(1)=0`$.
@@ -657,9 +659,9 @@ está dado por
 \frac d{dx}\left[T(x)\frac{dy}{dx}\right]+\rho\omega^2y=0.
 ```
 
-Suponga que $`1<x<e`$ y que $`T(x)=x^2`$.
+Suponga que $`1\lt x\lt e`$ y que $`T(x)=x^2`$.
 
-a) Si $`y(1)=0`$, $`y(e)=0`$ y $`\rho\omega^2>0.25`$, demuestre que las
+a) Si $`y(1)=0`$, $`y(e)=0`$ y $`\rho\omega^2\gt 0.25`$, demuestre que las
 velocidades críticas de rotación angular son
 $`\omega_n=\frac12\sqrt{(4n^2\pi^2+1)/\rho}`$ y las deflexiones correspondientes
 son
@@ -674,8 +676,8 @@ intervalo $`[1,e]`$ para $`n=1,2,3`$. Elija $`c_2=1`$.
 ### Diferentes problemas con valores en la frontera
 
 **27. Temperatura en una esfera** Considere dos esferas concéntricas de radio
-$`r=a`$ y $`r=b`$, $`a<b`$. Véase la figura 5.2.9. La temperatura $`u(r)`$ en la
-región entre las esferas se determina del problema con valores en la frontera
+$`r=a`$ y $`r=b`$, $`a\lt b`$. Véase la figura 5.2.9. La temperatura $`u(r)`$ en
+la región entre las esferas se determina del problema con valores en la frontera
 
 ```math
 r\frac{d^2u}{dr^2}+2\frac{du}{dr}=0,\qquad u(a)=u_0,\quad u(b)=u_1,
@@ -712,7 +714,7 @@ de resorte es, digamos, $`k=10`$ lb/pie. Determine las masas $`m_n`$ que se
 pueden unir al resorte para que cuando se libere cada masa en la posición de
 equilibrio en $`t=0`$ con una velocidad $`v_0`$ diferente de cero, pase por la
 posición de equilibrio en $`t=1`$ segundo. ¿Cuántas veces pasa cada masa $`m_n`$
-por la posición de equilibrio en el intervalo de tiempo $`0<t<1`$?
+por la posición de equilibrio en el intervalo de tiempo $`0\lt t\lt 1`$?
 
 **30. Movimiento amortiguado** Suponga que el modelo para el sistema
 resorte/masa del problema 29 se reemplaza por $`mx''+2x'+kx=0`$. En otras
@@ -722,9 +724,9 @@ y la constante de resorte del problema 29, investigue si es posible encontrar
 una masa $`m`$ que pase por la posición de equilibrio en $`t=1`$ segundo.
 
 En los problemas 31 y 32, determine si es posible encontrar valores $`y_0`$ y
-$`y_1`$ (problema 31) y valores de $`L>0`$ (problema 32) tal que el problema con
-valores iniciales tenga **a)** exactamente una solución no trivial, **b)** más
-de una solución, **c)** ninguna solución, **d)** la solución trivial.
+$`y_1`$ (problema 31) y valores de $`L\gt 0`$ (problema 32) tal que el problema
+con valores iniciales tenga **a)** exactamente una solución no trivial, **b)**
+más de una solución, **c)** ninguna solución, **d)** la solución trivial.
 
 **31.** $`y''+16y=0`$, $`y(0)=y_0`$, $`y(\pi/2)=y_1`$.
 

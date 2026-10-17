@@ -39,8 +39,8 @@ pares de puntos del plano **xy**.
 **Ejemplo 2:**
 
 $`f(x,y)=\ln xy`$, el dominio son todos los pares de puntos $`(x,y)`$ tales que
-hagan el producto $`x\cdot y>0`$, es decir positivo. Esto lo verifican todos los
-puntos del primer y tercer cuadrantes.
+hagan el producto $`x\cdot y\gt 0`$, es decir positivo. Esto lo verifican todos
+los puntos del primer y tercer cuadrantes.
 
 **Ejemplo 3:**
 
