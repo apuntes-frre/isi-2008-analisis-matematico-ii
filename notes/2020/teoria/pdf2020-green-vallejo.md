@@ -276,9 +276,9 @@ m&=\int_C\lambda(s)\,ds=\int_0^\pi ka\sin t\sqrt{a^2\sin^2t+a^2\cos^2t}\,dt\\
 1. Calcular la integral de línea del campo $`F(x,y)=xy^2`$ a lo largo de la
    curva
 
-   ```math
-   \begin{cases}x=\cos t\\y=\sin t\end{cases},\quad t\in[0,2\pi].
-   ```
+   $$
+   \begin{cases}x=\cos t\cr y=\sin t\end{cases},\quad t\in[0,2\pi].
+   $$
 
    Solución: $`1/3`$.
 
@@ -291,9 +291,9 @@ m&=\int_C\lambda(s)\,ds=\int_0^\pi ka\sin t\sqrt{a^2\sin^2t+a^2\cos^2t}\,dt\\
 3. Calcular la masa de un alambre con densidad lineal
    $`f(x,y,z)=\frac1{\sqrt2}xy+y-z`$, definido por las ecuaciones
 
-   ```math
-   \begin{cases}y=x\\z=\frac{x^2}{\sqrt2}\end{cases}
-   ```
+   $$
+   \begin{cases}y=x\cr z=\frac{x^2}{\sqrt2}\end{cases}
+   $$
 
    desde el punto $`(0,0,0)`$ hasta el punto $`(1,1,\sqrt2/2)`$. Solución:
    $`(4-\sqrt2)/3`$.
@@ -496,18 +496,18 @@ W&=\int_{t=0}^{t=1}((3t^4-2t)4t^3+(t+2t^2)-t^8 2t)\,dt\\
 
 1. Dado el campo vectorial:
 
-   ```math
+   $$
    F(x,y)=\left(\frac{x+y}{x^2+y^2},\frac{x+y}{x^2+y^2}\right)
-   ```
+   $$
 
    calcular la integral de línea de $`F`$ a lo largo de la circunferencia
    $`x^2+y^2=a^2`$ recorrida en sentido positivo. Solución: $`0`$.
 
 1. Calcular la integral de línea del campo
 
-   ```math
+   $$
    F(x,y)=\left(\frac x{\sqrt{1+x^2+y^2}},\frac y{\sqrt{1+x^2+y^2}}\right)
-   ```
+   $$
 
    sobre el cuarto de elipse $`x^2/a^2+y^2/b^2=1`$ situado en el primer
    cuadrante, desde el punto $`(a,0)`$ hasta el punto $`(0,b)`$. Solución:
@@ -520,15 +520,15 @@ W&=\int_{t=0}^{t=1}((3t^4-2t)4t^3+(t+2t^2)-t^8 2t)\,dt\\
 
 1. Calcular la integral
 
-   ```math
-   \int yz\,dx+xz\,dy+xy\,dz
-   ```
+   $$
+   \int yz\thinspace dx+xz\thinspace dy+xy\thinspace dz
+   $$
 
    a lo largo de la hélice
 
-   ```math
-   \begin{cases}x=a\cos t\\y=a\sin t\\z=kt\end{cases},
-   ```
+   $$
+   \begin{cases}x=a\cos t\cr y=a\sin t\cr z=kt\end{cases},
+   $$
 
    entre los puntos $`(a,0,0)`$ y $`(a,0,2k\pi)`$. Solución: $`0`$.
 
@@ -536,23 +536,23 @@ W&=\int_{t=0}^{t=1}((3t^4-2t)4t^3+(t+2t^2)-t^8 2t)\,dt\\
 
 6. Calcular la integral
 
-   ```math
-   \int x\,dy-y\,dx
-   ```
+   $$
+   \int x\thinspace dy-y\thinspace dx
+   $$
 
    a lo largo de la hipocicloide
 
-   ```math
-   \begin{cases}x=a\cos^3t\\y=a\sin^3t\end{cases},\quad t\in[0,2\pi].
-   ```
+   $$
+   \begin{cases}x=a\cos^3t\cr y=a\sin^3t\end{cases},\quad t\in[0,2\pi].
+   $$
 
    Solución: $`\frac34\pi a^2`$ (es el doble del área de la hipocicloide).
 
 1. Calcular
 
-   ```math
-   \int_{(1,1)}^{(4,2)}(x+y)\,dx+(y-x)\,dy
-   ```
+   $$
+   \int_{(1,1)}^{(4,2)}(x+y)\thinspace dx+(y-x)\thinspace dy
+   $$
 
    a lo largo de:
 
@@ -564,9 +564,9 @@ W&=\int_{t=0}^{t=1}((3t^4-2t)4t^3+(t+2t^2)-t^8 2t)\,dt\\
 
    d) La curva
 
-   ```math
-   \begin{cases}x=2t^2+t+1\\y=t^2+1\end{cases}
-   ```
+   $$
+   \begin{cases}x=2t^2+t+1\cr y=t^2+1\end{cases}
+   $$
 
    Solución: (a) $`34/3`$, (b) $`11`$, (c) $`14`$, (d) $`32/3`$.
 
@@ -710,16 +710,16 @@ A&=\frac12\oint_C x\,dy-y\,dx\\
 
 1. Sea $`C`$ la curva cerrada descrita por el par de gráficas
 
-   ```math
-   \begin{cases}y=\sin x\\y=2\sin x\end{cases},\quad x\in[0,2\pi],
-   ```
+   $$
+   \begin{cases}y=\sin x\cr y=2\sin x\end{cases},\quad x\in[0,2\pi],
+   $$
 
    orientada en sentido positivo. Calcula la integral siguiente directamente y
    utilizando el Teorema de Green:
 
-   ```math
-   \int_C(1+y^2)\,dx+y\,dy.
-   ```
+   $$
+   \int_C(1+y^2)\thinspace dx+y\thinspace dy.
+   $$
 
    Solución: $`-3\pi/2`$.
 
@@ -729,9 +729,9 @@ A&=\frac12\oint_C x\,dy-y\,dx\\
    y $`y=1`$, el arco $`y=\sqrt{1-x^2}`$ en el primer cuadrante. Calcula la
    integral siguiente directamente y utilizando el Teorema de Green:
 
-   ```math
-   \int_C\frac x{x^2+y^2}\,dx-\frac y{x^2+y^2}\,dy.
-   ```
+   $$
+   \int_C\frac x{x^2+y^2}\thinspace dx-\frac y{x^2+y^2}\thinspace dy.
+   $$
 
    Solución: $`2\log2`$.
 
@@ -824,9 +824,9 @@ $`F`$ no depende del camino, y es conservativo.
 
 1. Demuestra que
 
-   ```math
-   \int_{(1,0)}^{(2,1)}(2xy-y^4+3)\,dx+(x^2-4xy^3)\,dy
-   ```
+   $$
+   \int_{(1,0)}^{(2,1)}(2xy-y^4+3)\thinspace dx+(x^2-4xy^3)\thinspace dy
+   $$
 
    es independiente del camino. Calcula su valor. Solución: $`60\pi`$.
 
@@ -842,9 +842,9 @@ $`F`$ no depende del camino, y es conservativo.
 
 1. Calcular
 
-   ```math
-   \int_{(1,0)}^{(-1,0)}\frac{-y\,dx+x\,dy}{x^2+y^2}
-   ```
+   $$
+   \int_{(1,0)}^{(-1,0)}\frac{-y\thinspace dx+x\thinspace dy}{x^2+y^2}
+   $$
 
    a lo largo de los caminos siguientes:
 

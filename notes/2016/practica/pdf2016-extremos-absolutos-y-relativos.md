@@ -43,12 +43,12 @@ Fuente: `Extremos_absolutos_y_relativos.pdf`, páginas 1–2.
 
 1. Dada
 
-   ```math
+   $$
    f(x,y)=\begin{cases}
-      \dfrac{x-1}{(x-1)^2+(y-1)^2} & \text{si }(x,y)\ne(1,1)\\
+      \dfrac{x-1}{(x-1)^2+(y-1)^2} & \text{si }(x,y)\ne(1,1)\cr
       0 & \text{si }(x,y)=(1,1)
       \end{cases}
-   ```
+   $$
 
    analice si $`f(1,1)`$ es extremo relativo.
 

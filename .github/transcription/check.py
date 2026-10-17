@@ -130,8 +130,10 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
         elif token.type.startswith("math_block") or token.type == "html_block" or (token.type == "fence" and token.info.strip() == "math"):
             if BAD_TEXT.search(token.content):
                 errors.append("carácter perdido, privado o marcador cid: revisar el original")
-            if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*_<>]", token.content)):
+            if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*<>]", token.content)):
                 errors.append("GitHub puede alterar metacaracteres Markdown en el bloque; usar un bloque ```math")
+            if token.type == "fence" and token.info.strip() == "math" and text.splitlines()[token.map[0]].startswith(" "):
+                errors.append("GitHub puede dejar como código las cercas math anidadas; usar $$ con comandos sin escapes Markdown")
     output = formatted(text)
     equations = math_expressions(text)
     if equations != math_expressions(output):
@@ -147,6 +149,9 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
     if display_lines:
         errors.append("delimitador $$ sin bloque matemático reconocido")
     for expression, display in equations:
+        if re.search(r"\\begin\{aligned\}[\s\S]*?\\tag\{[\s\S]*?\\end\{aligned\}", expression):
+            errors.append("GitHub rechaza \\tag dentro de aligned; mover la etiqueta después de \\end{aligned}")
+            continue
         if "<" in expression or ">" in expression:
             errors.append("GitHub puede interpretar comparaciones como HTML; usar \\lt y \\gt")
             continue
@@ -235,6 +240,10 @@ c & d
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("```math\nf(x)=\\begin{cases}x&0<x<1\\end{cases}\n```"))
     if not any("comparaciones como HTML" in error for error in errors):
         raise ValueError("No se detecta la comparación vulnerable dentro del bloque")
+    for source, message in [("1. Texto\n\n   ```math\n   x+1\n   ```", "cercas math anidadas"), ("```math\n\\begin{aligned}x&=1\\tag{1}\\end{aligned}\n```", "tag dentro de aligned")]:
+        errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
+        if not any(message in error for error in errors):
+            raise ValueError("No se detecta la incompatibilidad de GitHub: " + message)
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 

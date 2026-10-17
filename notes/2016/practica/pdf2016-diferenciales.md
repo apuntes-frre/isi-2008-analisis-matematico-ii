@@ -58,21 +58,21 @@ Fuente: `Diferenciales.pdf`, página 1.
 
    a)
 
-   ```math
+   $$
    f(x,y)=\begin{cases}
-      \dfrac{3x^2y}{x^4+y^2} & (x,y)\ne(0,0)\\
+      \dfrac{3x^2y}{x^4+y^2} & (x,y)\ne(0,0)\cr
       0 & (x,y)\ne(0,0)
       \end{cases}
-   ```
+   $$
 
    b)
 
-   ```math
+   $$
    f(x,y)=\begin{cases}
-      \dfrac{5x^2y}{x^3+y^2} & (x,y)\ne(0,0)\\
+      \dfrac{5x^2y}{x^3+y^2} & (x,y)\ne(0,0)\cr
       0 & (x,y)\ne(0,0)
       \end{cases}
-   ```
+   $$
 
 Nota de transcripción: ambas ramas de cada función del ejercicio 8 muestran
 $`\ne(0,0)`$ en el original. Se conserva esa errata sin corregirla.

@@ -45,9 +45,9 @@
 
 1. Dada la función
 
-   ```math
-   f(x,y)=\begin{cases}\dfrac{3x^2y}{x^4+y^2},&\text{si }(x,y)\ne(0,0),\\0,&\text{si }(x,y)=(0,0),\end{cases}
-   ```
+   $$
+   f(x,y)=\begin{cases}\dfrac{3x^2y}{x^4+y^2},&\text{si }(x,y)\ne(0,0),\cr 0,&\text{si }(x,y)=(0,0),\end{cases}
+   $$
 
    demostrar que:
 

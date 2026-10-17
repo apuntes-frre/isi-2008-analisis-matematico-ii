@@ -59,15 +59,15 @@
 
    a)
 
-   ```math
-   f(x,y)=\begin{cases}\dfrac{3x^2y}{x^4+y^2},&(x,y)\ne(0,0),\\0,&(x,y)\ne(0,0).\end{cases}
-   ```
+   $$
+   f(x,y)=\begin{cases}\dfrac{3x^2y}{x^4+y^2},&(x,y)\ne(0,0),\cr 0,&(x,y)\ne(0,0).\end{cases}
+   $$
 
    b)
 
-   ```math
-   f(x,y)=\begin{cases}\dfrac{5x^2y}{x^3+y^2},&(x,y)\ne(0,0),\\0,&(x,y)\ne(0,0).\end{cases}
-   ```
+   $$
+   f(x,y)=\begin{cases}\dfrac{5x^2y}{x^3+y^2},&(x,y)\ne(0,0),\cr 0,&(x,y)\ne(0,0).\end{cases}
+   $$
 
 Nota de transcripción: el original imprime $`\ne`$ también en la condición de la
 rama de valor cero, en ambas funciones del ejercicio 8; se conserva esa errata.

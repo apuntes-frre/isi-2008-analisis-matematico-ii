@@ -84,9 +84,9 @@ HOJA DE RUTA PARA EL PRÁCTICO 6.
    $`G(x)=e^{kx}P(x)\mathop{\mathrm{sen}}\nolimits mx`$, donde $`P`$ es un
    polinomio de n-ésimo grado, en tal caso intente
 
-   ```math
+   $$
    y_P(x)=e^{kx}Q(x)\cos mx+e^{kx}R(x)\mathop{\mathrm{sen}}\nolimits mx
-   ```
+   $$
 
    donde $`Q`$ y $`R`$ son polinomios de n-ésimo grado.
 

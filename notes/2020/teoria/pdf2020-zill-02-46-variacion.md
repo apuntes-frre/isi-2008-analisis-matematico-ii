@@ -448,15 +448,15 @@ diferencial. Lleve a cabo sus ideas.
     $`I`$ para el que $`P`$, $`Q`$ y $`f`$ son continuas. Demuestre que $`y_p`$
     se puede escribir como
 
-    ```math
-    y_p(x)=\int_{x_0}^xG(x,t)f(t)\,dt, \tag{12}
-    ```
+    $$
+    y_p(x)=\int_{x_0}^xG(x,t)f(t)\thinspace dt, \tag{12}
+    $$
 
     donde $`x`$ y $`x_0`$ están en $`I`$,
 
-    ```math
+    $$
     G(x,t)=\frac{y_1(t)y_2(x)-y_1(x)y_2(t)}{W(t)}, \tag{13}
-    ```
+    $$
 
     y $`W(t)=W(y_1(t),y_2(t))`$ es el Wronskiano. La función $`G(x,t)`$ en (13)
     se llama la **función de Green** para la ecuación diferencial (2).
@@ -467,9 +467,9 @@ diferencial. Lleve a cabo sus ideas.
 
 01. Compruebe que (12) es una solución del problema con valores iniciales
 
-    ```math
+    $$
     \frac{d^2y}{dx^2}+P\frac{dy}{dx}+Qy=f(x),\quad y(x_0)=0,\quad y'(x_0)=0
-    ```
+    $$
 
     en el intervalo $`I`$. \[*Sugerencia:* Busque la regla de Leibniz para
     derivar bajo un signo de integral.\]
@@ -478,9 +478,9 @@ diferencial. Lleve a cabo sus ideas.
     del problema 32 para encontrar una solución del problema con valores
     iniciales
 
-    ```math
+    $$
     y''-y=e^{2x},\quad y(0)=0,\quad y'(0)=0
-    ```
+    $$
 
     usando (12). Evalúe la integral.
 

@@ -12,9 +12,9 @@ abierto y $`(x_0,y_0)\in D`$.
 - Se dice que $`(x_0,y_0)`$ es un **punto crítico o estacionario** de $`f`$ si
   $`f(x,y)`$ es diferenciable y
 
-  ```math
+  $$
   df(x_0,y_0)=(0,0)\Rightarrow\nabla f(x_0,y_0)=(0,0)\Leftrightarrow f_x(x_0,y_0)=0\ \text{y}\ f_y(x_0,y_0)=0.
-  ```
+  $$
 
 El punto $`(x_0,y_0,f(x_0,y_0))`$ se llama punto crítico o estacionario de la
 superficie. El plano tangente en un punto crítico es horizontal. Generalmente
@@ -101,19 +101,19 @@ a) Estudio de los extremos relativos de la función $`f(x,y)=x^3+3xy^2-15x-12y`$
 
 - Puntos críticos:
 
-  ```math
-  \begin{cases}f_x=3x^2+3y^2-15=0\\f_y=6xy-12=0\end{cases}
-    \Rightarrow\begin{cases}3x^2+3\cdot(2/x)^2-15=0\\y=2/x\end{cases}
+  $$
+  \begin{cases}f_x=3x^2+3y^2-15=0\cr f_y=6xy-12=0\end{cases}
+    \Rightarrow\begin{cases}3x^2+3\cdot(2/x)^2-15=0\cr y=2/x\end{cases}
     \Rightarrow x^4-5x^2+4=0\Rightarrow x=\pm1;\ \pm2
-  ```
+  $$
 
 Los puntos críticos son: $`(1,2)`$; $`(-1,-2)`$; $`(2,1)`$; $`(-2,-1)`$.
 
 - Hessiana:
 
-  ```math
-  \begin{cases}f_{xx}=6x&f_{xy}=6y\\f_{yx}=6y&f_{yy}=6x\end{cases}
-  ```
+  $$
+  \begin{cases}f_{xx}=6x&f_{xy}=6y\cr f_{yx}=6y&f_{yy}=6x\end{cases}
+  $$
 
 Punto $`(1,2)`$
 $`\longrightarrow Hf(1,2)=\begin{pmatrix}6&12\\12&6\end{pmatrix}`$
@@ -141,18 +141,18 @@ b) Estudio de los extremos relativos de la función $`f(x,y)=1-x^2`$.
 
 - Puntos críticos:
 
-  ```math
-  \begin{cases}f_x=-2x=0\\f_y=0\end{cases}
-    \Rightarrow\begin{cases}x=0\\y=k\end{cases}
+  $$
+  \begin{cases}f_x=-2x=0\cr f_y=0\end{cases}
+    \Rightarrow\begin{cases}x=0\cr y=k\end{cases}
     \quad\longrightarrow\text{Hay infinitos puntos críticos: }(0,k).
-  ```
+  $$
 
 - Hessiana:
 
-  ```math
-  \begin{cases}f_{xx}=-2&f_{xy}=0\\f_{yx}=0&f_{yy}=0\end{cases}
-    \Rightarrow Hf(0,k)=\begin{pmatrix}-2&0\\0&0\end{pmatrix}
-  ```
+  $$
+  \begin{cases}f_{xx}=-2&f_{xy}=0\cr f_{yx}=0&f_{yy}=0\end{cases}
+    \Rightarrow Hf(0,k)=\begin{pmatrix}-2&0\cr 0&0\end{pmatrix}
+  $$
 
 Como su determinante es cero se trata de una caso dudoso. En este caso, la duda
 se sustancia al considerar que la expresión $`1-x^2\le1`$. Por tanto, como
@@ -165,18 +165,18 @@ c) Estudio de los extremos relativos de la función $`f(x,y)=x^3-3xy^2`$.
 
 - Puntos críticos:
 
-  ```math
-  \begin{cases}f_x=3x^2-3y^2=0\\f_y=6xy=0\end{cases}
+  $$
+  \begin{cases}f_x=3x^2-3y^2=0\cr f_y=6xy=0\end{cases}
     \Rightarrow\text{Punto crítico: }(0,0).
-  ```
+  $$
 
 - Hessiana:
 
-  ```math
-  \begin{cases}f_{xx}=6x&f_{xy}=-6y\\f_{yx}=-6y&f_{yy}=6x\end{cases}
-    \Rightarrow Hf(0,0)=\begin{pmatrix}0&0\\0&0\end{pmatrix}
+  $$
+  \begin{cases}f_{xx}=6x&f_{xy}=-6y\cr f_{yx}=-6y&f_{yy}=6x\end{cases}
+    \Rightarrow Hf(0,0)=\begin{pmatrix}0&0\cr 0&0\end{pmatrix}
     \longrightarrow |H|=0\longrightarrow\text{Caso dudoso}.
-  ```
+  $$
 
 En cualquier entorno de $`(0,0)`$ existen puntos que hacen que
 $`f(x,y)\gt f(0,0)`$ y otros que hacen que $`f(x,y)\lt f(0,0)`$. En concreto,
