@@ -367,8 +367,8 @@ converge a $`\frac12[f(x_0+0)+f(x_0-0)]`$ por lo tanto
 ```math
 \begin{aligned}
 S_n(x_0)&=\frac1\pi\int_{-\pi}^0 f(x_0+s)\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits s/2}\cdot ds\\
-&\quad+\frac1\pi\int_0^{\pi}f(x_0+s)\cdot\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits s/2}\cdot ds\tag{1}
-\end{aligned}
+&\quad+\frac1\pi\int_0^{\pi}f(x_0+s)\cdot\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits s/2}\cdot ds
+\end{aligned}\tag{1}
 ```
 
 además por descomposición de la fórmula 7), por ser un integrando par:
@@ -404,8 +404,8 @@ y sumando ambas igualdades:
 \begin{aligned}
 \frac{f(x_0+0)+f(x_0-0)}2
 &=\frac1\pi\int_{-\pi}^0 f(x_0+0)\cdot\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits s/2}\cdot ds\\
-&\quad+\frac1\pi\int_0^{\pi}f(x_0-0)\cdot\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits s/2}\cdot ds\tag{2}
-\end{aligned}
+&\quad+\frac1\pi\int_0^{\pi}f(x_0-0)\cdot\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits s/2}\cdot ds
+\end{aligned}\tag{2}
 ```
 
 Restando (1)-(2) encontradas anteriormente tendremos:

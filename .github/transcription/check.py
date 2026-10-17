@@ -37,8 +37,9 @@ def math_expressions(text: str) -> list[tuple[str, bool]]:
         for child in token.children or []:
             if child.type == "math_inline":
                 content = child.content
-                if content.startswith("`") and content.endswith("`"):
-                    content = content[1:-1]
+                ticks = len(content) - len(content.lstrip("`"))
+                if ticks and content.endswith("`" * ticks):
+                    content = content[ticks:-ticks]
                 expressions.append((content, False))
     return expressions
 
@@ -130,8 +131,10 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
         elif token.type.startswith("math_block") or token.type == "html_block" or (token.type == "fence" and token.info.strip() == "math"):
             if BAD_TEXT.search(token.content):
                 errors.append("carácter perdido, privado o marcador cid: revisar el original")
-            if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*_<>]", token.content)):
+            if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*<>]", token.content)):
                 errors.append("GitHub puede alterar metacaracteres Markdown en el bloque; usar un bloque ```math")
+            if (token.type.startswith("math_block") or (token.type == "fence" and token.info.strip() == "math")) and text.splitlines()[token.map[0]].startswith(" "):
+                errors.append("GitHub puede dejar sin renderizar el bloque matemático anidado; usar $`\\displaystyle ...`$")
     output = formatted(text)
     equations = math_expressions(text)
     if equations != math_expressions(output):
@@ -147,6 +150,9 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
     if display_lines:
         errors.append("delimitador $$ sin bloque matemático reconocido")
     for expression, display in equations:
+        if re.search(r"\\begin\{aligned\}[\s\S]*?\\tag\{[\s\S]*?\\end\{aligned\}", expression):
+            errors.append("GitHub rechaza \\tag dentro de aligned; mover la etiqueta después de \\end{aligned}")
+            continue
         if "<" in expression or ">" in expression:
             errors.append("GitHub puede interpretar comparaciones como HTML; usar \\lt y \\gt")
             continue
@@ -224,6 +230,8 @@ c & d
             raise ValueError("No se detecta la macro que GitHub rechaza")
     if math_expressions(r"$`x\,dx`$") != [(r"x\,dx", False)]:
         raise ValueError("No se extrae la expresión protegida de GitHub")
+    if math_expressions(r"$``x^{`}``$") != [(r"x^{`}", False)]:
+        raise ValueError("No se conserva el acento grave dentro de la expresión protegida")
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(r"$x\,dx$"))
     if not any("GitHub altera escapes" in error for error in errors):
         raise ValueError("No se detecta el escape Markdown sin protección")
@@ -235,6 +243,10 @@ c & d
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("```math\nf(x)=\\begin{cases}x&0<x<1\\end{cases}\n```"))
     if not any("comparaciones como HTML" in error for error in errors):
         raise ValueError("No se detecta la comparación vulnerable dentro del bloque")
+    for source, message in [("1. Texto\n\n   ```math\n   x+1\n   ```", "bloque matemático anidado"), ("1. Texto\n\n   $$\n   x+1\n   $$", "bloque matemático anidado"), ("```math\n\\begin{aligned}x&=1\\tag{1}\\end{aligned}\n```", "tag dentro de aligned")]:
+        errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
+        if not any(message in error for error in errors):
+            raise ValueError("No se detecta la incompatibilidad de GitHub: " + message)
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 

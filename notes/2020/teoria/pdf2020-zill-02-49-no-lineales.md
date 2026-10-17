@@ -244,9 +244,12 @@ ecuación diferencial” y la grafía “específican” de la página 175. La
 continuación de la sección y sus ejercicios quedan fuera de este rango de
 páginas.
 
-[^programa]: Algunos programas de solución numérica sólo requieren que una
-    ecuación diferencial de segundo orden sea expresada en la forma
-    normal $`y''=f(x,y,y')`$. La traducción de la única ecuación en un
-    sistema de dos ecuaciones se construye en el programa de
-    computadora, ya que la primera ecuación del sistema siempre es
-    $`y'=u`$ y la segunda ecuación es $`u'=f(x,y,u)`$.
+## Nota del original
+
+Algunos programas de solución numérica sólo requieren que una ecuación
+diferencial de segundo orden sea expresada en la forma normal $`y''=f(x,y,y')`$.
+La traducción de la única ecuación en un sistema de dos ecuaciones se construye
+en el programa de computadora, ya que la primera ecuación del sistema siempre es
+$`y'=u`$ y la segunda ecuación es $`u'=f(x,y,u)`$.
+
+[^programa]: Véase la [nota del original](#nota-del-original).

@@ -45,12 +45,10 @@ Fuente: `Series de Fourier- Práctica.pdf`, páginas 1–3.
 
 1. Desarrolle en series de Fourier la función
 
-   ```math
-   f(x)=\begin{cases}
-      2&\text{si }-\frac{\pi}{2}\lt x\lt \frac{\pi}{2}\\
-      0&\text{si }-\pi\lt x\lt -\frac{\pi}{2}\ \text{o}\ \frac{\pi}{2}\lt x\lt \pi
-      \end{cases}
-   ```
+   $`\displaystyle f(x)=\begin{cases}
+   2&\text{si }-\frac{\pi}{2}\lt x\lt \frac{\pi}{2}\\
+   0&\text{si }-\pi\lt x\lt -\frac{\pi}{2}\ \text{o}\ \frac{\pi}{2}\lt x\lt \pi
+   \end{cases}`$
 
 1. Sea la función periódica del gráfico
 

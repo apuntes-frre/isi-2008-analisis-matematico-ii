@@ -306,26 +306,20 @@ Dos ejemplos sencillos de parametrización de superficies son los siguientes:
 1. **Parametrización del plano en coordenadas polares.** El plano $`z=k`$ se
    puede parametrizar utilizando coordenadas polares:
 
-   ```math
-   \{(x,y,k),\ x,y\in\mathbb R\}=\{(r\cos\phi,r\sin\phi,k),\ r\ge0,\ 0\le\phi\lt 2\pi\}.
-   ```
+   $`\displaystyle \{(x,y,k),\ x,y\in\mathbb R\}=\{(r\cos\phi,r\sin\phi,k),\ r\ge0,\ 0\le\phi\lt 2\pi\}.`$
 
 1. **Parametrización de una esfera mediante coordenadas esféricas.** Una esfera
    de radio $`R`$ se puede parametrizar utilizando dos ángulos:
 
-   ```math
-   \begin{aligned}
-      x(\theta,\phi)&=R\sin\theta\cos\phi\\
-      y(\theta,\phi)&=R\sin\theta\sin\phi\\
-      z(\theta,\phi)&=R\cos\theta
-      \end{aligned}
-   ```
+   $`\displaystyle \begin{aligned}
+   x(\theta,\phi)&=R\sin\theta\cos\phi\\
+   y(\theta,\phi)&=R\sin\theta\sin\phi\\
+   z(\theta,\phi)&=R\cos\theta
+   \end{aligned}`$
 
    De modo que la esfera $`S`$ es:
 
-   ```math
-   S=\{(x(\theta,\phi),y(\theta,\phi),z(\theta,\phi))\ 0\le\theta\lt \pi,\ 0\le\phi\le2\pi\}
-   ```
+   $`\displaystyle S=\{(x(\theta,\phi),y(\theta,\phi),z(\theta,\phi))\ 0\le\theta\lt \pi,\ 0\le\phi\le2\pi\}`$
 
 ## Página 16/32: Integrales de Superficie
 

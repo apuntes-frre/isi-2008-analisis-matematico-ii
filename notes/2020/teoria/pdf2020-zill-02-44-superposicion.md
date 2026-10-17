@@ -183,15 +183,11 @@ $`y'`$ sean continuas en $`x=\pi/2`$ (problema 41) y en $`x=\pi`$ (problema
 
 41. $`y''+4y=g(x),\quad y(0)=1,\ y'(0)=2`$, donde
 
-    ```math
-    g(x)=\begin{cases}\mathop{\mathrm{sen}}\nolimits x,&0\le x\le\pi/2,\\0,&x\gt \pi/2.\end{cases}
-    ```
+    $`\displaystyle g(x)=\begin{cases}\mathop{\mathrm{sen}}\nolimits x,&0\le x\le\pi/2,\\0,&x\gt \pi/2.\end{cases}`$
 
 01. $`y''-2y'+10y=g(x),\quad y(0)=0,\ y'(0)=0`$, donde
 
-    ```math
-    g(x)=\begin{cases}20,&0\le x\le\pi,\\0,&x\gt \pi.\end{cases}
-    ```
+    $`\displaystyle g(x)=\begin{cases}20,&0\le x\le\pi,\\0,&x\gt \pi.\end{cases}`$
 
 ### Problemas para analizar
 
@@ -219,13 +215,11 @@ $`y'`$ sean continuas en $`x=\pi/2`$ (problema 41) y en $`x=\pi`$ (problema
 01. Sin resolver, relacione una curva solución de $`y''+y=f(x)`$ que se muestra
     en la figura con una de las siguientes funciones:
 
-    ```math
-    \begin{array}{ll}
-        i)\ f(x)=1,&ii)\ f(x)=e^{-x},\\
-        iii)\ f(x)=e^x,&iv)\ f(x)=\mathop{\mathrm{sen}}\nolimits 2x,\\
-        v)\ f(x)=e^x\mathop{\mathrm{sen}}\nolimits x,&vi)\ f(x)=\mathop{\mathrm{sen}}\nolimits x.
-        \end{array}
-    ```
+    $`\displaystyle \begin{array}{ll}
+    i)\ f(x)=1,&ii)\ f(x)=e^{-x},\\
+    iii)\ f(x)=e^x,&iv)\ f(x)=\mathop{\mathrm{sen}}\nolimits 2x,\\
+    v)\ f(x)=e^x\mathop{\mathrm{sen}}\nolimits x,&vi)\ f(x)=\mathop{\mathrm{sen}}\nolimits x.
+    \end{array}`$
 
     Analice brevemente su razonamiento.
 

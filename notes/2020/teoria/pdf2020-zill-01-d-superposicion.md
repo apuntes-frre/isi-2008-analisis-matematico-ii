@@ -102,8 +102,8 @@ derivadas de sus sumas y productos son de nuevo sumas y productos de constantes,
 polinomios, exponenciales $`e^{\alpha x}`$, senos y cosenos. Debido a que la
 combinación lineal de derivadas
 $`a_ny_p^{(n)}+a_{n-1}y_p^{(n-1)}+\cdots+a_1y_p'+a_0y_p`$ debe ser idéntica a
-$`g(x)`$, parece razonable suponer que $`y_p`$ *tiene la misma forma que
-$`g(x)`$*.
+$`g(x)`$, parece razonable suponer que $`y_p`$ *tiene la misma forma que*
+$`g(x)`$.
 
 En los dos ejemplos siguientes se ilustra el método básico.
 

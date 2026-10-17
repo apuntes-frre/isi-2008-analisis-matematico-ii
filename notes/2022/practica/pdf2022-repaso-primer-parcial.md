@@ -23,10 +23,8 @@
 1. Decidir si la función es diferenciable en cada punto de su dominio
    justificando la respuesta
 
-   ```math
-   f(x,y)=\begin{cases}\dfrac{2xy}{(x^2+y^2)^2},&\text{si }(x,y)\ne(0,0),\\1,&\text{si }(x,y)=(0,0).
-      \end{cases}
-   ```
+   $`\displaystyle f(x,y)=\begin{cases}\dfrac{2xy}{(x^2+y^2)^2},&\text{si }(x,y)\ne(0,0),\\1,&\text{si }(x,y)=(0,0).
+   \end{cases}`$
 
 1. Analizar la existencia de extremos relativos (y de existir, clasificarlos)
    para $`f(x,y)=x^2+y^2+yx^2`$.

@@ -171,24 +171,18 @@ en el plano $`xy`$. Para esto analicemos tres casos:
 
 - Si $`k\lt 0`$, digamos que $`k=-c^2`$, entonces
 
-  ```math
-  y^2-x^2=-c^2\Rightarrow\frac{x^2}{c^2}-\frac{y^2}{c^2}=1
-  ```
+  $`\displaystyle y^2-x^2=-c^2\Rightarrow\frac{x^2}{c^2}-\frac{y^2}{c^2}=1`$
 
 Por tanto las curvas de nivel son hipérbolas con eje transversal horizontal y
 asíntotas $`y=\pm x`$.
 
 - Si $`k=0`$
 
-  ```math
-  y^2-x^2=0\Rightarrow y=\pm x\quad\text{(rectas)}
-  ```
+  $`\displaystyle y^2-x^2=0\Rightarrow y=\pm x\quad\text{(rectas)}`$
 
 - Si $`k\gt 0`$, digamos que $`k=c^2`$, entonces
 
-  ```math
-  y^2-x^2=-c^2\Rightarrow\frac{x^2}{c^2}-\frac{y^2}{c^2}=1
-  ```
+  $`\displaystyle y^2-x^2=-c^2\Rightarrow\frac{x^2}{c^2}-\frac{y^2}{c^2}=1`$
 
 Por tanto las curvas de nivel son hipérbolas con eje transversal vertical y
 asíntotas $`y=\pm x`$.
@@ -209,25 +203,19 @@ Vamos a analizar tres casos:
 
 - Si $`k\gt 1`$, digamos que $`k=c^2+1`$ con $`c=\pm1`$, entonces
 
-  ```math
-  x^2+y^2+1=1+c^2\Rightarrow x^2+y^2=c^2
-  ```
+  $`\displaystyle x^2+y^2+1=1+c^2\Rightarrow x^2+y^2=c^2`$
 
 Entonces las curvas de nivel son círculos con centro en $`(0,0)`$ y radio $`r`$.
 
 - Si $`k=1`$, entonces
 
-  ```math
-  x^2+y^2+1=1\Rightarrow x^2+y^2=0
-  ```
+  $`\displaystyle x^2+y^2+1=1\Rightarrow x^2+y^2=0`$
 
 lo cual corresponde al punto $`(0,0)`$.
 
 - Si $`k\lt 1`$, digamos que $`k=1-c^2`$ con $`c\ne0`$, entonces
 
-  ```math
-  x^2+y^2+1=1-c^2\Rightarrow x^2+y^2=-c^2
-  ```
+  $`\displaystyle x^2+y^2+1=1-c^2\Rightarrow x^2+y^2=-c^2`$
 
 ## Página 8
 

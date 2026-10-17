@@ -428,12 +428,10 @@ En los problemas 21 y 22 resuelva el problema con valores iniciales.
 
 25. Examine y analice el siguiente sistema:
 
-    ```math
-    \begin{aligned}
-        Dx-2Dy&=t^2\\
-        (D+1)x-2(D+1)y&=1.
-        \end{aligned}
-    ```
+    $`\displaystyle \begin{aligned}
+    Dx-2Dy&=t^2\\
+    (D+1)x-2(D+1)y&=1.
+    \end{aligned}`$
 
 ### Tarea para el laboratorio de computación
 
@@ -444,13 +442,11 @@ En los problemas 21 y 22 resuelva el problema con valores iniciales.
 01. a) Lea nuevamente el problema 8 de los ejercicios 3.3. En ese problema se
     pidió demostrar que el sistema de ecuaciones diferenciales
 
-    ```math
-    \begin{aligned}
-        \frac{dx_1}{dt}&=-\frac1{50}x_1\\
-        \frac{dx_2}{dt}&=\frac1{50}x_1-\frac2{75}x_2\\
-        \frac{dx_3}{dt}&=\frac2{75}x_2-\frac1{25}x_3
-        \end{aligned}
-    ```
+    $`\displaystyle \begin{aligned}
+    \frac{dx_1}{dt}&=-\frac1{50}x_1\\
+    \frac{dx_2}{dt}&=\frac1{50}x_1-\frac2{75}x_2\\
+    \frac{dx_3}{dt}&=\frac2{75}x_2-\frac1{25}x_3
+    \end{aligned}`$
 
     es un modelo para las cantidades de sal en los tanques de mezclado
     conectados $`A`$, $`B`$ y $`C`$ que se muestran en la figura 3.3.7. Resuelva
