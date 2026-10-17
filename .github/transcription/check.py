@@ -37,8 +37,9 @@ def math_expressions(text: str) -> list[tuple[str, bool]]:
         for child in token.children or []:
             if child.type == "math_inline":
                 content = child.content
-                if content.startswith("`") and content.endswith("`"):
-                    content = content[1:-1]
+                ticks = len(content) - len(content.lstrip("`"))
+                if ticks and content.endswith("`" * ticks):
+                    content = content[ticks:-ticks]
                 expressions.append((content, False))
     return expressions
 
@@ -229,6 +230,8 @@ c & d
             raise ValueError("No se detecta la macro que GitHub rechaza")
     if math_expressions(r"$`x\,dx`$") != [(r"x\,dx", False)]:
         raise ValueError("No se extrae la expresión protegida de GitHub")
+    if math_expressions(r"$``x^{`}``$") != [(r"x^{`}", False)]:
+        raise ValueError("No se conserva el acento grave dentro de la expresión protegida")
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(r"$x\,dx$"))
     if not any("GitHub altera escapes" in error for error in errors):
         raise ValueError("No se detecta el escape Markdown sin protección")

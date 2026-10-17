@@ -36,7 +36,7 @@ lo largo de la curva de ecuación
 $`\mathbf{\ \ y = y}\left( \mathbf{x} \right)\mathbf{\ con\ y \geq 0}`$ que es
 la solución de
 
-$`\mathbf{y.}\mathbf{y}^{\mathbf{`}}\mathbf{+ x = 0\ \ \ \ desde\ \ a =}\left( \mathbf{1,0} \right)\mathbf{hasta\ b = ( - 1,0)}`$
+$``\mathbf{y.}\mathbf{y}^{\mathbf{`}}\mathbf{+ x = 0\ \ \ \ desde\ \ a =}\left( \mathbf{1,0} \right)\mathbf{hasta\ b = ( - 1,0)}``$
 
 b) Justifique que $`\mathbf{F}\left( \mathbf{x,y} \right)`$ es un campo de
 gradiente y verifique a) mediante la función potencial.
