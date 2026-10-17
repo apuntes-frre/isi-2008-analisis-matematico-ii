@@ -146,7 +146,7 @@ $m_2=-\omega i$. Así de (8) de la sección 4.3 se encuentra la solución genera
 de (2) es
 
 $$
-x(t)=c_1\cos\omega t+c_2\operatorname{sen}\omega t.\tag{3}
+x(t)=c_1\cos\omega t+c_2\mathop{\mathrm{sen}}\nolimits \omega t.\tag{3}
 $$
 
 El **periodo** del movimiento descrito por la ecuación (3) es $T=2\pi/\omega$.
@@ -163,17 +163,18 @@ negativo correspondiente a la masa que logra su altura máxima arriba de la
 posición de equilibrio. Se hace referencia a cualquier caso como un
 **desplazamiento extremo** de la masa. La **frecuencia** de movimiento es
 $f=1/T=\omega/2\pi$ y es el número de ciclos completado cada segundo. Por
-ejemplo, si $x(t)=2\cos3\pi t-4\operatorname{sen}3\pi t$, entonces el periodo es
-$T=2\pi/3\pi=2/3$ s y la frecuencia es $f=3/2$ ciclos/s. Desde un punto de vista
-esquemático la gráfica de $x(t)$ se repite cada $\frac23$ de segundo, es decir,
-$x\left(t+\frac23\right)=x(t)$, y $\frac32$ ciclos de la gráfica se completan
-cada segundo (o, equivalentemente, tres ciclos de la gráfica se completan cada
-dos segundos). El número $\omega=\sqrt{k/m}$ (medido en radianes por segundo) se
-llama **frecuencia circular** del sistema. Dependiendo de qué libro lea, tanto
-$f=\omega/2\pi$ como $\omega$ se conocen como **frecuencia natural** del
-sistema. Por último, cuando se emplean las condiciones iniciales para determinar
-las constantes $c_1$ y $c_2$ en (3), se dice que la solución particular
-resultante o respuesta es la **ecuación de movimiento**.
+ejemplo, si $x(t)=2\cos3\pi t-4\mathop{\mathrm{sen}}\nolimits 3\pi t$, entonces
+el periodo es $T=2\pi/3\pi=2/3$ s y la frecuencia es $f=3/2$ ciclos/s. Desde un
+punto de vista esquemático la gráfica de $x(t)$ se repite cada $\frac23$ de
+segundo, es decir, $x\left(t+\frac23\right)=x(t)$, y $\frac32$ ciclos de la
+gráfica se completan cada segundo (o, equivalentemente, tres ciclos de la
+gráfica se completan cada dos segundos). El número $\omega=\sqrt{k/m}$ (medido
+en radianes por segundo) se llama **frecuencia circular** del sistema.
+Dependiendo de qué libro lea, tanto $f=\omega/2\pi$ como $\omega$ se conocen
+como **frecuencia natural** del sistema. Por último, cuando se emplean las
+condiciones iniciales para determinar las constantes $c_1$ y $c_2$ en (3), se
+dice que la solución particular resultante o respuesta es la **ecuación de
+movimiento**.
 
 ### Ejemplo 1. Movimiento libre no amortiguado
 
@@ -205,14 +206,14 @@ Ahora $\omega^2=64$ o $\omega=8$, por lo que la solución general de la ecuació
 diferencial es
 
 $$
-x(t)=c_1\cos8t+c_2\operatorname{sen}8t.\tag{4}
+x(t)=c_1\cos8t+c_2\mathop{\mathrm{sen}}\nolimits 8t.\tag{4}
 $$
 
 Aplicando las condiciones iniciales a $x(t)$ y $x'(t)$ se obtiene $c_1=\frac23$
 y $c_2=-\frac16$. Por tanto, la ecuación de movimiento es
 
 $$
-x(t)=\frac23\cos8t-\frac16\operatorname{sen}8t.\tag{5}
+x(t)=\frac23\cos8t-\frac16\mathop{\mathrm{sen}}\nolimits 8t.\tag{5}
 $$
 
 ### Forma alternativa de x(t)
@@ -225,36 +226,36 @@ $\frac23$. Por tanto, suele ser conveniente convertir una solución de la forma
 (3) en una forma más simple
 
 $$
-x(t)=A\operatorname{sen}(\omega t+\phi),\tag{6}
+x(t)=A\mathop{\mathrm{sen}}\nolimits (\omega t+\phi),\tag{6}
 $$
 
 donde $A=\sqrt{c_1^2+c_2^2}$ y $\phi$ es un **ángulo de fase** definido por
 
 $$
-\left.\begin{aligned}\operatorname{sen}\phi&=\frac{c_1}A\\\cos\phi&=\frac{c_2}A\end{aligned}\right\}\tan\phi=\frac{c_1}{c_2}.\tag{7}
+\left.\begin{aligned}\mathop{\mathrm{sen}}\nolimits \phi&=\frac{c_1}A\\\cos\phi&=\frac{c_2}A\end{aligned}\right\}\tan\phi=\frac{c_1}{c_2}.\tag{7}
 $$
 
 Para comprobar esto se desarrolla la ecuación (6) usando la fórmula de suma para
 la función seno:
 
 $$
-A\operatorname{sen}\omega t\cos\phi+A\cos\omega t\operatorname{sen}\phi
-=(A\operatorname{sen}\phi)\cos\omega t+(A\cos\phi)\operatorname{sen}\omega
+A\mathop{\mathrm{sen}}\nolimits \omega t\cos\phi+A\cos\omega t\mathop{\mathrm{sen}}\nolimits \phi
+=(A\mathop{\mathrm{sen}}\nolimits \phi)\cos\omega t+(A\cos\phi)\mathop{\mathrm{sen}}\nolimits \omega
 t.\tag{8}
 $$
 
 Se deduce de la figura 5.1.3 que si $\phi$ está definida por
 
 $$
-\operatorname{sen}\phi=\frac{c_1}{\sqrt{c_1^2+c_2^2}}=\frac{c_1}A,\qquad
+\mathop{\mathrm{sen}}\nolimits \phi=\frac{c_1}{\sqrt{c_1^2+c_2^2}}=\frac{c_1}A,\qquad
 \cos\phi=\frac{c_2}{\sqrt{c_1^2+c_2^2}}=\frac{c_2}A,
 $$
 
 entonces la ecuación (8) se convierte en
 
 $$
-A\frac{c_1}A\cos\omega t+A\frac{c_2}A\operatorname{sen}\omega t
-=c_1\cos\omega t+c_2\operatorname{sen}\omega t=x(t).
+A\frac{c_1}A\cos\omega t+A\frac{c_2}A\mathop{\mathrm{sen}}\nolimits \omega t
+=c_1\cos\omega t+c_2\mathop{\mathrm{sen}}\nolimits \omega t=x(t).
 $$
 
 ![Figura 5.1.3. Una relación entre c1 mayor que cero, c2 mayor que cero y el ángulo de fase phi](../../../resources/2020/pdf2020-zill-03/p68-figura-5-1-3.png)
@@ -262,20 +263,20 @@ $$
 ### Ejemplo 2. Forma alternativa de solución (5)
 
 En vista de la descripción anterior, se puede escribir la solución (5) en la
-forma alternativa $x(t)=A\operatorname{sen}(8t+\phi)$. El cálculo de la amplitud
-es directo,
+forma alternativa $x(t)=A\mathop{\mathrm{sen}}\nolimits (8t+\phi)$. El cálculo
+de la amplitud es directo,
 $A=\sqrt{\left(\frac23\right)^2+\left(-\frac16\right)^2}=\sqrt{\frac{17}{36}}\approx0.69$
 pies, pero se debe tener cuidado al calcular el ángulo de fase $\phi$ definido
 por (7). Con $c_1=\frac23$ y $c_2=-\frac16$ se encuentra $\tan\phi=-4$ y, con
 una calculadora se obtiene $\tan^{-1}(-4)=-1.326$ rad. Este *no* es el ángulo de
 fase, puesto que $\tan^{-1}(-4)$ se localiza en el *cuarto cuadrante* y por
-tanto contradice el hecho de que $\operatorname{sen}\phi>0$ y $\cos\phi<0$
-porque $c_1>0$ y $c_2<0$. Por tanto, se debe considerar que $\phi$ es un ángulo
-del *segundo cuadrante* $\phi=\pi+(-1.326)=1.816$ rad. Así la ecuación (5) es
-igual a
+tanto contradice el hecho de que $\mathop{\mathrm{sen}}\nolimits \phi>0$ y
+$\cos\phi<0$ porque $c_1>0$ y $c_2<0$. Por tanto, se debe considerar que $\phi$
+es un ángulo del *segundo cuadrante* $\phi=\pi+(-1.326)=1.816$ rad. Así la
+ecuación (5) es igual a
 
 $$
-x(t)=\frac{\sqrt{17}}6\operatorname{sen}(8t+1.816).\tag{9}
+x(t)=\frac{\sqrt{17}}6\mathop{\mathrm{sen}}\nolimits (8t+1.816).\tag{9}
 $$
 
 El periodo de esta función es $T=2\pi/8=\pi/4$ s.
@@ -304,8 +305,8 @@ reflexión por el eje $t$ de la curva punteada azul de la figura 5.1.4a.
 
 La forma (6) es muy útil porque es fácil encontrar valores de tiempo para los
 cuales la gráfica de $x(t)$ cruza el eje $t$ positivo (la recta $x=0$). Se
-observa que $\operatorname{sen}(\omega t+\phi)=0$ cuando $\omega t+\phi=n\pi$,
-donde $n$ es un entero no negativo.
+observa que $\mathop{\mathrm{sen}}\nolimits (\omega t+\phi)=0$ cuando
+$\omega t+\phi=n\pi$, donde $n$ es un entero no negativo.
 
 ### Sistemas con constantes de resorte variables
 
@@ -438,7 +439,7 @@ Así que la ecuación general de la ecuación (11) es
 
 $$
 x(t)=e^{-\lambda
-t}\left(c_1\cos\sqrt{\omega^2-\lambda^2}\,t+c_2\operatorname{sen}\sqrt{\omega^2-\lambda^2}\,t\right).\tag{15}
+t}\left(c_1\cos\sqrt{\omega^2-\lambda^2}\,t+c_2\mathop{\mathrm{sen}}\nolimits \sqrt{\omega^2-\lambda^2}\,t\right).\tag{15}
 $$
 
 Como se indica en la figura 5.1.8, el movimiento descrito por la ecuación (15)
@@ -558,14 +559,14 @@ Procediendo, encontramos que las raíces de $m^2+2m+10=0$ son $m_1=-1+3i$ y
 $m_2=-1-3i$, lo que significa que el sistema está subamortiguado y
 
 $$
-x(t)=e^{-t}(c_1\cos3t+c_2\operatorname{sen}3t).\tag{21}
+x(t)=e^{-t}(c_1\cos3t+c_2\mathop{\mathrm{sen}}\nolimits 3t).\tag{21}
 $$
 
 Por último, las condiciones iniciales $x(0)=-2$ y $x'(0)=0$ producen $c_1=-2$ y
 $c_2=-\frac23$, por lo que la ecuación de movimiento es
 
 $$
-x(t)=e^{-t}\left(-2\cos3t-\frac23\operatorname{sen}3t\right).\tag{22}
+x(t)=e^{-t}\left(-2\cos3t-\frac23\mathop{\mathrm{sen}}\nolimits 3t\right).\tag{22}
 $$
 
 ### Forma alternativa de x(t) — continuación, PDF 72
@@ -575,21 +576,21 @@ escribir cualquier solución
 
 $$
 x(t)=e^{-\lambda
-t}\left(c_1\cos\sqrt{\omega^2-\lambda^2}\,t+c_2\operatorname{sen}\sqrt{\omega^2-\lambda^2}\,t\right)
+t}\left(c_1\cos\sqrt{\omega^2-\lambda^2}\,t+c_2\mathop{\mathrm{sen}}\nolimits \sqrt{\omega^2-\lambda^2}\,t\right)
 $$
 
 en la forma alternativa
 
 $$
 x(t)=Ae^{-\lambda
-t}\operatorname{sen}\left(\sqrt{\omega^2-\lambda^2}\,t+\phi\right),\tag{23}
+t}\mathop{\mathrm{sen}}\nolimits \left(\sqrt{\omega^2-\lambda^2}\,t+\phi\right),\tag{23}
 $$
 
 donde $A=\sqrt{c_1^2+c_2^2}$ y el ángulo de fase $\phi$ se determina de las
 ecuaciones
 
 $$
-\operatorname{sen}\phi=\frac{c_1}A,\qquad\cos\phi=\frac{c_2}A,\qquad\tan\phi=\frac{c_1}{c_2}.
+\mathop{\mathrm{sen}}\nolimits \phi=\frac{c_1}A,\qquad\cos\phi=\frac{c_2}A,\qquad\tan\phi=\frac{c_1}{c_2}.
 $$
 
 ## Página PDF 73 — Página impresa 189
@@ -603,7 +604,7 @@ para la ecuación de movimiento del ejemplo 5, que $A=2\sqrt{10}/3$ y
 $\phi=4.391$. Por tanto, una forma equivalente de (22) es
 
 $$
-x(t)=\frac{2\sqrt{10}}3e^{-t}\operatorname{sen}(3t+4.391).
+x(t)=\frac{2\sqrt{10}}3e^{-t}\mathop{\mathrm{sen}}\nolimits (3t+4.391).
 $$
 
 ### 5.1.3 Sistemas resorte/masa: Movimiento forzado
@@ -660,13 +661,13 @@ $$
 $$
 
 por los métodos usuales. Debido a que $m_1=-3+i$, $m_2=-3-i$, se deduce que
-$x_c(t)=e^{-3t}(c_1\cos t+c_2\operatorname{sen}t)$. Con el método de
-coeficientes indeterminados, se supone una solución particular de la forma
-$x_p(t)=A\cos4t+B\operatorname{sen}4t$. Derivando $x_p(t)$ y sustituyendo en la
-ED, se obtiene
+$x_c(t)=e^{-3t}(c_1\cos t+c_2\mathop{\mathrm{sen}}\nolimits t)$. Con el método
+de coeficientes indeterminados, se supone una solución particular de la forma
+$x_p(t)=A\cos4t+B\mathop{\mathrm{sen}}\nolimits 4t$. Derivando $x_p(t)$ y
+sustituyendo en la ED, se obtiene
 
 $$
-x_p''+6x_p'+10x_p=(-6A+24B)\cos4t+(-24A-6B)\operatorname{sen}4t=25\cos4t.
+x_p''+6x_p'+10x_p=(-6A+24B)\cos4t+(-24A-6B)\mathop{\mathrm{sen}}\nolimits 4t=25\cos4t.
 $$
 
 ## Página PDF 74 — Página impresa 190
@@ -681,7 +682,7 @@ se cumple en $A=-\frac{25}{102}$ y $B=\frac{50}{51}$. Se tiene que
 
 $$
 x(t)=e^{-3t}(c_1\cos
-t+c_2\operatorname{sen}t)-\frac{25}{102}\cos4t+\frac{50}{51}\operatorname{sen}4t.\tag{27}
+t+c_2\mathop{\mathrm{sen}}\nolimits t)-\frac{25}{102}\cos4t+\frac{50}{51}\mathop{\mathrm{sen}}\nolimits 4t.\tag{27}
 $$
 
 Cuando se hace $t=0$ en la ecuación anterior, se obtiene $c_1=\frac{38}{51}$.
@@ -690,28 +691,28 @@ $c_2=-\frac{86}{51}$. Por tanto, la ecuación de movimiento es
 
 $$
 x(t)=e^{-3t}\left(\frac{38}{51}\cos
-t-\frac{86}{51}\operatorname{sen}t\right)-\frac{25}{102}\cos4t+\frac{50}{51}\operatorname{sen}4t.\tag{28}
+t-\frac{86}{51}\mathop{\mathrm{sen}}\nolimits t\right)-\frac{25}{102}\cos4t+\frac{50}{51}\mathop{\mathrm{sen}}\nolimits 4t.\tag{28}
 $$
 
 ### Términos transitorio y de estado estable
 
-Cuando $F$ es una función periódica, como $F(t)=F_0\operatorname{sen}\gamma t$ o
-$F(t)=F_0\cos\gamma t$, la solución general de (25) para $\lambda>0$ es la suma
-de una función no periódica $x_c(t)$ y una función periódica $x_p(t)$. Además
-$x_c(t)$ se desvanece conforme se incrementa el tiempo, es decir,
-$\lim_{t\to\infty}x_c(t)=0$. Así, para valores grandes de tiempo, los
-desplazamientos de la masa se aproximan mediante la solución particular
-$x_p(t)$. Se dice que la función complementaria $x_c(t)$ es un **término
-transitorio o solución transitoria** y la función $x_p(t)$, la parte de la
-solución que permanece después de un intervalo de tiempo, se llama **término de
-estado estable o solución de estado estable**. Por tanto, observe que el efecto
-de las condiciones iniciales en un sistema resorte/masa impulsado por $F$ es
-transitorio. En la solución particular (28),
-$e^{-3t}\left(\frac{38}{51}\cos t-\frac{86}{51}\operatorname{sen}t\right)$ es un
-término transitorio y
-$x_p(t)=-\frac{25}{102}\cos4t+\frac{50}{51}\operatorname{sen}4t$ es un término
-de estado estable. Las gráficas de estos dos términos y la solución (28) se
-presentan en las figuras 5.12a y 5.12b, respectivamente.
+Cuando $F$ es una función periódica, como
+$F(t)=F_0\mathop{\mathrm{sen}}\nolimits \gamma t$ o $F(t)=F_0\cos\gamma t$, la
+solución general de (25) para $\lambda>0$ es la suma de una función no periódica
+$x_c(t)$ y una función periódica $x_p(t)$. Además $x_c(t)$ se desvanece conforme
+se incrementa el tiempo, es decir, $\lim_{t\to\infty}x_c(t)=0$. Así, para
+valores grandes de tiempo, los desplazamientos de la masa se aproximan mediante
+la solución particular $x_p(t)$. Se dice que la función complementaria $x_c(t)$
+es un **término transitorio o solución transitoria** y la función $x_p(t)$, la
+parte de la solución que permanece después de un intervalo de tiempo, se llama
+**término de estado estable o solución de estado estable**. Por tanto, observe
+que el efecto de las condiciones iniciales en un sistema resorte/masa impulsado
+por $F$ es transitorio. En la solución particular (28),
+$e^{-3t}\left(\frac{38}{51}\cos t-\frac{86}{51}\mathop{\mathrm{sen}}\nolimits t\right)$
+es un término transitorio y
+$x_p(t)=-\frac{25}{102}\cos4t+\frac{50}{51}\mathop{\mathrm{sen}}\nolimits 4t$ es
+un término de estado estable. Las gráficas de estos dos términos y la solución
+(28) se presentan en las figuras 5.12a y 5.12b, respectivamente.
 
 ![Figura 5.1.12. Gráfica de la solución dada en (28); a) términos transitorio y estable; b) suma](../../../resources/2020/pdf2020-zill-03/p74-figura-5-1-12.png)
 
@@ -720,14 +721,14 @@ presentan en las figuras 5.12a y 5.12b, respectivamente.
 La solución del problema con valores iniciales
 
 $$
-\frac{d^2x}{dt^2}+2\frac{dx}{dt}+2x=4\cos t+2\operatorname{sen}t,\qquad
+\frac{d^2x}{dt^2}+2\frac{dx}{dt}+2x=4\cos t+2\mathop{\mathrm{sen}}\nolimits t,\qquad
 x(0)=0,\quad x'(0)=x_1,
 $$
 
 donde $x_1$ es constante, está dada por
 
 $$
-x(t)=\underbrace{(x_1-2)e^{-t}\operatorname{sen}t}_{\text{transitorio}}+\underbrace{2\operatorname{sen}t}_{\text{estado
+x(t)=\underbrace{(x_1-2)e^{-t}\mathop{\mathrm{sen}}\nolimits t}_{\text{transitorio}}+\underbrace{2\mathop{\mathrm{sen}}\nolimits t}_{\text{estado
 estable}}.
 $$
 
@@ -749,7 +750,7 @@ libres amortiguadas causa un problema grave en un sistema mecánico oscilatorio.
 Resuelva el problema con valor inicial
 
 $$
-\frac{d^2x}{dt^2}+\omega^2x=F_0\operatorname{sen}\gamma t,\qquad x(0)=0,\quad
+\frac{d^2x}{dt^2}+\omega^2x=F_0\mathop{\mathrm{sen}}\nolimits \gamma t,\qquad x(0)=0,\quad
 x'(0)=0,\tag{29}
 $$
 
@@ -758,35 +759,35 @@ donde $F_0$ es una constante y $\gamma\ne\omega$.
 ## Página PDF 75 — Página impresa 191
 
 **Solución** La función complementaria es
-$x_c(t)=c_1\cos\omega t+c_2\operatorname{sen}\omega t$. Para obtener una
-solución particular se supone
-$x_p(t)=A\cos\gamma t+B\operatorname{sen}\gamma t$, por lo que
+$x_c(t)=c_1\cos\omega t+c_2\mathop{\mathrm{sen}}\nolimits \omega t$. Para
+obtener una solución particular se supone
+$x_p(t)=A\cos\gamma t+B\mathop{\mathrm{sen}}\nolimits \gamma t$, por lo que
 
 $$
 x_p''+\omega^2x_p=A(\omega^2-\gamma^2)\cos\gamma
-t+B(\omega^2-\gamma^2)\operatorname{sen}\gamma t=F_0\operatorname{sen}\gamma t.
+t+B(\omega^2-\gamma^2)\mathop{\mathrm{sen}}\nolimits \gamma t=F_0\mathop{\mathrm{sen}}\nolimits \gamma t.
 $$
 
 Igualando los coeficientes se obtiene de inmediato $A=0$ y
 $B=F_0/(\omega^2-\gamma^2)$. Por tanto,
 
 $$
-x_p(t)=\frac{F_0}{\omega^2-\gamma^2}\operatorname{sen}\gamma t.
+x_p(t)=\frac{F_0}{\omega^2-\gamma^2}\mathop{\mathrm{sen}}\nolimits \gamma t.
 $$
 
 Aplicando las condiciones iniciales a la solución general
 
 $$
-x(t)=c_1\cos\omega t+c_2\operatorname{sen}\omega
-t+\frac{F_0}{\omega^2-\gamma^2}\operatorname{sen}\gamma t
+x(t)=c_1\cos\omega t+c_2\mathop{\mathrm{sen}}\nolimits \omega
+t+\frac{F_0}{\omega^2-\gamma^2}\mathop{\mathrm{sen}}\nolimits \gamma t
 $$
 
 se obtiene $c_1=0$ y $c_2=-\gamma F_0/\omega(\omega^2-\gamma^2)$. Por tanto, la
 solución es
 
 $$
-x(t)=\frac{F_0}{\omega(\omega^2-\gamma^2)}(-\gamma\operatorname{sen}\omega
-t+\omega\operatorname{sen}\gamma t),\qquad\gamma\ne\omega.\tag{30}
+x(t)=\frac{F_0}{\omega(\omega^2-\gamma^2)}(-\gamma\mathop{\mathrm{sen}}\nolimits \omega
+t+\omega\mathop{\mathrm{sen}}\nolimits \gamma t),\qquad\gamma\ne\omega.\tag{30}
 $$
 
 ### Resonancia pura
@@ -801,15 +802,15 @@ $\gamma=\omega$ se define la solución como
 
 $$
 \begin{aligned}
-x(t)&=\lim_{\gamma\to\omega}F_0\frac{-\gamma\operatorname{sen}\omega
-t+\omega\operatorname{sen}\gamma t}{\omega(\omega^2-\gamma^2)}
-=F_0\lim_{\gamma\to\omega}\frac{\frac d{d\gamma}(-\gamma\operatorname{sen}\omega
-t+\omega\operatorname{sen}\gamma t)}{\frac
+x(t)&=\lim_{\gamma\to\omega}F_0\frac{-\gamma\mathop{\mathrm{sen}}\nolimits \omega
+t+\omega\mathop{\mathrm{sen}}\nolimits \gamma t}{\omega(\omega^2-\gamma^2)}
+=F_0\lim_{\gamma\to\omega}\frac{\frac d{d\gamma}(-\gamma\mathop{\mathrm{sen}}\nolimits \omega
+t+\omega\mathop{\mathrm{sen}}\nolimits \gamma t)}{\frac
 d{d\gamma}(\omega^3-\omega\gamma^2)}\\
-&=F_0\lim_{\gamma\to\omega}\frac{-\operatorname{sen}\omega t+\omega t\cos\gamma
+&=F_0\lim_{\gamma\to\omega}\frac{-\mathop{\mathrm{sen}}\nolimits \omega t+\omega t\cos\gamma
 t}{-2\omega\gamma}\\
-&=F_0\frac{-\operatorname{sen}\omega t+\omega t\cos\omega t}{-2\omega^2}\\
-&=\frac{F_0}{2\omega^2}\operatorname{sen}\omega t-\frac{F_0}{2\omega}t\cos\omega
+&=F_0\frac{-\mathop{\mathrm{sen}}\nolimits \omega t+\omega t\cos\omega t}{-2\omega^2}\\
+&=\frac{F_0}{2\omega^2}\mathop{\mathrm{sen}}\nolimits \omega t-\frac{F_0}{2\omega}t\cos\omega
 t.
 \end{aligned}\tag{31}
 $$
@@ -826,7 +827,7 @@ límite en (30) para obtener la solución para $\gamma=\omega$. Alternativamente
 la ecuación (31) se deduce resolviendo el problema con valores iniciales
 
 $$
-\frac{d^2x}{dt^2}+\omega^2x=F_0\operatorname{sen}\omega t,\qquad x(0)=0,\quad
+\frac{d^2x}{dt^2}+\omega^2x=F_0\mathop{\mathrm{sen}}\nolimits \omega t,\qquad x(0)=0,\quad
 x'(0)=0
 $$
 
@@ -913,11 +914,11 @@ $$
 
 Resolviendo esta ecuación homogénea de la manera usual, se encuentra que el
 circuito es subamortiguado y
-$q(t)=e^{-20t}(c_1\cos60t+c_2\operatorname{sen}60t)$. Aplicando las condiciones
-iniciales, se encuentra $c_1=q_0$ y $c_2=\frac13q_0$. Por tanto
+$q(t)=e^{-20t}(c_1\cos60t+c_2\mathop{\mathrm{sen}}\nolimits 60t)$. Aplicando las
+condiciones iniciales, se encuentra $c_1=q_0$ y $c_2=\frac13q_0$. Por tanto
 
 $$
-q(t)=q_0e^{-20t}\left(\cos60t+\frac13\operatorname{sen}60t\right).
+q(t)=q_0e^{-20t}\left(\cos60t+\frac13\mathop{\mathrm{sen}}\nolimits 60t\right).
 $$
 
 ## Página PDF 77 — Página impresa 193
@@ -925,7 +926,7 @@ $$
 Usando (23), podemos escribir la solución anterior como
 
 $$
-q(t)=\frac{q_0\sqrt{10}}3e^{-20t}\operatorname{sen}(60t+1.249).
+q(t)=\frac{q_0\sqrt{10}}3e^{-20t}\mathop{\mathrm{sen}}\nolimits (60t+1.249).
 $$
 
 Cuando se aplica un voltaje $E(t)$ al circuito, se dice que las vibraciones
@@ -938,18 +939,19 @@ una **solución de estado estable**.
 
 Encuentre la solución de estado estable $q_p(t)$ y la **corriente de estado
 estable** en un circuito LRC en serie cuando el voltaje aplicado es
-$E(t)=E_0\operatorname{sen}\gamma t$.
+$E(t)=E_0\mathop{\mathrm{sen}}\nolimits \gamma t$.
 
 **Solución** La solución de estado estable $q_p(t)$ es una solución particular
 de la ecuación diferencial
 
 $$
-L\frac{d^2q}{dt^2}+R\frac{dq}{dt}+\frac1Cq=E_0\operatorname{sen}\gamma t.
+L\frac{d^2q}{dt^2}+R\frac{dq}{dt}+\frac1Cq=E_0\mathop{\mathrm{sen}}\nolimits \gamma t.
 $$
 
 Con el método de coeficientes indeterminados, se supone una solución particular
-de la forma $q_p(t)=A\operatorname{sen}\gamma t+B\cos\gamma t$. Sustituyendo
-esta expresión en la ecuación diferencial e igualando coeficientes, se obtiene
+de la forma $q_p(t)=A\mathop{\mathrm{sen}}\nolimits \gamma t+B\cos\gamma t$.
+Sustituyendo esta expresión en la ecuación diferencial e igualando coeficientes,
+se obtiene
 
 $$
 A=\frac{E_0\left(L\gamma-\frac1{C\gamma}\right)}{-\gamma\left(L^2\gamma^2-\frac{2L}C+\frac1{C^2\gamma^2}+R^2\right)},\qquad
@@ -974,14 +976,14 @@ Por tanto $A=E_0X/(-\gamma Z^2)$ y $B=E_0R/(-\gamma Z^2)$, así que la carga de
 estado estable es
 
 $$
-q_p(t)=-\frac{E_0X}{\gamma Z^2}\operatorname{sen}\gamma t-\frac{E_0R}{\gamma
+q_p(t)=-\frac{E_0X}{\gamma Z^2}\mathop{\mathrm{sen}}\nolimits \gamma t-\frac{E_0R}{\gamma
 Z^2}\cos\gamma t.
 $$
 
 Ahora la corriente de estado estable está dada por $i_p(t)=q_p'(t)$:
 
 $$
-i_p(t)=\frac{E_0}Z\left(\frac RZ\operatorname{sen}\gamma t-\frac XZ\cos\gamma
+i_p(t)=\frac{E_0}Z\left(\frac RZ\mathop{\mathrm{sen}}\nolimits \gamma t-\frac XZ\cos\gamma
 t\right).\tag{35}
 $$
 

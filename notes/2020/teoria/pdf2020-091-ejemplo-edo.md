@@ -29,27 +29,27 @@ Solución
 
 $$
 y(x)=C_1e^{-\frac32x}\cos\left(\frac{\sqrt{11}}2x\right)
-+C_2e^{-\frac32x}\operatorname{sen}\left(\frac{\sqrt{11}}2x\right)
++C_2e^{-\frac32x}\mathop{\mathrm{sen}}\nolimits \left(\frac{\sqrt{11}}2x\right)
 $$
 
 Determinación de coeficientes $C_1$ y $C_2$.
 
 $$
-y(0)=C_1e^0\cos0+C_2e^0\operatorname{sen}0=C_1=0
+y(0)=C_1e^0\cos0+C_2e^0\mathop{\mathrm{sen}}\nolimits 0=C_1=0
 $$
 
 $$
 \begin{aligned}
 y'(x)={}&-\frac32C_1e^{-\frac32x}\cos\left(\frac{\sqrt{11}}2x\right)
--C_1e^{-\frac32x}\frac{\sqrt{11}}2\operatorname{sen}\left(\frac{\sqrt{11}}2x\right)\\
-&-\frac32C_2e^{-\frac32x}\operatorname{sen}\left(\frac{\sqrt{11}}2x\right)
+-C_1e^{-\frac32x}\frac{\sqrt{11}}2\mathop{\mathrm{sen}}\nolimits \left(\frac{\sqrt{11}}2x\right)\\
+&-\frac32C_2e^{-\frac32x}\mathop{\mathrm{sen}}\nolimits \left(\frac{\sqrt{11}}2x\right)
 +C_2e^{-\frac32x}\frac{\sqrt{11}}2\cos\left(\frac{\sqrt{11}}2x\right)
 \end{aligned}
 $$
 
 $$
-y'(0)=-\frac32C_1e^0\cos0-\frac{\sqrt{11}}2C_1e^0\operatorname{sen}0
--\frac32C_2e^0\operatorname{sen}0+C_2e^0\frac{\sqrt{11}}2\cos0=1
+y'(0)=-\frac32C_1e^0\cos0-\frac{\sqrt{11}}2C_1e^0\mathop{\mathrm{sen}}\nolimits 0
+-\frac32C_2e^0\mathop{\mathrm{sen}}\nolimits 0+C_2e^0\frac{\sqrt{11}}2\cos0=1
 $$
 
 $$
@@ -57,7 +57,7 @@ C_1=0;\quad C_2\frac{\sqrt{11}}2=1\Rightarrow C_2=\frac2{\sqrt{11}}
 $$
 
 $$
-y(x)=\frac2{\sqrt{11}}e^{-\frac32x}\operatorname{sen}\left(\frac{\sqrt{11}}2x\right)
+y(x)=\frac2{\sqrt{11}}e^{-\frac32x}\mathop{\mathrm{sen}}\nolimits \left(\frac{\sqrt{11}}2x\right)
 $$
 
 Si sustituimos $y(x)$ en $y''+3y'+5y=0$ deberá verificar la identidad.

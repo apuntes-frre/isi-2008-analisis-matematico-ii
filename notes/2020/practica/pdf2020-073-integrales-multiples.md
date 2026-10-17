@@ -16,19 +16,19 @@
 
 1. Evaluar las integrales:
 
-   a. $\int_0^x (2x-y)\,dy$
+   a. $`\int_0^x (2x-y)\,dy`$
 
-   b. $\int_1^{2y} \frac{y}{x}\,dx\quad\text{con }y>0$
+   b. $`\int_1^{2y} \frac{y}{x}\,dx\quad\text{con }y>0`$
 
-   c. $\int_{e^y}^y \frac{y\ln x}{x}\,dx\quad y>0$
+   c. $`\int_{e^y}^y \frac{y\ln x}{x}\,dx\quad y>0`$
 
 1. Evaluar las integrales iteradas:
 
-   a. $\int_0^1\int_0^2 (x+y)\,dy\,dx$
+   a. $`\int_0^1\int_0^2 (x+y)\,dy\,dx`$
 
-   b. $\int_0^\pi\int_0^{\operatorname{sen}x}(1+\cos x)\,dy\,dx$
+   b. $`\int_0^\pi\int_0^{\mathop{\mathrm{sen}}\nolimits x}(1+\cos x)\,dy\,dx`$
 
-   c. $\int_0^{\pi/2}\int_0^{2\cos\theta} r\,dr\,d\theta$
+   c. $`\int_0^{\pi/2}\int_0^{2\cos\theta} r\,dr\,d\theta`$
 
 1. Calcular el área de la región limitada por las gráficas de las ecuaciones
    graficando previamente el recinto de integración:

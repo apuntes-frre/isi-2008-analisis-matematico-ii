@@ -17,7 +17,7 @@ La gráfica de una función $f:D\subset\mathbb R^2\Rightarrow\mathbb R$ es el
 conjunto de puntos $(x,y,z)$ tales que $z=f(x,y)$ y $(x,y)\in D$. Es decir,
 
 $$
-\operatorname{Graf}(f)=\{(x,y,f(x,y))/(x,y)\in D\}
+\mathop{\mathrm{Graf}}\nolimits (f)=\{(x,y,f(x,y))/(x,y)\in D\}
 $$
 
 **Observación:** La gráfica de una función de dos variables $z=f(x,y)$ puede

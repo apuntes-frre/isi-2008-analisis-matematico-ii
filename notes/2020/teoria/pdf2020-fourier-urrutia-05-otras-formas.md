@@ -16,18 +16,18 @@ trigonométricas reales, aparecen exponenciales imaginarias.
 Veamos por ejemplo la serie básica:
 
 $$
-f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}\left(a_n\cdot\cos\frac{n\pi}Lx+b_n\cdot\operatorname{sen}\frac{n\pi}Lx\right)\tag{1}
+f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}\left(a_n\cdot\cos\frac{n\pi}Lx+b_n\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi}Lx\right)\tag{1}
 $$
 
 podemos aplicar a cada par de términos “de la misma frecuencia”, el
 procedimiento normal utilizado para reducir la suma de un seno y un coseno de un
 mismo ángulo a un único término. Si multiplicamos y dividimos por
-$\sqrt{a_n^2+b_n^2}\;\therefore$
+$`\sqrt{a_n^2+b_n^2}\;\therefore`$
 
 $$
 f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}\sqrt{a_n^2+b_n^2}\cdot
 \left(\frac{a_n}{\sqrt{a_n^2+b_n^2}}\cdot\cos\frac{n\pi}Lx
-+\frac{b_n}{\sqrt{a_n^2+b_n^2}}\cdot\operatorname{sen}\frac{n\pi}Lx\right)\tag{2}
++\frac{b_n}{\sqrt{a_n^2+b_n^2}}\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi}Lx\right)\tag{2}
 $$
 
 ![Triángulo de amplitud con catetos an y bn, ángulos gamma n y delta n](../../../resources/2020/pdf2020-fourier-urrutia/p46-triangulo-amplitud.png)
@@ -43,7 +43,7 @@ La expresión (2) puede también escribirse en la forma:
 
 $$
 f(x)=A_0+\sum_{n=1}^{\infty}A_n\left(\cos\frac{n\pi}Lx\cdot\cos\gamma_n
-+\operatorname{sen}\frac{n\pi}Lx\cdot\operatorname{sen}\gamma_n\right)
++\mathop{\mathrm{sen}}\nolimits \frac{n\pi}Lx\cdot\mathop{\mathrm{sen}}\nolimits \gamma_n\right)
 $$
 
 ## Página PDF 47 — Hoja N° 45
@@ -55,12 +55,12 @@ $$
 o también expresarla según $\delta_{n}$.
 
 $$
-f(x)=A_0+\sum_{n=1}^{\infty}A_n\left(\cos\frac{n\pi}Lx\cdot\operatorname{sen}\delta_n
-+\operatorname{sen}\frac{n\pi}L\cdot x\cdot\cos\delta_n\right)
+f(x)=A_0+\sum_{n=1}^{\infty}A_n\left(\cos\frac{n\pi}Lx\cdot\mathop{\mathrm{sen}}\nolimits \delta_n
++\mathop{\mathrm{sen}}\nolimits \frac{n\pi}L\cdot x\cdot\cos\delta_n\right)
 $$
 
 $$
-=A_0+\sum_{n=1}^{\infty}A_n\cdot\operatorname{sen}\left(\frac{n\pi}L\cdot x+\delta_n\right)
+=A_0+\sum_{n=1}^{\infty}A_n\cdot\mathop{\mathrm{sen}}\nolimits \left(\frac{n\pi}L\cdot x+\delta_n\right)
 $$
 
 En cualquiera de estas dos formas, la cantidad $A_n=\sqrt{a_n^2+b_n^2}$ es la
@@ -118,13 +118,13 @@ $$
 $$
 C_n=\frac{a_n-i b_n}2
 =\frac12\left(\frac1L\int_{-L}^L f(x)\cdot\cos\frac{n\pi x}L\cdot dx
--i\cdot\frac1L\cdot\int_{-L}^L f(x)\cdot\operatorname{sen}\frac{n\pi x}L\cdot dx\right)
+-i\cdot\frac1L\cdot\int_{-L}^L f(x)\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi x}L\cdot dx\right)
 $$
 
 ## Página PDF 49 — Hoja N° 47
 
 $$
-=\frac1{2L}\int_{-L}^L f(x)\cdot\left(\cos\frac{n\pi x}L-i\cdot\operatorname{sen}\frac{n\pi x}L\right)\cdot dx
+=\frac1{2L}\int_{-L}^L f(x)\cdot\left(\cos\frac{n\pi x}L-i\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi x}L\right)\cdot dx
 $$
 
 $$
@@ -167,19 +167,19 @@ $$
 =\frac{e\cdot e^{in\pi}-e^{-1}\cdot e^{-in\pi}}{2(1+in\pi)}
 $$
 
-como $e^{in\pi}=\cos n\pi+i\cdot\operatorname{sen}n\pi=-1$;
-$e^{in\pi}=e^{-in\pi}=(-1)^n\;\therefore$
+como $e^{in\pi}=\cos n\pi+i\cdot\mathop{\mathrm{sen}}\nolimits n\pi=-1$;
+$`e^{in\pi}=e^{-in\pi}=(-1)^n\;\therefore`$
 
 $$
 C_n=\frac{(-1)^n\cdot(e-e^{-1})}{(1+in\pi)\cdot2}
-=\frac{(-1)^n}{1+in\pi}\cdot\operatorname{Sh}1
-=\frac{(-1)^n(1-n\pi i)}{1+n^2\pi^2}\cdot\operatorname{Sh}1
+=\frac{(-1)^n}{1+in\pi}\cdot\mathop{\mathrm{Sh}}\nolimits 1
+=\frac{(-1)^n(1-n\pi i)}{1+n^2\pi^2}\cdot\mathop{\mathrm{Sh}}\nolimits 1
 $$
 
 el desarrollo toma la forma
 
 $$
-f(x)=\sum_{n=-\infty}^{\infty}(-1)^n\frac{(1-n\pi i)}{1+n^2\pi^2}\operatorname{Sh}1\cdot e^{in\pi x}
+f(x)=\sum_{n=-\infty}^{\infty}(-1)^n\frac{(1-n\pi i)}{1+n^2\pi^2}\mathop{\mathrm{Sh}}\nolimits 1\cdot e^{in\pi x}
 $$
 
 si llamamos el Sh 1=e dando valores enteros a n obtenemos la serie.
@@ -191,17 +191,17 @@ $$
 C_n=\frac12(a_n-i b_n)\qquad C_{-n}=\frac12(a_n+i b_n)\qquad C_0=a_0/2
 $$
 
-por lo que se deduce $a_n=C_n+C_{-n};\;b_n=i(C_n-C_{-n});\;a_0=2C_0$.
+por lo que se deduce $`a_n=C_n+C_{-n};\;b_n=i(C_n-C_{-n});\;a_0=2C_0`$.
 
 el alumno podrá comprobar al realizar los reemplazos que la serie toma la forma
 
 $$
 \begin{aligned}
-f(x)&=\operatorname{Sh}1-2\operatorname{Sh}1\left(\frac{\cos\pi x}{1+\pi^2}
+f(x)&=\mathop{\mathrm{Sh}}\nolimits 1-2\mathop{\mathrm{Sh}}\nolimits 1\left(\frac{\cos\pi x}{1+\pi^2}
 -\frac{\cos2\pi x}{1+4\pi^2}+\frac{\cos3\pi x}{1+9\pi^2}-\cdots\right)\\
-&\quad-2\pi\operatorname{Sh}1\left(\frac{\operatorname{sen}\pi x}{1+\pi^2}
--\frac{2\operatorname{sen}2\pi x}{1+4\pi^2}
-+\frac{3\operatorname{sen}3\pi x}{1+9\pi^2}-\cdots\right)
+&\quad-2\pi\mathop{\mathrm{Sh}}\nolimits 1\left(\frac{\mathop{\mathrm{sen}}\nolimits \pi x}{1+\pi^2}
+-\frac{2\mathop{\mathrm{sen}}\nolimits 2\pi x}{1+4\pi^2}
++\frac{3\mathop{\mathrm{sen}}\nolimits 3\pi x}{1+9\pi^2}-\cdots\right)
 \end{aligned}
 $$
 
@@ -239,8 +239,8 @@ $$
 
 $$
 a_n=\frac2L\int_0^1 1\cdot\cos\frac{n\pi}Lx\cdot dx
-=\frac2L\left.\frac{\operatorname{sen}n\pi x/L}{n\pi/L}\right|_{x=0}^1
-=\frac2L\cdot\frac{\operatorname{sen}n\pi/L}{n\pi/L}\tag{1b}
+=\frac2L\left.\frac{\mathop{\mathrm{sen}}\nolimits n\pi x/L}{n\pi/L}\right|_{x=0}^1
+=\frac2L\cdot\frac{\mathop{\mathrm{sen}}\nolimits n\pi/L}{n\pi/L}\tag{1b}
 $$
 
 ## Página PDF 52 — Hoja N° 50
@@ -257,9 +257,9 @@ función de la frecuencia.
 
 Si hacemos $\frac{n\pi}L=\omega_n$ correspondiente a los distintos valores de L,
 podemos observar que:
-$a_n=\frac2L\cdot\frac{\operatorname{sen}\omega_n}{\omega_n}$, en donde a
-sucesivos valores de n corresponden distintos valores $\omega_{n}$ que difieren
-entre sí en una cantidad constante
+$a_n=\frac2L\cdot\frac{\mathop{\mathrm{sen}}\nolimits \omega_n}{\omega_n}$, en
+donde a sucesivos valores de n corresponden distintos valores $\omega_{n}$ que
+difieren entre sí en una cantidad constante
 
 $$
 \Delta\omega=\omega_{n+1}-\omega_n=(n+1)\frac\pi L-\frac{n\pi}L=\pi/L
@@ -270,14 +270,15 @@ $$
 $$
 
 Podemos apreciar que los valores de $a_{n}$ son simplemente las ordenadas de la
-curva $y=\frac2L\cdot\frac{\operatorname{sen}\omega}{\omega}
-=\frac{2\operatorname{sen}\omega}{\pi\omega}\Delta\omega$, correspondientes a
-intervalos $\omega$ sucesivos de $\pi$/L, a partir del valor de $\omega_0=0$.
+curva $y=\frac2L\cdot\frac{\mathop{\mathrm{sen}}\nolimits \omega}{\omega}
+=\frac{2\mathop{\mathrm{sen}}\nolimits \omega}{\pi\omega}\Delta\omega$,
+correspondientes a intervalos $\omega$ sucesivos de $\pi$/L, a partir del valor
+de $\omega_0=0$.
 
 Como parece deducirse de estas gráficas, y lo confirma la función
-$y=\frac2\pi\cdot\frac{\operatorname{sen}\omega}{\omega}\Delta\omega$, las dos
-únicas diferencias que presentan las gráficas o espectros de los coeficientes
-correspondientes a los distintos valores de L=2,4,8,… son:
+$y=\frac2\pi\cdot\frac{\mathop{\mathrm{sen}}\nolimits \omega}{\omega}\Delta\omega$,
+las dos únicas diferencias que presentan las gráficas o espectros de los
+coeficientes correspondientes a los distintos valores de L=2,4,8,… son:
 
 a) En la escala vertical, que es inversamente proporcional a L (o directamente
 proporcional a $\Delta\omega$) recordemos que $\Delta\omega=\pi/L$.
@@ -449,7 +450,7 @@ $$
 ![Ejercicio 7: semionda senoidal y tramo nulo](../../../resources/2020/pdf2020-fourier-urrutia/p56-ejercicio-7.png)
 
 $$
-f(x)\begin{cases}0&\text{si }-\pi<x<0\\\operatorname{sen}x&\text{si }0<x<\pi\end{cases}
+f(x)\begin{cases}0&\text{si }-\pi<x<0\\\mathop{\mathrm{sen}}\nolimits x&\text{si }0<x<\pi\end{cases}
 $$
 
 ## Página PDF 57 — Hoja N° 55
@@ -485,6 +486,6 @@ f(x)=-x\quad\text{si }-3<x<3\qquad 2L=6
 $$
 
 $$
-f(x)\begin{cases}-\operatorname{sen}4x&-\pi/4<x<0\\\cos4x&0<x<\pi/4\end{cases}
+f(x)\begin{cases}-\mathop{\mathrm{sen}}\nolimits 4x&-\pi/4<x<0\\\cos4x&0<x<\pi/4\end{cases}
 \qquad p=2L=\frac\pi2
 $$

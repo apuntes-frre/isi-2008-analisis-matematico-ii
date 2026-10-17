@@ -78,7 +78,7 @@ $$
 Si llamamos $\sqrt{\frac Km}=\omega_0$:
 
 $$
-\boxed{y(t)=A\cos\omega_0t+B\operatorname{sen}\omega_0t}\qquad(1)
+\boxed{y(t)=A\cos\omega_0t+B\mathop{\mathrm{sen}}\nolimits \omega_0t}\qquad(1)
 $$
 
 Oscilación armónica.
@@ -92,7 +92,7 @@ $v=\frac{dy}{dt}\Rightarrow y'(0)=$ [sin completar en ese renglón del original]
 1: positiva; 2: cero; 3: negativa — velocidad.
 
 $$
-y'(t)=-A\omega_0\operatorname{sen}\omega_0t+B\omega_0\cos\omega_0t,
+y'(t)=-A\omega_0\mathop{\mathrm{sen}}\nolimits \omega_0t+B\omega_0\cos\omega_0t,
 $$
 
 $$
@@ -102,11 +102,12 @@ $$
 Aplicando la fórmula de la suma para el coseno:
 
 $$
-A\cos\omega_0t+B\operatorname{sen}\omega_0t
+A\cos\omega_0t+B\mathop{\mathrm{sen}}\nolimits \omega_0t
 =\sqrt{A^2+B^2}\cos(\omega t-\delta),
 $$
 
-donde podemos decir de $C=\sqrt{A^2+B^2}$; $\operatorname{tg}\delta=\frac BA$.
+donde podemos decir de $C=\sqrt{A^2+B^2}$;
+$\mathop{\mathrm{tg}}\nolimits \delta=\frac BA$.
 
 Así (1) la podemos escribir como
 
@@ -223,12 +224,12 @@ $$
 Y la solución general es:
 
 $$
-\boxed{y(t)=e^{-\alpha t}(A\cos\omega^*t+B\operatorname{sen}\omega^*t)},
+\boxed{y(t)=e^{-\alpha t}(A\cos\omega^*t+B\mathop{\mathrm{sen}}\nolimits \omega^*t)},
 $$
 
 $$
 y(t)=Ce^{-\alpha t}\cos(\omega^*t-\delta),
-\qquad C=\sqrt{A^2+B^2},\quad\operatorname{tg}\delta=\frac BA.
+\qquad C=\sqrt{A^2+B^2},\quad\mathop{\mathrm{tg}}\nolimits \delta=\frac BA.
 $$
 
 Dado que $\cos(\omega^*t-\delta)$ varía entre 1 y -2 la curva solución estará
@@ -270,7 +271,7 @@ $$
 Proponemos
 
 $$
-y_P(t)=a\cos\omega t+b\operatorname{sen}\omega t,
+y_P(t)=a\cos\omega t+b\mathop{\mathrm{sen}}\nolimits \omega t,
 $$
 
 donde
@@ -340,7 +341,7 @@ mecánicos y eléctricos:
 
 ![Circuito RLC serie con tensión senoidal E y corriente i](../../../resources/2022/pdf2022-masa-resorte-rlc.png)
 
-$E(t)=E_0\operatorname{sen}\omega t$; $i(t)$; circuito RLC.
+$E(t)=E_0\mathop{\mathrm{sen}}\nolimits \omega t$; $i(t)$; circuito RLC.
 
 Sabemos que:
 
@@ -353,7 +354,7 @@ $$
 Por ley de Kirchhoff:
 
 $$
-Li'+Ri+\frac1C\int i\,dt=E_0\operatorname{sen}\omega t.
+Li'+Ri+\frac1C\int i\,dt=E_0\mathop{\mathrm{sen}}\nolimits \omega t.
 $$
 
 Derivando:
@@ -365,7 +366,7 @@ $$
 ## Página 9
 
 $$
-i=i_C(t)+i_P(t),\qquad i_P=a\cos\omega t+b\operatorname{sen}\omega t.
+i=i_C(t)+i_P(t),\qquad i_P=a\cos\omega t+b\mathop{\mathrm{sen}}\nolimits \omega t.
 $$
 
 Resolviendo por coef. ind.
@@ -383,14 +384,14 @@ $$
 $i_P$ la podemos escribir utilizando el teorema de la suma del coseno:
 
 $$
-I_P(t)=I_0\operatorname{sen}(\omega t-\theta),
+I_P(t)=I_0\mathop{\mathrm{sen}}\nolimits (\omega t-\theta),
 $$
 
 donde
 
 $$
 I_0=\sqrt{a^2+b^2}=\frac{E_0}{\sqrt{R^2+S^2}},
-\qquad\operatorname{tg}\theta=-\frac ab=\frac SR.
+\qquad\mathop{\mathrm{tg}}\nolimits \theta=-\frac ab=\frac SR.
 $$
 
 $$

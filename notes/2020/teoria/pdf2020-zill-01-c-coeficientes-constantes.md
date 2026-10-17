@@ -128,32 +128,33 @@ Sin embargo, en la práctica se prefiere trabajar con funciones reales en lugar
 de exponenciales complejas. Con este fin se usa la **fórmula de Euler**:
 
 $$
-e^{i\theta}=\cos\theta+i\operatorname{sen}\theta,
+e^{i\theta}=\cos\theta+i\mathop{\mathrm{sen}}\nolimits \theta,
 $$
 
 donde $\theta$ es cualquier número real.\* Se tiene de esta fórmula que
 
 $$
-e^{i\beta x}=\cos\beta x+i\operatorname{sen}\beta x
-\quad\text{y}\quad e^{-i\beta x}=\cos\beta x-i\operatorname{sen}\beta x,\tag{7}
+e^{i\beta x}=\cos\beta x+i\mathop{\mathrm{sen}}\nolimits \beta x
+\quad\text{y}\quad e^{-i\beta x}=\cos\beta x-i\mathop{\mathrm{sen}}\nolimits \beta x,\tag{7}
 $$
 
 \*Una deducción formal de la fórmula de Euler se obtiene de la serie de
 Maclaurin $e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$ sustituyendo $x=i\theta$, con
 $i^2=-1$, $i^3=-i,\ldots$ y después separando la serie en las partes real e
 imaginaria. Así se establece la plausibilidad, por lo que podemos adoptar a
-$\cos\theta+i\operatorname{sen}\theta$ como la *definición* de $e^{i\theta}$.
+$\cos\theta+i\mathop{\mathrm{sen}}\nolimits \theta$ como la *definición* de
+$e^{i\theta}$.
 
 ## Página 135
 
 donde se usaron $\cos(-\beta x)=\cos\beta x$ y
-$\operatorname{sen}(-\beta x)=-\operatorname{sen}\beta x$. Observe que si
-primero se suma y luego se restan las dos ecuaciones en (7), se obtiene,
-respectivamente,
+$\mathop{\mathrm{sen}}\nolimits (-\beta x)=-\mathop{\mathrm{sen}}\nolimits \beta x$.
+Observe que si primero se suma y luego se restan las dos ecuaciones en (7), se
+obtiene, respectivamente,
 
 $$
 e^{i\beta x}+e^{-i\beta x}=2\cos\beta x
-\quad\text{y}\quad e^{i\beta x}-e^{-i\beta x}=2i\operatorname{sen}\beta x.
+\quad\text{y}\quad e^{i\beta x}-e^{-i\beta x}=2i\mathop{\mathrm{sen}}\nolimits \beta x.
 $$
 
 Puesto que $y=C_1e^{(\alpha+i\beta)x}+C_2e^{(\alpha-i\beta)x}$ es una solución
@@ -176,17 +177,18 @@ y
 $$
 y_2=
 e^{\alpha x}(e^{i\beta x}-e^{-i\beta x})=
-2ie^{\alpha x}\operatorname{sen}\beta x.
+2ie^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x.
 $$
 
 Por tanto, del corolario A) del teorema 4.1.2, los dos últimos resultados
-muestran que $e^{\alpha x}\cos\beta x$ y $e^{\alpha x}\operatorname{sen}\beta x$
-son soluciones reales de (2). Además, estas soluciones forman un conjunto
-fundamental en $(-\infty,\infty)$. Por tanto, la solución general es
+muestran que $e^{\alpha x}\cos\beta x$ y
+$e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x$ son soluciones reales de
+(2). Además, estas soluciones forman un conjunto fundamental en
+$(-\infty,\infty)$. Por tanto, la solución general es
 
 $$
-y=c_1e^{\alpha x}\cos\beta x+c_2e^{\alpha x}\operatorname{sen}\beta x
-=e^{\alpha x}(c_1\cos\beta x+c_2\operatorname{sen}\beta x).\tag{8}
+y=c_1e^{\alpha x}\cos\beta x+c_2e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x
+=e^{\alpha x}(c_1\cos\beta x+c_2\mathop{\mathrm{sen}}\nolimits \beta x).\tag{8}
 $$
 
 ### EJEMPLO 1. ED de segundo orden
@@ -209,7 +211,7 @@ De (6), $y=c_1e^{5x}+c_2xe^{5x}$.
 c) $m^2+4m+7=0$, $m_1=-2+\sqrt3i$, $m_2=-2-\sqrt3i$.
 
 De (8) con $\alpha=-2$, $\beta=\sqrt3$,
-$y=e^{-2x}(c_1\cos\sqrt3x+c_2\operatorname{sen}\sqrt3x)$.
+$y=e^{-2x}(c_1\cos\sqrt3x+c_2\mathop{\mathrm{sen}}\nolimits \sqrt3x)$.
 
 ### EJEMPLO 2. Un problema con valores iniciales
 
@@ -217,14 +219,15 @@ Resuelva $4y''+4y'+17y=0$, $y(0)=-1$, $y'(0)=2$.
 
 **SOLUCIÓN.** Usando la fórmula cuadrática tenemos que las raíces de la ecuación
 auxiliar $4m^2+4m+17=0$ son $m_1=-\frac12+2i$ y $m_2=-\frac12-2i$. Por tanto, de
-la ecuación (8) se tiene que $y=e^{-x/2}(c_1\cos2x+c_2\operatorname{sen}2x)$.
-Aplicando la condición $y(0)=-1$, se observa de
-$e^0(c_1\cos0+c_2\operatorname{sen}0)=-1$ que $c_1=-1$. Derivando
-$y=e^{-x/2}(-\cos2x+c_2\operatorname{sen}2x)$ y después usando $y'(0)=2$, se
-obtiene $2c_2+\frac12=2$ o $c_2=\frac34$. Por tanto, la solución del PVI es
-$y=e^{-x/2}(-\cos2x+\frac34\operatorname{sen}2x)$. En la figura 4.3.1 vemos que
-la solución es oscilatoria, pero $y\to0$ conforme $x\to\infty$ y $|y|\to\infty$
-conforme $x\to-\infty$.
+la ecuación (8) se tiene que
+$y=e^{-x/2}(c_1\cos2x+c_2\mathop{\mathrm{sen}}\nolimits 2x)$. Aplicando la
+condición $y(0)=-1$, se observa de
+$e^0(c_1\cos0+c_2\mathop{\mathrm{sen}}\nolimits 0)=-1$ que $c_1=-1$. Derivando
+$y=e^{-x/2}(-\cos2x+c_2\mathop{\mathrm{sen}}\nolimits 2x)$ y después usando
+$y'(0)=2$, se obtiene $2c_2+\frac12=2$ o $c_2=\frac34$. Por tanto, la solución
+del PVI es $y=e^{-x/2}(-\cos2x+\frac34\mathop{\mathrm{sen}}\nolimits 2x)$. En la
+figura 4.3.1 vemos que la solución es oscilatoria, pero $y\to0$ conforme
+$x\to\infty$ y $|y|\to\infty$ conforme $x\to-\infty$.
 
 ![FIGURA 4.3.1. Curva solución del PVI del ejemplo 2](../../../resources/2020/pdf2020-zill-01/figura-4-3-1.png)
 
@@ -241,7 +244,7 @@ la ecuación auxiliar $m^2+k^2=0$ tienen raíces imaginarias $m_1=ki$ y $m_2=-ki
 Con $\alpha=0$ y $\beta=k$ en (8) se ve que la solución general de la ED es
 
 $$
-y=c_1\cos kx+c_2\operatorname{sen}kx.\tag{9}
+y=c_1\cos kx+c_2\mathop{\mathrm{sen}}\nolimits kx.\tag{9}
 $$
 
 Por otra parte, la ecuación auxiliar $m^2-k^2=0$ para $y''-k^2y=0$ tiene raíces
@@ -255,12 +258,13 @@ $$
 Observe que si se elige $c_1=c_2=\frac12$ y $c_1=\frac12$, $c_2=-\frac12$ en
 (10), se obtienen las soluciones particulares
 $y=\frac12(e^{kx}+e^{-kx})=\cosh kx$ y
-$y=\frac12(e^{kx}-e^{-kx})=\operatorname{senh}kx$. Puesto que $\cosh kx$ y
-$\operatorname{senh}kx$ son linealmente independientes en algún intervalo del
-eje $x$, una forma alternativa para la solución general de $y''-k^2y=0$ es
+$y=\frac12(e^{kx}-e^{-kx})=\mathop{\mathrm{senh}}\nolimits kx$. Puesto que
+$\cosh kx$ y $\mathop{\mathrm{senh}}\nolimits kx$ son linealmente independientes
+en algún intervalo del eje $x$, una forma alternativa para la solución general
+de $y''-k^2y=0$ es
 
 $$
-y=c_1\cosh kx+c_2\operatorname{senh}kx.\tag{11}
+y=c_1\cosh kx+c_2\mathop{\mathrm{senh}}\nolimits kx.\tag{11}
 $$
 
 Vea los problemas 41 y 42 de los ejercicios 4.3.
@@ -335,15 +339,16 @@ $$
 Por la fórmula de Euler el grupo $C_1e^{ix}+C_2e^{-ix}$ se puede rescribir como
 
 $$
-c_1\cos x+c_2\operatorname{sen}x
+c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x
 $$
 
 después de redefinir de nuevo las constantes. De manera similar,
 $x(C_3e^{ix}+C_4e^{-ix})$ se puede expresar como
-$x(c_3\cos x+c_4\operatorname{sen}x)$. Por tanto, la solución general es
+$x(c_3\cos x+c_4\mathop{\mathrm{sen}}\nolimits x)$. Por tanto, la solución
+general es
 
 $$
-y=c_1\cos x+c_2\operatorname{sen}x+c_3x\cos x+c_4x\operatorname{sen}x.
+y=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x+c_3x\cos x+c_4x\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 El ejemplo 4 ilustra un caso especial cuando la ecuación auxiliar tiene raíces
@@ -369,10 +374,10 @@ $$
 \begin{aligned}
 &e^{\alpha x}\cos\beta x,\quad xe^{\alpha x}\cos\beta x,\quad
 x^2e^{\alpha x}\cos\beta x,\ldots,\quad x^{k-1}e^{\alpha x}\cos\beta x,\\
-&e^{\alpha x}\operatorname{sen}\beta x,\quad
-xe^{\alpha x}\operatorname{sen}\beta x,
-\quad x^2e^{\alpha x}\operatorname{sen}\beta x,\ldots,
-\quad x^{k-1}e^{\alpha x}\operatorname{sen}\beta x.
+&e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,\quad
+xe^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,
+\quad x^2e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,\ldots,
+\quad x^{k-1}e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x.
 \end{aligned}
 $$
 
@@ -398,7 +403,7 @@ $$
 
 De la fórmula cuadrática se obtienen las otras raíces $m_2=-1+\sqrt3i$ y
 $m_3=-1-\sqrt3i$. Por tanto, la solución general de $3y'''+5y''+10y'-4y=0$ es
-$y=c_1e^{x/3}+e^{-x}(c_2\cos\sqrt3x+c_3\operatorname{sen}\sqrt3x)$.
+$y=c_1e^{x/3}+e^{-x}(c_2\cos\sqrt3x+c_3\mathop{\mathrm{sen}}\nolimits \sqrt3x)$.
 
 **USO DE COMPUTADORAS.** Determinar las raíces o aproximar las raíces de
 ecuaciones auxiliares es un problema de rutina con una calculadora apropiada o
@@ -437,9 +442,9 @@ sustituciones en el resultado, *Mathematica* genera la solución general
 $$
 \begin{aligned}
 y={}&c_1e^{-0.728852x}\cos(0.618605x)
-+c_2e^{-0.728852x}\operatorname{sen}(0.618605x)\\
++c_2e^{-0.728852x}\mathop{\mathrm{sen}}\nolimits (0.618605x)\\
 &+c_3e^{0.476478x}\cos(0.759081x)
-+c_4e^{0.476478x}\operatorname{sen}(0.759081x).
++c_4e^{0.476478x}\mathop{\mathrm{sen}}\nolimits (0.759081x).
 \end{aligned}
 $$
 
@@ -615,9 +620,9 @@ Este es un problema trivial si se utiliza un SAC, pero también se resuelve a
 mano trabajando con números complejos. Observe que $m^4+1=(m^2+1)^2-2m^2$. ¿Cómo
 ayuda esto? Resuelva la ecuación diferencial.
 
-53\) Compruebe que $y=\operatorname{senh}x-2\cos(x+\pi/6)$ es una solución
-particular de $y^{(4)}-y=0$. Reconcilie esta solución particular con la solución
-general de la ED.
+53\) Compruebe que $y=\mathop{\mathrm{senh}}\nolimits x-2\cos(x+\pi/6)$ es una
+solución particular de $y^{(4)}-y=0$. Reconcilie esta solución particular con la
+solución general de la ED.
 
 54\) Considere el problema con valores en la frontera $y''+\lambda y=0$,
 $y(0)=0$, $y(\pi/2)=0$. Analice: ¿es posible determinar valores de $\lambda$ tal

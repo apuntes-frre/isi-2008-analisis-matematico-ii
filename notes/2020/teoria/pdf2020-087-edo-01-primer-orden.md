@@ -159,29 +159,29 @@ Ejemplos:
 1\) Hállese la ecuación diferencial cuya solución general es:
 
 $$
-y=C\operatorname{sen}4x
+y=C\mathop{\mathrm{sen}}\nolimits 4x
 $$
 
 $$
-y=C\operatorname{sen}4x\qquad
+y=C\mathop{\mathrm{sen}}\nolimits 4x\qquad
 \frac{dy}{dx}=4C\cos4x=y'
 $$
 
 $$
 \begin{aligned}
-y=C\operatorname{sen}4x&\Rightarrow C=y/\operatorname{sen}4x\\
+y=C\mathop{\mathrm{sen}}\nolimits 4x&\Rightarrow C=y/\mathop{\mathrm{sen}}\nolimits 4x\\
 y'=4C\cos4x&\Rightarrow C=y'/4\cos4x
 \end{aligned}
 $$
 
 $$
-\frac{y}{\operatorname{sen}4x}-\frac{y'}{4\cos4x}=0
+\frac{y}{\mathop{\mathrm{sen}}\nolimits 4x}-\frac{y'}{4\cos4x}=0
 $$
 
 o también
 
 $$
-4y\cos4x-\frac{dy}{dx}\operatorname{sen}4x=0
+4y\cos4x-\frac{dy}{dx}\mathop{\mathrm{sen}}\nolimits 4x=0
 $$
 
 2\) Encuentre la ecuación diferencial de todas las circunferencias con centro en
@@ -227,7 +227,7 @@ $$
 
 Ejemplos.
 
-1.- Resolver la ecuación $(1+x^2)\,dy-xy\,dx=0$.
+1.- Resolver la ecuación $`(1+x^2)\,dy-xy\,dx=0`$.
 
 Separando las variables tendremos:
 
@@ -407,9 +407,9 @@ x\frac{dv}{dx}+v+\phi(v)=0
 \Rightarrow\frac{dv}{v+\phi(v)}+\frac{dx}{x}=0
 $$
 
-Ejemplo: sea $(x^2-xy+y^2)\,dx-xy\,dy=0$.
+Ejemplo: sea $`(x^2-xy+y^2)\,dx-xy\,dy=0`$.
 
-Hacemos $y/x=u\ \therefore\ y=ux\Rightarrow dy=u\,dx+x\,du$; reemplazamos
+Hacemos $`y/x=u\ \therefore\ y=ux\Rightarrow dy=u\,dx+x\,du`$; reemplazamos
 
 $$
 \begin{aligned}
@@ -460,11 +460,11 @@ dimensiones, análogamente a como se consideran las magnitudes en una ecuación 
 dimensiones. La diferencial de $x$, tiene que considerarse como teniendo la
 misma dimensión que la variable $x$, de igual manera para $y$. La dimensión de
 un producto es entonces la suma de las dimensiones de sus factores y una
-expresión $M\,dx+N\,dy$ se considera homogénea si es suma de términos de una
+expresión $`M\,dx+N\,dy`$ se considera homogénea si es suma de términos de una
 misma dimensión.
 
-La ecuación $(xy^2-3y)\,dx-x\,dy=0$ es homogénea si consideramos $x$ como siendo
-de dimensión 1 e $y$ como de dimensión $-1$, pues entonces es una suma de
+La ecuación $`(xy^2-3y)\,dx-x\,dy=0`$ es homogénea si consideramos $x$ como
+siendo de dimensión 1 e $y$ como de dimensión $-1$, pues entonces es una suma de
 términos que tiene cada uno dimensión cero.
 
 Para resolver ecuaciones que se hacen homogéneas cuando se supone a la variable
@@ -610,10 +610,10 @@ $$
 $$
 
 con lo que queda demostrado. Es posible demostrar también que si verifica (2),
-existe $U$ tal que su diferencial es $M\,dx+N\,dy$ (Primer miembro de la
+existe $U$ tal que su diferencial es $`M\,dx+N\,dy`$ (Primer miembro de la
 ecuación diferencial dada).
 
-Ejemplo: Resolver la ecuación: $e^y\,dx+(xe^y-2y)\,dy=0$.
+Ejemplo: Resolver la ecuación: $`e^y\,dx+(xe^y-2y)\,dy=0`$.
 
 En este caso será:
 
@@ -625,8 +625,8 @@ $$
 $$
 
 siendo iguales esas derivadas, la ecuación es exacta. Por consiguiente,
-integrando $M\,dx$ considerando “$y$” constante, obtenemos una primera expresión
-de $U$:
+integrando $`M\,dx`$ considerando “$y$” constante, obtenemos una primera
+expresión de $U$:
 
 $$
 U=\int e^y\,dx=xe^y+C(y)
@@ -653,9 +653,9 @@ U=xe^y-y^2=C
 $$
 
 El valor de $C(y)$ obtenido, pudo hallarse también integrando directamente
-$-2y\,dy$ que es la parte de $(xe^y-2y)$, que no contiene $x$.
+$`-2y\,dy`$ que es la parte de $(xe^y-2y)$, que no contiene $x$.
 
-Ejemplo: Resolver $(x^2+y^2)\,dx+2xy\,dy=0$.
+Ejemplo: Resolver $`(x^2+y^2)\,dx+2xy\,dy=0`$.
 
 $$
 \begin{cases}
@@ -707,7 +707,7 @@ $$
 
 “Toda ecuación diferencial Lineal, puede ser transformada en una ecuación
 diferencial **exacta**, multiplicando por el **factor integrante**
-$e^{\int P\,dx}$”.
+$`e^{\int P\,dx}`$”.
 
 Demostración.
 
@@ -766,19 +766,19 @@ F(x)=e^{\int P(x)\,dx}
 $$
 
 Ahora bien, como hemos partido de la suposición de la existencia del factor
-$F(x)$, debemos demostrar que efectivamente $e^{\int P\,dx}$ es el factor
-integrante de la ecuación diferencial $dy+P(x)y\,dx=Q(x)\,dx$. En efecto,
+$F(x)$, debemos demostrar que efectivamente $`e^{\int P\,dx}`$ es el factor
+integrante de la ecuación diferencial $`dy+P(x)y\,dx=Q(x)\,dx`$. En efecto,
 
 $$
 e^{\int P\,dx}\,dy+e^{\int P\,dx}P(x)y\,dx
 =e^{\int P\,dx}Q(x)\,dx
 $$
 
-o sea multiplicando por $e^{\int P\,dx}$.
+o sea multiplicando por $`e^{\int P\,dx}`$.
 
 Observemos que el primer miembro de esta igualdad, es la diferencial exacta de
-la expresión $[ye^{\int P\,dx}]$ y el segundo miembro es una función de una sola
-variable $(x)$, o sea:
+la expresión $`[ye^{\int P\,dx}]`$ y el segundo miembro es una función de una
+sola variable $(x)$, o sea:
 
 $$
 d\left\{ye^{\int P\,dx}\right\}=e^{\int P\,dx}Q(x)\,dx
@@ -790,9 +790,9 @@ integrante por la variable $y$, solo queda resolver la integral.
 
 Regla Práctica para resolver una ecuación diferencial lineal.
 
-1º) Llévase a la forma general $dy+P(x)y\,dx=Q(x)\,dx$.
+1º) Llévase a la forma general $`dy+P(x)y\,dx=Q(x)\,dx`$.
 
-2º) Calcúlese el factor integrante $e^{\int P\,dx}$.
+2º) Calcúlese el factor integrante $`e^{\int P\,dx}`$.
 
 3º) Multiplíquese la ecuación lineal por el factor integrante.
 
@@ -939,8 +939,8 @@ $$
 
 ecuación lineal en $u$.
 
-$P=-2/x$, el factor integrante será $e^{\int-\frac2x\,dx}=x^{-2}$ reemplazando,
-la solución de esta ecuación será:
+$P=-2/x$, el factor integrante será $`e^{\int-\frac2x\,dx}=x^{-2}`$
+reemplazando, la solución de esta ecuación será:
 
 $$
 \frac1{x^2}\,du-\frac2{x^3}u\,dx=-2x\,dx

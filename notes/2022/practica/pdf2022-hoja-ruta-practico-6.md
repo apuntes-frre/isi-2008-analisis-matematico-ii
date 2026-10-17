@@ -24,7 +24,7 @@ complejos $r_1=\alpha+i\beta$, $r_2=\alpha-i\beta$, en consecuencia la solución
 general de $ay''+by'+cy=0$ es
 
 $$
-y=e^{\alpha x}(c_1\cos\beta x+c_2\operatorname{sen}\beta x).
+y=e^{\alpha x}(c_1\cos\beta x+c_2\mathop{\mathrm{sen}}\nolimits \beta x).
 $$
 
 **RESUMEN: SOLUCIONES DE $ay''+by'+c=0$**
@@ -33,7 +33,7 @@ $$
 | -- | -- |
 | $r_1$, $r_2$ reales y distintas | $y=c_1e^{r_1x}+c_2e^{r_2x}$ |
 | $r_1=r_2=r$ | $y=c_1e^{rx}+c_2xe^{rx}$ |
-| $r_1$, $r_2$ complejas: $\alpha\pm i\beta$ | $y=e^{\alpha x}(c_1\cos\beta x+c_2\operatorname{sen}\beta x)$ |
+| $r_1$, $r_2$ complejas: $\alpha\pm i\beta$ | $y=e^{\alpha x}(c_1\cos\beta x+c_2\mathop{\mathrm{sen}}\nolimits \beta x)$ |
 
 ### ECUACIONES LINEALES NO HOMOGÉNEAS
 
@@ -80,11 +80,12 @@ HOJA DE RUTA PARA EL PRÁCTICO 6.
    (cuyos coeficientes están determinados por sustitución en la ecuación
    diferencial).
 
-1. Si $G(x)=e^{kx}P(x)\cos mx$ o si $G(x)=e^{kx}P(x)\operatorname{sen}mx$, donde
-   $P$ es un polinomio de n-ésimo grado, en tal caso intente
+1. Si $G(x)=e^{kx}P(x)\cos mx$ o si
+   $G(x)=e^{kx}P(x)\mathop{\mathrm{sen}}\nolimits mx$, donde $P$ es un polinomio
+   de n-ésimo grado, en tal caso intente
 
    $$
-   y_P(x)=e^{kx}Q(x)\cos mx+e^{kx}R(x)\operatorname{sen}mx
+   y_P(x)=e^{kx}Q(x)\cos mx+e^{kx}R(x)\mathop{\mathrm{sen}}\nolimits mx
    $$
 
    donde $Q$ y $R$ son polinomios de n-ésimo grado.
@@ -96,12 +97,12 @@ complementaria, multiplique $y_P$ por $x$ (o por $x^2$ si es necesario).
 | -- | -- | -- |
 | $x^n$ | $0$ | $a_nx^n+\cdots+a_2x^2+a_1x+a_0$ |
 | $e^{\alpha x}$ | $\alpha$ | $ae^{\alpha x}$ |
-| $\cos\beta x$ | $\alpha+\beta i$ | $a\cos\beta x+b\operatorname{sen}\beta x$ |
-| $\operatorname{sen}\beta x$ | $\alpha+\beta i$ | $a\cos\beta x+b\operatorname{sen}\beta x$ |
+| $\cos\beta x$ | $\alpha+\beta i$ | $a\cos\beta x+b\mathop{\mathrm{sen}}\nolimits \beta x$ |
+| $\mathop{\mathrm{sen}}\nolimits \beta x$ | $\alpha+\beta i$ | $a\cos\beta x+b\mathop{\mathrm{sen}}\nolimits \beta x$ |
 | $x^ne^{\alpha x}$ | $\alpha$ | $e^{\alpha x}(a_nx^n+\cdots+a_1x+a_0)$ |
-| $e^{\alpha x}\operatorname{sen}\beta x$ | $\alpha+\beta i$ | $e^{\alpha x}(a\cos\beta x+b\operatorname{sen}\beta x)$ |
-| $e^{\alpha x}\cos\beta x$ | $\alpha+\beta i$ | $e^{\alpha x}(a\cos\beta x+b\operatorname{sen}\beta x)$ |
-| $x^ne^{\alpha x}\operatorname{sen}\beta x$ | $\alpha+\beta i$ | $e^{\alpha x}\cos\beta x(a_nx^n+\cdots+a_1x+a_0)+e^{\alpha x}\operatorname{sen}\beta x(b_nx^n+\cdots+a_1x+a_0)$ |
+| $e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x$ | $\alpha+\beta i$ | $e^{\alpha x}(a\cos\beta x+b\mathop{\mathrm{sen}}\nolimits \beta x)$ |
+| $e^{\alpha x}\cos\beta x$ | $\alpha+\beta i$ | $e^{\alpha x}(a\cos\beta x+b\mathop{\mathrm{sen}}\nolimits \beta x)$ |
+| $x^ne^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x$ | $\alpha+\beta i$ | $e^{\alpha x}\cos\beta x(a_nx^n+\cdots+a_1x+a_0)+e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x(b_nx^n+\cdots+a_1x+a_0)$ |
 
 ## Página 3 — manuscrito
 
@@ -122,22 +123,22 @@ g(x)=e^{3x}\Rightarrow y_P(x)=Ae^{3x}.
 $$
 
 $$
-g(x)=\operatorname{sen}x\Rightarrow y_P(x)=A\cos Kx+B\operatorname{sen}Kx.
+g(x)=\mathop{\mathrm{sen}}\nolimits x\Rightarrow y_P(x)=A\cos Kx+B\mathop{\mathrm{sen}}\nolimits Kx.
 $$
 
 $$
 g(x)=xe^x+\cos2x\Rightarrow
 \begin{cases}
 y_{(P_1)}(x)=(Ax+B)e^x,\\
-y_{(P_2)}(x)=C\cos2x+D\operatorname{sen}2x.
+y_{(P_2)}(x)=C\cos2x+D\mathop{\mathrm{sen}}\nolimits 2x.
 \end{cases}
 $$
 
 - $g(x)=x\Rightarrow y_P(x)=Ax+B$.
-- $g(x)=\cos x\Rightarrow y_P(x)=A\operatorname{sen}x+B\cos x$.
+- $g(x)=\cos x\Rightarrow y_P(x)=A\mathop{\mathrm{sen}}\nolimits x+B\cos x$.
 - $g(x)=e^{2x}+x^2\Rightarrow y_P(x)=Ke^{2x}+Ax^2+Bx+C$.
-- $g(x)=e^x+\cos x+x\Rightarrow y_P(x)=Ke^x+A\operatorname{sen}x+B\cos x+Cx+D$.
-- $g(x)=1+5\cos x\Rightarrow y_P(x)=C+A\operatorname{sen}x+B\cos x$.
+- $g(x)=e^x+\cos x+x\Rightarrow y_P(x)=Ke^x+A\mathop{\mathrm{sen}}\nolimits x+B\cos x+Cx+D$.
+- $g(x)=1+5\cos x\Rightarrow y_P(x)=C+A\mathop{\mathrm{sen}}\nolimits x+B\cos x$.
 
 ## Página 4 — Ejercicios
 
@@ -174,7 +175,7 @@ $$
 1. $y''-4y=\cos x$.
 1. $y''+4y'+3y=1+5\cos x$.
 1. $y''-y'=x^2$.
-1. $y''+y=\operatorname{sen}x$.
+1. $y''+y=\mathop{\mathrm{sen}}\nolimits x$.
 1. Dada la ecuación diferencial $y''-3y'+2y=8x$ hallar la solución particular
    que en el punto $(0,y_0)$ tiene recta tangente con la ecuación $y=6x+8$.
 1. Hallar la ecuación cartesiana de la curva solución de $y''-y=4e^x$ que pasa
@@ -188,6 +189,6 @@ Se conservan las particularidades del original: el título del resumen de la
 página 1 omite $y$ después de $c$; la segunda columna de la tabla de la página 2
 no tiene encabezado y las filas de seno/coseno incluyen $\alpha$; el último
 polinomio de esa tabla combina $b_n$ con $a_1,a_0$; en la página 3 aparece $Kx$
-para la propuesta de $g(x)=\operatorname{sen}x$; en el punto 8 de la página 4 no
-se distingue prima sobre el término $-6y$. No se completan ni resuelven los
-apartados.
+para la propuesta de $g(x)=\mathop{\mathrm{sen}}\nolimits x$; en el punto 8 de
+la página 4 no se distingue prima sobre el término $-6y$. No se completan ni
+resuelven los apartados.

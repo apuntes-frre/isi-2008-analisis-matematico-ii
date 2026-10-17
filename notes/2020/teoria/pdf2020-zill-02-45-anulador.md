@@ -157,34 +157,34 @@ $$
 \begin{array}{lllll}
 e^{\alpha x}\cos\beta x,&xe^{\alpha x}\cos\beta x,&x^2e^{\alpha x}\cos\beta x,
 &\ldots,&x^{n-1}e^{\alpha x}\cos\beta x,\\
-e^{\alpha x}\operatorname{sen}\beta x,&xe^{\alpha x}\operatorname{sen}\beta x,
-&x^2e^{\alpha x}\operatorname{sen}\beta x,&\ldots,
-&x^{n-1}e^{\alpha x}\operatorname{sen}\beta x.
+e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,&xe^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,
+&x^2e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,&\ldots,
+&x^{n-1}e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x.
 \end{array} \tag{7}
 $$
 
 ### Ejemplo 2. Operador anulador
 
 Encuentre un operador diferencial que anule
-$5e^{-x}\cos2x-9e^{-x}\operatorname{sen}2x$.
+$5e^{-x}\cos2x-9e^{-x}\mathop{\mathrm{sen}}\nolimits 2x$.
 
 **Solución.** La inspección de las funciones $e^{-x}\cos2x$ y
-$e^{-x}\operatorname{sen}2x$ muestra que $\alpha=-1$ y $\beta=2$. Por tanto, de
-la ecuación (7) se concluye que $D^2+2D+5$ anulará *cualquier* función que sea
-combinación lineal de estas funciones tales como
-$5e^{-x}\cos2x-9e^{-x}\operatorname{sen}2x$.
+$e^{-x}\mathop{\mathrm{sen}}\nolimits 2x$ muestra que $\alpha=-1$ y $\beta=2$.
+Por tanto, de la ecuación (7) se concluye que $D^2+2D+5$ anulará *cualquier*
+función que sea combinación lineal de estas funciones tales como
+$5e^{-x}\cos2x-9e^{-x}\mathop{\mathrm{sen}}\nolimits 2x$.
 
 ## Página 152
 
 Cuando $\alpha=0$ y $n=1$, un caso especial de (7) es
 
 $$
-(D^2+\beta^2)\left\{\begin{array}{l}\cos\beta x\\\operatorname{sen}\beta x\end{array}\right.=0.
+(D^2+\beta^2)\left\{\begin{array}{l}\cos\beta x\\\mathop{\mathrm{sen}}\nolimits \beta x\end{array}\right.=0.
 \tag{8}
 $$
 
 Por ejemplo $D^2+16$ anulará cualquier combinación lineal de
-$\operatorname{sen}4x$ y $\cos4x$.
+$\mathop{\mathrm{sen}}\nolimits 4x$ y $\cos4x$.
 
 Con frecuencia estamos interesados en anular la suma de dos o más funciones.
 Como acabamos de ver en los ejemplos 1 y 2, si $L$ es un operador diferencial
@@ -207,8 +207,9 @@ L_1[\underbrace{L_2(y_2)}_{\text{cero}}]=0.
 $$
 
 Por ejemplo, sabemos de (3) que $D^2$ anula a $7-x$ y de (8) que $D^2+16$ anula
-a $\operatorname{sen}4x$. Por tanto el producto de operadores $D^2(D^2+16)$
-anulará la combinación lineal $7-x+6\operatorname{sen}4x$.
+a $\mathop{\mathrm{sen}}\nolimits 4x$. Por tanto el producto de operadores
+$D^2(D^2+16)$ anulará la combinación lineal
+$7-x+6\mathop{\mathrm{sen}}\nolimits 4x$.
 
 **Nota.** El operador diferencial que anula una función no es único. Vimos en el
 inciso b) del ejemplo 1 que $D+3$ anula a $e^{-3x}$, pero también a los
@@ -228,7 +229,7 @@ consiste en sumas y productos finitos de las funciones listadas en (3), (5) y
 $$
 k\ (\text{constante}),\quad x^m,\quad x^me^{\alpha x},\quad
 x^me^{\alpha x}\cos\beta x,\quad\text{y}\quad
-x^me^{\alpha x}\operatorname{sen}\beta x,
+x^me^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x,
 $$
 
 donde $m$ es un entero no negativo y $\alpha$ y $\beta$ son números reales.
@@ -342,15 +343,15 @@ $$
 Resuelva
 
 $$
-y''-3y'=8e^{3x}+4\operatorname{sen}x. \tag{14}
+y''-3y'=8e^{3x}+4\mathop{\mathrm{sen}}\nolimits x. \tag{14}
 $$
 
 **Solución. Paso 1.** La ecuación auxiliar para la ecuación homogénea asociada
 $y''-3y'=0$ es $m^2-3m=m(m-3)=0$, y por tanto, $y_c=c_1+c_2e^{3x}$.
 
-**Paso 2.** Ahora, puesto que $(D-3)e^{3x}=0$ y $(D^2+1)\operatorname{sen}x=0$,
-se aplica el operador diferencial $(D-3)(D^2+1)$ a ambos lados de la ecuación
-(14):
+**Paso 2.** Ahora, puesto que $(D-3)e^{3x}=0$ y
+$(D^2+1)\mathop{\mathrm{sen}}\nolimits x=0$, se aplica el operador diferencial
+$(D-3)(D^2+1)$ a ambos lados de la ecuación (14):
 
 $$
 (D-3)(D^2+1)(D^2-3D)y=0. \tag{15}
@@ -365,34 +366,34 @@ $$
 Así
 
 $$
-y=\boxed{c_1+c_2e^{3x}}+c_3xe^{3x}+c_4\cos x+c_5\operatorname{sen}x.
+y=\boxed{c_1+c_2e^{3x}}+c_3xe^{3x}+c_4\cos x+c_5\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 Una vez que se excluye la combinación lineal de términos dentro del cuadro que
 corresponde a $y_c$ se obtiene la forma de $y_p$:
 
 $$
-y_p=Axe^{3x}+B\cos x+C\operatorname{sen}x.
+y_p=Axe^{3x}+B\cos x+C\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 Sustituyendo $y_p$ en (14) y simplificando, se obtiene
 
 $$
-y_p''-3y_p'=3Ae^{3x}+(-B-3C)\cos x+(3B-C)\operatorname{sen}x
-=8e^{3x}+4\operatorname{sen}x.
+y_p''-3y_p'=3Ae^{3x}+(-B-3C)\cos x+(3B-C)\mathop{\mathrm{sen}}\nolimits x
+=8e^{3x}+4\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 Igualando los coeficientes se obtiene que $3A=8$, $-B-3C=0$ y $3B-C=4$. Se
 encuentra que $A=\frac83$, $B=\frac65$, y $C=-\frac25$ y por tanto,
 
 $$
-y_p=\frac83xe^{3x}+\frac65\cos x-\frac25\operatorname{sen}x.
+y_p=\frac83xe^{3x}+\frac65\cos x-\frac25\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 **Paso 3.** Entonces la solución general de (14) es
 
 $$
-y=c_1+c_2e^{3x}+\frac83xe^{3x}+\frac65\cos x-\frac25\operatorname{sen}x.
+y=c_1+c_2e^{3x}+\frac83xe^{3x}+\frac65\cos x-\frac25\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 ### Ejemplo 5. Solución general usando coeficientes indeterminados
@@ -404,10 +405,10 @@ y''+y=x\cos x-\cos x. \tag{16}
 $$
 
 **Solución.** La función complementaria es
-$y_c=c_1\cos x+c_2\operatorname{sen}x$. Ahora al comparar $\cos x$ y $x\cos x$
-con las funciones del primer renglón de (7), vemos que $\alpha=0$ y $n=1$ y así
-$(D^2+1)^2$ es un anulador para el miembro derecho de la ecuación en (16).
-Aplicando este operador a la ecuación diferencial se obtiene
+$y_c=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x$. Ahora al comparar $\cos x$
+y $x\cos x$ con las funciones del primer renglón de (7), vemos que $\alpha=0$ y
+$n=1$ y así $(D^2+1)^2$ es un anulador para el miembro derecho de la ecuación en
+(16). Aplicando este operador a la ecuación diferencial se obtiene
 
 $$
 (D^2+1)^2(D^2+1)y=0\quad\text{o}\quad(D^2+1)^3y=0.
@@ -417,22 +418,22 @@ Puesto que $i$ y $-i$ son raíces complejas de multiplicidad 3 de la última
 ecuación auxiliar, se concluye que
 
 $$
-y=\boxed{c_1\cos x+c_2\operatorname{sen}x}
-+c_3x\cos x+c_4x\operatorname{sen}x+c_5x^2\cos x+c_6x^2\operatorname{sen}x.
+y=\boxed{c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x}
++c_3x\cos x+c_4x\mathop{\mathrm{sen}}\nolimits x+c_5x^2\cos x+c_6x^2\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 Sustituyendo
 
 $$
-y_p=Ax\cos x+Bx\operatorname{sen}x+Cx^2\cos x+Ex^2\operatorname{sen}x
+y_p=Ax\cos x+Bx\mathop{\mathrm{sen}}\nolimits x+Cx^2\cos x+Ex^2\mathop{\mathrm{sen}}\nolimits x
 $$
 
 en (16) y simplificando:
 
 $$
 \begin{aligned}
-y_p''+y_p&=4Ex\cos x-4Cx\operatorname{sen}x+(2B+2C)\cos x
-+(-2A+2E)\operatorname{sen}x\\
+y_p''+y_p&=4Ex\cos x-4Cx\mathop{\mathrm{sen}}\nolimits x+(2B+2C)\cos x
++(-2A+2E)\mathop{\mathrm{sen}}\nolimits x\\
 &=x\cos x-\cos x.
 \end{aligned}
 $$
@@ -444,8 +445,8 @@ $2B+2C=-1$, y $-2A+2E=0$, de las que encontramos $A=\frac14$, $B=-\frac12$,
 $C=0$ y $E=\frac14$. Por tanto la solución general de (16) es
 
 $$
-y=c_1\cos x+c_2\operatorname{sen}x+\frac14x\cos x
--\frac12x\operatorname{sen}x+\frac14x^2\operatorname{sen}x.
+y=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x+\frac14x\cos x
+-\frac12x\mathop{\mathrm{sen}}\nolimits x+\frac14x^2\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 ### Ejemplo 6. Forma de una solución particular
@@ -475,13 +476,13 @@ Puesto que las raíces de la ecuación auxiliar de (18) son $-2-i$, $-2+i$, 1 y 
 vemos de
 
 $$
-y=\boxed{c_1e^x+c_2xe^x}+c_3e^{-2x}\cos x+c_4e^{-2x}\operatorname{sen}x
+y=\boxed{c_1e^x+c_2xe^x}+c_3e^{-2x}\cos x+c_4e^{-2x}\mathop{\mathrm{sen}}\nolimits x
 $$
 
 que una solución particular de (17) se puede encontrar con la forma
 
 $$
-y_p=Ae^{-2x}\cos x+Be^{-2x}\operatorname{sen}x.
+y_p=Ae^{-2x}\cos x+Be^{-2x}\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 ### Ejemplo 7. Forma de una solución particular
@@ -570,7 +571,7 @@ que
 
 $$
 g(x)=\ln x,\quad g(x)=\frac1x,\quad g(x)=\tan x,\quad
-g(x)=\operatorname{sen}^{-1}x,
+g(x)=\mathop{\mathrm{sen}}\nolimits ^{-1}x,
 $$
 
 etcétera. Las ecuaciones diferenciales en las que la entrada $g(x)$ es una
@@ -584,7 +585,7 @@ En los problemas 1 a 10 escriba la ecuación diferencial en la forma $L(y)=g(x)$
 donde $L$ es un operador diferencial lineal con coeficientes constantes. Si es
 posible, factorice $L$.
 
-1. $9y''-4y=\operatorname{sen}x$
+1. $9y''-4y=\mathop{\mathrm{sen}}\nolimits x$
 1. $y''-5y=x^2-2x$
 1. $y''-4y'-12y=x-6$
 1. $2y''-3y'-2y=1$
@@ -601,7 +602,7 @@ funciones indicadas.
 11. $D^4;\quad y=10x^3-2x$
 01. $2D-1;\quad y=4e^{x/2}$
 01. $(D-2)(D+5);\quad y=e^{2x}+3e^{-5x}$
-01. $D^2+64;\quad y=2\cos8x-5\operatorname{sen}8x$
+01. $D^2+64;\quad y=2\cos8x-5\mathop{\mathrm{sen}}\nolimits 8x$
 
 En los problemas 15 a 26 determine el operador diferencial lineal que anula la
 función dada.
@@ -611,13 +612,13 @@ función dada.
 01. $1+7e^{2x}$
 01. $x+3xe^{6x}$
 01. $\cos2x$
-01. $1+\operatorname{sen}x$
-01. $13x+9x^2-\operatorname{sen}4x$
-01. $8x-\operatorname{sen}x+10\cos5x$
+01. $1+\mathop{\mathrm{sen}}\nolimits x$
+01. $13x+9x^2-\mathop{\mathrm{sen}}\nolimits 4x$
+01. $8x-\mathop{\mathrm{sen}}\nolimits x+10\cos5x$
 01. $e^{-x}+2xe^x-x^2e^x$
 01. $(2-e^x)^2$
 01. $3+e^x\cos2x$
-01. $e^{-x}\operatorname{sen}x-e^{2x}\cos x$
+01. $e^{-x}\mathop{\mathrm{sen}}\nolimits x-e^{2x}\cos x$
 
 ## Página 157 (fin de ejercicios 4.5)
 
@@ -648,17 +649,17 @@ coeficientes indeterminados.
 01. $y''+2y'+2y=5e^{6x}$
 01. $y''-2y'-3y=4e^x-9$
 01. $y''+6y'+8y=3e^{-2x}+2x$
-01. $y''+25y=6\operatorname{sen}x$
-01. $y''+4y=4\cos x+3\operatorname{sen}x-8$
+01. $y''+25y=6\mathop{\mathrm{sen}}\nolimits x$
+01. $y''+4y=4\cos x+3\mathop{\mathrm{sen}}\nolimits x-8$
 01. $y''+6y'+9y=-xe^{4x}$
 01. $y''+3y'-10y=x(e^x+1)$
 01. $y''-y=x^2e^x+5$
 01. $y''+2y'+y=x^2e^{-x}$
-01. $y''-2y'+5y=e^x\operatorname{sen}x$
-01. $y''+y'+\frac14y=e^x(\operatorname{sen}3x-\cos3x)$
-01. $y''+25y=20\operatorname{sen}5x$
-01. $y''+y=4\cos x-\operatorname{sen}x$
-01. $y''+y'+y=x\operatorname{sen}x$
+01. $y''-2y'+5y=e^x\mathop{\mathrm{sen}}\nolimits x$
+01. $y''+y'+\frac14y=e^x(\mathop{\mathrm{sen}}\nolimits 3x-\cos3x)$
+01. $y''+25y=20\mathop{\mathrm{sen}}\nolimits 5x$
+01. $y''+y=4\cos x-\mathop{\mathrm{sen}}\nolimits x$
+01. $y''+y'+y=x\mathop{\mathrm{sen}}\nolimits x$
 01. $y''+4y=\cos^2x$
 01. $y'''+8y''=-6x^2+9x+2$
 01. $y'''-y''+y'-y=xe^x-e^{-x}+7$
@@ -673,7 +674,7 @@ En los problemas 65 a 72 resuelva el problema con valores iniciales.
 01. $y''+y'=x,\quad y(0)=1,\ y'(0)=0$
 01. $y''-5y'=x-2,\quad y(0),\ y'(0)=2$
 01. $y''+5y'-6y=10e^{2x},\quad y(0)=1,\ y'(0)=1$
-01. $y''+y=8\cos2x-4\operatorname{sen}x,\quad y(\pi/2)=-1,\ y'(\pi/2)=0$
+01. $y''+y=8\cos2x-4\mathop{\mathrm{sen}}\nolimits x,\quad y(\pi/2)=-1,\ y'(\pi/2)=0$
 01. $y'''-2y''+y'=xe^x+5,\quad y(0)=2,\ y'(0)=2,\ y''(0)=-1$
 01. $y''-4y'+8y=x^3,\quad y(0)=2,\ y'(0)=4$
 01. $y^{(4)}-y'''=x+e^x,\quad y(0)=0,\ y'(0)=0,\ y''(0)=0,\ y'''(0)=0$

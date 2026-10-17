@@ -18,10 +18,12 @@ Fuente: `Análisis vectorial (1).pdf`, páginas 1–2.
 <!-- El original reinicia la numeración. -->
 
 1. Dibujar la curva plana representada por la función vectorial
-   $r(t)=2\cos t\vec{i}-3\operatorname{sen}t\vec{j}$, $0\le t\le2\pi$.
+   $r(t)=2\cos t\vec{i}-3\mathop{\mathrm{sen}}\nolimits t\vec{j}$,
+   $0\le t\le2\pi$.
 
 1. Dibujar la curva en el espacio representada por la función vectorial
-   $r(t)=4\cos t\vec{i}-4\operatorname{sen}t\vec{j}+t\vec{k}$, $0\le t\le4\pi$.
+   $r(t)=4\cos t\vec{i}-4\mathop{\mathrm{sen}}\nolimits t\vec{j}+t\vec{k}$,
+   $0\le t\le4\pi$.
 
 1. Representar la parábola $y=x^2+1$ mediante una función vectorial
 
@@ -29,17 +31,21 @@ Fuente: `Análisis vectorial (1).pdf`, páginas 1–2.
    vectorial $r(t)$. Para cada $u(t)$, conjeturar sobre la transformación (si la
    hay) de la gráfica de $r(t)$. Usar un sistema computacional con el objeto de
    verificar la conjetura.
-   $r(t)=2\cos t\vec{i}+2\operatorname{sen}t\vec{j}+\frac12t\vec{k}$
+   $r(t)=2\cos t\vec{i}+2\mathop{\mathrm{sen}}\nolimits t\vec{j}+\frac12t\vec{k}$
 
-   a. $u(t)=2(\cos t-1)\vec{i}+2\operatorname{sen}t\vec{j}+\frac12t\vec{k}$
+   a.
+   $u(t)=2(\cos t-1)\vec{i}+2\mathop{\mathrm{sen}}\nolimits t\vec{j}+\frac12t\vec{k}$
 
-   b. $u(t)=2\cos t\vec{i}+2\operatorname{sen}t\vec{j}+2t\vec{k}$
+   b. $u(t)=2\cos t\vec{i}+2\mathop{\mathrm{sen}}\nolimits t\vec{j}+2t\vec{k}$
 
-   c. $u(t)=2\cos(-t)\vec{i}+2\operatorname{sen}(-t)\vec{j}+\frac12(-t)\vec{k}$
+   c.
+   $u(t)=2\cos(-t)\vec{i}+2\mathop{\mathrm{sen}}\nolimits (-t)\vec{j}+\frac12(-t)\vec{k}$
 
-   d. $u(t)=\frac12t\vec{i}+2\operatorname{sen}t\vec{j}+2\cos t\vec{k}$
+   d.
+   $u(t)=\frac12t\vec{i}+2\mathop{\mathrm{sen}}\nolimits t\vec{j}+2\cos t\vec{k}$
 
-   e. $u(t)=6\cos t\vec{i}+6\operatorname{sen}t\vec{j}+\frac12t\vec{k}$
+   e.
+   $u(t)=6\cos t\vec{i}+6\mathop{\mathrm{sen}}\nolimits t\vec{j}+\frac12t\vec{k}$
 
 ## Definiciones
 
@@ -51,9 +57,9 @@ Velocidad $v(t)=r'(t)=x'(t)i+y'(t)j$
 
 Aceleración $a(t)=r''(t)=x''(t)i+y''(t)j$
 
-Rapidez $\|v(t)\|=\|r'(t)\|=\sqrt{[x'(t)]^2+[y'(t)]^2}$
+Rapidez $`\|v(t)\|=\|r'(t)\|=\sqrt{[x'(t)]^2+[y'(t)]^2}`$
 
-Longitud de la curva $L=\int_a^b\sqrt{[x'(t)]^2+[y'(t)]^2}\,dt$ con
+Longitud de la curva $`L=\int_a^b\sqrt{[x'(t)]^2+[y'(t)]^2}\,dt`$ con
 $a\le t\le b$
 
 <!-- Página 2; continúa la lista de ejercicios. -->
@@ -66,13 +72,13 @@ $a\le t\le b$
 
    b. $\vec{r}(t)=(6-t)\vec{i}+t\vec{j}$ en $(3,3)$
 
-   c. $\vec{r}(t)=(t-\operatorname{sen}t,1-\cos t)$ en $(\pi,2)$
+   c. $\vec{r}(t)=(t-\mathop{\mathrm{sen}}\nolimits t,1-\cos t)$ en $(\pi,2)$
 
 1. Una partícula se mueve a lo largo de una curva plana $C$ descripta por
-   $r(t)=2\operatorname{sen}\frac{t}{2}\vec{i}+2\cos\frac{t}{2}\vec{j}$, con
-   $0\le t\le2\pi$ hallar: a) el vector velocidad b) la rapidez de la partícula
-   c) el vector aceleración d) la longitud del camino recorrido desde que $t=0$
-   hasta $t=\pi$ e) Graficar $C$
+   $r(t)=2\mathop{\mathrm{sen}}\nolimits \frac{t}{2}\vec{i}+2\cos\frac{t}{2}\vec{j}$,
+   con $0\le t\le2\pi$ hallar: a) el vector velocidad b) la rapidez de la
+   partícula c) el vector aceleración d) la longitud del camino recorrido desde
+   que $t=0$ hasta $t=\pi$ e) Graficar $C$
 
 ## Campos vectoriales
 

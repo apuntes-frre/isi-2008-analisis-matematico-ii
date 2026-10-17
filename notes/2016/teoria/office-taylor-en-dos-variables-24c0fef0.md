@@ -59,16 +59,16 @@ Aproximar por el Polinomio de Taylor al P(1;1) a la función $z = ln(x + y)$
 Entradas visibles de Derive (figura 7):
 
 $$
-\#1:\quad z=\operatorname{LN}(x+y)
+\#1:\quad z=\mathop{\mathrm{LN}}\nolimits (x+y)
 $$
 
 $$
-\#2:\quad\operatorname{TAYLOR}(\operatorname{LN}(x+y),x,1,5)
+\#2:\quad\mathop{\mathrm{TAYLOR}}\nolimits (\mathop{\mathrm{LN}}\nolimits (x+y),x,1,5)
 $$
 
 $$
-\#3:\quad\operatorname{TAYLOR}(
-\operatorname{TAYLOR}(\operatorname{LN}(x+y),x,1,5),y,1,5)
+\#3:\quad\mathop{\mathrm{TAYLOR}}\nolimits (
+\mathop{\mathrm{TAYLOR}}\nolimits (\mathop{\mathrm{LN}}\nolimits (x+y),x,1,5),y,1,5)
 $$
 
 Salida `#4`, `Simp(#3)`, visible entre las figuras 7 y 8:

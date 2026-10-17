@@ -14,9 +14,9 @@ lugar e introducir la idea del método consideraremos la ecuación diferencial
 $y'=y$ con la condición $y(0)=1$ separando variables para resolverla,
 rápidamente descubrimos que la función buscada es $y=e^x\Rightarrow y(0)=e^0=1$.
 
-Ahora bién, sabemos que muchas funciones como $e^x$, $\operatorname{sen}nx$,
-$\cos nx$ y muchas otras, se pueden expresar mediante un desarrollo en serie del
-tipo
+Ahora bién, sabemos que muchas funciones como $e^x$,
+$\mathop{\mathrm{sen}}\nolimits nx$, $\cos nx$ y muchas otras, se pueden
+expresar mediante un desarrollo en serie del tipo
 
 $$
 a_0+a_1x+a_2x^2+a_3x^3+\cdots\tag{1}

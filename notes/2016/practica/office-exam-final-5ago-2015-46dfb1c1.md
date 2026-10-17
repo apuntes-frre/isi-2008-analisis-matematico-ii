@@ -24,7 +24,7 @@ gradiente.
 b) Evaluar la integral de F a lo largo de la trayectoria
 
 $$
-x=\cos^3\theta,\ y=\operatorname{sen}^3\theta,\quad0\leq\theta\leq\frac\pi2
+x=\cos^3\theta,\ y=\mathop{\mathrm{sen}}\nolimits ^3\theta,\quad0\leq\theta\leq\frac\pi2
 $$
 
 Ejercicio Nº 2

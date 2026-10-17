@@ -72,10 +72,10 @@ $$
 **Casos particulares:**
 
 1. Si el parámetro de la curva es $x$, es decir, $t=x$, entonces
-   $\int_{C_{AB}}f\,dl=\int_a^b f(x,y(x))\sqrt{1+y'(x)^2}\,dx$.
+   $`\int_{C_{AB}}f\,dl=\int_a^b f(x,y(x))\sqrt{1+y'(x)^2}\,dx`$.
 1. Si sobre la curva $f$ una de las variables fuera constante (por ej. $y$)
    entonces:
-   $\int_{C_{AB}}f\,dl=\int_a^b f(x(t),k)\sqrt{x'(t)^2}\,dt=\pm\int_{x_a}^{x_b}f(x,k)\,dx$
+   $`\int_{C_{AB}}f\,dl=\int_a^b f(x(t),k)\sqrt{x'(t)^2}\,dt=\pm\int_{x_a}^{x_b}f(x,k)\,dx`$
    que es la conocida integral de Riemann en una variable.
 
 ## Página 5/32: Integrales de línea
@@ -91,7 +91,7 @@ t&\longrightarrow\boldsymbol x(t)=(x_1(t),\ldots,x_n(t))
 $$
 
 Consideremos $\boldsymbol x'(t)=(x'_1(t),\ldots,x'_n(t))$ y sea
-$\|\boldsymbol x'(t)\|$ el módulo de este vector. Entonces
+$`\|\boldsymbol x'(t)\|`$ el módulo de este vector. Entonces
 
 ### Integral de línea de una función escalar (para curvas en $\mathbb R^n$)
 
@@ -138,8 +138,8 @@ es la integral de línea de la función escalar $\boldsymbol F\cdot\boldsymbol T
 
 **Comentario:** Asumiendo que $\boldsymbol r'(t)\ne0$, es claro que el vector
 unitario tangente a la curva en $t=t_0$ es
-$\boldsymbol T(t_0)=\boldsymbol r'(t_0)/\|\boldsymbol r'(t_0)\|$ y por lo tanto,
-podemos escribir:
+$`\boldsymbol T(t_0)=\boldsymbol r'(t_0)/\|\boldsymbol r'(t_0)\|`$ y por lo
+tanto, podemos escribir:
 
 $$
 \int_{C_{AB}}\boldsymbol F\cdot d\boldsymbol r=\int_a^b\boldsymbol F(\boldsymbol r(t))\cdot\boldsymbol r'(t)\,dt
@@ -193,10 +193,10 @@ siguientes condiciones (equivalentes entre sí).
    llama función escalar del campo conservativo $\boldsymbol F$.
 1. Para cualesquiera caminos suaves $C_{AB}$, $\bar C_{AB}$ que unan los puntos
    $A$ y $B$ (desde $A$ a $B$, por ejemplo), se tiene que
-   $\int_{C_{AB}}\boldsymbol F\,d\boldsymbol r=\int_{\bar C_{AB}}\boldsymbol F\,d\boldsymbol r$.
+   $`\int_{C_{AB}}\boldsymbol F\,d\boldsymbol r=\int_{\bar C_{AB}}\boldsymbol F\,d\boldsymbol r`$.
 1. Si $C$ es una curva cerrada (que empieza y termina en un mismo punto)
    entonces
-   $\int_C\boldsymbol F\,d\boldsymbol r\equiv\oint_C\boldsymbol F\,d\boldsymbol r$
+   $`\int_C\boldsymbol F\,d\boldsymbol r\equiv\oint_C\boldsymbol F\,d\boldsymbol r`$
    (Integral de Circulación) $=0$.
 
 ### Campo conservativo: propiedad 1
@@ -257,11 +257,11 @@ operador rotacional.
 Sea $\boldsymbol F$ un campo vectorial
 $\boldsymbol F:\mathbb R^3\to\mathbb R^3$, que escribimos como
 $\boldsymbol F=F^x\boldsymbol i+F^y\boldsymbol j+F^z\boldsymbol k$, siendo
-$\{\boldsymbol i,\boldsymbol j,\boldsymbol k\}$ la base canónica. Definimos el
+$`\{\boldsymbol i,\boldsymbol j,\boldsymbol k\}`$ la base canónica. Definimos el
 campo rotacional de $\boldsymbol F$ como:
 
 $$
-\operatorname{rot}\boldsymbol F=\nabla\times\boldsymbol F=
+\mathop{\mathrm{rot}}\nolimits \boldsymbol F=\nabla\times\boldsymbol F=
 \begin{vmatrix}\boldsymbol i&\boldsymbol j&\boldsymbol k\\
 \frac\partial{\partial x}&\frac\partial{\partial y}&\frac\partial{\partial z}\\
 F^x&F^y&F^z\end{vmatrix}
@@ -540,7 +540,7 @@ dependiente de $n$ variables, $\boldsymbol F=(F^{x_1},\ldots,F^{x_n})$. Se
 define su divergencia como:
 
 $$
-\operatorname{div}(\boldsymbol F)=\nabla\boldsymbol F=\sum_{i=1}^n\frac{\partial F^{x_i}}{\partial x_i}\equiv\sum_{i=1}^nF^{x_i}_{x_i}.
+\mathop{\mathrm{div}}\nolimits (\boldsymbol F)=\nabla\boldsymbol F=\sum_{i=1}^n\frac{\partial F^{x_i}}{\partial x_i}\equiv\sum_{i=1}^nF^{x_i}_{x_i}.
 $$
 
 ### Teorema de Gauss o de la divergencia
@@ -564,7 +564,7 @@ superficie $S$.
 **Ejercicio:** Verificar el teorema de la divergencia para el siguiente campo
 vectorial: $\boldsymbol F=x^2\boldsymbol i+y^2\boldsymbol j+z^2\boldsymbol k$
 siendo $S$ la superficie cilíndrica $x^2+y^2=4$, $0\le z\le5$ junto con sus
-bases $\{(x,y)|x^2+y^2\le4,z=5\}$ y $\{(x,y)|x^2+y^2\le4,z=0\}$.
+bases $`\{(x,y)|x^2+y^2\le4,z=5\}`$ y $`\{(x,y)|x^2+y^2\le4,z=0\}`$.
 
 **Hacer!**
 

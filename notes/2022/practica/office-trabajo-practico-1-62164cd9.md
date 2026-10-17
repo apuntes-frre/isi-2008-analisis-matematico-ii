@@ -25,7 +25,7 @@ decidir si se trata de un conjunto abierto, cerrado, acotado. **d)** Definir el
 conjunto frontera.
 
 $$
-f(x,y)=\operatorname{arcsen}(x^2+y^2-2)
+f(x,y)=\mathop{\mathrm{arcsen}}\nolimits (x^2+y^2-2)
 $$
 
 $$

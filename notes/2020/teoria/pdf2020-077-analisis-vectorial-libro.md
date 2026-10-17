@@ -166,8 +166,8 @@ $$
 $$
 
 donde $\mathbf r=x\mathbf i+y\mathbf j+z\mathbf k$,
-$\mathbf u=\mathbf r/\|\mathbf r\|$ y $c$ es una constante que depende de la
-elección de unidades para $\|\mathbf r\|$, $q_1$ y $q_2$.
+$`\mathbf u=\mathbf r/\|\mathbf r\|`$ y $c$ es una constante que depende de la
+elección de unidades para $`\|\mathbf r\|`$, $q_1$ y $q_2$.
 
 Nótese que un campo de fuerzas eléctricas tiene la misma forma que un campo
 gravitatorio. Es decir,
@@ -186,7 +186,7 @@ $$
 \mathbf F(x,y,z)=\frac{k}{\|\mathbf r\|^2}\mathbf u
 $$
 
-donde $k$ es un número real y $\mathbf u=\mathbf r/\|\mathbf r\|$ es un vector
+donde $k$ es un número real y $`\mathbf u=\mathbf r/\|\mathbf r\|`$ es un vector
 unitario en la dirección de $\mathbf r$.
 
 ## Página 1056
@@ -330,7 +330,7 @@ $$
 \quad\text{y}\quad f(x,y,z)=\frac{-k}{\sqrt{x^2+y^2+z^2}},
 $$
 
-donde $\mathbf u=\mathbf r/\|\mathbf r\|$. Como
+donde $`\mathbf u=\mathbf r/\|\mathbf r\|`$. Como
 
 $$
 \begin{aligned}
@@ -517,7 +517,7 @@ $\mathbf F(x,y,z)=M\mathbf i+N\mathbf j+P\mathbf k$ es
 
 $$
 \begin{aligned}
-\operatorname{rot}\mathbf F(x,y,z)&=\nabla\times\mathbf F(x,y,z)\\
+\mathop{\mathrm{rot}}\nolimits \mathbf F(x,y,z)&=\nabla\times\mathbf F(x,y,z)\\
 &=
 \left(\frac{\partial P}{\partial y}-\frac{\partial N}{\partial z}\right)
 \mathbf i
@@ -533,8 +533,8 @@ $$
 \end{aligned}
 $$
 
-**NOTA.** Si $\operatorname{rot}\mathbf F=\mathbf0$, entonces se dice que
-$\mathbf F$ es un **campo irrotacional**.
+**NOTA.** Si $\mathop{\mathrm{rot}}\nolimits \mathbf F=\mathbf0$, entonces se
+dice que $\mathbf F$ es un **campo irrotacional**.
 
 La notación de producto vectorial usada para el rotacional proviene de ver el
 gradiente $\nabla f$ como el resultado del **operador diferencial** $\nabla$ que
@@ -544,7 +544,7 @@ rotacional.
 
 $$
 \begin{aligned}
-\operatorname{rot}\mathbf F(x,y,z)&=\nabla\times\mathbf F(x,y,z)\\
+\mathop{\mathrm{rot}}\nolimits \mathbf F(x,y,z)&=\nabla\times\mathbf F(x,y,z)\\
 &=\begin{vmatrix}
 \mathbf i&\mathbf j&\mathbf k\\
 \dfrac{\partial}{\partial x}
@@ -571,7 +571,8 @@ $$
 
 ### EJEMPLO 7. Cálculo del rotacional de un campo vectorial
 
-Hallar $\operatorname{rot}\mathbf F$ para el campo vectorial dado por
+Hallar $\mathop{\mathrm{rot}}\nolimits \mathbf F$ para el campo vectorial dado
+por
 
 $$
 \mathbf F(x,y,z)=2xy\mathbf i+(x^2+z^2)\mathbf j+2yz\mathbf k.
@@ -583,7 +584,7 @@ $$
 
 $$
 \begin{aligned}
-\operatorname{rot}\mathbf F(x,y,z)&=\nabla\times\mathbf F(x,y,z)\\
+\mathop{\mathrm{rot}}\nolimits \mathbf F(x,y,z)&=\nabla\times\mathbf F(x,y,z)\\
 &=\begin{vmatrix}
 \mathbf i&\mathbf j&\mathbf k\\
 \dfrac{\partial}{\partial x}
@@ -614,7 +615,8 @@ z^2\end{vmatrix}\mathbf k
 \end{aligned}
 $$
 
-Como $\operatorname{rot}\mathbf F=\mathbf0$, $\mathbf F$ es irrotacional.
+Como $\mathop{\mathrm{rot}}\nolimits \mathbf F=\mathbf0$, $\mathbf F$ es
+irrotacional.
 
 ## Página 1061
 
@@ -633,7 +635,7 @@ esfera abierta $Q$ en el espacio. El campo vectorial dado por
 $\mathbf F(x,y,z)=M\mathbf i+N\mathbf j+P\mathbf k$ es conservativo si y sólo si
 
 $$
-\operatorname{rot}\mathbf F(x,y,z)=\mathbf0.
+\mathop{\mathrm{rot}}\nolimits \mathbf F(x,y,z)=\mathbf0.
 $$
 
 Es decir, $\mathbf F$ es conservativo si y sólo si
@@ -646,8 +648,8 @@ $$
 $$
 
 Del teorema 15.2 se puede ver que el campo vectorial del ejemplo 7 es
-conservativo, ya que $\operatorname{rot}\mathbf F(x,y,z)=\mathbf0$. Comprobar
-que el campo vectorial
+conservativo, ya que $\mathop{\mathrm{rot}}\nolimits \mathbf F(x,y,z)=\mathbf0$.
+Comprobar que el campo vectorial
 
 $$
 \mathbf F(x,y,z)=x^3y^2z\mathbf i+x^2z\mathbf j+x^2y\mathbf k
@@ -656,7 +658,7 @@ $$
 no es conservativo; se puede demostrar que su rotacional es
 
 $$
-\operatorname{rot}\mathbf F(x,y,z)=(x^3y^2-2xy)\mathbf j
+\mathop{\mathrm{rot}}\nolimits \mathbf F(x,y,z)=(x^3y^2-2xy)\mathbf j
 +(2xz-2x^3yz)\mathbf k\ne\mathbf0.
 $$
 
@@ -715,7 +717,7 @@ campo vectorial. Otra función importante definida en un campo vectorial es la
 $\mathbf F(x,y)=M\mathbf i+N\mathbf j$ es
 
 $$
-\operatorname{div}\mathbf F(x,y)=\nabla\cdot\mathbf F(x,y)
+\mathop{\mathrm{div}}\nolimits \mathbf F(x,y)=\nabla\cdot\mathbf F(x,y)
 =\frac{\partial M}{\partial x}+\frac{\partial N}{\partial y}.
 \qquad\text{Plano.}
 $$
@@ -723,14 +725,14 @@ $$
 La divergencia de $\mathbf F(x,y,z)=M\mathbf i+N\mathbf j+P\mathbf k$ es
 
 $$
-\operatorname{div}\mathbf F(x,y,z)=\nabla\cdot\mathbf F(x,y,z)
+\mathop{\mathrm{div}}\nolimits \mathbf F(x,y,z)=\nabla\cdot\mathbf F(x,y,z)
 =\frac{\partial M}{\partial x}+\frac{\partial N}{\partial y}
 +\frac{\partial P}{\partial z}.
 \qquad\text{Espacio.}
 $$
 
-Si $\operatorname{div}\mathbf F=0$, entonces se dice que $\mathbf F$ es de
-**divergencia nula**.
+Si $\mathop{\mathrm{div}}\nolimits \mathbf F=0$, entonces se dice que
+$\mathbf F$ es de **divergencia nula**.
 
 **NOTA.** La divergencia puede verse como un tipo de derivadas de $\mathbf F$ ya
 que, para campos de velocidades de partículas, mide el ritmo de flujo de
@@ -768,14 +770,14 @@ $$
 **Solución.** La divergencia de $\mathbf F$ es
 
 $$
-\operatorname{div}\mathbf F(x,y,z)=\frac{\partial}{\partial x}[x^3y^2z]
+\mathop{\mathrm{div}}\nolimits \mathbf F(x,y,z)=\frac{\partial}{\partial x}[x^3y^2z]
 +\frac{\partial}{\partial y}[x^2z]+\frac{\partial}{\partial z}[x^2y]=3x^2y^2z.
 $$
 
 En el punto $(2,1,-1)$, la divergencia es
 
 $$
-\operatorname{div}\mathbf F(2,1,-1)=3(2)^2(1)^2(-1)=-12.
+\mathop{\mathrm{div}}\nolimits \mathbf F(2,1,-1)=3(2)^2(1)^2(-1)=-12.
 $$
 
 Hay muchas propiedades importantes de la divergencia y el rotacional de un campo
@@ -788,5 +790,5 @@ Si $\mathbf F(x,y,z)=M\mathbf i+N\mathbf j+P\mathbf k$ es un campo vectorial y
 $M$, $N$ y $P$ tienen segundas derivadas parciales continuas, entonces
 
 $$
-\operatorname{div}(\operatorname{rot}\mathbf F)=0.
+\mathop{\mathrm{div}}\nolimits (\mathop{\mathrm{rot}}\nolimits \mathbf F)=0.
 $$

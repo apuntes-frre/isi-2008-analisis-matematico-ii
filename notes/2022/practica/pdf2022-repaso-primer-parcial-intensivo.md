@@ -17,7 +17,7 @@
    conjunto $D$. $f(x,y)=x^3-3x-y^3+12y$, siendo $D$ el cuadrilátero cuyos
    vértices son $(-2,3)$, $(2,3)$, $(2,2)$, $(-2,2)$.
 
-1. Dada la función $f(x,y)=\operatorname{sen}(2x+3y)$; $P(-6,4)$ y
+1. Dada la función $f(x,y)=\mathop{\mathrm{sen}}\nolimits (2x+3y)$; $P(-6,4)$ y
    $\vec u=\sqrt3\vec i-\vec j$, determinar:
 
    a. El gradiente de $f$.

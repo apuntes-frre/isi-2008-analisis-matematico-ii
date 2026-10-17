@@ -6,7 +6,7 @@
 
 1. Definir el dominio de definición de la función, graficarlo e indicar si es
    abierto, cerrado, acotado o conexo. Si existe, expresar el conjunto frontera
-   $f(x,y)=\frac{\operatorname{arcsen}(x/y)}{1+xy}$.
+   $f(x,y)=\frac{\mathop{\mathrm{arcsen}}\nolimits (x/y)}{1+xy}$.
 
 1. Graficar y describir la superficie y las curvas de nivel $36z=9y^2-4x^2$.
 
@@ -16,7 +16,8 @@
    esas medidas. SUGERENCIA: $V=\frac13\pi R^2h$, donde R es el radio de la base
    y h es la altura.
 
-1. Demostrar que $z=(\cos at)\operatorname{sen}x$ satisface la ecuación de ondas
+1. Demostrar que $z=(\cos at)\mathop{\mathrm{sen}}\nolimits x$ satisface la
+   ecuación de ondas
    $a^2\frac{\partial^2z}{\partial x^2}=\frac{\partial^2z}{\partial t^2}$.
 
 1. Decidir si la función es diferenciable en cada punto de su dominio

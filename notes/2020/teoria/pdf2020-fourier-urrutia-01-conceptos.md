@@ -108,9 +108,9 @@ $$
 
 son funciones impares las siguientes:
 
-a) $f(x)=\operatorname{sen}x$
+a) $f(x)=\mathop{\mathrm{sen}}\nolimits x$
 
-b) $f(x)=\operatorname{tg}x$
+b) $f(x)=\mathop{\mathrm{tg}}\nolimits x$
 
 c) $f(x)=x^n$ si n es entero e impar.
 
@@ -184,8 +184,8 @@ $$
 un ejemplo son las funciones trigonométricas, ya que:
 
 $$
-\operatorname{sen}(x+2\pi)=\operatorname{sen}x;\quad
-\cos(x+2\pi)=\cos x,\quad\operatorname{tg}(x+\pi)=\operatorname{tg}x
+\mathop{\mathrm{sen}}\nolimits (x+2\pi)=\mathop{\mathrm{sen}}\nolimits x;\quad
+\cos(x+2\pi)=\cos x,\quad\mathop{\mathrm{tg}}\nolimits (x+\pi)=\mathop{\mathrm{tg}}\nolimits x
 $$
 
 en los dos primeros casos el período es $2\pi$ y en el tercero es $\pi$. Como
@@ -201,13 +201,13 @@ $$
 
 ### Propiedades de las funciones periódicas
 
-**2.** Si $f(x+p)=f(x)\;\forall x\in\mathbb R$ y n es un número entero ≠0 será
+**2.** Si $`f(x+p)=f(x)\;\forall x\in\mathbb R`$ y n es un número entero ≠0 será
 $f(x+np)=f(x)$, de modo que “cualquier múltiplo entero del período, también es
 período de la misma función”. El período “p de menor valor”, se denomina
 “período primitivo de la función”. Hemos visto en el punto anterior que
-$\operatorname{tg}(x)=\operatorname{tg}(x+\pi)$, son también períodos de la
-función tangente, $\pm2\pi$, $\pm3\pi$, $\pm4\pi$, etc., pero el período
-primitivo de la función es $p=\pi$.
+$\mathop{\mathrm{tg}}\nolimits (x)=\mathop{\mathrm{tg}}\nolimits (x+\pi)$, son
+también períodos de la función tangente, $\pm2\pi$, $\pm3\pi$, $\pm4\pi$, etc.,
+pero el período primitivo de la función es $p=\pi$.
 
 **3.** Si $f(x)$ es una función periódica de período p, f(ax) es otra función
 periódica de período p/a $\forall a>0$. Para su demostración reemplacemos en la
@@ -215,13 +215,13 @@ función f(ax), a la variable (x) por el valor (x+p/a).
 
 ## Página PDF 7 — Hoja N° 6
 
-$f(a(x+p/a))=f(ax+p)$ como $f(x+p)=f(x)\;\forall x$ incluso (x.a)
+$f(a(x+p/a))=f(ax+p)$ como $`f(x+p)=f(x)\;\forall x`$ incluso (x.a)
 
 $f(a(x+p/a))=f(ax)$ con lo cual queda demostrado su período p/a.
 
 Como aplicación de esta propiedad observamos que siendo el período de
-$f(x)=\operatorname{sen}x;\;p=2\pi$, por lo tanto el de la función
-$f(x)=\operatorname{sen}nx$, será $p=2\pi/n$.
+$`f(x)=\mathop{\mathrm{sen}}\nolimits x;\;p=2\pi`$, por lo tanto el de la
+función $f(x)=\mathop{\mathrm{sen}}\nolimits nx$, será $p=2\pi/n$.
 
 Así entonces, las gráficas correspondientes a: sen x, sen 2x, sen 3x,…, se
 repiten 1, 2, 3,… veces el período $2\pi$, como se puede observar.
@@ -252,8 +252,8 @@ $$
 f\left(\frac xb+p\right)=f\left(\frac xb\right)
 $$
 
-por ser $f(x+p)=f(x)\;\forall x$, entonces $f(\frac xb)$ es periódica de período
-b.p.
+por ser $`f(x+p)=f(x)\;\forall x`$, entonces $f(\frac xb)$ es periódica de
+período b.p.
 
 **5.** La suma de funciones periódicas de igual período es otra función
 periódica del mismo período.
@@ -275,7 +275,7 @@ por lo tanto $h(x+p)=h(x)$.
 **6.** Supongamos la función:
 
 $$
-f(x)=2\cdot\operatorname{sen}x+\frac32\cdot\operatorname{sen}2x+\operatorname{sen}3x,
+f(x)=2\cdot\mathop{\mathrm{sen}}\nolimits x+\frac32\cdot\mathop{\mathrm{sen}}\nolimits 2x+\mathop{\mathrm{sen}}\nolimits 3x,
 $$
 
 es una función, suma de funciones periódicas; la primera de las cuales (sen x)
@@ -304,8 +304,8 @@ $$
 ### 7. Integrales Definidas de Funciones Periódicas
 
 Sea $f(x)$ una función periódica de período P;
-$f(x)=f(x+P)\;\forall x\in\mathbb R$. Si $f(x)$ es integrable en un intervalo de
-amplitud igual al período P, entonces es integrable sobre cualquier intervalo
+$`f(x)=f(x+P)\;\forall x\in\mathbb R`$. Si $f(x)$ es integrable en un intervalo
+de amplitud igual al período P, entonces es integrable sobre cualquier intervalo
 $\in\mathbb R$. Además se verifica que:
 
 ![Integración sobre un período con comienzo variable](../../../resources/2020/pdf2020-fourier-urrutia/p10-integral-periodica.png)
@@ -323,7 +323,7 @@ Analicemos la segunda integral, del segundo miembro:
 
 $\int_P^{a+P}f(x)\cdot dx$; si hacemos $x=t+P\Rightarrow dx=dt$ además,
 
-si $P=x\Rightarrow t=0$; si $x=a+P\Rightarrow t=a\;\therefore$ reemplazando
+si $P=x\Rightarrow t=0$; si $`x=a+P\Rightarrow t=a\;\therefore`$ reemplazando
 
 $\int_P^{a+P}f(x)\cdot dx=\int_0^a f(t+P)dt=\int_0^a f(x)\cdot dx$, reemplazando
 en 1
@@ -346,45 +346,46 @@ Verificaremos las siguientes expresiones, donde m y n son números enteros.
 $$
 \int_{-\pi}^{\pi}\cos nx\cdot dx=0\;\therefore\;
 \int_{-\pi}^{\pi}\cos nx\cdot dx=\frac1n\int_{-\pi}^{\pi}\cos(nx)\cdot d(nx)
-=\left.\frac1n\operatorname{sen}nx\right|_{-\pi}^{\pi}=0
+=\left.\frac1n\mathop{\mathrm{sen}}\nolimits nx\right|_{-\pi}^{\pi}=0
 $$
 
-**2.-** $\int_{-\pi}^{\pi}\operatorname{sen}nx\cdot dx=0$ es nula por ser “sen
-nx” una función impar.
+**2.-** $\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits nx\cdot dx=0$ es nula
+por ser “sen nx” una función impar.
 
-**3.-** $\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\cos(nx)\cdot dx=0$ por lo
-tanto dado que se trata de un integrando producto de dos funciones una par (cos
-nx) y una impar (sen mx), la resultante será otra función impar, como los
-límites de integración son simétricos la integral es nula.
+**3.-**
+$\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\cos(nx)\cdot dx=0$
+por lo tanto dado que se trata de un integrando producto de dos funciones una
+par (cos nx) y una impar (sen mx), la resultante será otra función impar, como
+los límites de integración son simétricos la integral es nula.
 
 ### 4.-
 
 $$
-\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\operatorname{sen}(nx)\cdot dx
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\mathop{\mathrm{sen}}\nolimits (nx)\cdot dx
 =\begin{cases}0&\text{si }m\ne n\\\pi&\text{si }m=n\end{cases}
 $$
 
 a) primer caso si m≠n
 
 $$
-\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\operatorname{sen}(nx)\cdot dx
-=\frac12\left[\frac{\operatorname{sen}(m-n)\cdot x}{m-n}
--\frac{\operatorname{sen}(m+n)\cdot x}{m+n}\right]_{x=-\pi}^{\pi}
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\mathop{\mathrm{sen}}\nolimits (nx)\cdot dx
+=\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\cdot x}{m-n}
+-\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\cdot x}{m+n}\right]_{x=-\pi}^{\pi}
 $$
 
 $$
-=\frac12\left[\frac{\operatorname{sen}(m-n)\pi}{m+n}
--\frac{\operatorname{sen}(m+n)\pi}{m+n}\right]=0\quad\text{por ser }(m\pm n)\in\mathbb Z
+=\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\pi}{m+n}
+-\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\pi}{m+n}\right]=0\quad\text{por ser }(m\pm n)\in\mathbb Z
 $$
 
 b) segundo caso si m=n
 
 $$
 \begin{aligned}
-\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\operatorname{sen}(nx)\cdot dx
-&=\int_{-\pi}^{\pi}\operatorname{sen}^2(mx)\cdot dx
-=\frac1m\int_{-\pi}^{\pi}\operatorname{sen}^2(mx)\cdot d(mx)\\
-&=\frac1{2\cdot m}[mx-\operatorname{sen}(mx)\cdot\cos(mx)]_{x=-\pi}^{\pi}\\
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\mathop{\mathrm{sen}}\nolimits (nx)\cdot dx
+&=\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits ^2(mx)\cdot dx
+=\frac1m\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits ^2(mx)\cdot d(mx)\\
+&=\frac1{2\cdot m}[mx-\mathop{\mathrm{sen}}\nolimits (mx)\cdot\cos(mx)]_{x=-\pi}^{\pi}\\
 &=\frac1{2\cdot m}[m\pi-m(-\pi)]=\frac{2m\pi}{2m}=\pi
 \end{aligned}
 $$
@@ -402,9 +403,9 @@ a) primer caso si m≠n
 
 $$
 \int_{-\pi}^{\pi}\cos(mx)\cdot\cos(nx)\cdot dx
-=\frac12\left[\frac{\operatorname{sen}(m-n)x}{m-n}
-+\frac{\operatorname{sen}(m+n)x}{m+n}\right]_{x=-\pi}^{\pi}
-=\frac{\operatorname{sen}(m-n)\cdot\pi}{m-n}+\frac{\operatorname{sen}(m+n)\pi}{m+n}
+=\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)x}{m-n}
++\frac{\mathop{\mathrm{sen}}\nolimits (m+n)x}{m+n}\right]_{x=-\pi}^{\pi}
+=\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\cdot\pi}{m-n}+\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\pi}{m+n}
 $$
 
 por ser m±n∈Z, por lo tanto la integral es nula.
@@ -416,7 +417,7 @@ $$
 \int_{-\pi}^{\pi}\cos(mx)\cdot\cos(nx)\cdot dx
 &=\int_{-\pi}^{\pi}\cos^2(mx)\cdot dx
 =\frac1m\int_{-\pi}^{\pi}\cos^2(mx)\cdot d(mx)\\
-&=\frac1{2\cdot m}[mx+\cos(mx)\cdot\operatorname{sen}(mx)]_{x=-\pi}^{\pi}\\
+&=\frac1{2\cdot m}[mx+\cos(mx)\cdot\mathop{\mathrm{sen}}\nolimits (mx)]_{x=-\pi}^{\pi}\\
 &=\frac1{2\cdot m}[m\pi-m(-\pi)]=\frac{2m\pi}{2m}=\pi
 \end{aligned}
 $$
@@ -425,7 +426,7 @@ $$
 
 $$
 P(x)=\frac12+\sum_{K=1}^n\cos K\cdot x
-=\frac{\operatorname{sen}(n+1/2)x}{2\cdot\operatorname{sen}x/2}
+=\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)x}{2\cdot\mathop{\mathrm{sen}}\nolimits x/2}
 $$
 
 Desarrollando:
@@ -460,38 +461,38 @@ dividiendo y multiplicando por 2i tendremos:
 $$
 P(x)=1/2\cdot\frac{\frac{e^{ix(n+1/2)}-e^{-ix(n+1/2)}}{2i}}
 {\frac{e^{1/2ix}-e^{-1/2ix}}{2i}}
-=1/2\frac{\operatorname{sen}(n+1/2)\cdot x}{\operatorname{sen}(1/2\cdot x)}
+=1/2\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot x}{\mathop{\mathrm{sen}}\nolimits (1/2\cdot x)}
 $$
 
 quedando así demostrada.
 
 **7.** Si a la igualdad
-$\frac12+\sum_{K=1}^n\cos Kx=\frac{\operatorname{sen}(n+1/2)\cdot x}{2\cdot\operatorname{sen}x/2}$
+$\frac12+\sum_{K=1}^n\cos Kx=\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot x}{2\cdot\mathop{\mathrm{sen}}\nolimits x/2}$
 se la integra entre $-\pi$ y $\pi$.
 
 $$
 \frac12\int_{-\pi}^{\pi}dx+\sum_{K=1}^n\int_{-\pi}^{\pi}\cos Kx\cdot dx
-=\int_{-\pi}^{\pi}\frac{\operatorname{sen}(n+1/2)\cdot x\,dx}{2\cdot\operatorname{sen}x/2}
+=\int_{-\pi}^{\pi}\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot x\,dx}{2\cdot\mathop{\mathrm{sen}}\nolimits x/2}
 $$
 
 en el primer miembro tendremos:
 
 $$
-\frac12\left.x\right|_{-\pi}^{\pi}+\sum_{K=1}^n\left.\frac1K\cdot\operatorname{sen}Kx\right|_{-\pi}^{\pi}
-=\frac12\cdot2\pi+\sum_{K=1}^n\frac2K\cdot\operatorname{sen}K\pi=\pi
+\frac12\left.x\right|_{-\pi}^{\pi}+\sum_{K=1}^n\left.\frac1K\cdot\mathop{\mathrm{sen}}\nolimits Kx\right|_{-\pi}^{\pi}
+=\frac12\cdot2\pi+\sum_{K=1}^n\frac2K\cdot\mathop{\mathrm{sen}}\nolimits K\pi=\pi
 $$
 
 en consecuencia tendremos:
 
 $$
-\int_{-\pi}^{\pi}\frac{\operatorname{sen}(n+1/2)\cdot x}{2\cdot\operatorname{sen}x/2}dx=\pi
+\int_{-\pi}^{\pi}\frac{\mathop{\mathrm{sen}}\nolimits (n+1/2)\cdot x}{2\cdot\mathop{\mathrm{sen}}\nolimits x/2}dx=\pi
 $$
 
 De la misma manera que el caso 6, se demuestra:
 
 $$
-\sum_{K=1}^n\operatorname{sen}Kx
-=\frac12\operatorname{cotg}x/2-\frac{\cos(n+1/2)x}{\operatorname{sen}x/2}
+\sum_{K=1}^n\mathop{\mathrm{sen}}\nolimits Kx
+=\frac12\mathop{\mathrm{cotg}}\nolimits x/2-\frac{\cos(n+1/2)x}{\mathop{\mathrm{sen}}\nolimits x/2}
 $$
 
 ## Página PDF 14 — Hoja N° 13
@@ -499,7 +500,7 @@ $$
 funciones continuas por tramos en [a,b], entonces se verificará que:
 
 $$
-\lim_{\lambda\to\infty}\int_a^b f(x)\cdot\operatorname{sen}\lambda x\cdot dx=0,
+\lim_{\lambda\to\infty}\int_a^b f(x)\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx=0,
 \quad\text{o bien que}\quad
 \lim_{\lambda\to\infty}\int_a^b f(x)\cdot\cos\lambda x\cdot dx=0
 $$
@@ -509,7 +510,7 @@ Demostración:
 Supondremos primero que la función $f(x)$ es continua en (a,b). Llamemos:
 
 $$
-I(\lambda)=\int_a^b f(x)\cdot\operatorname{sen}\lambda x\cdot dx\tag{1}
+I(\lambda)=\int_a^b f(x)\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx\tag{1}
 $$
 
 haciendo $x=t+\pi/\lambda$
@@ -518,25 +519,25 @@ $$
 \begin{cases}
 x=a\Rightarrow t=a-\pi/\lambda\;\wedge\;x=b\Rightarrow t=b-\pi/\lambda\\
 f(x)=f(t+\pi/\lambda)\\
-\operatorname{sen}\lambda x=\operatorname{sen}\lambda(t+\pi/\lambda)
-=\operatorname{sen}(\lambda t+\pi)=-\operatorname{sen}\lambda t
+\mathop{\mathrm{sen}}\nolimits \lambda x=\mathop{\mathrm{sen}}\nolimits \lambda(t+\pi/\lambda)
+=\mathop{\mathrm{sen}}\nolimits (\lambda t+\pi)=-\mathop{\mathrm{sen}}\nolimits \lambda t
 \end{cases}
 $$
 
 por lo tanto:
 
 $$
-I(\lambda)=-\int_{a-\pi/\lambda}^{b-\pi/\lambda}f(t+\pi/\lambda)\cdot\operatorname{sen}\lambda t\cdot dt
-=-\int_{a-\pi/\lambda}^{b-\pi/\lambda}f(x+\pi/\lambda)\cdot\operatorname{sen}\lambda x\cdot dx\tag{2}
+I(\lambda)=-\int_{a-\pi/\lambda}^{b-\pi/\lambda}f(t+\pi/\lambda)\cdot\mathop{\mathrm{sen}}\nolimits \lambda t\cdot dt
+=-\int_{a-\pi/\lambda}^{b-\pi/\lambda}f(x+\pi/\lambda)\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx\tag{2}
 $$
 
 sumando las expresiones (1) y (2) tendremos:
 
 $$
 \begin{aligned}
-2I(\lambda)&=-\int_{a-\pi/\lambda}^a f(x+\pi/\lambda)\cdot\operatorname{sen}\lambda x\cdot dx\\
-&\quad+\int_a^{b-\pi/\lambda}[f(x)-f(x+\pi/\lambda)]\cdot\operatorname{sen}\lambda x\cdot dx
-+\int_{b-\pi/\lambda}^b f(x)\cdot\operatorname{sen}\lambda x\cdot dx
+2I(\lambda)&=-\int_{a-\pi/\lambda}^a f(x+\pi/\lambda)\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx\\
+&\quad+\int_a^{b-\pi/\lambda}[f(x)-f(x+\pi/\lambda)]\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx
++\int_{b-\pi/\lambda}^b f(x)\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx
 \end{aligned}
 $$
 
@@ -546,7 +547,8 @@ $$
 |f(x)|\le M\quad\forall x\in(a,b)
 $$
 
-y considerando que $|\operatorname{sen}\lambda x|\le1$, reemplazando resulta:
+y considerando que $|\mathop{\mathrm{sen}}\nolimits \lambda x|\le1$,
+reemplazando resulta:
 
 $$
 2|I(\lambda)|\le M\int_{a-\pi/\lambda}^a dx
@@ -572,7 +574,7 @@ en consecuencia:
 
 $$
 2|I(\lambda)|<2M\cdot\frac\xi{2M}+\xi\Rightarrow|I(\lambda)|<\xi;
-\quad\forall\lambda>i\lambda\;(i\lambda=\operatorname{máx}K_1,K_2)
+\quad\forall\lambda>i\lambda\;(i\lambda=\mathop{\mathrm{máx}}\nolimits K_1,K_2)
 $$
 
 Este teorema puede extenderse a funciones seccionalmente continuas en un
@@ -588,7 +590,7 @@ de los subintervalos resultantes de la partición practicada.
 Además si tenemos en cuenta que:
 
 $$
-\cos(\alpha x+\beta)=\operatorname{sen}(\alpha x+\beta+\pi/2)
+\cos(\alpha x+\beta)=\mathop{\mathrm{sen}}\nolimits (\alpha x+\beta+\pi/2)
 $$
 
 ## Página PDF 16 — Hoja N° 15
@@ -603,7 +605,7 @@ $$
 obtendremos:
 
 $$
-\lim_{\alpha\to\infty}\int_a^b f(x)\cdot\operatorname{sen}\alpha x\cdot dx=0
+\lim_{\alpha\to\infty}\int_a^b f(x)\cdot\mathop{\mathrm{sen}}\nolimits \alpha x\cdot dx=0
 \quad\wedge\quad
 \lim_{\alpha\to\infty}\int_a^b f(x)\cdot\cos\alpha x\cdot dx=0
 $$

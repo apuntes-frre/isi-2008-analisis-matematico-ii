@@ -205,15 +205,16 @@ En el ejemplo 4 de la sección 1.1 vimos que la familia de soluciones de dos
 parámetros de la ecuación diferencial $x''+16x=0$ es
 
 $$
-x=c_1\cos4t+c_2\operatorname{sen}4t.\tag{2}
+x=c_1\cos4t+c_2\mathop{\mathrm{sen}}\nolimits 4t.\tag{2}
 $$
 
 a) Suponga que ahora deseamos determinar la solución de la ecuación que
 satisface más condiciones en la frontera $x(0)=0$, $x(\pi/2)=0$. Observe que la
-primera condición $0=c_1\cos0+c_2\operatorname{sen}0$ implica que $c_1=0$, por
-tanto $x=c_2\operatorname{sen}4t$. Pero cuando $t=\pi/2$,
-$0=c_2\operatorname{sen}2\pi$ se satisface para cualquier elección de $c_2$ ya
-que $\operatorname{sen}2\pi=0$. Por tanto el problema con valores en la frontera
+primera condición $0=c_1\cos0+c_2\mathop{\mathrm{sen}}\nolimits 0$ implica que
+$c_1=0$, por tanto $x=c_2\mathop{\mathrm{sen}}\nolimits 4t$. Pero cuando
+$t=\pi/2$, $0=c_2\mathop{\mathrm{sen}}\nolimits 2\pi$ se satisface para
+cualquier elección de $c_2$ ya que $\mathop{\mathrm{sen}}\nolimits 2\pi=0$. Por
+tanto el problema con valores en la frontera
 
 $$
 x''+16x=0,\quad x(0)=0,\quad x\left(\frac\pi2\right)=0\tag{3}
@@ -221,7 +222,8 @@ $$
 
 tiene un número infinito de soluciones. En la figura 4.1.2 se muestran las
 gráficas de algunos de los miembros de la familia uniparamétrica
-$x=c_2\operatorname{sen}4t$ que pasa por los dos puntos $(0,0)$ y $(\pi/2,0)$.
+$x=c_2\mathop{\mathrm{sen}}\nolimits 4t$ que pasa por los dos puntos $(0,0)$ y
+$(\pi/2,0)$.
 
 ![FIGURA 4.1.2. Algunas curvas solución de (3)](../../../resources/2020/pdf2020-zill-01/figura-4-1-2.png)
 
@@ -232,10 +234,10 @@ x''+16x=0,\quad x(0)=0,\quad x\left(\frac\pi8\right)=0,\tag{4}
 $$
 
 entonces $x(0)=0$ aún requiere que $c_1=0$ en la solución (2). Pero aplicando
-$x(\pi/8)=0$ a $x=c_2\operatorname{sen}4t$ requiere que
-$0=c_2\operatorname{sen}(\pi/2)=c_2\cdot1$. Por tanto $x=0$ es una solución de
-este nuevo problema con valores en la frontera. De hecho, se puede demostrar que
-$x=0$ es la *única* solución de (4).
+$x(\pi/8)=0$ a $x=c_2\mathop{\mathrm{sen}}\nolimits 4t$ requiere que
+$0=c_2\mathop{\mathrm{sen}}\nolimits (\pi/2)=c_2\cdot1$. Por tanto $x=0$ es una
+solución de este nuevo problema con valores en la frontera. De hecho, se puede
+demostrar que $x=0$ es la *única* solución de (4).
 
 c) Por último, si se cambia el problema a
 
@@ -244,9 +246,9 @@ x''+16x=0,\quad x(0)=0,\quad x\left(\frac\pi2\right)=1,\tag{5}
 $$
 
 se encuentra de nuevo de $x(0)=0$ que $c_1=0$, pero al aplicar $x(\pi/2)=1$ a
-$x=c_2\operatorname{sen}4t$ conduce a la contradicción
-$1=c_2\operatorname{sen}2\pi=c_2\cdot0=0$. Por tanto el problema con valores en
-la frontera (5) **no tiene solución**.
+$x=c_2\mathop{\mathrm{sen}}\nolimits 4t$ conduce a la contradicción
+$1=c_2\mathop{\mathrm{sen}}\nolimits 2\pi=c_2\cdot0=0$. Por tanto el problema
+con valores en la frontera (5) **no tiene solución**.
 
 ### 4.1.2 ECUACIONES HOMOGÉNEAS
 
@@ -290,8 +292,9 @@ Nota marginal: Por favor recuerde estas dos suposiciones.
 **OPERADORES DIFERENCIALES.** En cálculo la derivación se denota con frecuencia
 con la letra $D$ mayúscula, es decir, $dy/dx=Dy$. El símbolo $D$ se llama
 **operador diferencial** porque convierte una función derivable en otra función.
-Por ejemplo, $D(\cos4x)=-4\operatorname{sen}4x$ y $D(5x^3-6x^2)=15x^2-12x$. Las
-derivadas de orden superior se expresan en términos de $D$ de manera natural:
+Por ejemplo, $D(\cos4x)=-4\mathop{\mathrm{sen}}\nolimits 4x$ y
+$D(5x^3-6x^2)=15x^2-12x$. Las derivadas de orden superior se expresan en
+términos de $D$ de manera natural:
 
 $$
 \frac d{dx}\left(\frac{dy}{dx}\right)=\frac{d^2y}{dx^2}=D(Dy)=D^2y
@@ -309,7 +312,7 @@ L=a_n(x)D^n+a_{n-1}(x)D^{n-1}+\cdots+a_1(x)D+a_0(x).\tag{8}
 $$
 
 Como una consecuencia de dos propiedades básicas de la derivada,
-$D(cf(x))=cDf(x)$, $c$ es una constante y $D\{f(x)+g(x)\}=Df(x)+Dg(x)$, el
+$D(cf(x))=cDf(x)$, $c$ es una constante y $`D\{f(x)+g(x)\}=Df(x)+Dg(x)`$, el
 operador diferencial $L$ tiene una propiedad de linealidad; es decir, $L$
 operando sobre una combinación lineal de dos funciones derivables es lo mismo
 que la combinación lineal de $L$ operando en cada una de las funciones.
@@ -422,14 +425,15 @@ Por tanto, el conjunto de funciones es linealmente dependiente porque al menos
 una de las constantes (en particular, $c_1=-1$) no es cero. Se concluye que *un
 conjunto de dos funciones $f_1(x)$ y $f_2(x)$ es linealmente independiente
 cuando ninguna función es un múltiplo constante de la otra* en el intervalo. Por
-ejemplo, el conjunto de funciones $f_1(x)=\operatorname{sen}2x$,
-$f_2(x)=\operatorname{sen}x\cos x$ es linealmente dependiente en
+ejemplo, el conjunto de funciones $f_1(x)=\mathop{\mathrm{sen}}\nolimits 2x$,
+$f_2(x)=\mathop{\mathrm{sen}}\nolimits x\cos x$ es linealmente dependiente en
 $(-\infty,\infty)$ porque $f_1(x)$ es un múltiplo constante de $f_2(x)$.
 Recuerde de la fórmula del seno del doble de un ángulo que
-$\operatorname{sen}2x=2\operatorname{sen}x\cos x$. Por otro lado, el conjunto de
-funciones $f_1(x)=x$, $f_2(x)=|x|$ es linealmente independiente en
-$(-\infty,\infty)$. Al examinar la figura 4.1.3 usted debe convencerse de que
-ninguna función es un múltiplo constante de la otra en el intervalo.
+$\mathop{\mathrm{sen}}\nolimits 2x=2\mathop{\mathrm{sen}}\nolimits x\cos x$. Por
+otro lado, el conjunto de funciones $f_1(x)=x$, $f_2(x)=|x|$ es linealmente
+independiente en $(-\infty,\infty)$. Al examinar la figura 4.1.3 usted debe
+convencerse de que ninguna función es un múltiplo constante de la otra en el
+intervalo.
 
 ![FIGURA 4.1.3. El conjunto que consiste en f₁ y f₂ es linealmente independiente en (−∞,∞)](../../../resources/2020/pdf2020-zill-01/figura-4-1-3.png)
 
@@ -441,16 +445,16 @@ independiente. Esto se usará en la siguiente sección.
 
 ### EJEMPLO 5. Conjunto de funciones linealmente dependiente
 
-El conjunto de funciones $f_1(x)=\cos^2x$, $f_2(x)=\operatorname{sen}^2x$,
-$f_3(x)=\sec^2x$, $f_4(x)=\tan^2x$ es linealmente dependiente en el intervalo
-$(-\pi/2,\pi/2)$ porque
+El conjunto de funciones $f_1(x)=\cos^2x$,
+$f_2(x)=\mathop{\mathrm{sen}}\nolimits ^2x$, $f_3(x)=\sec^2x$, $f_4(x)=\tan^2x$
+es linealmente dependiente en el intervalo $(-\pi/2,\pi/2)$ porque
 
 $$
-c_1\cos^2x+c_2\operatorname{sen}^2x+c_3\sec^2x+c_4\tan^2x=0
+c_1\cos^2x+c_2\mathop{\mathrm{sen}}\nolimits ^2x+c_3\sec^2x+c_4\tan^2x=0
 $$
 
 donde $c_1=c_2=1$, $c_3=-1$, $c_4=1$. Aquí se usa
-$\cos^2x+\operatorname{sen}^2x=1$ y $1+\tan^2x=\sec^2x$.
+$\cos^2x+\mathop{\mathrm{sen}}\nolimits ^2x=1$ y $1+\tan^2x=\sec^2x$.
 
 Un conjunto de funciones $f_1(x),f_2(x),\ldots,f_n(x)$ es linealmente
 dependiente en un intervalo si por lo menos una función se puede expresar como
@@ -608,9 +612,9 @@ ecuación en el intervalo.
 
 ### EJEMPLO 8. Una solución obtenida de una solución general
 
-La función $y=4\operatorname{senh}3x-5e^{3x}$ es una solución de la ecuación
-diferencial del ejemplo 7. (Compruebe esto.) Aplicando el teorema 4.1.5, debe
-ser posible obtener esta solución a partir de la solución general
+La función $y=4\mathop{\mathrm{senh}}\nolimits 3x-5e^{3x}$ es una solución de la
+ecuación diferencial del ejemplo 7. (Compruebe esto.) Aplicando el teorema
+4.1.5, debe ser posible obtener esta solución a partir de la solución general
 $y=c_1e^{3x}+c_2e^{-3x}$. Observe que si se elige $c_1=2$ y $c_2=-7$, entonces
 $y=2e^{3x}-7e^{-3x}$ puede rescribirse como
 
@@ -619,7 +623,8 @@ y=2e^{3x}-2e^{-3x}-5e^{-3x}
 =4\left(\frac{e^{3x}-e^{-3x}}2\right)-5e^{-3x}.
 $$
 
-Esta última expresión se reconoce como $y=4\operatorname{senh}3x-5e^{-3x}$.
+Esta última expresión se reconoce como
+$y=4\mathop{\mathrm{senh}}\nolimits 3x-5e^{-3x}$.
 
 > Errata del original: la primera mención de la función en este ejemplo imprime
 > $-5e^{3x}$; su desarrollo y frase final imprimen $-5e^{-3x}$. Se conservan
@@ -891,8 +896,8 @@ $y'(0)=2$.
 
 3\) $y=c_1x+c_2x\ln x$, $(0,\infty)$; $x^2y''-xy'+y=0$, $y(1)=3$, $y'(1)=-1$.
 
-4\) $y=c_1+c_2\cos x+c_3\operatorname{sen}x$, $(-\infty,\infty)$; $y'''+y'=0$,
-$y(\pi)=0$, $y'(\pi)=2$, $y''(\pi)=-1$.
+4\) $y=c_1+c_2\cos x+c_3\mathop{\mathrm{sen}}\nolimits x$, $(-\infty,\infty)$;
+$y'''+y'=0$, $y(\pi)=0$, $y'(\pi)=2$, $y''(\pi)=-1$.
 
 5\) Dado que $y=c_1+c_2x^2$ es una familia de dos parámetros de soluciones de
 $xy''-y'=0$ en el intervalo $(-\infty,\infty)$, demuestre que no se pueden
@@ -903,13 +908,13 @@ no viola el teorema 4.1.1.
 6\) Encuentre dos miembros de la familia de soluciones del problema 5 que
 satisfagan las condiciones iniciales $y(0)=0$, $y'(0)=0$.
 
-7\) Como $x(t)=c_1\cos\omega t+c_2\operatorname{sen}\omega t$ es la solución
-general de $x''+\omega^2x=0$ en el intervalo $(-\infty,\infty)$, demuestre que
-una solución que satisface las condiciones iniciales $x(0)=x_0$, $x'(0)=x_1$
-está dada por
+7\) Como $x(t)=c_1\cos\omega t+c_2\mathop{\mathrm{sen}}\nolimits \omega t$ es la
+solución general de $x''+\omega^2x=0$ en el intervalo $(-\infty,\infty)$,
+demuestre que una solución que satisface las condiciones iniciales $x(0)=x_0$,
+$x'(0)=x_1$ está dada por
 
 $$
-x(t)=x_0\cos\omega t+\frac{x_1}{\omega}\operatorname{sen}\omega t.
+x(t)=x_0\cos\omega t+\frac{x_1}{\omega}\mathop{\mathrm{sen}}\nolimits \omega t.
 $$
 
 ## Página 129
@@ -920,7 +925,7 @@ $x'(t_0)=x_1$ es la solución dada en el problema 7 cambiada por una cantidad
 $t_0$:
 
 $$
-x(t)=x_0\cos\omega(t-t_0)+\frac{x_1}{\omega}\operatorname{sen}\omega(t-t_0).
+x(t)=x_0\cos\omega(t-t_0)+\frac{x_1}{\omega}\mathop{\mathrm{sen}}\nolimits \omega(t-t_0).
 $$
 
 En los problemas 9 y 10 encuentre un intervalo centrado en $x=0$ para el cual el
@@ -934,9 +939,9 @@ problema con valores iniciales dado tiene una solución única.
 $y''-y=0$ que satisfaga las condiciones en la frontera $y(0)=0$, $y(1)=1$.
 
 b) La ED del inciso a) tiene la solución general alternativa
-$y=c_3\cosh x+c_4\operatorname{senh}x$ en $(-\infty,\infty)$. Use esta familia
-para encontrar una solución que satisfaga las condiciones en la frontera del
-inciso a).
+$y=c_3\cosh x+c_4\mathop{\mathrm{senh}}\nolimits x$ en $(-\infty,\infty)$. Use
+esta familia para encontrar una solución que satisfaga las condiciones en la
+frontera del inciso a).
 
 c) Demuestre que las soluciones de los incisos a) y b) son equivalentes.
 
@@ -948,7 +953,7 @@ ecuación diferencial que se indica en el intervalo $(-\infty,\infty)$. Determin
 si se puede encontrar un miembro de la familia que satisfaga las condiciones en
 la frontera.
 
-13\) $y=c_1e^x\cos x+c_2e^x\operatorname{sen}x$; $y''-2y'+2y=0$.
+13\) $y=c_1e^x\cos x+c_2e^x\mathop{\mathrm{sen}}\nolimits x$; $y''-2y'+2y=0$.
 
 a) $y(0)=1$, $y'(\pi)=0$; b) $y(0)=1$, $y(\pi)=-1$.
 
@@ -969,7 +974,7 @@ independiente en el intervalo $(-\infty,\infty)$.
 
 16\) $f_1(x)=0$, $f_2(x)=x$, $f_3(x)=e^x$.
 
-17\) $f_1(x)=5$, $f_2(x)=\cos^2x$, $f_3(x)=\operatorname{sen}^2x$.
+17\) $f_1(x)=5$, $f_2(x)=\cos^2x$, $f_3(x)=\mathop{\mathrm{sen}}\nolimits ^2x$.
 
 18\) $f_1(x)=\cos2x$, $f_2(x)=1$, $f_3(x)=\cos^2x$.
 
@@ -979,7 +984,7 @@ independiente en el intervalo $(-\infty,\infty)$.
 
 21\) $f_1(x)=1+x$, $f_2(x)=x$, $f_3(x)=x^2$.
 
-22\) $f_1(x)=e^x$, $f_2(x)=e^{-x}$, $f_3(x)=\operatorname{senh}x$.
+22\) $f_1(x)=e^x$, $f_2(x)=e^{-x}$, $f_3(x)=\mathop{\mathrm{senh}}\nolimits x$.
 
 En los problemas 23 a 30 compruebe que las funciones dadas forman un conjunto
 fundamental de soluciones de la ecuación diferencial en el intervalo que se
@@ -987,19 +992,23 @@ indica. Forme la solución general.
 
 23\) $y''-y'-12y=0$; $e^{-3x},e^{4x}$, $(-\infty,\infty)$.
 
-24\) $y''-4y=0$; $\cosh2x,\operatorname{senh}2x$, $(-\infty,\infty)$.
+24\) $y''-4y=0$; $\cosh2x,\mathop{\mathrm{senh}}\nolimits 2x$,
+$(-\infty,\infty)$.
 
-25\) $y''-2y'+5y=0$; $e^x\cos2x,e^x\operatorname{sen}2x$, $(-\infty,\infty)$.
+25\) $y''-2y'+5y=0$; $e^x\cos2x,e^x\mathop{\mathrm{sen}}\nolimits 2x$,
+$(-\infty,\infty)$.
 
 26\) $4y''-4y'+y=0$; $e^{x/2},xe^{x/2}$, $(-\infty,\infty)$.
 
 27\) $x^2y''-6xy'+12y=0$; $x^3,x^4$, $(0,\infty)$.
 
-28\) $x^2y''+xy'+y=0$; $\cos(\ln x),\operatorname{sen}(\ln x)$, $(0,\infty)$.
+28\) $x^2y''+xy'+y=0$; $\cos(\ln x),\mathop{\mathrm{sen}}\nolimits (\ln x)$,
+$(0,\infty)$.
 
 29\) $x^3y'''+6x^2y''+4xy'-4y=0$; $x,x^{-2},x^{-2}\ln x$, $(0,\infty)$.
 
-30\) $y^{(4)}+y''=0$; $1,x,\cos x,\operatorname{sen}x$, $(-\infty,\infty)$.
+30\) $y^{(4)}+y''=0$; $1,x,\cos x,\mathop{\mathrm{sen}}\nolimits x$,
+$(-\infty,\infty)$.
 
 ### 4.1.3 ECUACIONES NO HOMOGÉNEAS — Ejercicios
 
@@ -1010,7 +1019,7 @@ homogénea en el intervalo indicado.
 31\) $y''-7y'+10y=24e^x$; $y=c_1e^{2x}+c_2e^{5x}+6e^x$, $(-\infty,\infty)$.
 
 32\) $y''+y=\sec x$;
-$y=c_1\cos x+c_2\operatorname{sen}x+x\operatorname{sen}x+(\cos x)\ln(\cos x)$,
+$y=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x+x\mathop{\mathrm{sen}}\nolimits x+(\cos x)\ln(\cos x)$,
 $(-\pi/2,\pi/2)$.
 
 33\) $y''-4y'+4y=2e^{2x}+4x-12$; $y=c_1e^{2x}+c_2xe^{2x}+x^2e^{2x}+x-2$,
@@ -1064,7 +1073,7 @@ d) $y''=2$; e) $y'''=6$; f) $y^{(4)}=24$.
 
 38\) Suponga que $y_1=e^x$ y $y_2=e^{-x}$ son dos soluciones de una ecuación
 diferencial lineal homogénea. Explique por qué $y_3=\cosh x$ y
-$y_4=\operatorname{senh}x$ son también soluciones de la ecuación.
+$y_4=\mathop{\mathrm{senh}}\nolimits x$ son también soluciones de la ecuación.
 
 39\) a) Compruebe que $y_1=x^3$ y $y_2=|x|^3$ son soluciones linealmente
 independientes de la ecuación diferencial $x^2y''-4xy'+6y=0$ en el intervalo

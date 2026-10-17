@@ -74,7 +74,7 @@ como para $V$, pero tienen un significado distinto en general.
 
 **Espacio vectorial** es la composición del conjunto $V$ con su $(+)$ y el
 cuerpo $K$ con sus $(+)$ y $(.)$. De forma que anotamos simbólicamente
-$\{V,K,(.)\}$ y decimos que $V$ es un K-espacio vectorial con una $(.)$ que es
+$`\{V,K,(.)\}`$ y decimos que $V$ es un K-espacio vectorial con una $(.)$ que es
 una operación $(.):K\times V\to V$ llamada producto por un escalar, siendo el
 escalar, un elemento perteneciente a K.
 
@@ -124,7 +124,7 @@ $V$ es un K-espacio vectorial, y ocurre, que cualquier elemento de $V$, puede
 expresarse como una combinación lineal, de un subconjunto de $V$, al cual
 llamamos $\langle G\rangle$.
 
-Sea $G=\{u_1,u_2,u_3,\ldots u_n\}=\langle G\rangle$. Sea $v\in V$ entonces
+Sea $`G=\{u_1,u_2,u_3,\ldots u_n\}=\langle G\rangle`$. Sea $v\in V$ entonces
 
 $$
 v=\sum_i^n\alpha_i u_i\quad\text{con}\ \alpha_i\in K\ \forall i
@@ -132,14 +132,14 @@ $$
 
 $\langle G\rangle$ será llamado generador de $V$.
 
-Recuerde: Necesitamos que $\{u_1,u_2,u_3,\ldots u_n\}$ sean vectores linealmente
-independientes.
+Recuerde: Necesitamos que $`\{u_1,u_2,u_3,\ldots u_n\}`$ sean vectores
+linealmente independientes.
 
 **Ejercite su interpretación**
 
 Demuestre o verifique que en $(\mathbb R^3,+,\mathbb R,.)$ que es un
 $\mathbb R$espacio vectorial, el conjunto
-$\langle G\rangle=\{(1,1,0),(-1,1,0),(0,0,1)\}$ es linealmente independiente.
+$`\langle G\rangle=\{(1,1,0),(-1,1,0),(0,0,1)\}`$ es linealmente independiente.
 Recuerde que $\sum_i^3\beta_i u_i=0$ (0, es el elemento neutro en $\mathbb R^3$)
 solamente si $\beta_i=0\ \forall i$.
 
@@ -150,7 +150,7 @@ $\langle G\rangle$.
 
 Demuestre o verifique que en $(\mathbb R^3,+,\mathbb R,.)$ que es un
 $\mathbb R$espacio vectorial, el conjunto
-$\langle G\rangle=\{(1,0,0),(0,1,0),(0,0,1)\}$ es linealmente independiente.
+$`\langle G\rangle=\{(1,0,0),(0,1,0),(0,0,1)\}`$ es linealmente independiente.
 Recuerde que $\sum_i^3\beta_i u_i=0$ (0, es el elemento neutro en $\mathbb R^3$)
 solamente si $\beta_i=0\ \forall i$. En este caso $\langle G\rangle$ es lo que
 llamamos base canónica en $\mathbb R^3$.
@@ -204,11 +204,11 @@ con las propiedades enunciadas.
 **Ejercite su interpretación**
 
 Si $a<b\in\mathbb R$, y
-$C[a,b]=\{f:[a,b]\to\mathbb R\mathrel{\therefore}f\ \text{es continua}\}$.
+$`C[a,b]=\{f:[a,b]\to\mathbb R\mathrel{\therefore}f\ \text{es continua}\}`$.
 Demuestre que $C[a,b]$ es un $\mathbb R$espacio vectorial (espacio vectorial de
 las funciones continuas en el intervalo [a,b]
 
-Demuestre que $\phi(f,g)=\int_a^b f(x)g(x)\,dx$ (¡Notar cómo se define el
+Demuestre que $`\phi(f,g)=\int_a^b f(x)g(x)\,dx`$ (¡Notar cómo se define el
 producto interior!), es producto interior porque cumple las propiedades
 enunciadas.
 
@@ -250,7 +250,7 @@ $$
 Demuestre o verifique que en $(\mathbb R^2,+,\mathbb R,.)$ que es un
 $\mathbb R$espacio vectorial, y el producto interior definido como
 $\langle u,v\rangle=\sum_1^2u_i v_i$. Con $u=(u_1,u_2)$ y $v=(v_1,v_2)$.
-$\|u\|=\langle u,u\rangle^{1/2}$ norma del vector. Cumple con las propiedades
+$`\|u\|=\langle u,u\rangle^{1/2}`$ norma del vector. Cumple con las propiedades
 enunciadas.
 
 ### Serie de Fourier
@@ -342,7 +342,7 @@ la función f(x).
 
 Una sucesión $\varnothing_j(x)$ de funciones ortonormales j=1,2,3,….. se dice
 que es un conjunto ortonormal completo en el intervalo [a,b], si para todas las
-funciones f(x), cuya $\int_a^b(f(x))^2\,dx$ existe, se cumple:
+funciones f(x), cuya $`\int_a^b(f(x))^2\,dx`$ existe, se cumple:
 
 $$
 \lim_{n\to\infty}E_n=\lim_{n\to\infty}\frac1{(b-a)}
@@ -504,7 +504,7 @@ $$
 &\quad+\sum_{j=1}^{\infty}\left(a'_j\frac1{\sqrt L}\frac1{\sqrt L}
 \int_{-L}^L\cos\frac{k\pi x}{L}\cos\frac{j\pi x}{L}\,dx\right.\\
 &\qquad\left.+b'_j\frac1{\sqrt L}\frac1{\sqrt L}
-\int_{-L}^L\cos\frac{k\pi x}{L}\operatorname{sen}\frac{j\pi x}{L}\,dx\right)
+\int_{-L}^L\cos\frac{k\pi x}{L}\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\,dx\right)
 \end{aligned}
 $$
 
@@ -537,13 +537,13 @@ De igual forma, multiplicando la serie propuesta por
 ## Página 9 — Coeficientes
 
 $$
-\frac1{\sqrt L}\operatorname{sen}\frac{k\pi x}{L}
+\frac1{\sqrt L}\mathop{\mathrm{sen}}\nolimits \frac{k\pi x}{L}
 $$
 
 Integrando en el intervalo, resulta:
 
 $$
-b'_k=\frac1{\sqrt L}\int_{-L}^L f(x)\operatorname{sen}\frac{k\pi x}{L}\,dx
+b'_k=\frac1{\sqrt L}\int_{-L}^L f(x)\mathop{\mathrm{sen}}\nolimits \frac{k\pi x}{L}\,dx
 $$
 
 Para encontrar el coeficiente $a'_0$ el mecanismo procedimental es similar,
@@ -567,7 +567,7 @@ Sustituyendo los coeficientes calculados en la serie
 
 $$
 f(x)=a'_0\frac1{\sqrt{2L}}+\sum_{j=1}^{\infty}
-\left(a'_j\frac1{\sqrt L}\cos\frac{j\pi x}{L}+b'_j\frac1{\sqrt L}\operatorname{sen}\frac{j\pi x}{L}\right)
+\left(a'_j\frac1{\sqrt L}\cos\frac{j\pi x}{L}+b'_j\frac1{\sqrt L}\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\right)
 $$
 
 $$
@@ -575,8 +575,8 @@ $$
 f(x)&=\left\{\frac1{\sqrt{2L}}\int_{-L}^L f(x)\,dx\right\}\frac1{\sqrt{2L}}\\
 &\quad+\sum_{j=1}^{\infty}\left(\left\{\frac1{\sqrt L}\int_{-L}^L f(x)\cos\frac{j\pi x}{L}\,dx\right\}
 \frac1{\sqrt L}\cos\frac{j\pi x}{L}\right.\\
-&\qquad\left.+\left\{\frac1{\sqrt L}\int_{-L}^L f(x)\operatorname{sen}\frac{j\pi x}{L}\,dx\right\}
-\frac1{\sqrt L}\operatorname{sen}\frac{j\pi x}{L}\right)
+&\qquad\left.+\left\{\frac1{\sqrt L}\int_{-L}^L f(x)\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\,dx\right\}
+\frac1{\sqrt L}\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\right)
 \end{aligned}
 $$
 
@@ -591,13 +591,13 @@ a'_k=\frac1{\sqrt L}\int_{-L}^L f(x)\cos\frac{k\pi x}{L}\,dx=a_k\sqrt L
 $$
 
 $$
-b'_k=\frac1{\sqrt L}\int_{-L}^L f(x)\operatorname{sen}\frac{k\pi x}{L}\,dx=b_k\sqrt L
+b'_k=\frac1{\sqrt L}\int_{-L}^L f(x)\mathop{\mathrm{sen}}\nolimits \frac{k\pi x}{L}\,dx=b_k\sqrt L
 $$
 
 Resulta la forma mas usual de presentar a la serie de Fourier
 
 $$
-f(x)=\frac{a_0}2+\sum_{j=1}^{\infty}\left(a_j\cos\frac{j\pi x}{L}+b_j\operatorname{sen}\frac{j\pi x}{L}\right)
+f(x)=\frac{a_0}2+\sum_{j=1}^{\infty}\left(a_j\cos\frac{j\pi x}{L}+b_j\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\right)
 $$
 
 $$
@@ -608,7 +608,7 @@ $$
 
 $$
 a_j=\frac1L\int_{-L}^L f(x)\cos\frac{j\pi x}{L}\,dx\qquad
-b_j=\frac1L\int_{-L}^L f(x)\operatorname{sen}\frac{j\pi x}{L}\,dx\quad j=1,2,3,\ldots
+b_j=\frac1L\int_{-L}^L f(x)\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\,dx\quad j=1,2,3,\ldots
 $$
 
 Donde se hace notar que el término constante $a_0/2$ corresponde al valor medio
@@ -641,7 +641,7 @@ $$
 
 $$
 a_k=\frac1L\int_c^{c+2L}f(x)\cos\frac{k\pi x}{L}\,dx\qquad
-b_k=\frac1L\int_c^{c+2L}f(x)\operatorname{sen}\frac{k\pi x}{L}\,dx\quad k=1,2,3,\ldots
+b_k=\frac1L\int_c^{c+2L}f(x)\mathop{\mathrm{sen}}\nolimits \frac{k\pi x}{L}\,dx\quad k=1,2,3,\ldots
 $$
 
 ### Ejemplo
@@ -713,7 +713,7 @@ continua en el intervalo.
 entonces la expresión a la derecha de
 
 $$
-f(x)=\frac{a_0}2+\sum_{j=1}^{\infty}\left(a_j\cos\frac{j\pi x}{L}+b_j\operatorname{sen}\frac{j\pi x}{L}\right)
+f(x)=\frac{a_0}2+\sum_{j=1}^{\infty}\left(a_j\cos\frac{j\pi x}{L}+b_j\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\right)
 $$
 
 converge para todos los puntos x donde exista continuidad, si los coeficientes
@@ -725,7 +725,7 @@ $$
 
 $$
 a_k=\frac1L\int_{-L}^L f(x)\cos\frac{k\pi x}{L}\,dx\qquad
-b_k=\frac1L\int_{-L}^L f(x)\operatorname{sen}\frac{k\pi x}{L}\,dx\quad k=1,2,3,\ldots
+b_k=\frac1L\int_{-L}^L f(x)\mathop{\mathrm{sen}}\nolimits \frac{k\pi x}{L}\,dx\quad k=1,2,3,\ldots
 $$
 
 Y converge a
@@ -761,14 +761,14 @@ coeficientes $b_k=0$ para todo k.
 Hay situaciones donde la serie contiene únicamente términos de senos
 
 $$
-f(x)=\frac{a_0}2+\sum_{j=1}^{\infty}\left(b_j\operatorname{sen}\frac{j\pi x}{L}\right)
+f(x)=\frac{a_0}2+\sum_{j=1}^{\infty}\left(b_j\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\right)
 $$
 
 y con el mismo criterio sustituimos x por –x
 
 $$
-f(-x)=\sum_{j=1}^{\infty}\left(b_j\operatorname{sen}\left[-\frac{j\pi x}{L}\right]\right)
-=-\sum_{j=1}^{\infty}\left(b_j\operatorname{sen}\frac{j\pi x}{L}\right)=-f(-x)
+f(-x)=\sum_{j=1}^{\infty}\left(b_j\mathop{\mathrm{sen}}\nolimits \left[-\frac{j\pi x}{L}\right]\right)
+=-\sum_{j=1}^{\infty}\left(b_j\mathop{\mathrm{sen}}\nolimits \frac{j\pi x}{L}\right)=-f(-x)
 $$
 
 Por lo tanto si la función cumple el requisito $f(x)=-f(-x)$ se denomina función

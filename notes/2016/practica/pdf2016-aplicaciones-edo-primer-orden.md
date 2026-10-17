@@ -13,7 +13,7 @@ Fuente: `Problemas ecuaciones Diferenciales.pdf`, página 1.
 1. Determine el miembro de la familia de trayectorias ortogonales a la familia
    de curvas dada, que pase por el punto indicado.
 
-   a. $y=c\operatorname{sen}x$, $(0,2)$
+   a. $y=c\mathop{\mathrm{sen}}\nolimits x$, $(0,2)$
 
    b. $y=\frac{1}{\ln x}$, $(2,3)$
 
@@ -46,7 +46,7 @@ Fuente: `Problemas ecuaciones Diferenciales.pdf`, página 1.
    puede esperarse al cabo de 12 horas?
 
 1. Un cultivo tiene inicialmente una cantidad $N_0$ de bacterias. Para $t=1$
-   hora, el número de bacterias medido es $3/2\,N_0$. Si la rapidez de
+   hora, el número de bacterias medido es $`3/2\,N_0`$. Si la rapidez de
    multiplicación es proporcional al número de bacterias presentes, determine el
    tiempo necesario para que el número de bacterias se triplique.
 

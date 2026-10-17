@@ -14,7 +14,7 @@ resolución de este tipo de situaciones.
 
 Sean $F$ y $G$ dos funciones de tres variables, ambas con derivadas parciales
 continuas y las derivadas de $G$ no son todas nulas. Sea $F_A$ la restricción de
-$F$ al conjunto $A\{(x,y,z)/G(x,y,z)=0\}$.
+$F$ al conjunto $`A\{(x,y,z)/G(x,y,z)=0\}`$.
 
 Si $P$ es un punto crítico de $F_A$, entonces $P$ es un punto crítico de la
 función $H$, definida de la siguiente manera:

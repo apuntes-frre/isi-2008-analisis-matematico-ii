@@ -85,7 +85,7 @@ pueden hallarse sus superficies de nivel.
 
 Dado un campo escalar de tres variables $u=f(x,y,z)$, se llama superficie de
 nivel al conjunto de puntos del dominio $(x,y,z)$ para los cuales $f(x,y,z)=c$.
-O sea, superficie de nivel es el conjunto $S=\{(x,y,z)\in R^3/f(x,y,z)=c\}$
+O sea, superficie de nivel es el conjunto $`S=\{(x,y,z)\in R^3/f(x,y,z)=c\}`$
 
 Ejemplo: Sea $w:R^3\longrightarrow R/w^2-x^2-y^2+z^2=0$, para encontrar las
 superficies de nivel hacemos $w=c$, con $c=\pm1,\pm2,0$

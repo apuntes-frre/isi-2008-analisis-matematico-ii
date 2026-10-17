@@ -74,7 +74,7 @@ $$
 **Valor medio**
 
 $$
-f_R=\frac{1}{\operatorname{área}(R)}\iint_R f(x,y)\,dxdy
+f_R=\frac{1}{\mathop{\mathrm{área}}\nolimits (R)}\iint_R f(x,y)\,dxdy
 $$
 
 **Teorema del valor medio para integrales dobles**
@@ -188,7 +188,7 @@ $$
 
 ## Página 14. 5.1 INTEGRALES DOBLES — CAMBIO a POLARES
 
-$x=r\cos\theta$, $y=r\operatorname{sen}\theta$
+$x=r\cos\theta$, $y=r\mathop{\mathrm{sen}}\nolimits \theta$
 
 ![Coordenadas polares de P](../../../resources/2016/pdf2016-integrales-p14.png)
 
@@ -196,15 +196,15 @@ $$
 \frac{\partial(x,y)}{\partial(r,\theta)}
 =\det\begin{bmatrix}\frac{\partial x}{\partial r}&\frac{\partial x}{\partial\theta}\\
 \frac{\partial y}{\partial r}&\frac{\partial y}{\partial\theta}\end{bmatrix}
-=\det\begin{bmatrix}\cos\theta&-r\operatorname{sen}\theta\\
-\operatorname{sen}\theta&r\cos\theta\end{bmatrix}=r
+=\det\begin{bmatrix}\cos\theta&-r\mathop{\mathrm{sen}}\nolimits \theta\\
+\mathop{\mathrm{sen}}\nolimits \theta&r\cos\theta\end{bmatrix}=r
 $$
 
 $$
 \begin{aligned}
 \iint_D f(x,y)\,dxdy
 &=\iint_{D'}f(x(r,\theta),y(r,\theta))\left|\frac{\partial(x,y)}{\partial(r,\theta)}\right|\,drd\theta\\
-&=\iint_{D'}f(r\cos\theta,r\operatorname{sen}\theta)\,rdrd\theta
+&=\iint_{D'}f(r\cos\theta,r\mathop{\mathrm{sen}}\nolimits \theta)\,rdrd\theta
 \end{aligned}
 $$
 
@@ -287,10 +287,10 @@ $$
 
 ## Página 22. 5.2 INTEGRALES TRIPLES — CAMBIO a CILÍNDRICAS
 
-$x=r\cos\theta$, $y=r\operatorname{sen}\theta$, $z=z$
+$x=r\cos\theta$, $y=r\mathop{\mathrm{sen}}\nolimits \theta$, $z=z$
 
 $$
-\bar F(r,\theta,z)=(x,y,z)=(r\cos\theta,r\operatorname{sen}\theta,z)
+\bar F(r,\theta,z)=(x,y,z)=(r\cos\theta,r\mathop{\mathrm{sen}}\nolimits \theta,z)
 $$
 
 ![Coordenadas cilíndricas de P](../../../resources/2016/pdf2016-integrales-p22.png)
@@ -298,24 +298,25 @@ $$
 $$
 \det\bar F(r,\theta,z)=\frac{\partial(x,y,z)}{\partial(r,\theta,z)}
 =\det\begin{bmatrix}
-\cos\theta&-r\operatorname{sen}\theta&0\\
-\operatorname{sen}\theta&r\cos\theta&0\\
+\cos\theta&-r\mathop{\mathrm{sen}}\nolimits \theta&0\\
+\mathop{\mathrm{sen}}\nolimits \theta&r\cos\theta&0\\
 0&0&1
 \end{bmatrix}=r
 $$
 
 ## Página 23. 5.2 INTEGRALES TRIPLES — CAMBIO a ESFÉRICAS
 
-$x=\rho\cos\theta\operatorname{sen}\phi$,
-$y=\rho\operatorname{sen}\theta\operatorname{sen}\phi$, $z=\rho\cos\phi$
+$x=\rho\cos\theta\mathop{\mathrm{sen}}\nolimits \phi$,
+$y=\rho\mathop{\mathrm{sen}}\nolimits \theta\mathop{\mathrm{sen}}\nolimits \phi$,
+$z=\rho\cos\phi$
 
 $$
 \bar F(\rho,\theta,\phi)=(x,y,z)
-=(\rho\cos\theta\operatorname{sen}\phi,\rho\operatorname{sen}\theta\operatorname{sen}\phi,\rho\cos\phi)
+=(\rho\cos\theta\mathop{\mathrm{sen}}\nolimits \phi,\rho\mathop{\mathrm{sen}}\nolimits \theta\mathop{\mathrm{sen}}\nolimits \phi,\rho\cos\phi)
 $$
 
 $$
-\frac{\partial(x,y,z)}{\partial(\rho,\theta,\phi)}=-\rho^2\operatorname{sen}\phi
+\frac{\partial(x,y,z)}{\partial(\rho,\theta,\phi)}=-\rho^2\mathop{\mathrm{sen}}\nolimits \phi
 $$
 
 ![Coordenadas esféricas de P y su proyección](../../../resources/2016/pdf2016-integrales-p23.png)

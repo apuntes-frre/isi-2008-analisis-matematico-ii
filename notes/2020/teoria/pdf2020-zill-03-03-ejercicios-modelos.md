@@ -251,7 +251,7 @@ muestre que cuando $\beta>3\sqrt2$ la ecuación de movimiento es
 
 $$
 x(t)=\frac{-3}{\sqrt{\beta^2-18}}e^{-2\beta
-t/3}\operatorname{senh}\frac23\sqrt{\beta^2-18}\,t.
+t/3}\mathop{\mathrm{senh}}\nolimits \frac23\sqrt{\beta^2-18}\,t.
 $$
 
 ### 5.1.3 Sistemas resorte/masa: Movimiento forzado
@@ -270,7 +270,7 @@ medio que ofrece una fuerza de amortiguamiento igual a dos veces la velocidad
 instantánea.
 
 a) Encuentre la ecuación de movimiento si una fuerza externa igual a
-$f(t)=12\cos2t+3\operatorname{sen}2t$ actúa sobre la masa.
+$f(t)=12\cos2t+3\mathop{\mathrm{sen}}\nolimits 2t$ actúa sobre la masa.
 
 b) Trace la gráfica de las soluciones transitorias y de estado estable en los
 mismos ejes de coordenadas.
@@ -280,13 +280,13 @@ c) Trace la gráfica de la ecuación de movimiento.
 **31.** Una masa de 1 slug, cuando se une a un resorte, causa en éste un
 alargamiento de 2 pies y luego llega al punto de reposo en la posición de
 equilibrio. Empezando en $t=0$, una fuerza externa igual a
-$f(t)=8\operatorname{sen}4t$ se aplica al sistema. Encuentre la ecuación de
-movimiento si el medio circundante ofrece una fuerza de amortiguamiento igual a
-8 veces la velocidad instantánea.
+$f(t)=8\mathop{\mathrm{sen}}\nolimits 4t$ se aplica al sistema. Encuentre la
+ecuación de movimiento si el medio circundante ofrece una fuerza de
+amortiguamiento igual a 8 veces la velocidad instantánea.
 
 **32.** En el problema 31 determine la ecuación de movimiento si la fuerza
-externa es $f(t)=e^{-t}\operatorname{sen}4t$. Analice el desplazamiento para
-$t\to\infty$.
+externa es $f(t)=e^{-t}\mathop{\mathrm{sen}}\nolimits 4t$. Analice el
+desplazamiento para $t\to\infty$.
 
 **33.** Cuando una masa de 2 kilogramos se une a un resorte cuya constante es 32
 N/m, éste llega al reposo en la posición de equilibrio. Comenzando en $t=0$, una
@@ -294,7 +294,7 @@ fuerza igual a $f(t)=68e^{-2t}\cos4t$ se aplica al sistema. Determine la
 ecuación de movimiento en ausencia de amortiguamiento.
 
 **34.** En el problema 33, escriba la ecuación de movimiento en la forma
-$x(t)=A\operatorname{sen}(\omega t+\phi)+Be^{-2t}\operatorname{sen}(4t+\theta)$.
+$x(t)=A\mathop{\mathrm{sen}}\nolimits (\omega t+\phi)+Be^{-2t}\mathop{\mathrm{sen}}\nolimits (4t+\theta)$.
 ¿Cuál es la amplitud de las vibraciones después de un tiempo muy largo?
 
 ## Página PDF 81 — Página impresa 197
@@ -315,9 +315,9 @@ con una masa que pesa 16 libras y $\beta=2$, $h(t)=5\cos t$, $x(0)=x'(0)=0$.
 
 **36.** Una masa de 100 gramos se fija a un resorte cuya constante es 1600
 dinas/cm. Después de que la masa alcanza el equilibrio, su apoyo oscila de
-acuerdo con la fórmula $h(t)=\operatorname{sen}8t$, donde $h$ representa el
-desplazamiento desde su posición original. Véanse el problema 35 y la figura
-5.1.21.
+acuerdo con la fórmula $h(t)=\mathop{\mathrm{sen}}\nolimits 8t$, donde $h$
+representa el desplazamiento desde su posición original. Véanse el problema 35 y
+la figura 5.1.21.
 
 a) En ausencia de amortiguamiento, determine la ecuación de movimiento si la
 masa parte del reposo desde la posición de equilibrio.
@@ -335,14 +335,14 @@ En los problemas 37 y 38, resuelva el problema con valores iniciales.
 ### Problema 37
 
 $$
-\frac{d^2x}{dt^2}+4x=-5\operatorname{sen}2t+3\cos2t,\qquad x(0)=-1,\quad
+\frac{d^2x}{dt^2}+4x=-5\mathop{\mathrm{sen}}\nolimits 2t+3\cos2t,\qquad x(0)=-1,\quad
 x'(0)=1.
 $$
 
 ### Problema 38
 
 $$
-\frac{d^2x}{dt^2}+9x=5\operatorname{sen}3t,\qquad x(0)=2,\quad x'(0)=0.
+\frac{d^2x}{dt^2}+9x=5\mathop{\mathrm{sen}}\nolimits 3t,\qquad x(0)=2,\quad x'(0)=0.
 $$
 
 **39.** a) Muestre que la solución del problema con valores iniciales
@@ -368,27 +368,28 @@ $F_0\cos\omega t$.
 describir en la forma
 
 $$
-x(t)=\frac{-2F_0}{\omega^2-\gamma^2}\operatorname{sen}\frac12(\gamma-\omega)t\operatorname{sen}\frac12(\gamma+\omega)t.
+x(t)=\frac{-2F_0}{\omega^2-\gamma^2}\mathop{\mathrm{sen}}\nolimits \frac12(\gamma-\omega)t\mathop{\mathrm{sen}}\nolimits \frac12(\gamma+\omega)t.
 $$
 
 b) Si se define $\varepsilon=\frac12(\gamma-\omega)$, muestre que cuando
 $\varepsilon$ es pequeña una solución aproximada es
 
 $$
-x(t)=\frac{F_0}{2\varepsilon\gamma}\operatorname{sen}\varepsilon
-t\operatorname{sen}\gamma t.
+x(t)=\frac{F_0}{2\varepsilon\gamma}\mathop{\mathrm{sen}}\nolimits \varepsilon
+t\mathop{\mathrm{sen}}\nolimits \gamma t.
 $$
 
 Cuando $\varepsilon$ es pequeña, la frecuencia $\gamma/2\pi$ de la fuerza
 aplicada es cercana a la frecuencia $\omega/2\pi$ de vibraciones libres. Cuando
 esto ocurre, el movimiento es como se indica en la figura 5.1.22. Las
 oscilaciones de esta clase se llaman **pulsaciones** y se deben al hecho de que
-la frecuencia de $\operatorname{sen}\varepsilon t$ es bastante pequeña en
-comparación con la frecuencia de $\operatorname{sen}\gamma t$. Las curvas
-punteadas o envoltura de la gráfica de $x(t)$, se obtienen de las gráficas de
-$\pm(F_0/2\varepsilon\gamma)\operatorname{sen}\varepsilon t$. Use un programa de
-graficación para trazar gráficas con varios valores de $F_0$, $\varepsilon$, y
-$\gamma$ para comprobar la gráfica de la figura 5.1.22.
+la frecuencia de $\mathop{\mathrm{sen}}\nolimits \varepsilon t$ es bastante
+pequeña en comparación con la frecuencia de
+$\mathop{\mathrm{sen}}\nolimits \gamma t$. Las curvas punteadas o envoltura de
+la gráfica de $x(t)$, se obtienen de las gráficas de
+$\pm(F_0/2\varepsilon\gamma)\mathop{\mathrm{sen}}\nolimits \varepsilon t$. Use
+un programa de graficación para trazar gráficas con varios valores de $F_0$,
+$\varepsilon$, y $\gamma$ para comprobar la gráfica de la figura 5.1.22.
 
 ![Figura 5.1.22. Fenómeno de pulsaciones del problema 41](../../../resources/2020/pdf2020-zill-03/p81-figura-5-1-22.png)
 
@@ -408,7 +409,7 @@ o de curvas solución obtenidas usando un programa de solución numérica.
 **43.** a) Muestre que la solución general de
 
 $$
-\frac{d^2x}{dt^2}+2\lambda\frac{dx}{dt}+\omega^2x=F_0\operatorname{sen}\gamma t
+\frac{d^2x}{dt^2}+2\lambda\frac{dx}{dt}+\omega^2x=F_0\mathop{\mathrm{sen}}\nolimits \gamma t
 $$
 
 ## Página PDF 82 — Página impresa 198
@@ -417,24 +418,24 @@ es
 
 $$
 x(t)=Ae^{-\lambda
-t}\operatorname{sen}\left(\sqrt{\omega^2-\lambda^2}\,t+\phi\right)
-+\frac{F_0}{\sqrt{(\omega^2-\gamma^2)^2+4\lambda^2\gamma^2}}\operatorname{sen}(\gamma
+t}\mathop{\mathrm{sen}}\nolimits \left(\sqrt{\omega^2-\lambda^2}\,t+\phi\right)
++\frac{F_0}{\sqrt{(\omega^2-\gamma^2)^2+4\lambda^2\gamma^2}}\mathop{\mathrm{sen}}\nolimits (\gamma
 t+\theta),
 $$
 
 donde $A=\sqrt{c_1^2+c_2^2}$ y los ángulos de fase $\phi$ y $\theta$ están,
-respectivamente, definidos por $\operatorname{sen}\phi=c_1/A$, $\cos\phi=c_2/A$
-y
+respectivamente, definidos por $\mathop{\mathrm{sen}}\nolimits \phi=c_1/A$,
+$\cos\phi=c_2/A$ y
 
 $$
-\operatorname{sen}\theta=\frac{-2\lambda\gamma}{\sqrt{(\omega^2-\gamma^2)^2+4\lambda^2\gamma^2}},\qquad
+\mathop{\mathrm{sen}}\nolimits \theta=\frac{-2\lambda\gamma}{\sqrt{(\omega^2-\gamma^2)^2+4\lambda^2\gamma^2}},\qquad
 \cos\theta=\frac{\omega^2-\gamma^2}{\sqrt{(\omega^2-\gamma^2)^2+4\lambda^2\gamma^2}}.
 $$
 
 b) La solución del inciso a) tiene la forma $x(t)=x_c(t)+x_p(t)$. La inspección
 muestra que $x_c(t)$ es transitoria y por tanto para valores grandes de tiempo,
 la solución se aproxima mediante
-$x_p(t)=g(\gamma)\operatorname{sen}(\gamma t+\theta)$, donde
+$x_p(t)=g(\gamma)\mathop{\mathrm{sen}}\nolimits (\gamma t+\theta)$, donde
 
 $$
 g(\gamma)=\frac{F_0}{\sqrt{(\omega^2-\gamma^2)^2+4\lambda^2\gamma^2}}.
@@ -465,7 +466,7 @@ de resonancia conforme $\beta\to0$?
 problema con valores iniciales
 
 $$
-\frac{d^2x}{dt^2}+\omega^2x=F_0\operatorname{sen}^n\gamma t,\qquad x(0)=0,\quad
+\frac{d^2x}{dt^2}+\omega^2x=F_0\mathop{\mathrm{sen}}\nolimits ^n\gamma t,\qquad x(0)=0,\quad
 x'(0)=0.
 $$
 
@@ -484,41 +485,41 @@ $\gamma=\gamma_1$ y $\gamma=\gamma_2$ en el inciso b).
 ### 5.1.4 Circuito en serie análogo
 
 **45.** Encuentre la carga en el capacitor de un circuito en serie LRC en
-$t=0.01$ s cuando $L=0.05$ h, $R=2\;\Omega$, $C=0.01$ f, $E(t)=0$ V, $q(0)=5$ C
-e $i(0)=0$ A. Determine la primera vez en que la carga del capacitor es igual a
-cero.
+$t=0.01$ s cuando $L=0.05$ h, $`R=2\;\Omega`$, $C=0.01$ f, $E(t)=0$ V, $q(0)=5$
+C e $i(0)=0$ A. Determine la primera vez en que la carga del capacitor es igual
+a cero.
 
 **46.** Calcule la carga del capacitor en un circuito LRC en serie cuando
-$L=\frac14$ h, $R=20\;\Omega$, $C=\frac1{300}$ f, $E(t)=0$ V, $q(0)=4$ C e
+$L=\frac14$ h, $`R=20\;\Omega`$, $C=\frac1{300}$ f, $E(t)=0$ V, $q(0)=4$ C e
 $i(0)=0$ A. ¿Alguna vez la carga en el capacitor es igual a cero?
 
 En los problemas 47 y 48 encuentre la carga en el capacitor y la corriente en el
 circuito LRC. Determine la carga máxima en el capacitor.
 
-**47.** $L=\frac53$ h, $R=10\;\Omega$, $C=\frac1{30}$ f, $E(t)=300$ V, $q(0)=0$
-C, $i(0)=0$ A.
+**47.** $L=\frac53$ h, $`R=10\;\Omega`$, $C=\frac1{30}$ f, $E(t)=300$ V,
+$q(0)=0$ C, $i(0)=0$ A.
 
-**48.** $L=1$ h, $R=100\;\Omega$, $C=0.0004$ f, $E(t)=30$ V, $q(0)=0$ C,
+**48.** $L=1$ h, $`R=100\;\Omega`$, $C=0.0004$ f, $E(t)=30$ V, $q(0)=0$ C,
 $i(0)=2$ A.
 
 **49.** Encuentre la carga y la corriente de estado estable en un circuito LRC
-en serie cuando $L=1$ h, $R=2\;\Omega$, $C=0.25$ f y $E(t)=50\cos t$ V.
+en serie cuando $L=1$ h, $`R=2\;\Omega`$, $C=0.25$ f y $E(t)=50\cos t$ V.
 
 **50.** Demuestre que la amplitud de la corriente de estado estable en el
 circuito LRC en serie del ejemplo 10 está dada por $E_0/Z$, donde $Z$ es la
 impedancia del circuito.
 
 **51.** Use el problema 50 para demostrar que la corriente de estado estable en
-un circuito LRC en serie cuando $L=\frac12$ h, $R=20\;\Omega$, $C=0.001$ f, y
-$E(t)=100\operatorname{sen}60t$ V, está dada por
-$i_p(t)=4.160\operatorname{sen}(60t-0.588)$.
+un circuito LRC en serie cuando $L=\frac12$ h, $`R=20\;\Omega`$, $C=0.001$ f, y
+$E(t)=100\mathop{\mathrm{sen}}\nolimits 60t$ V, está dada por
+$i_p(t)=4.160\mathop{\mathrm{sen}}\nolimits (60t-0.588)$.
 
 **52.** Encuentre la corriente de estado estable en un circuito LRC cuando
-$L=\frac12$ h, $R=20\;\Omega$, $C=0.001$ f y
-$E(t)=100\operatorname{sen}60t+200\cos40t$ V.
+$L=\frac12$ h, $`R=20\;\Omega`$, $C=0.001$ f y
+$E(t)=100\mathop{\mathrm{sen}}\nolimits 60t+200\cos40t$ V.
 
 **53.** Encuentre la carga en el capacitor de un circuito LRC en serie cuando
-$L=\frac12$ h, $R=10\;\Omega$, $C=0.01$ f, $E(t)=150$ V, $q(0)=1$ C e $i(0)=0$
+$L=\frac12$ h, $`R=10\;\Omega`$, $C=0.01$ f, $E(t)=150$ V, $q(0)=1$ C e $i(0)=0$
 A. ¿Cuál es la carga en el capacitor después de un largo tiempo?
 
 **54.** Demuestre que si $L$, $R$, $C$ y $E_0$ son constantes, entonces la
@@ -530,8 +531,8 @@ amplitud de la corriente de estado estable en el ejemplo 10 es un máximo cuando
 la capacitancia es $C=1/L\gamma^2$.
 
 **56.** Calcule la carga en el capacitor y la corriente en un circuito LC cuando
-$L=0.1$ h, $C=0.1$ f, $E(t)=100\operatorname{sen}\gamma t$ V, $q(0)=0$ C e
-$i(0)=0$ A.
+$L=0.1$ h, $C=0.1$ f, $E(t)=100\mathop{\mathrm{sen}}\nolimits \gamma t$ V,
+$q(0)=0$ C e $i(0)=0$ A.
 
 **57.** Calcule la carga del capacitor y la corriente en un circuito LC cuando
 $E(t)=E_0\cos\gamma t$ V, $q(0)=q_0$ C e $i(0)=i_0$ A.

@@ -25,21 +25,23 @@ Fuente: `Series de Fourier- Práctica.pdf`, páginas 1–3.
 
 1. Verifique que:
 
-   a. $\int_{-\pi}^{\pi}\cos nx\,dx=0$
+   a. $`\int_{-\pi}^{\pi}\cos nx\,dx=0`$
 
-   b. $\int_{-\pi}^{\pi}\operatorname{sen}nx\,dx=0$
+   b. $`\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits nx\,dx=0`$
 
-   c. $\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cos(nx)\,dx=0$
+   c. $`\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cos(nx)\,dx=0`$
 
-   d. $\int_{-\pi}^{\pi}\operatorname{sen}(mx)\operatorname{sen}(nx)\,dx=0$ si
-   $m\ne n$
+   d.
+   $`\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\mathop{\mathrm{sen}}\nolimits (nx)\,dx=0`$
+   si $m\ne n$
 
-   e. $\int_{-\pi}^{\pi}\operatorname{sen}(mx)\operatorname{sen}(nx)\,dx=\pi$ si
-   $m=n$
+   e.
+   $`\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\mathop{\mathrm{sen}}\nolimits (nx)\,dx=\pi`$
+   si $m=n$
 
-   f. $\int_{-\pi}^{\pi}\cos(mx)\cos(nx)\,dx=0$ si $m\ne n$
+   f. $`\int_{-\pi}^{\pi}\cos(mx)\cos(nx)\,dx=0`$ si $m\ne n$
 
-   g. $\int_{-\pi}^{\pi}\cos(mx)\cos(nx)\,dx=\pi$ si $m=n$
+   g. $`\int_{-\pi}^{\pi}\cos(mx)\cos(nx)\,dx=\pi`$ si $m=n$
 
 1. Desarrolle en series de Fourier la función
 

@@ -5,18 +5,19 @@
 > [cobertura PDF 2022](../../../resources/2022/pdf2022-cobertura.md).
 
 1. Definir la derivada de la función $z=f(x,y)$ en la dirección
-   $\vec u=\cos\theta\vec i+\operatorname{sen}\theta\vec j$.
+   $\vec u=\cos\theta\vec i+\mathop{\mathrm{sen}}\nolimits \theta\vec j$.
 1. Con sus propias palabras dar una descripción geométrica de la derivada
    direccional de $z=f(x,y)$.
 1. Redactar un párrafo que describa la derivada direccional de la función $f$ en
-   la dirección de $\vec u=\cos\theta\vec i+\operatorname{sen}\theta\vec j$
-   cuando a) $\theta=0°$ b) $\theta=90°$.
+   la dirección de
+   $\vec u=\cos\theta\vec i+\mathop{\mathrm{sen}}\nolimits \theta\vec j$ cuando
+   a) $\theta=0°$ b) $\theta=90°$.
 1. Definir el gradiente de una función de dos variables.
 1. Defina derivada direccional utilizando el gradiente.
 1. Describir la relación del gradiente con las curvas de nivel de una superficie
    dada por $z=f(x,y)$.
-1. Hallar la derivada de $f(x,y)=x^2\operatorname{sen}2y$ en el punto
-   $(1,\pi/2)$, en la dirección $v=3i-4j$.
+1. Hallar la derivada de $f(x,y)=x^2\mathop{\mathrm{sen}}\nolimits 2y$ en el
+   punto $(1,\pi/2)$, en la dirección $v=3i-4j$.
 1. Halle la derivada de $f(x,y)=x^2+y^2$ en la dirección de $\theta=\frac\pi4$.
 1. La temperatura en el punto $(x,y)$ de una placa metálica es
    $T=\frac{x}{x^2+y^2}$. Hallar la dirección de mayor incremento de calor en el

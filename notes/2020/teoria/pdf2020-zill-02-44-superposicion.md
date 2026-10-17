@@ -45,23 +45,23 @@ $y_c=c_1+c_2x+c_3e^{-x}$. Con $g(x)=e^x\cos x$, se ve de la entrada 10 de la
 tabla 4.1 que se debe suponer
 
 $$
-y_p=Ae^x\cos x+Be^x\operatorname{sen}x.
+y_p=Ae^x\cos x+Be^x\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 Debido a que no hay funciones en $y_p$ que dupliquen las funciones de la
 solución complementaria, procedemos de la manera usual. De
 
 $$
-y_p'''+y_p''=(-2A+4B)e^x\cos x+(-4A-2B)e^x\operatorname{sen}x=e^x\cos x
+y_p'''+y_p''=(-2A+4B)e^x\cos x+(-4A-2B)e^x\mathop{\mathrm{sen}}\nolimits x=e^x\cos x
 $$
 
 se obtiene $-2A+4B=1$ y $-4A-2B=0$. De este sistema se obtiene $A=-\frac1{10}$ y
 $B=\frac15$, así que una solución particular es
-$y_p=-\frac1{10}e^x\cos x+\frac15e^x\operatorname{sen}x$. La solución general de
-la ecuación es
+$y_p=-\frac1{10}e^x\cos x+\frac15e^x\mathop{\mathrm{sen}}\nolimits x$. La
+solución general de la ecuación es
 
 $$
-y=y_c+y_p=c_1+c_2x+c_3e^{-x}-\frac1{10}e^x\cos x+\frac15e^x\operatorname{sen}x.
+y=y_c+y_p=c_1+c_2x+c_3e^{-x}-\frac1{10}e^x\cos x+\frac15e^x\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 ### Ejemplo 11. ED de cuarto orden. Caso II
@@ -100,13 +100,13 @@ se ve por qué el método de coeficientes indeterminados no es muy adecuado para
 ED lineales no homogéneas cuando la función de entrada $g(x)$ es algo distinta
 de uno de los cuatro tipos básicos resaltados en color azul en la página 141.
 Por ejemplo, si $P(x)$ es un polinomio, entonces la derivación continua de
-$P(x)e^{\alpha x}\operatorname{sen}\beta x$ genera un conjunto independiente que
-contiene sólo un número *finito* de funciones, todas del mismo tipo, en
-particular, un polinomio multiplicado por
-$e^{\alpha x}\operatorname{sen}\beta x$ o un polinomio multiplicado por
-$e^{\alpha x}\cos\beta x$. Por otro lado, la derivación sucesiva de funciones de
-entrada como $g(x)=\ln x$ o $g(x)=\tan^{-1}x$ genera un conjunto independiente
-que contiene un número *infinito* de funciones:
+$P(x)e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x$ genera un conjunto
+independiente que contiene sólo un número *finito* de funciones, todas del mismo
+tipo, en particular, un polinomio multiplicado por
+$e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x$ o un polinomio multiplicado
+por $e^{\alpha x}\cos\beta x$. Por otro lado, la derivación sucesiva de
+funciones de entrada como $g(x)=\ln x$ o $g(x)=\tan^{-1}x$ genera un conjunto
+independiente que contiene un número *infinito* de funciones:
 
 $$
 \text{derivadas de }\ln x:\quad \frac1x,\frac{-1}{x^2},\frac2{x^3},\ldots,
@@ -136,13 +136,13 @@ coeficientes indeterminados.
 1. $y''+2y'=2x+5-e^{-2x}$
 1. $y''-y'+\frac14y=3+e^{x/2}$
 1. $y''-16y=2e^{4x}$
-1. $y''+4y=3\operatorname{sen}2x$
-1. $y''-4y=(x^2-3)\operatorname{sen}2x$
-1. $y''+y=2x\operatorname{sen}x$
+1. $y''+4y=3\mathop{\mathrm{sen}}\nolimits 2x$
+1. $y''-4y=(x^2-3)\mathop{\mathrm{sen}}\nolimits 2x$
+1. $y''+y=2x\mathop{\mathrm{sen}}\nolimits x$
 1. $y''-5y'=2x^3-4x^2-x+6$
 1. $y''-2y'+5y=e^x\cos2x$
-1. $y''-2y'+2y=e^{2x}(\cos x-3\operatorname{sen}x)$
-1. $y''+2y'+y=\operatorname{sen}x+3\cos2x$
+1. $y''-2y'+2y=e^{2x}(\cos x-3\mathop{\mathrm{sen}}\nolimits x)$
+1. $y''+2y'+y=\mathop{\mathrm{sen}}\nolimits x+3\cos2x$
 1. $y''+2y'-24y=16-(x+2)e^{4x}$
 1. $y'''-6y''=3-\cos x$
 1. $y'''-2y''-4y'+8y=6xe^{2x}$
@@ -162,7 +162,7 @@ En los problemas 27 a 36 resuelva el problema con valores iniciales dado.
 ## Página 149
 
 32. $y''-y=\cosh x,\quad y(0)=2,\ y'(0)=12$
-01. $\frac{d^2x}{dt^2}+\omega^2x=F_0\operatorname{sen}\omega t,\quad x(0)=0,\ x'(0)=0$
+01. $\frac{d^2x}{dt^2}+\omega^2x=F_0\mathop{\mathrm{sen}}\nolimits \omega t,\quad x(0)=0,\ x'(0)=0$
 01. $\frac{d^2x}{dt^2}+\omega^2x=F_0\cos\gamma t,\quad x(0)=0,\ x'(0)=0$
 01. $y'''-2y''+y'=2-24e^x+40e^{5x},\quad y(0)=\frac12,\ y'(0)=\frac52,\ y''(0)=-\frac92$
 01. $y'''+8y=2x-5+8e^{-2x},\quad y(0)=-5,\ y'(0)=3,\ y''(0)=-4$
@@ -182,7 +182,7 @@ sean continuas en $x=\pi/2$ (problema 41) y en $x=\pi$ (problema 42).\]
 41. $y''+4y=g(x),\quad y(0)=1,\ y'(0)=2$, donde
 
     $$
-    g(x)=\begin{cases}\operatorname{sen}x,&0\le x\le\pi/2,\\0,&x>\pi/2.\end{cases}
+    g(x)=\begin{cases}\mathop{\mathrm{sen}}\nolimits x,&0\le x\le\pi/2,\\0,&x>\pi/2.\end{cases}
     $$
 
 01. $y''-2y'+10y=g(x),\quad y(0)=0,\ y'(0)=0$, donde
@@ -210,8 +210,8 @@ sean continuas en $x=\pi/2$ (problema 41) y en $x=\pi$ (problema 42).\]
     $y=Ax^2e^{kx}$, donde $A=1/(2a)$.
 
 01. Explique cómo se puede usar el método de esta sección para encontrar una
-    solución particular de $y''+y=\operatorname{sen}x\cos2x$. Lleve a cabo su
-    idea.
+    solución particular de $y''+y=\mathop{\mathrm{sen}}\nolimits x\cos2x$. Lleve
+    a cabo su idea.
 
 01. Sin resolver, relacione una curva solución de $y''+y=f(x)$ que se muestra en
     la figura con una de las siguientes funciones:
@@ -219,8 +219,8 @@ sean continuas en $x=\pi/2$ (problema 41) y en $x=\pi$ (problema 42).\]
     $$
     \begin{array}{ll}
     i)\ f(x)=1,&ii)\ f(x)=e^{-x},\\
-    iii)\ f(x)=e^x,&iv)\ f(x)=\operatorname{sen}2x,\\
-    v)\ f(x)=e^x\operatorname{sen}x,&vi)\ f(x)=\operatorname{sen}x.
+    iii)\ f(x)=e^x,&iv)\ f(x)=\mathop{\mathrm{sen}}\nolimits 2x,\\
+    v)\ f(x)=e^x\mathop{\mathrm{sen}}\nolimits x,&vi)\ f(x)=\mathop{\mathrm{sen}}\nolimits x.
     \end{array}
     $$
 
@@ -240,8 +240,8 @@ En los problemas 46 y 47 determine una solución particular de la ecuación
 diferencial dada. Use un SAC como ayuda para realizar las derivadas,
 simplificaciones y álgebra.
 
-46. $y''-4y'+8y=(2x^2-3x)e^{2x}\cos2x+(10x^2-x-1)e^{2x}\operatorname{sen}2x$
-01. $y^{(4)}+2y''+y=2\cos x-3x\operatorname{sen}x$
+46. $y''-4y'+8y=(2x^2-3x)e^{2x}\cos2x+(10x^2-x-1)e^{2x}\mathop{\mathrm{sen}}\nolimits 2x$
+01. $y^{(4)}+2y''+y=2\cos x-3x\mathop{\mathrm{sen}}\nolimits x$
 
 ## Nota de transcripción
 

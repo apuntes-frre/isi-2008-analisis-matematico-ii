@@ -65,19 +65,21 @@ $$
 a_n&=\frac2\pi\left[\int_0^{\pi/2}K\cdot\cos nx\cdot dx
 +\int_{\pi/2}^{\pi}(-K)\cdot\cos nx\cdot dx\right]\\
 &=\frac{2K}\pi\left[\int_0^{\pi/2}\cos nx\cdot dx-\int_{\pi/2}^{\pi}\cos nx\cdot dx\right]\\
-&=\frac{2K}{n\pi}\left[\left.\operatorname{sen}nx\right|_0^{\pi/2}-\left.\operatorname{sen}nx\right|_{\pi/2}^{\pi}\right]
+&=\frac{2K}{n\pi}\left[\left.\mathop{\mathrm{sen}}\nolimits nx\right|_0^{\pi/2}-\left.\mathop{\mathrm{sen}}\nolimits nx\right|_{\pi/2}^{\pi}\right]
 \end{aligned}
 $$
 
-como $\operatorname{sen}(n\cdot0)=\operatorname{sen}(n\pi)=0$ por lo tanto.
+como
+$\mathop{\mathrm{sen}}\nolimits (n\cdot0)=\mathop{\mathrm{sen}}\nolimits (n\pi)=0$
+por lo tanto.
 
 $$
-a_n=\frac{2K}{n\pi}(\operatorname{sen}n\pi/2+\operatorname{sen}n\pi/2)
-=\frac{4K}{n\pi}\operatorname{sen}n\frac\pi2
+a_n=\frac{2K}{n\pi}(\mathop{\mathrm{sen}}\nolimits n\pi/2+\mathop{\mathrm{sen}}\nolimits n\pi/2)
+=\frac{4K}{n\pi}\mathop{\mathrm{sen}}\nolimits n\frac\pi2
 $$
 
 esto indica que
-$a_0=0;\;a_1=\frac{4K}\pi;\;a_2=0;\;a_3=-\frac43\cdot\frac K\pi;\;a_4=0;\;a_5=\frac45\frac K\pi;\ldots$
+$`a_0=0;\;a_1=\frac{4K}\pi;\;a_2=0;\;a_3=-\frac43\cdot\frac K\pi;\;a_4=0;\;a_5=\frac45\frac K\pi;\ldots`$
 
 donde todos los términos de orden par se anulan y los de orden impar son
 alternadamente positivos y negativos, tomando $\frac{4K}\pi$ factor común:
@@ -100,20 +102,20 @@ $$
 ilustramos la onda en el siguiente gráfico, simétrica respecto del origen. Por
 tratarse de una función impar el desarrollo en serie, como vimos anteriormente,
 se reduce a una suma de términos senoidales, mientras que
-$a_0=a_n=0\;\forall n$, y solo debemos calcular el coeficiente $b_{n}$ mediante
-la fórmula:
+$`a_0=a_n=0\;\forall n`$, y solo debemos calcular el coeficiente $b_{n}$
+mediante la fórmula:
 
 ![Onda rectangular antisimétrica de amplitud K](../../../resources/2020/pdf2020-fourier-urrutia/p42-rectangular-impar.png)
 
 $$
-b_n=\frac2\pi\int_0^{\pi}f(x)\cdot\operatorname{sen}nx\cdot dx
-\;\therefore\;f(x)=\sum_{n=1}^{\infty}b_n\cdot\operatorname{sen}nx
+b_n=\frac2\pi\int_0^{\pi}f(x)\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx
+\;\therefore\;f(x)=\sum_{n=1}^{\infty}b_n\cdot\mathop{\mathrm{sen}}\nolimits nx
 $$
 
 $$
-b_n=\frac2\pi\int_0^{\pi}K\cdot\operatorname{sen}nx\cdot dx
-=\frac{2K}\pi\int_0^{\pi}\operatorname{sen}nx\,dx
-=\frac{2K}{n\pi}\int_0^{\pi}\operatorname{sen}(nx)\cdot d(nx)
+b_n=\frac2\pi\int_0^{\pi}K\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx
+=\frac{2K}\pi\int_0^{\pi}\mathop{\mathrm{sen}}\nolimits nx\,dx
+=\frac{2K}{n\pi}\int_0^{\pi}\mathop{\mathrm{sen}}\nolimits (nx)\cdot d(nx)
 $$
 
 $$
@@ -136,7 +138,7 @@ $$
 ## Página PDF 43 — Hoja N° 43 (orden del original)
 
 $$
-b_n=\frac{2K}{n\pi}\int_0^2\operatorname{sen}u\cdot du
+b_n=\frac{2K}{n\pi}\int_0^2\mathop{\mathrm{sen}}\nolimits u\cdot du
 =-\frac{2K}{n\pi}\left.\cos u\right|_0^2
 $$
 
@@ -164,14 +166,14 @@ b_n=\frac{2K}{n\pi}[1-(-1)^n]
 $$
 
 $$
-f(x)=\frac{4K}\pi\left(\operatorname{sen}\frac\pi2x+\frac13\operatorname{sen}\frac{3\pi}2x
-+\frac15\operatorname{sen}\frac{5\pi}2x+\frac17\operatorname{sen}\frac{7\pi}2x+\cdots\right)
+f(x)=\frac{4K}\pi\left(\mathop{\mathrm{sen}}\nolimits \frac\pi2x+\frac13\mathop{\mathrm{sen}}\nolimits \frac{3\pi}2x
++\frac15\mathop{\mathrm{sen}}\nolimits \frac{5\pi}2x+\frac17\mathop{\mathrm{sen}}\nolimits \frac{7\pi}2x+\cdots\right)
 $$
 
 o sea
 
 $$
-f(x)=\sum_{n=1}^{\infty}\frac{4K}{\pi(2n-1)}\cdot\operatorname{sen}\frac{(2n-1)\pi}2\cdot x
+f(x)=\sum_{n=1}^{\infty}\frac{4K}{\pi(2n-1)}\cdot\mathop{\mathrm{sen}}\nolimits \frac{(2n-1)\pi}2\cdot x
 $$
 
 para valores de $b_{n}$ impar (1,3,5,…)
@@ -182,9 +184,9 @@ como vemos el valor $\frac{4K}\pi$ es común en todos los términos por lo tanto
 el desarrollo en serie de Fourier será:
 
 $$
-f(x)=\frac{4K}\pi\left(\operatorname{sen}x+\frac13\cdot\operatorname{sen}3x
-+\frac15\cdot\operatorname{sen}5x+\frac17\cdot\operatorname{sen}7x+\cdots
-+\frac1{2n-1}\cdot\operatorname{sen}(2n-1)x+\cdots\right)
+f(x)=\frac{4K}\pi\left(\mathop{\mathrm{sen}}\nolimits x+\frac13\cdot\mathop{\mathrm{sen}}\nolimits 3x
++\frac15\cdot\mathop{\mathrm{sen}}\nolimits 5x+\frac17\cdot\mathop{\mathrm{sen}}\nolimits 7x+\cdots
++\frac1{2n-1}\cdot\mathop{\mathrm{sen}}\nolimits (2n-1)x+\cdots\right)
 $$
 
 **3)** Supongamos la onda antisimétrica rectangular del ejemplo anterior pero
@@ -205,16 +207,16 @@ lo que $a_0=a_n=0$ y el desarrollo en serie de Fourier reduce entonces a una
 sumatoria de ondas senoidales cuyos coeficientes están dados por la expresión:
 
 $$
-b_n=\frac2L\int_0^L f(x)\cdot\operatorname{sen}\frac{n\pi}Lx\cdot dx
+b_n=\frac2L\int_0^L f(x)\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi}Lx\cdot dx
 $$
 
 pero en nuestro caso $f(x)$=K en el intervalo de integración [0;L] y además L=2,
 tendremos:
 
 $$
-b_n=\frac22\int_0^2 K\cdot\operatorname{sen}\frac{n\pi}2x\cdot dx
-=K\int_0^2\operatorname{sen}\frac{n\pi}2x\cdot dx
-=\frac{2K}{n\pi}\int_0^2\operatorname{sen}\frac{\pi n x}2\cdot d\left(\frac{n\pi}2x\right)
+b_n=\frac22\int_0^2 K\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi}2x\cdot dx
+=K\int_0^2\mathop{\mathrm{sen}}\nolimits \frac{n\pi}2x\cdot dx
+=\frac{2K}{n\pi}\int_0^2\mathop{\mathrm{sen}}\nolimits \frac{\pi n x}2\cdot d\left(\frac{n\pi}2x\right)
 $$
 
 haciendo $u=\frac{n\pi}2x$
@@ -222,7 +224,7 @@ haciendo $u=\frac{n\pi}2x$
 ## Página PDF 45 — Hoja N° 43
 
 $$
-b_n=\frac{2K}{n\pi}\int_0^2\operatorname{sen}u\cdot du
+b_n=\frac{2K}{n\pi}\int_0^2\mathop{\mathrm{sen}}\nolimits u\cdot du
 =-\frac{2K}{n\pi}\left.\cos u\right|_0^2
 $$
 
@@ -250,14 +252,14 @@ b_n=\frac{2K}{n\pi}[1-(-1)^n]
 $$
 
 $$
-f(x)=\frac{4K}\pi\left(\operatorname{sen}\frac\pi2x+\frac13\operatorname{sen}\frac{3\pi}2x
-+\frac15\operatorname{sen}\frac{5\pi}2x+\frac17\operatorname{sen}\frac{7\pi}2x+\cdots\right)
+f(x)=\frac{4K}\pi\left(\mathop{\mathrm{sen}}\nolimits \frac\pi2x+\frac13\mathop{\mathrm{sen}}\nolimits \frac{3\pi}2x
++\frac15\mathop{\mathrm{sen}}\nolimits \frac{5\pi}2x+\frac17\mathop{\mathrm{sen}}\nolimits \frac{7\pi}2x+\cdots\right)
 $$
 
 o sea
 
 $$
-f(x)=\sum_{n=1}^{\infty}\frac{4K}{\pi(2n-1)}\cdot\operatorname{sen}\frac{(2n-1)\pi}2\cdot x
+f(x)=\sum_{n=1}^{\infty}\frac{4K}{\pi(2n-1)}\cdot\mathop{\mathrm{sen}}\nolimits \frac{(2n-1)\pi}2\cdot x
 $$
 
 para valores de $b_{n}$ impar (1,3,5,…)

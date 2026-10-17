@@ -14,7 +14,7 @@ campo vectorial cuyas funciones componentes tienen derivadas parciales continuas
 en una región abierta que contiene a S y a C, entonces
 
 $$
-\int_C F.dr=\iint_S(\operatorname{rot}F).N\,dS
+\int_C F.dr=\iint_S(\mathop{\mathrm{rot}}\nolimits F).N\,dS
 $$
 
 ![Superficie S, normal y contorno del original](../../../resources/2020/office-teorema-de-stokes-ead627d9/image2.png)
@@ -34,7 +34,7 @@ $$
   xy
 - Supongamos ahora que la superficie es un paraboloide $z=4-x^2-y^2$, limitado
   por la misma circunferencia
-- Calcular nuevamente $\iint_S(\operatorname{rot}F).N\,dS$
+- Calcular nuevamente $`\iint_S(\mathop{\mathrm{rot}}\nolimits F).N\,dS`$
 
 ## Diapositiva 4 — Teorema de la divergencia
 
@@ -44,7 +44,7 @@ un campo vectorial cuyas funciones componentes tienen derivadas parciales
 continuas en Q, entonces
 
 $$
-\iint_S F.N\,dS=\iiint_Q\operatorname{div}F\,dV
+\iint_S F.N\,dS=\iiint_Q\mathop{\mathrm{div}}\nolimits F\,dV
 $$
 
 ## Diapositiva 5 — Ejemplo

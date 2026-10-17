@@ -133,7 +133,7 @@ Calcular: a) $f(1;0)$ b) $f(2;2)$ c) $f(0;0)$ d) $f(x;0)$
 
    $f(x;y)=\frac{2xy}{y^2-x^2}$ para $x=y$
 
-   $f(x;y)=\frac{\operatorname{sen}x-\operatorname{sen}y}{\cos^2x-\operatorname{sen}^2y}$
+   $f(x;y)=\frac{\mathop{\mathrm{sen}}\nolimits x-\mathop{\mathrm{sen}}\nolimits y}{\cos^2x-\mathop{\mathrm{sen}}\nolimits ^2y}$
    para $x=y=\frac\pi4$
 
 ## Página 3
@@ -154,15 +154,15 @@ Calcular: a) $f(1;0)$ b) $f(2;2)$ c) $f(0;0)$ d) $f(x;0)$
 
    f) Decir si son o no conexos
 
-   $A=\{(x;y)/y-\frac x2\geq0\}$
+   $`A=\{(x;y)/y-\frac x2\geq0\}`$
 
-   $B=\{(x;y)/y<x^2\land y<2\}$
+   $`B=\{(x;y)/y<x^2\land y<2\}`$
 
-   $C=\{(x;y)/[(x-1)^2+y^2<1]\lor[(x-1)^2+y^2>3]\}$
+   $`C=\{(x;y)/[(x-1)^2+y^2<1]\lor[(x-1)^2+y^2>3]\}`$
 
-   $D=\{(x;y)/\frac{x^2}4+\frac{y^2}9<1\land y\geq1\}$
+   $`D=\{(x;y)/\frac{x^2}4+\frac{y^2}9<1\land y\geq1\}`$
 
-   $E=\{(x;y)/|x+y|\leq1\}$
+   $`E=\{(x;y)/|x+y|\leq1\}`$
 
 1. Describir analíticamente los siguientes conjuntos de puntos.
 
@@ -175,7 +175,7 @@ Calcular: a) $f(1;0)$ b) $f(2;2)$ c) $f(0;0)$ d) $f(x;0)$
 
    a) $z=+\sqrt{16-x^2-y^2}$
 
-   b) $z=\operatorname{arcsen}(x+y)$
+   b) $z=\mathop{\mathrm{arcsen}}\nolimits (x+y)$
 
    c) $z=+\sqrt{xy}+\ln(x+y)$
 
@@ -189,11 +189,11 @@ Calcular: a) $f(1;0)$ b) $f(2;2)$ c) $f(0;0)$ d) $f(x;0)$
 
    h) $z=\frac1{+\sqrt{y-\sqrt x}}$
 
-   i) $z=+\sqrt{\operatorname{sen}(xy)-2}$
+   i) $z=+\sqrt{\mathop{\mathrm{sen}}\nolimits (xy)-2}$
 
    j) $z=\ln\sqrt{xy-4}$
 
-   k) $z=\sqrt{\operatorname{sen}(xy)}$
+   k) $z=\sqrt{\mathop{\mathrm{sen}}\nolimits (xy)}$
 
 ## Página 4 — ANÁLISIS MATEMÁTICO II - I.Q. - Guía COMPLEMENTARIA
 
@@ -233,15 +233,15 @@ Calcular: a) $f(0;1)$ b) $f(a;-a)$ c) $f(0;0)$ d) $f(-a;a)$ e) $f(a;1/a)$
 
    f) Decir si son o no conexos
 
-   $A=\{(x;y)/|x-y|\leq4\land|y-4|<2\}$
+   $`A=\{(x;y)/|x-y|\leq4\land|y-4|<2\}`$
 
-   $B=\{(x;y)/2\leq x^2+\frac{y^2}2\leq8\}$
+   $`B=\{(x;y)/2\leq x^2+\frac{y^2}2\leq8\}`$
 
-   $C=\{(x;y)/x^2+y^2<1\land y\geq0\}$
+   $`C=\{(x;y)/x^2+y^2<1\land y\geq0\}`$
 
-   $D=\{(x;y)/0\leq x<2\land0\leq y<1\}$
+   $`D=\{(x;y)/0\leq x<2\land0\leq y<1\}`$
 
-   $E=\{(x;y)/x^2+y^2>0\}\cap\{(x;y)/x^2+y^2<1\}$
+   $`E=\{(x;y)/x^2+y^2>0\}\cap\{(x;y)/x^2+y^2<1\}`$
 
 1. Describir analíticamente los siguientes conjuntos de puntos.
 
@@ -251,7 +251,7 @@ Calcular: a) $f(0;1)$ b) $f(a;-a)$ c) $f(0;0)$ d) $f(-a;a)$ e) $f(a;1/a)$
 
 1. Determinar el dominio y el rango de las siguientes funciones. Graficarlas
 
-   a) $z=\frac1{\operatorname{sen}(x-y)}$
+   a) $z=\frac1{\mathop{\mathrm{sen}}\nolimits (x-y)}$
 
    b) $z=+\sqrt{x^2+2y^2-4}$
 
@@ -259,7 +259,7 @@ Calcular: a) $f(0;1)$ b) $f(a;-a)$ c) $f(0;0)$ d) $f(-a;a)$ e) $f(a;1/a)$
 
    d) $z=\frac{+\sqrt{25-x^2-y^2}}{x-y}$
 
-   e) $z=\frac{+\sqrt{9-x^2-y^2}}{\operatorname{sen}(x-y)}$
+   e) $z=\frac{+\sqrt{9-x^2-y^2}}{\mathop{\mathrm{sen}}\nolimits (x-y)}$
 
    f) $z=\frac{\ln(2x-y)}{+\sqrt{4-x^2}}$
 
@@ -380,11 +380,11 @@ Calcular: a) $f(0;1)$ b) $f(a;-a)$ c) $f(0;0)$ d) $f(-a;a)$ e) $f(a;1/a)$
 1. Relacione la función con su gráfica y esquematice su curva de nivel. De
    razones para su elección.
 
-   a) $z=\operatorname{sen}\sqrt{x^2+y^2}$
+   a) $z=\mathop{\mathrm{sen}}\nolimits \sqrt{x^2+y^2}$
 
    b) $z=x^2y^2e^{-x^2-y^2}$
 
-   c) $z=\operatorname{sen}x\cdot\operatorname{sen}y$
+   c) $z=\mathop{\mathrm{sen}}\nolimits x\cdot\mathop{\mathrm{sen}}\nolimits y$
 
    ![Superficie I](../../../resources/2020/pdf2020-108-guia-complementaria/p6-superficie-I.png)
 
@@ -430,7 +430,7 @@ Más de…
    su elección.
 
    a) $z=\frac1{x^2+4y^2}$ b) $z=x^3-3xy^2$ c)
-   $z=\operatorname{sen}^2x+\frac14y^2$
+   $z=\mathop{\mathrm{sen}}\nolimits ^2x+\frac14y^2$
 
    ![Gráficas A, B, C y curvas de nivel I, II, III](../../../resources/2020/pdf2020-108-guia-complementaria/p8-graficas5.png)
 

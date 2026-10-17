@@ -15,7 +15,7 @@ d(\bar A,\bar B)=|\bar A-\bar B|=\sqrt{(a_1-b_1)^2+(a_2-b_2)^2+\cdots+(a_n-b_n)^
 $$
 
 **Entorno** de $\bar A\in R^n$;
-$E(\bar A,r)=\{\bar P\in R^n/d(\bar P,\bar A)\le r\}$
+$`E(\bar A,r)=\{\bar P\in R^n/d(\bar P,\bar A)\le r\}`$
 
 En $R^2$, representa geométricamente el interior de un círculo de radio $r$ cuyo
 centro es $\bar A$.
@@ -26,7 +26,7 @@ Si el centro no pertenece al entorno, se obtiene la definición de entorno
 reducido.
 
 **Entorno reducido** de $\bar A\in R^n$;
-$E'(\bar A,r)=\{\bar P\in R^n/0<d(\bar P,\bar A)\le r\}$
+$`E'(\bar A,r)=\{\bar P\in R^n/0<d(\bar P,\bar A)\le r\}`$
 
 $\bar P$ es **punto de acumulación** de un conjunto $A$ si cualquier entorno
 reducido de $\bar P$ contiene algún punto de $A$.

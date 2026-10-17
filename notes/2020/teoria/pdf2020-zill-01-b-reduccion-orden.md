@@ -193,7 +193,7 @@ indica, para encontrar una segunda solución $y_2(x)$.
 
 3\) $y''+16y=0$; $y_1=\cos4x$.
 
-4\) $y''+9y=0$; $y_1=\operatorname{sen}3x$.
+4\) $y''+9y=0$; $y_1=\mathop{\mathrm{sen}}\nolimits 3x$.
 
 5\) $y''-y=0$; $y_1=\cosh x$.
 
@@ -211,7 +211,7 @@ indica, para encontrar una segunda solución $y_2(x)$.
 
 12\) $4x^2y''+y=0$; $y_1=x^{1/2}\ln x$.
 
-13\) $x^2y''-xy'+2y=0$; $y_1=x\operatorname{sen}(\ln x)$.
+13\) $x^2y''-xy'+2y=0$; $y_1=x\mathop{\mathrm{sen}}\nolimits (\ln x)$.
 
 14\) $x^2y''-3xy'+5y=0$; $y_1=x^2\cos(\ln x)$.
 

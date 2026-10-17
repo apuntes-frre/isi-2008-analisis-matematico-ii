@@ -87,26 +87,26 @@ elimínense las constantes entre la solución general y las ecuaciones derivadas
 **Ejemplos:**
 
 **1)** Hállese la ecuación diferencial cuya solución es:
-$y=C\cdot\operatorname{sen}4x$
+$y=C\cdot\mathop{\mathrm{sen}}\nolimits 4x$
 
 $$
-y=C\cdot\operatorname{sen}4x\qquad \frac{dy}{dx}=4C\cdot\cos4x=y'
+y=C\cdot\mathop{\mathrm{sen}}\nolimits 4x\qquad \frac{dy}{dx}=4C\cdot\cos4x=y'
 $$
 
 $$
 \left.\begin{aligned}
-y=C\cdot\operatorname{sen}4x&\Rightarrow C=\frac{y}{\operatorname{sen}4x}\\
+y=C\cdot\mathop{\mathrm{sen}}\nolimits 4x&\Rightarrow C=\frac{y}{\mathop{\mathrm{sen}}\nolimits 4x}\\
 y'=4C\cdot\cos4x&\Rightarrow C=\frac{y'}{\cos4x}
 \end{aligned}\right\}\quad
-\frac{y}{\operatorname{sen}4x}=\frac{y'}{4\cos4x}
+\frac{y}{\mathop{\mathrm{sen}}\nolimits 4x}=\frac{y'}{4\cos4x}
 $$
 
-o también $4y\cos4x-\frac{dy}{dx}\operatorname{sen}4x=0$.
+o también $4y\cos4x-\frac{dy}{dx}\mathop{\mathrm{sen}}\nolimits 4x=0$.
 
 **2)** Encontrar la ecuación diferencial de todas las circunferencias con centro
 en (0,0).
 
-$x^2+y^2=r^2\;\therefore\;x^2=r^2-y^2$ derivamos la solución general y
+$`x^2+y^2=r^2\;\therefore\;x^2=r^2-y^2`$ derivamos la solución general y
 obtenemos:
 
 $2x=-2y\cdot y'$ ya que $y=f(x)$ por lo tanto $x=-y\cdot y'$ o bien
@@ -192,7 +192,7 @@ $$
 \frac yx=-\frac1{y'}\Rightarrow yy'=-x\Rightarrow y\frac{dy}{dx}=-x
 $$
 
-$y\,dy=-x\,dx$, integrando ambos miembros se obtiene $y^2+x^2=k$.
+$`y\,dy=-x\,dx`$, integrando ambos miembros se obtiene $y^2+x^2=k$.
 
 Como vemos en el gráfico anterior, las familias $y=cx$ y $y^2+x^2=k$ tiene
 trayectorias ortogonales.
@@ -217,11 +217,11 @@ $$
 f_{1(x)}\,dx+f_{2(x)}\,dy=0
 $$
 
-cuya solución es $\int f_{1(x)}\,dx+\int f_{2(x)}\,dy=0$.
+cuya solución es $`\int f_{1(x)}\,dx+\int f_{2(x)}\,dy=0`$.
 
 **Ejemplos:**
 
-**1)** Resolver la ecuación $(1+x^2)dy-xy\,dx=0$. separando las variables
+**1)** Resolver la ecuación $`(1+x^2)dy-xy\,dx=0`$. separando las variables
 tendremos: $\frac{dy}{y}-\frac{x}{1+x^2}dx=0$, cuya solución es integrando la
 igualdad
 
@@ -243,10 +243,10 @@ tangente comprendidos entre los ejes coordenados queden divididos en 2 partes
 iguales por el punto de tangencia.
 
 Sea P(x,y), un punto de tangencia y $\overline{MN}$ la tangente a la curva en el
-punto $P$, $P\in\overline{MN}\;\wedge\;\overline{NP}=\overline{PM}$, si
+punto $P$, $`P\in\overline{MN}\;\wedge\;\overline{NP}=\overline{PM}`$, si
 $\overline{NP}=\overline{PM}\Rightarrow\overline{OP'}=\overline{P'M}=x$
 $\therefore\overline{NP''}=\overline{P''O}=y$, se deduce entonces que:
-$\overline{OM}=2x\;\wedge\;\overline{ON}=2y$.
+$`\overline{OM}=2x\;\wedge\;\overline{ON}=2y`$.
 
 $$
 \frac{dy}{dx}=-\frac{\overline{ON}}{\overline{ON}}=-\frac{2y}{2x}=-\frac yx
@@ -356,7 +356,7 @@ bien de x/y.
 Supongamos $f\left(1,\frac yx\right)+\frac{dy}{dx}=0$, al valor de y/x lo
 hacemos igual a v.
 
-$\frac yx=v\Rightarrow y=v\cdot x\;\therefore\;dy=v\cdot dx+x\cdot dv$
+$`\frac yx=v\Rightarrow y=v\cdot x\;\therefore\;dy=v\cdot dx+x\cdot dv`$
 reemplazando en la ecuación
 
 $$
@@ -372,7 +372,7 @@ $$
 
 ## Página 8
 
-Ejemplo: Sea $(x^2-xy+y^2)dx-xy\cdot dy=0$, hacemos $\frac yx=u\;\therefore$
+Ejemplo: Sea $(x^2-xy+y^2)dx-xy\cdot dy=0$, hacemos $`\frac yx=u\;\therefore`$
 
 $$
 y=ux\Rightarrow dy=u\cdot dx+x\cdot du
@@ -467,14 +467,14 @@ $U(x,y)=\int e^y dx=xe^y+C(y)$ por lo tanto su diferencial será:
 $dU=e^y dx+(xe^y+C'(y))dy$ donde C'(y) es la derivada de C(y). Si comparamos
 esta ecuación con la dada vemos que C(y)= -2y.
 
-por lo tanto $C(y)=\int C'(y)dy=\int-2y\,dy=-y^2$ Po lo cual la expresión final
-será:
+por lo tanto $`C(y)=\int C'(y)dy=\int-2y\,dy=-y^2`$ Po lo cual la expresión
+final será:
 
 $$
 U(x,y)=xe^y-y^2=C
 $$
 
-**Ejemplo:** Resolver $(x^2+y^2)dx+2xy\,dy=0$ **(1)**
+**Ejemplo:** Resolver $`(x^2+y^2)dx+2xy\,dy=0`$ **(1)**
 
 $$
 \frac{\partial M}{\partial y}=\frac{\partial(x^2+y^2)}{\partial y}=2y
@@ -608,8 +608,8 @@ $$
 2(y-4x^2)dx+xdy=0
 $$
 
-$2y\,dx-8x^2dx+xdy=0\Rightarrow$ dividiendo por x tendremos:
-$dy+\frac2x\cdot y\cdot dx=8x\,dx$
+$`2y\,dx-8x^2dx+xdy=0\Rightarrow`$ dividiendo por x tendremos:
+$`dy+\frac2x\cdot y\cdot dx=8x\,dx`$
 
 $$
 P(x)=\frac2x;\qquad Q(X)=8x
@@ -685,8 +685,8 @@ que es la forma de una ecuación lineal de fácil solución.
 $\frac{dy}{dx}+\frac1x\cdot y=x^3\cdot y^3$ dividiendo por $y^3$ obtendremos
 $\frac1{y^3}\cdot\frac{dy}{dx}+\frac1x\cdot\frac1{y^2}=x^3$.
 
-hacemos $u=\frac1{y^2}\Rightarrow\frac{du}{dx}=-2\frac1{y^3}\cdot\frac{dy}{dx}
-\;\therefore\;\frac1{y^3}\frac{dy}{dx}=-\frac{du}{2dx}$
+hacemos $`u=\frac1{y^2}\Rightarrow\frac{du}{dx}=-2\frac1{y^3}\cdot\frac{dy}{dx}
+\;\therefore\;\frac1{y^3}\frac{dy}{dx}=-\frac{du}{2dx}`$
 
 reemplazando
 
@@ -695,7 +695,7 @@ $du-2u\cdot\frac1x\cdot dx=-2\cdot x^3\cdot dx$ ecuación lineal en u
 $P=-\frac2x$ el factor integrante será $e^{\int-\frac2x dx}=x^{-2}$
 
 reemplazando, la solución de esta ecuación será:
-$\frac1{x^2}du-\frac2{x^3}\cdot u\cdot dx=-2x\,dx$
+$`\frac1{x^2}du-\frac2{x^3}\cdot u\cdot dx=-2x\,dx`$
 
 $$
 d[u\cdot x^{-2}]=-2x\,dx\Rightarrow\frac{u}{x^2}=-x^2+C
@@ -719,7 +719,7 @@ $\frac{dm}{dt}$ y según la hipótesis:
 
 $\frac{dm}{dt}=-km$, donde k es un coeficiente de proporcionalidad positivo.
 
-Separando las variables la ecuación tenemos: $\frac{dm}{m}=-k\,dt$
+Separando las variables la ecuación tenemos: $`\frac{dm}{m}=-k\,dt`$
 
 y resolviendo la ecuación
 

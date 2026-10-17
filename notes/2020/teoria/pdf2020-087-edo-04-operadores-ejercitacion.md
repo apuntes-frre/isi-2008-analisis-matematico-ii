@@ -274,7 +274,7 @@ diferencial correspondiente, sometida a la condición indicada.
 
 2\) $y=Ae^{5x}+Be^{-2x}-\frac{e^x}2$; $y''-3y'-10y=6e^x$.
 
-3\) $s=8\cos3t+6\operatorname{sen}3t$; $\frac{d^2s}{dt^2}=-9s$;
+3\) $s=8\cos3t+6\mathop{\mathrm{sen}}\nolimits 3t$; $\frac{d^2s}{dt^2}=-9s$;
 $s=8\land\frac{ds}{dt}=18$ en $t=0$.
 
 4\) $1+x^2y+4y=0$; $y''=2x(y')^2$; $y'(0)=0\land y'''(0)=1/8$.
@@ -285,25 +285,25 @@ $s=8\land\frac{ds}{dt}=18$ en $t=0$.
 
 ### Resolver las siguientes ecuaciones diferenciales a Variable Separable
 
-1\) $(y^2-1)\,dx-(2y+xy)\,dy=0$
+1\) $`(y^2-1)\,dx-(2y+xy)\,dy=0`$
 
-2\) $y\,dx+(x+xy)\,dy=0$
+2\) $`y\,dx+(x+xy)\,dy=0`$
 
-3\) $x\,dx+y\,dy=xy(x\,dy-y\,dx)$
+3\) $`x\,dx+y\,dy=xy(x\,dy-y\,dx)`$
 
-4\) $\cos\theta\,dr-2r\operatorname{sen}\theta\,d\theta=0$
+4\) $`\cos\theta\,dr-2r\mathop{\mathrm{sen}}\nolimits \theta\,d\theta=0`$
 
-5\) $2r\cos\theta\,dr-\operatorname{tg}\theta\,d\theta=0$
+5\) $`2r\cos\theta\,dr-\mathop{\mathrm{tg}}\nolimits \theta\,d\theta=0`$
 
-6\) $dx+\sqrt{a^2-x^2}\,dy=0$
+6\) $`dx+\sqrt{a^2-x^2}\,dy=0`$
 
-7\) $x\sqrt{1-y}\,dy-\sqrt{1-x^2}\,dy=0$
+7\) $`x\sqrt{1-y}\,dy-\sqrt{1-x^2}\,dy=0`$
 
 8\) $x\frac{dy}{dx}+y=y^2$
 
-9\) $(1+x^2)\,dy+(1+y^2)\,dx=0$
+9\) $`(1+x^2)\,dy+(1+y^2)\,dx=0`$
 
-10\) $\operatorname{tg}x\frac{dy}{dx}-2y=a$
+10\) $\mathop{\mathrm{tg}}\nolimits x\frac{dy}{dx}-2y=a$
 
 11\) $x\frac{dr}{dx}=\sqrt{a^4-r^4}$
 
@@ -311,32 +311,32 @@ $s=8\land\frac{ds}{dt}=18$ en $t=0$.
 
 ### Resolver las ecuaciones diferenciales exactas siguientes
 
-1\) $(x^2+y^2)\,dx+2xy\,dy=0$
+1\) $`(x^2+y^2)\,dx+2xy\,dy=0`$
 
-2\) $y\,dx+(x+y)\,dy=0$
+2\) $`y\,dx+(x+y)\,dy=0`$
 
 ## Página 43
 
-3\) $(3x^2+2xy-y^2)\,dx+(x^2-2xy-3y^2)\,dy=0$
+3\) $`(3x^2+2xy-y^2)\,dx+(x^2-2xy-3y^2)\,dy=0`$
 
-4\) $y\,dx-(y+x)\,dy=0$
+4\) $`y\,dx-(y+x)\,dy=0`$
 
-5\) $(2xe^y+y^2e^x+2x)\,dx+(x^2e^y+2ye^x)\,dy=0$
+5\) $`(2xe^y+y^2e^x+2x)\,dx+(x^2e^y+2ye^x)\,dy=0`$
 
-6\) $x\,dy-(x^2+y)\,dx=0$
+6\) $`x\,dy-(x^2+y)\,dx=0`$
 
-7\) $y^2\,dx+x^2\,dy-2xy\,dy=0$
+7\) $`y^2\,dx+x^2\,dy-2xy\,dy=0`$
 
-8\) $x\,dy+y\,dx=y^2\,dx$
+8\) $`x\,dy+y\,dx=y^2\,dx`$
 
-9\) $y(3x-2y)\,dx=-x(x-2y)\,dy$
+9\) $`y(3x-2y)\,dx=-x(x-2y)\,dy`$
 
-10\) $y(xy+1)\,dx=x\ln x+dy$
+10\) $`y(xy+1)\,dx=x\ln x+dy`$
 
-11\) $\cos\theta(1+2r\cos^2\theta)\,dr
-+r\operatorname{sen}\theta(1-r\cos^2\theta)\,d\theta=0$
+11\) $`\cos\theta(1+2r\cos^2\theta)\,dr
++r\mathop{\mathrm{sen}}\nolimits \theta(1-r\cos^2\theta)\,d\theta=0`$
 
-12\) $e^x(x+1)\,dx+(ye^y-xe^x)\,dy=0$
+12\) $`e^x(x+1)\,dx+(ye^y-xe^x)\,dy=0`$
 
 ### Dada las ecuaciones diferenciales Lineales, hallar su integral general
 
@@ -344,31 +344,32 @@ $s=8\land\frac{ds}{dt}=18$ en $t=0$.
 
 2\) $x\frac{dy}{dx}+2y=3x$
 
-3\) $y\,dx-(2x+2y^4)\,dy=0$
+3\) $`y\,dx-(2x+2y^4)\,dy=0`$
 
-4\) $\operatorname{tg}x\frac{dy}{dx}-2y=2a$
+4\) $\mathop{\mathrm{tg}}\nolimits x\frac{dy}{dx}-2y=2a$
 
-5\) $x^2\,dy=(1-3x-3xy)\,dx$
+5\) $`x^2\,dy=(1-3x-3xy)\,dx`$
 
-6\) $(y^3-y)\,dx+(xy^2+x-y^2+1)\,dy=0$
+6\) $`(y^3-y)\,dx+(xy^2+x-y^2+1)\,dy=0`$
 
-7\) $2\cos y\,dx-(x\operatorname{sen}y-y^3)\,dy=0$
+7\) $`2\cos y\,dx-(x\mathop{\mathrm{sen}}\nolimits y-y^3)\,dy=0`$
 
-8\) $(y^2-xy)\,dx+x^2\,dy=0$
+8\) $`(y^2-xy)\,dx+x^2\,dy=0`$
 
-9\) $y\,dy=(y^3-x)\,dx$
+9\) $`y\,dy=(y^3-x)\,dx`$
 
 10\) $\frac{dy}{dx}+y=xy^3$
 
-11\) $x\frac{dy}{dx}+y(x\operatorname{ctg}x+1)=x^2\operatorname{tg}x$
+11\)
+$x\frac{dy}{dx}+y(x\mathop{\mathrm{ctg}}\nolimits x+1)=x^2\mathop{\mathrm{tg}}\nolimits x$
 
 12\) $(x^2-1)\frac{dy}{dx}+xy=x(x^2-1)$
 
 ### Resolver las siguientes ecuaciones diferenciales Homogéneas
 
-1\) $xy^2\,dy=(x^3+y^3)\,dx$
+1\) $`xy^2\,dy=(x^3+y^3)\,dx`$
 
-2\) $(x-y)\,dx=2x\,dy$
+2\) $`(x-y)\,dx=2x\,dy`$
 
 3\) $(x^2-xy)\frac{dy}{dx}+y^2=0$
 
@@ -378,15 +379,15 @@ $s=8\land\frac{ds}{dt}=18$ en $t=0$.
 
 5\) $2x^3\frac{dy}{dx}+(y^3-x^2y)=0$
 
-6\) $2(xy^2+1)\,dy+y^3\,dx=0$
+6\) $`2(xy^2+1)\,dy+y^3\,dx=0`$
 
-7\) $y(3-xy)\,dx+x(2-xy)\,dy=0$
+7\) $`y(3-xy)\,dx+x(2-xy)\,dy=0`$
 
-8\) $(x+2x^2y)\,dy+(2y+3xy^2)\,dx=0$
+8\) $`(x+2x^2y)\,dy+(2y+3xy^2)\,dx=0`$
 
 9\) $(x^2y+x)\frac{dy}{dx}+(xy^2-y)=0$
 
-10\) $(x^2+2y^3)\,dx+3xy^2\,dy=0$
+10\) $`(x^2+2y^3)\,dx+3xy^2\,dy=0`$
 
 ### Resolver las ecuaciones a coeficientes constantes de orden superior
 
@@ -414,21 +415,21 @@ $s=8\land\frac{ds}{dt}=18$ en $t=0$.
 
 12\) $(D^2-D)=x^2$
 
-13\) $(D^2+1)y=\operatorname{sen}x$
+13\) $(D^2+1)y=\mathop{\mathrm{sen}}\nolimits x$
 
 14\) $(D^2+2D)=3xe^x$
 
-15\) $\frac{d^2y}{dx^2}+9y=4x\operatorname{sen}x$
+15\) $\frac{d^2y}{dx^2}+9y=4x\mathop{\mathrm{sen}}\nolimits x$
 
-16\) $y''-3y'=2e^{2x}\operatorname{sen}x$
+16\) $y''-3y'=2e^{2x}\mathop{\mathrm{sen}}\nolimits x$
 
 17\) $\frac{d^2y}{dx^2}+\frac{dy}{dx}-2y=e^x+e^{2x}$
 
 18\) $y''-y=x^2+\cos2x$
 
-19\) $(D^2-4D-5)y=e^{2x}+4\operatorname{sen}x$
+19\) $(D^2-4D-5)y=e^{2x}+4\mathop{\mathrm{sen}}\nolimits x$
 
-20\) $(D^2-4)y=\operatorname{sen}\pi x+e^x$
+20\) $(D^2-4)y=\mathop{\mathrm{sen}}\nolimits \pi x+e^x$
 
 21\) $(D^2+1)y=e^{2x}+x^2$
 

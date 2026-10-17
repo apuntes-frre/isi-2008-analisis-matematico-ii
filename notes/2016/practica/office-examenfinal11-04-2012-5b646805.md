@@ -37,7 +37,8 @@ vectoriales conservativos.
 <u>Segunda parte.</u>
 
 1\) Obtenga la solución general de la ecuación diferencial
-$y''-5y'+6y=\operatorname{tg}x$ ; describa el criterio teórico usado
+$y''-5y'+6y=\mathop{\mathrm{tg}}\nolimits x$ ; describa el criterio teórico
+usado
 
 2\) Desarrolle en serie de Fourier la función
 

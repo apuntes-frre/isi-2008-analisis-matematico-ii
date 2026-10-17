@@ -8,7 +8,7 @@
 ## 1.-Resolver las siguientes ecuaciones diferenciales lineales de primer orden o de Bernoulli
 
 1. Verificar que la siguiente ecuación es lineal y resolverla:
-   $y'+\operatorname{sen}x\,(y-1)=0$.
+   $`y'+\mathop{\mathrm{sen}}\nolimits x\,(y-1)=0`$.
 1. Ídem para $xy'-e^{2x}+y=xy$.
 1. Ídem para $(1+x^2)y'-2xy=(1+x^2)^2$.
 1. Ídem para $x(y'-y)=(1+x^2)e^x$.
@@ -35,7 +35,7 @@ y'=\frac{y^2+2xy}{x^2}
 $$
 
 $$
-y'=y+\operatorname{sen}x+\cos2x
+y'=y+\mathop{\mathrm{sen}}\nolimits x+\cos2x
 $$
 
 $$

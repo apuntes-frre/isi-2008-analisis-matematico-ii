@@ -22,9 +22,9 @@ $$
 1. $D_u f(x,y,z)=\nabla f(x,y,z)\cdot\boldsymbol u$
 1. Si $\nabla f(x,y,z)=0$ entonces $D_u f(x,y,z)=0$ para todo $\boldsymbol u$
 1. La dirección del máximo incremento de $f$ está dada por $\nabla f(x,y,z)$. El
-   valor máximo de $D_u f(x,y,z)$ es $\|\nabla f(x,y,z)\|$
+   valor máximo de $D_u f(x,y,z)$ es $`\|\nabla f(x,y,z)\|`$
 1. La dirección del mínimo incremento de $f$ está dada por $-\nabla f(x,y,z)$.
-   El valor máximo de $D_u f(x,y,z)$ es $-\|\nabla f(x,y,z)\|$
+   El valor máximo de $D_u f(x,y,z)$ es $`-\|\nabla f(x,y,z)\|`$
 
 ## Teorema: El gradiente es normal a las curvas de nivel
 
@@ -35,7 +35,7 @@ $\nabla f(x_0,y_0)$ es normal a la curva de nivel que pasa por $(x_0,y_0)$
 hipótesis adecuadas, $\nabla f(x_0,y_0,z_0)$ es normal a la superficie de nivel
 a través de $(x_0,y_0,z_0)$.
 
-1. Dada la función $f(x,y)=y-\operatorname{sen}x$
+1. Dada la función $f(x,y)=y-\mathop{\mathrm{sen}}\nolimits x$
 
    a. Dibujar una curva de nivel que corresponde a $c=0$
 
@@ -48,10 +48,10 @@ a través de $(x_0,y_0,z_0)$.
 
    a. $f(x,y)=2xe^{y/x}$ en $(2,0)$
 
-   b. $w(x,y,z)=x\operatorname{tg}(y+z)$ en $(4,3,-1)$
+   b. $w(x,y,z)=x\mathop{\mathrm{tg}}\nolimits (y+z)$ en $(4,3,-1)$
 
 1. Hallar $D_u f(3,2)$, donde
-   $\boldsymbol u=\frac{\boldsymbol v}{\|\boldsymbol v\|}$, $v=-3i-4j$
+   $`\boldsymbol u=\frac{\boldsymbol v}{\|\boldsymbol v\|}`$, $v=-3i-4j$
 
 ## Definición de plano tangente y recta normal
 

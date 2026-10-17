@@ -22,11 +22,11 @@ Representar los conjuntos de puntos definidos a continuación
 
 | Conjunto | Conjunto |
 | -- | -- |
-| $A=\{(x,y)/x-y\ge0\}$ | $F=\{(x,y)/x\cdot y\le1\}$ |
-| $B=\{(x,y)/x^2+y^2\le9\}$ | $G=\{(x,y)/r^2<x^2+y^2\le R^2\}$ $r<R$ y ambos reales |
-| $C=\{(x,y)/y\ge2x-3\}$ | $H=\{(x,y)/\lvert x\rvert<1\land\lvert y\rvert<2\}$ |
-| $D=\{(x,y)/y\ge x^2+2x-1\}$ | $I=\{(x,y)/d(P,A)=d(P,B)\}$ con $P(x,y)$; $A(x_a,y_a)$; $B(x_b,y_b)$; $d=$ distancia |
-| $E=\{(x,y)/x=1/n;\ n\in\mathbb N\}$ | $J=\{(x,y,z)/x^2+y^2+z^2\le4\}$ |
+| $`A=\{(x,y)/x-y\ge0\}`$ | $`F=\{(x,y)/x\cdot y\le1\}`$ |
+| $`B=\{(x,y)/x^2+y^2\le9\}`$ | $`G=\{(x,y)/r^2<x^2+y^2\le R^2\}`$ $r<R$ y ambos reales |
+| $`C=\{(x,y)/y\ge2x-3\}`$ | $`H=\{(x,y)/\lvert x\rvert<1\land\lvert y\rvert<2\}`$ |
+| $`D=\{(x,y)/y\ge x^2+2x-1\}`$ | $`I=\{(x,y)/d(P,A)=d(P,B)\}`$ con $P(x,y)$; $A(x_a,y_a)$; $B(x_b,y_b)$; $d=$ distancia |
+| $`E=\{(x,y)/x=1/n;\ n\in\mathbb N\}`$ | $`J=\{(x,y,z)/x^2+y^2+z^2\le4\}`$ |
 
 ### nº2
 
@@ -40,11 +40,11 @@ z=+\sqrt{1-x^2-y^2}
 $$
 
 $$
-z=\operatorname{arc\ sen}(x+y)
+z=\mathop{\mathrm{arc\ sen}}\nolimits (x+y)
 $$
 
 $$
-z=\frac1{\operatorname{sen}(x-y)}
+z=\frac1{\mathop{\mathrm{sen}}\nolimits (x-y)}
 $$
 
 $$
@@ -64,7 +64,7 @@ z=y/\cos x
 $$
 
 $$
-z=\frac{\operatorname{arc\ sen}(y-x^2)}{\sqrt{2-|x|}}
+z=\frac{\mathop{\mathrm{arc\ sen}}\nolimits (y-x^2)}{\sqrt{2-|x|}}
 $$
 
 $$
@@ -121,17 +121,17 @@ Calcular los límites dobles de las expresiones
 
 $$
 \lim_{(x,y)\to(2,1)}\frac{5x^3-3y^2}{2x^2+y^3}\qquad
-\lim_{(x,y)\to(2,0)}\frac{y\cdot\operatorname{sen}(x-2)}{x^2-4}
+\lim_{(x,y)\to(2,0)}\frac{y\cdot\mathop{\mathrm{sen}}\nolimits (x-2)}{x^2-4}
 $$
 
 $$
-\lim_{(x,y)\to(0,0)}\frac{(3+y^2)\operatorname{sen}x}{x}\qquad
-\lim_{(x,y)\to(0,0)}\frac{3\operatorname{sen}(x\cdot y)}x
+\lim_{(x,y)\to(0,0)}\frac{(3+y^2)\mathop{\mathrm{sen}}\nolimits x}{x}\qquad
+\lim_{(x,y)\to(0,0)}\frac{3\mathop{\mathrm{sen}}\nolimits (x\cdot y)}x
 $$
 
 $$
 \lim_{(x,y)\to(0,1)}\frac{xy-x^2+3}{x^2+y^3}\qquad
-\lim_{(x,y)\to(0,0)}y\operatorname{sen}\frac\pi x
+\lim_{(x,y)\to(0,0)}y\mathop{\mathrm{sen}}\nolimits \frac\pi x
 $$
 
 $$
@@ -145,10 +145,10 @@ Calcular los límites iterados. Decir si existe límite doble.
 
 $F(x,y)=\frac{3x^2+y^2}{x^2+y^2}$ en $P(0,0)$
 
-$F(x,y)=(x+y)\left(\operatorname{sen}\frac\pi x+\operatorname{sen}\frac\pi y\right)$
+$F(x,y)=(x+y)\left(\mathop{\mathrm{sen}}\nolimits \frac\pi x+\mathop{\mathrm{sen}}\nolimits \frac\pi y\right)$
 en $P(0,0)$
 
-$F(x,y)=y\operatorname{sen}(\pi/x)$ en $P(0,0)$
+$F(x,y)=y\mathop{\mathrm{sen}}\nolimits (\pi/x)$ en $P(0,0)$
 
 $F(x,y)=\frac{2x+3y}{x-y}$ en $P(1,2)$
 
@@ -174,7 +174,7 @@ $$
 a)
 
 $$
-F(x,y)=\begin{cases}\dfrac{\operatorname{sen}(x^2+y^2)}{x^2+y^2}&\text{si }(x,y)\ne(0,0)\\1&\text{si }(x,y)=(0,0)\end{cases};\quad P(0,0)
+F(x,y)=\begin{cases}\dfrac{\mathop{\mathrm{sen}}\nolimits (x^2+y^2)}{x^2+y^2}&\text{si }(x,y)\ne(0,0)\\1&\text{si }(x,y)=(0,0)\end{cases};\quad P(0,0)
 $$
 
 b)
@@ -186,7 +186,7 @@ $$
 c)
 
 $$
-F(x,y)=\begin{cases}\dfrac{x^3\operatorname{sen}y-y^2\operatorname{sen}x}{x\cdot y}&\text{si }x\cdot y\ne0\\0&\text{si }x\cdot y=0\end{cases};\quad P(0,0)
+F(x,y)=\begin{cases}\dfrac{x^3\mathop{\mathrm{sen}}\nolimits y-y^2\mathop{\mathrm{sen}}\nolimits x}{x\cdot y}&\text{si }x\cdot y\ne0\\0&\text{si }x\cdot y=0\end{cases};\quad P(0,0)
 $$
 
 d) $F(x,y)=\frac{x^2-y^2}{x^2+y^2}$; $P(0,0)$
@@ -260,13 +260,13 @@ b) $f(x,y)=x^2+y^2$
 
 Hallar las derivadas parciales primeras de las siguientes funciones.
 
-a) $z=\operatorname{arc\ tg}(x/y)$
+a) $z=\mathop{\mathrm{arc\ tg}}\nolimits (x/y)$
 
-b) $z=\operatorname{sen}(y\cdot\ln x)$
+b) $z=\mathop{\mathrm{sen}}\nolimits (y\cdot\ln x)$
 
 c) $z=x\cdot y/(x^2+y^2)$
 
-d) $z=v\cdot\operatorname{arc\ sen}(x/y)$
+d) $z=v\cdot\mathop{\mathrm{arc\ sen}}\nolimits (x/y)$
 
 e) $e=(x^2+y^2+z^2)^{1/2}$
 
@@ -274,7 +274,7 @@ f) $z=x^y$
 
 g) $z=\log xy$
 
-h) $z=(\operatorname{tg}y)^{1/x}$
+h) $z=(\mathop{\mathrm{tg}}\nolimits y)^{1/x}$
 
 i) $w=x^{y^z}$
 
@@ -325,7 +325,7 @@ b) $z=x\cdot e^{xy}$
 
 c) $z=x\cos y+2x$
 
-d) $z=\operatorname{arc\ tg}(x/y)$
+d) $z=\mathop{\mathrm{arc\ tg}}\nolimits (x/y)$
 
 e) $z=u\cos(xy)$
 
@@ -346,7 +346,7 @@ $z=(x^2+y^2)^{1/2}$
 
 $z=y^2e^x+x^2e^y$
 
-$u=\operatorname{sen}(xy/z)$
+$u=\mathop{\mathrm{sen}}\nolimits (xy/z)$
 
 d) Utilizar el Cálculo para estimar el porcentaje en que cambia el volumen de un
 cilindro si el radio aumenta en 1% y la altura disminuye en 1.5%.
@@ -414,36 +414,39 @@ b) $z=x^y$; $P(1,2)$
 
 c) $z=e^{xy}$; $P(1,1)$
 
-d) $z=\operatorname{sen}(x+y)$; $P(\pi,\pi/2)$
+d) $z=\mathop{\mathrm{sen}}\nolimits (x+y)$; $P(\pi,\pi/2)$
 
 ### nº27
 
 Desarrollar en serie de Mac Laurin las siguientes funciones.
 
-a) $z=e^{xy}$ b) $z=\operatorname{sen}(x+y)$
+a) $z=e^{xy}$ b) $z=\mathop{\mathrm{sen}}\nolimits (x+y)$
 
 ### nº28
 
 Determinar las derivadas parciales indicadas de las siguientes funciones
 compuestas.
 
-a) $z=\operatorname{sen}(y/x)$; siendo $x=e^{v/u}$; $y=2^{u/v}$; hallar $z_u$
+a) $z=\mathop{\mathrm{sen}}\nolimits (y/x)$; siendo $x=e^{v/u}$; $y=2^{u/v}$;
+hallar $z_u$
 
-b) $z=\operatorname{sen}[\ln(u/v)]$; siendo $u=1/t$; $v=3t+1$; hallar $z_t$
+b) $z=\mathop{\mathrm{sen}}\nolimits [\ln(u/v)]$; siendo $u=1/t$; $v=3t+1$;
+hallar $z_t$
 
-c) $x=\ln(u^2+y^2)^{1/2}$; siendo $u=\operatorname{arc\ tg}(v/z)$; $y=v^z$;
-hallar $x_z$; $x_v$
+c) $x=\ln(u^2+y^2)^{1/2}$; siendo $u=\mathop{\mathrm{arc\ tg}}\nolimits (v/z)$;
+$y=v^z$; hallar $x_z$; $x_v$
 
 d) $u=e^{xy+2z}$; siendo $x=3t^v$; $y=v/t$; $z=v^2-t$; hallar $u_t$; $u_v$
 
 ### nº29
 
 Determinar $T'_\rho$ y $T'_\varphi$, para $T=x^3-xy+y^3$; siendo:
-$x=\rho\cos\varphi$; $y=\rho\operatorname{sen}\varphi$
+$x=\rho\cos\varphi$; $y=\rho\mathop{\mathrm{sen}}\nolimits \varphi$
 
 ### nº30
 
-Dada $U=z\operatorname{sen}(y/x)$, determinar $U'_r$; y $U'_s$; siendo:
+Dada $U=z\mathop{\mathrm{sen}}\nolimits (y/x)$, determinar $U'_r$; y $U'_s$;
+siendo:
 
 $$
 \begin{cases}x=3r^2+2s\\y=4r-2s^3\\z=2r^2-3s^2\end{cases}
@@ -456,8 +459,8 @@ $y'$; en el punto $x=1$.
 
 ### nº32
 
-Para la función definida implícitamente: $e-x\cos y+\operatorname{sen}y=e$,
-calcular $y'$ en $x=1$; $y=\pi$.
+Para la función definida implícitamente:
+$e-x\cos y+\mathop{\mathrm{sen}}\nolimits y=e$, calcular $y'$ en $x=1$; $y=\pi$.
 
 ### nº33
 
@@ -566,8 +569,8 @@ Demostrar que una caja de volumen dado y de superficie mínima es un cubo.
 
 ### nº43
 
-Hallar la derivada de $F(x,y)=x^2y+\operatorname{sen}(xy)$; en el punto
-$P(1,\pi/2)$; en la dirección $\varphi=45$º (respecto del eje x).
+Hallar la derivada de $F(x,y)=x^2y+\mathop{\mathrm{sen}}\nolimits (xy)$; en el
+punto $P(1,\pi/2)$; en la dirección $\varphi=45$º (respecto del eje x).
 
 ### nº44
 
@@ -654,7 +657,7 @@ suma de productos binarios de ellos, siendo 200.200+200.200+200.200= 120.000
 
 Problema:
 
-Máximo y mínimo absoluto de $f(x,y)=x^2-y^2$ sobre $A=\{(x,y)/x^2+y^2\le9\}$
+Máximo y mínimo absoluto de $f(x,y)=x^2-y^2$ sobre $`A=\{(x,y)/x^2+y^2\le9\}`$
 
 Notar que la función tiene un punto critico en (0,0) que corresponde a una
 ensilladura, además la función allí es cero, y tiene un crecimiento positivo
@@ -836,8 +839,8 @@ divergencia. Rotacional. Interpretación física del rotacional. Propiedades.
 
 ### nº47
 
-Dada $f(u,v)=e^{uv}i+(u-v)j+u\operatorname{sen}(v)k$; determinar $f'_u$; $f'_v$;
-$f'_u\times f'_v$
+Dada $f(u,v)=e^{uv}i+(u-v)j+u\mathop{\mathrm{sen}}\nolimits (v)k$; determinar
+$f'_u$; $f'_v$; $f'_u\times f'_v$
 
 ### nº48
 
@@ -848,17 +851,19 @@ al vector $B=b_1i+b_2j+b_3k$.
 
 Trazar la curva dada vectorialmente por f(t). Encontrar la dirección de la curva
 en $P(0,a,0)$; y encontrar su longitud si $0\le t\le2\pi$. Siendo
-$f(t)=a\cos(t)i+a\operatorname{sen}(t)j$.
+$f(t)=a\cos(t)i+a\mathop{\mathrm{sen}}\nolimits (t)j$.
 
 ### nº50
 
-Tazar la curva representada por: $r(t)=a\cos t i+a\operatorname{sen}t j+bt k$;
-siendo $b>0\le t\le\infty$.
+Tazar la curva representada por:
+$r(t)=a\cos t i+a\mathop{\mathrm{sen}}\nolimits t j+bt k$; siendo
+$b>0\le t\le\infty$.
 
 ### nº51
 
 Hallar la longitud de la curva dada por:
-$r(t)=t i+\operatorname{sen}(2\pi t)j+\cos(2\pi t)k$; siendo $0\le t\le1$.
+$r(t)=t i+\mathop{\mathrm{sen}}\nolimits (2\pi t)j+\cos(2\pi t)k$; siendo
+$0\le t\le1$.
 
 ### nº52
 
@@ -872,8 +877,9 @@ pasar por la máquina, lo deseado
 ### nº53
 
 Una partícula en movimiento, cuya trayectoria está dada por: $x=e^{-t}$;
-$y=2\cos(3t)$; $z=2\operatorname{sen}(3t)$. Encontrar las componentes de la
-velocidad y la aceleración para t=1seg; según la dirección $d=i-3j+2k$.
+$y=2\cos(3t)$; $z=2\mathop{\mathrm{sen}}\nolimits (3t)$. Encontrar las
+componentes de la velocidad y la aceleración para t=1seg; según la dirección
+$d=i-3j+2k$.
 
 ### nº54
 
@@ -913,9 +919,9 @@ f) $\nabla(f\cdot g)=\nabla f\cdot\nabla g$
 
 g) $\nabla(f\cdot g)=g\cdot\nabla f+f\cdot\nabla g$
 
-h) $\nabla f=\operatorname{grad}f=f'_x+f'_y+f'_z$
+h) $\nabla f=\mathop{\mathrm{grad}}\nolimits f=f'_x+f'_y+f'_z$
 
-i) $\nabla f=\operatorname{grad}f=f'_x i+f'_y j+f'_z k$
+i) $\nabla f=\mathop{\mathrm{grad}}\nolimits f=f'_x i+f'_y j+f'_z k$
 
 ### nº58
 
@@ -928,8 +934,8 @@ direccionales y el concepto de gradiente.
 ### nº59
 
 Dibujar la curva espacial dada por r(t), trazar $r(t_0)$ y $r'(t_0)$, siendo
-t0=3/2.p; y $r(t)=2\cos(t)i+2\operatorname{sen}(t)j+t k$. Cómo es $r'$ respecto
-de $r$.
+t0=3/2.p; y $r(t)=2\cos(t)i+2\mathop{\mathrm{sen}}\nolimits (t)j+t k$. Cómo es
+$r'$ respecto de $r$.
 
 ### nº60
 
@@ -956,7 +962,7 @@ $$
 $$
 
 $$
-\int_0^{\pi/2}3xy\operatorname{sen}z\,dz=\psi(x,y)
+\int_0^{\pi/2}3xy\mathop{\mathrm{sen}}\nolimits z\,dz=\psi(x,y)
 $$
 
 $$
@@ -971,11 +977,11 @@ $$
 
 Resolver aplicando la Regla de Leinbniz las siguientes integrales.
 
-a) $\left[\int_b^a x\cos(\alpha x)\,dx\right]$
+a) $`\left[\int_b^a x\cos(\alpha x)\,dx\right]`$
 
-b) $\left[\int_0^\infty e^{-\alpha x}x^n\,dx\right]$; $n\in\mathbb N$
+b) $`\left[\int_0^\infty e^{-\alpha x}x^n\,dx\right]`$; $n\in\mathbb N$
 
-c) $\psi(\alpha)=\int_1^2(x^2\alpha x+3)\,dx\Rightarrow\psi'_\alpha=?$
+c) $`\psi(\alpha)=\int_1^2(x^2\alpha x+3)\,dx\Rightarrow\psi'_\alpha=?`$
 
 ### nº63
 
@@ -987,23 +993,23 @@ $$
 
 Calcular las siguientes integrales.
 
-a) $\int_0^2\int_0^1(x^2+2y)\,dydx$
+a) $`\int_0^2\int_0^1(x^2+2y)\,dydx`$
 
-b) $\int_{-3}^5\int_{-2}^4(xy-y^2x^2)\,dydx$
+b) $`\int_{-3}^5\int_{-2}^4(xy-y^2x^2)\,dydx`$
 
 ### nº64
 
-Resolver $\iint_R F(x,y)\,dxdy$; para los siguientes pasos.
+Resolver $`\iint_R F(x,y)\,dxdy`$; para los siguientes pasos.
 
-a) $F(x,y)=x^2-3y+5$; $R=\{1\le x\le4;-3\le y\le2\}$
+a) $F(x,y)=x^2-3y+5$; $`R=\{1\le x\le4;-3\le y\le2\}`$
 
-b) $F(x,y)=y^2/(1+x^2)$; $R=\{-1\le x\le1;0\le y\le2\}$
+b) $F(x,y)=y^2/(1+x^2)$; $`R=\{-1\le x\le1;0\le y\le2\}`$
 
-c) $F(x,y)=y+3$; $R=\{0\le x\le1;x^2\le y\le x+2\}$
+c) $F(x,y)=y+3$; $`R=\{0\le x\le1;x^2\le y\le x+2\}`$
 
-d) $F(x,y)=x^2+8xy-1$; $R=\{1\le y\le2;y\le x\le3\}$
+d) $F(x,y)=x^2+8xy-1$; $`R=\{1\le y\le2;y\le x\le3\}`$
 
-e) $F(x,y)=e^{x^2}$; $R=\{0\le x\le3;0\le y\le x/3\}$
+e) $F(x,y)=e^{x^2}$; $`R=\{0\le x\le3;0\le y\le x/3\}`$
 
 ### nº65
 
@@ -1018,59 +1024,60 @@ $$
 
 Resolver las integrales, graficar el recinto de integración.
 
-a) $\iint_R(x^2+y^2)\,dxdy$; $R=\{0\le x\le1\land-1\le y\le0\}$
+a) $`\iint_R(x^2+y^2)\,dxdy`$; $`R=\{0\le x\le1\land-1\le y\le0\}`$
 
-b) $\iint_R(16-x^2)\,dxdy$; $R=\{0\le x\le4\land0\le y\le x$
+b) $`\iint_R(16-x^2)\,dxdy`$; $`R=\{0\le x\le4\land0\le y\le x`$
 
 ### nº67
 
 Resolver las siguientes integrales dobles.
 
-a) $\int_3^4\int_1^2\frac{dy\,dx}{(x+y)^2}$
+a) $`\int_3^4\int_1^2\frac{dy\,dx}{(x+y)^2}`$
 
-b) $\int_1^2\int_x^{\sqrt x}xy\,dy\,dx$
+b) $`\int_1^2\int_x^{\sqrt x}xy\,dy\,dx`$
 
 ### nº68
 
 Calcular el área de las siguientes regiones mediante integrales dobles.
 
-a) $R=\{(x,y)/0\le y\le4-4x/3\land0\le x\le3\}$
+a) $`R=\{(x,y)/0\le y\le4-4x/3\land0\le x\le3\}`$
 
-b) $R=\{(x,y)/x^2\le y\le1\land-1\le x\le1\}$
+b) $`R=\{(x,y)/x^2\le y\le1\land-1\le x\le1\}`$
 
-c) $R=\{(x,y)/4-4x\le y^2\le4-x\}$
+c) $`R=\{(x,y)/4-4x\le y^2\le4-x\}`$
 
-d) $R=\{3y^2=25x;5x^2=9y\}$
+d) $`R=\{3y^2=25x;5x^2=9y\}`$
 
-e) $R=\{y=4x-x^2;y=x\}$
+e) $`R=\{y=4x-x^2;y=x\}`$
 
-f) $R=\{y^2=4x;9x^2=y\}$
+f) $`R=\{y^2=4x;9x^2=y\}`$
 
-g) $R=\{-y^2+6y=x;x=y\}$
+g) $`R=\{-y^2+6y=x;x=y\}`$
 
-h) $R=\{x^2+y^2=10;y^2=9x\}$
+h) $`R=\{x^2+y^2=10;y^2=9x\}`$
 
-i) $R=\{y=x^2-2x-2;y=1\}$
+i) $`R=\{y=x^2-2x-2;y=1\}`$
 
 ### nº69
 
 Determinar el volumen
 
-a) $D=\{(x,y,z)/0\le y\le6\land0\le z\le4-x^2\}$
+a) $`D=\{(x,y,z)/0\le y\le6\land0\le z\le4-x^2\}`$
 
-b) $S=\{x^2+y^2=16;x^2+z^2=16;\text{primer octante}\}$
+b) $`S=\{x^2+y^2=16;x^2+z^2=16;\text{primer octante}\}`$
 
 ### nº70
 
 Sea R una región del plano xy cuya área es B. Si f(x,y)=k para todo punto de R,
-cuál es el valor de $\iint_R f(x,y)\,dA$.
+cuál es el valor de $`\iint_R f(x,y)\,dA`$.
 
 ### nº71
 
 Determinar si las siguientes afirmaciones son verdaderas (V) o falsas(F).
 Justificar la respuesta.
 
-a) Si $\iint_R f(r,\theta)\,dA>0\Rightarrow f(r,\theta)>0$; $\forall(r,\theta)$
+a) Si $`\iint_R f(r,\theta)\,dA>0\Rightarrow f(r,\theta)>0`$;
+$\forall(r,\theta)$
 
 b)
 
@@ -1083,13 +1090,13 @@ $$
 
 Calcular el volumen que determinan los siguientes conjuntos de puntos
 
-a) $A=\{(x,y,z)/4x^2+y^2+1\le z\le10\}$
+a) $`A=\{(x,y,z)/4x^2+y^2+1\le z\le10\}`$
 
-b) $B=\{(x,y,z)/0\le y\le6\land0\le z\le4-x^2\}$
+b) $`B=\{(x,y,z)/0\le y\le6\land0\le z\le4-x^2\}`$
 
-c) $C=\{(x,y,z)/x^2+y^2\le16\land x^2+z^2\le16\}$
+c) $`C=\{(x,y,z)/x^2+y^2\le16\land x^2+z^2\le16\}`$
 
-d) $D=\{(x,y,z)/0\le y\le16-x^2-z^2\}$
+d) $`D=\{(x,y,z)/0\le y\le16-x^2-z^2\}`$
 
 e) $4z=10-4x^2-y^2$; primer octante
 
@@ -1099,19 +1106,20 @@ f) $z=x^2+y^2$; $0\le y\le1\land0\le x\le1$
 
 Determinar el centro de gravedad de una lámina rectangular definida por:
 
-$D=\{(x,y)/0\le x\le2\land0\le y\le3\}$
+$`D=\{(x,y)/0\le x\le2\land0\le y\le3\}`$
 
 ### nº74
 
 Determinar el centro de gravedad de:
 
-$D=\{(x,y)/0\le x\le1\land0\le y\le x^{1/2}\}$
+$`D=\{(x,y)/0\le x\le1\land0\le y\le x^{1/2}\}`$
 
 ### nº75
 
 Determinar el centro de masa de:
 
-$D=\{(x,y)/0\le x\le2\land0\le y\le3\}$; siendo la densidad $\rho(x,y)=x\cdot y$
+$`D=\{(x,y)/0\le x\le2\land0\le y\le3\}`$; siendo la densidad
+$\rho(x,y)=x\cdot y$
 
 ### nº76
 
@@ -1124,25 +1132,25 @@ Determinar los momentos de inercia axiales (Ix, Iy), polares (I₀) y centrífug
 
 Hallar los momentos de inercia de:
 
-$D=\{(x,y)/0\le x\le1\land0\le y\le x\}$; siendo $\rho=x+y$
+$`D=\{(x,y)/0\le x\le1\land0\le y\le x\}`$; siendo $\rho=x+y$
 
 ### nº78
 
 Hallar el momento de inercia respecto del eje z.
 
-$S=\{(x,y,z)/0\le y;0\le x\land0\le z\le1-x-y\}$; siendo la densidad constante
+$`S=\{(x,y,z)/0\le y;0\le x\land0\le z\le1-x-y\}`$; siendo la densidad constante
 
 ### nº79
 
 Hallar la masa de una placa homogénea donde densidad=cte
 
-$D=\{(x,y)/y^2\le x\le y+2\}$
+$`D=\{(x,y)/y^2\le x\le y+2\}`$
 
 ### nº80
 
 Determinar el momento estático del sólido homogéneo definido por:
 
-$S=\{(x,y,z)/0\le z\le4-x^2-4y^2;x+y\le1;0\le x;0\le y\}$
+$`S=\{(x,y,z)/0\le z\le4-x^2-4y^2;x+y\le1;0\le x;0\le y\}`$
 
 ### nº81
 
@@ -1157,8 +1165,8 @@ enterrado horizontalmente, de radio 2m y longitud 10m midiendo con una varilla
 metálica recta, calibrada para tal fin, la zona que quedó humedecida por el
 combustible. Proponer una escala para tal regla.
 
-b- si $\int_0^a f(x)\,dx=I$ y
-$J=\int_0^a f(x)\left[\int_0^x f(y)\left(\int_0^y f(z)\,dz\right)dy\right]dx$
+b- si $`\int_0^a f(x)\,dx=I`$ y
+$`J=\int_0^a f(x)\left[\int_0^x f(y)\left(\int_0^y f(z)\,dz\right)dy\right]dx`$
 
 indicar si $J=I^3$; $J=\frac13 I^3$; $J=\frac16 I^3$; $J=I$; $J=3I$
 
@@ -1174,30 +1182,31 @@ b) $z=9-x^2$; R cuadrado definido por los vértices (0,0)(3,0)(0,3)(3,3)
 ### nº84
 
 Dada $z=F(x,y)=x^2y-3x$; y siendo C un arco de parábola determinado por
-$y=x^2+2$; entre P(1,3) y Q(4,18); determinar: $\int_C F(x,y)\,dx$
+$y=x^2+2$; entre P(1,3) y Q(4,18); determinar: $`\int_C F(x,y)\,dx`$
 
 ### nº85
 
-Calcular $\int_C F(x,y)\,dy$; siendo $F(x,y)=x-y^2$; $C=\{y=5x+2;0\le x\le3\}$.
-Tomando a y como parámetro; luego tomando a x como parámetro.
+Calcular $`\int_C F(x,y)\,dy`$; siendo $F(x,y)=x-y^2$;
+$`C=\{y=5x+2;0\le x\le3\}`$. Tomando a y como parámetro; luego tomando a x como
+parámetro.
 
 ### nº86
 
 Dadas las funciones $P(x,y)=x^2-y$; $Q(x,y)=y^2+x$; y la curva
-$C=\{y=x^2+1;0\le x\le1\}$; obtener $\int_C P(x,y)\,dx+Q(x,y)\,dy$
+$`C=\{y=x^2+1;0\le x\le1\}`$; obtener $`\int_C P(x,y)\,dx+Q(x,y)\,dy`$
 
 ### nº87
 
-Calcular $\int_C(x^2y-3x)\,dx+(xy-2)\,dy$; siendo C un arco de sinusoide entre
+Calcular $`\int_C(x^2y-3x)\,dx+(xy-2)\,dy`$; siendo C un arco de sinusoide entre
 $(0,0)$ y $(\pi/2,1)$
 
 ### nº88
 
-Calcular $\int_C(xy\,dx-3y^2\,dy)$; siendo $C=\{(x,y)/x^2+y^2=4\}$
+Calcular $`\int_C(xy\,dx-3y^2\,dy)`$; siendo $`C=\{(x,y)/x^2+y^2=4\}`$
 
 ### nº89
 
-Resolver $\int_C y^2\,dx+xy\,dy$; estando la curva C definida por la siguiente
+Resolver $`\int_C y^2\,dx+xy\,dy`$; estando la curva C definida por la siguiente
 figura:
 
 ![Trayectoria triangular orientada](../../../resources/2016/pdf2016-guia-ej89.png)
@@ -1205,7 +1214,7 @@ figura:
 ### nº90
 
 Siendo la curva C la frontera del conjunto definido por:
-$D=\{(x,y)/0\le x\le1;x^2\le y\le x\}$; calcular
+$`D=\{(x,y)/0\le x\le1;x^2\le y\le x\}`$; calcular
 
 $$
 \int_C\left(\frac{x^2y^2}2\,dx+x^3\,dy\right)
@@ -1215,22 +1224,23 @@ $$
 
 Calcular el trabajo realizado al mover una partícula en un campo de fuerzas a lo
 largo de la curva definida por:
-$C=\{x=3(1-\operatorname{sen}t);y=3(1-\cos t);0\le t\le2\pi\}$. Estando el campo
-de fuerzas actuantes definido por la función vectorial: $F=(6-y)i-(3-y)j$
+$`C=\{x=3(1-\mathop{\mathrm{sen}}\nolimits t);y=3(1-\cos t);0\le t\le2\pi\}`$.
+Estando el campo de fuerzas actuantes definido por la función vectorial:
+$F=(6-y)i-(3-y)j$
 
 ### nº92
 
-Si la curva C está definida por $C=\{y=x;x=3;y=0\}$; calcular
-$\int_C(x^2y\,dx-xy\,dy)$
+Si la curva C está definida por $`C=\{y=x;x=3;y=0\}`$; calcular
+$`\int_C(x^2y\,dx-xy\,dy)`$
 
 ### nº93
 
-Calcular $\int_C[(2x+y)\,dx+(x-y)\,dy]$; estando la curva C asociada a
+Calcular $`\int_C[(2x+y)\,dx+(x-y)\,dy]`$; estando la curva C asociada a
 $F(t)=(t-1)i+t^2j$; para $0\le t\le2$.
 
 ### nº94
 
-Calcular $\int_C\left[\frac{x+y}{x^2+y^2}\,dx-\frac{x-y}{x^2-y^2}\,dy\right]$;
+Calcular $`\int_C\left[\frac{x+y}{x^2+y^2}\,dx-\frac{x-y}{x^2-y^2}\,dy\right]`$;
 siendo C la circunferencia $x^2+y^2=4$.
 
 ### nº95
@@ -1246,21 +1256,21 @@ $$
 
 Verificar el teorema de Green.
 
-a) $\int_C(x^3+2y^2)\,dx+(y^2+x^2y)\,dy$; $C=\{y^2=x;y^2=x^3;0\le y\le1\}$.
+a) $`\int_C(x^3+2y^2)\,dx+(y^2+x^2y)\,dy`$; $`C=\{y^2=x;y^2=x^3;0\le y\le1\}`$.
 
-b) $\int_C(xy^2-x)\,dx+(x^2-y^3x)\,dy$; siendo C la frontera del conjunto
-$D=\{(x,y)/x^2\le y\le2+x\}$
+b) $`\int_C(xy^2-x)\,dx+(x^2-y^3x)\,dy`$; siendo C la frontera del conjunto
+$`D=\{(x,y)/x^2\le y\le2+x\}`$
 
-c) $\iint_D(2y-3xy^2)\,dxdy$; $D=\{(x,y)/y^2\le x\le y;0\le y\le1\}$
+c) $`\iint_D(2y-3xy^2)\,dxdy`$; $`D=\{(x,y)/y^2\le x\le y;0\le y\le1\}`$
 
 ### nº97
 
 Calcular el área de los siguientes conjuntos de puntos mediante la aplicación de
 integrales curvilíneas.
 
-a) $D=\{(x,y)/x^3\le y^2\le x;0\le y\}$
+a) $`D=\{(x,y)/x^3\le y^2\le x;0\le y\}`$
 
-b) $D=\{(x,y)/(2x^2-8x+10)\le y\le(-x^2+4x+1)\}$
+b) $`D=\{(x,y)/(2x^2-8x+10)\le y\le(-x^2+4x+1)\}`$
 
 ### nº98
 
@@ -1274,11 +1284,11 @@ Calcular las siguientes integrales curvilíneas sobre tres trayectorias
 diferentes (C₁, C₂, C₃). Determinar como son las funciones respecto a las
 distintas trayectorias.
 
-a) $\int_C[(x^2+y)\,dx+(2x-y^2)\,dy]$; $C_1=\{y=x^2;0\le x\le1\}$;
-$C_2=\{y^2=x;0\le x\le1\}$; $C_3=\{y=x;0\le x\le1\}$
+a) $`\int_C[(x^2+y)\,dx+(2x-y^2)\,dy]`$; $`C_1=\{y=x^2;0\le x\le1\}`$;
+$`C_2=\{y^2=x;0\le x\le1\}`$; $`C_3=\{y=x;0\le x\le1\}`$
 
-b) $\int_C[2xy^3\,dx+(3x^2y^2-2)\,dy]$; $C_1=\{y=x;0\le x\le1\}$;
-$C_2=\{y=x^{3/2};0\le x\le1\}$; $C_3=\{y=x^2;0\le x\le1\}$
+b) $`\int_C[2xy^3\,dx+(3x^2y^2-2)\,dy]`$; $`C_1=\{y=x;0\le x\le1\}`$;
+$`C_2=\{y=x^{3/2};0\le x\le1\}`$; $`C_3=\{y=x^2;0\le x\le1\}`$
 
 ## PARTE Nº 6
 
@@ -1299,13 +1309,13 @@ Resolver siguientes ecuaciones diferenciales con variables separables.
 
 a) $y'/y-1/(x+2)=0$
 
-b) $4y\,dx-x(y-3)\,dy=0$; pasa por (2,1)
+b) $`4y\,dx-x(y-3)\,dy=0`$; pasa por (2,1)
 
 c) $y'+2xy=0$
 
 d) $2x\cdot y'=y$
 
-e) $(1+x^3)\,dy-x^2y\,dx=0$
+e) $`(1+x^3)\,dy-x^2y\,dx=0`$
 
 f) $y\cdot y'=(1-2x)/y$
 
@@ -1324,19 +1334,19 @@ Resolver las siguientes ecuaciones diferenciales homogéneas.
 
 a) $dy/dx=(x^2+y^2)/xy$
 
-b) $x^2\,dy-(y^2+2xy)\,dx=0$; particularizar para x=1 e y=4
+b) $`x^2\,dy-(y^2+2xy)\,dx=0`$; particularizar para x=1 e y=4
 
-c) $2xy\,dy-(x^2+y^2)\,dx=0$
+c) $`2xy\,dy-(x^2+y^2)\,dx=0`$
 
 b) $y'=(x^3+y^3)/(3xy^2)$
 
 e) $x^2\cdot y'=y^2-2x^2$
 
-f) $(3y^2+3xy+x^2)\,dx=(x^2+2xy)\,dy$
+f) $`(3y^2+3xy+x^2)\,dx=(x^2+2xy)\,dy`$
 
 g) $y'=(y^2-2xy-x^2)/(y^2+2xy-x^2)$; particularizar para x=1 e y=-1
 
-h) $x\,dy-y\,dx=(x^2-y^2)^{1/2}\,dx$; para el punto x=1 e y=0
+h) $`x\,dy-y\,dx=(x^2-y^2)^{1/2}\,dx`$; para el punto x=1 e y=0
 
 ### nº103
 
@@ -1344,27 +1354,27 @@ Resolver las ecuaciones diferenciales lineales de 1º orden.
 
 a) $y'+2y=x$
 
-b) $2y\operatorname{sen}x\,dx=\cos x\,dy-2\,dx$; para x=0 e y=3
+b) $`2y\mathop{\mathrm{sen}}\nolimits x\,dx=\cos x\,dy-2\,dx`$; para x=0 e y=3
 
 ### nº104
 
 Resolver las ecuaciones diferencial total exacta.
 
-a) $(x^2-2y)\,dx+(y-2x)\,dy=0$
+a) $`(x^2-2y)\,dx+(y-2x)\,dy=0`$
 
-b) $(4x+1)\,dx-2y\,dy=0$
+b) $`(4x+1)\,dx-2y\,dy=0`$
 
-c) $(y-2x)\,dx+x\,dy=0$
+c) $`(y-2x)\,dx+x\,dy=0`$
 
-d) $(-e^y\operatorname{sen}x+3x^2)\,dx+(e^y\cos x-2y)\,dy=0$
+d) $`(-e^y\mathop{\mathrm{sen}}\nolimits x+3x^2)\,dx+(e^y\cos x-2y)\,dy=0`$
 
-e) $2xy^3\,dx+(3x^2y^2+2y)\,dy=0$; para el punto (1,2)
+e) $`2xy^3\,dx+(3x^2y^2+2y)\,dy=0`$; para el punto (1,2)
 
 ### nº105
 
 Resolver las siguientes ecuaciones diferenciales.
 
-a) $y'+\operatorname{sen}x(y-1)=0$
+a) $y'+\mathop{\mathrm{sen}}\nolimits x(y-1)=0$
 
 b) $x\cdot y'-e^{2x}+y=xy$
 
@@ -1404,19 +1414,19 @@ Resolver las siguientes ecuaciones a coeficientes constantes de orden superior.
 
 1. $(D^2-D)y=x^2$
 
-1. $(D^2+1)y=\operatorname{sen}x$
+1. $(D^2+1)y=\mathop{\mathrm{sen}}\nolimits x$
 
 1. $(D^2+2D)y=3xe^x$
 
-1. $d^2y/dx^2+9y=4x\operatorname{sen}x$
+1. $d^2y/dx^2+9y=4x\mathop{\mathrm{sen}}\nolimits x$
 
-1. $y''-y'=2e^{2x}\operatorname{sen}x$
+1. $y''-y'=2e^{2x}\mathop{\mathrm{sen}}\nolimits x$
 
 1. $y''+y'-2y=e^x+e^{2x}$
 
 1. $y''-y=x^2+\cos(2x)$
 
-1. $(D^2-4D-5)y=e^{2x}+4\operatorname{sen}x$
+1. $(D^2-4D-5)y=e^{2x}+4\mathop{\mathrm{sen}}\nolimits x$
 
 1. $(D^2+1)y=e^{2x}+x^2$
 
@@ -1431,13 +1441,13 @@ a) $y''+2y'-3y=0$; $r1=-3$, $r2=1$
 - [ ] a) $y=e^{-3x}$
 - [ ] b) $y=C1\cdot e^{-3x}$
 - [ ] c) $y=e^{-3x}+e^x$
-- [ ] d) $y=e^{-3x}(C1\cos x+C2\operatorname{sen}x)$
+- [ ] d) $y=e^{-3x}(C1\cos x+C2\mathop{\mathrm{sen}}\nolimits x)$
 
 b) $y''-2y'+2y=0$; $r=2\pm i$
 
-- [ ] a) $y=e^x(\cos2x+\operatorname{sen}2x)$
-- [ ] b) $y=e^{2x}(\cos x+\operatorname{sen}x)$
-- [ ] c) $y=e^{2x}(C1\cos x+C2\operatorname{sen}x)$
+- [ ] a) $y=e^x(\cos2x+\mathop{\mathrm{sen}}\nolimits 2x)$
+- [ ] b) $y=e^{2x}(\cos x+\mathop{\mathrm{sen}}\nolimits x)$
+- [ ] c) $y=e^{2x}(C1\cos x+C2\mathop{\mathrm{sen}}\nolimits x)$
 
 c) $y''-2y'+y=2e^{2x}$; $r=1$
 
@@ -1448,8 +1458,8 @@ c) $y''-2y'+y=2e^{2x}$; $r=1$
 
 d) $y''+y=\cos x$; $r=\pm i$
 
-- [ ] a) $y=C1\cos x+C2\operatorname{sen}x+\cos x$
-- [ ] b) $y=C1\cos x+C2\operatorname{sen}x+x\cos x$
+- [ ] a) $y=C1\cos x+C2\mathop{\mathrm{sen}}\nolimits x+\cos x$
+- [ ] b) $y=C1\cos x+C2\mathop{\mathrm{sen}}\nolimits x+x\cos x$
 
 e) $y''-4y=e^x$; $r=\pm2$
 
@@ -1547,7 +1557,8 @@ Resuelva
 
 1. $I'+5I=10$ CON $I(0)=0$
 
-1. $2y\operatorname{COS}x\,dx+3\operatorname{SEN}x\,dy=0$ CON $y(\pi/2)=2$
+1. $`2y\mathop{\mathrm{COS}}\nolimits x\,dx+3\mathop{\mathrm{SEN}}\nolimits x\,dy=0`$
+   CON $y(\pi/2)=2$
 
 ### nº116
 
@@ -1638,11 +1649,11 @@ La solución entrante es de 0,36 kg de sal por litro
 
 1. $Y'=(Ye^{Y/X}+Y)/X$
 
-1. $(2X+1/X)\,dX-Y'=0$
+1. $`(2X+1/X)\,dX-Y'=0`$
 
-1. $(2XY+3X^2)\,dX+X^2\,dY=0$
+1. $`(2XY+3X^2)\,dX+X^2\,dY=0`$
 
-1. $(2Y+3X)\,dX+X\,dY=0$
+1. $`(2Y+3X)\,dX+X\,dY=0`$
 
 1. $Y'=(XY^2-1)/(1-X^2Y)$ PARA (X,Y)=(0,1)
 
@@ -1674,7 +1685,7 @@ La solución entrante es de 0,36 kg de sal por litro
 
 1. $y''+4y=4e^{2x}$
 
-1. $y''+4y'+4y=6\operatorname{sen}(3x)$
+1. $y''+4y'+4y=6\mathop{\mathrm{sen}}\nolimits (3x)$
 
 1. $y''+y=f(x)$
 
@@ -1766,20 +1777,20 @@ para funciones pares e impares. Convergencia para la serie de Fourier.
 Desarrollar en series de Fourier las siguientes funciones periódicas de periodo
 $2\pi$.
 
-1. $f(x)=\begin{cases}-1,&-\pi<x<0\\1,&0<x<\pi\end{cases}$; $f(x)=f(x+2\pi)$.
+1. $`f(x)=\begin{cases}-1,&-\pi<x<0\\1,&0<x<\pi\end{cases}`$; $f(x)=f(x+2\pi)$.
 
 ![Función 131.1](../../../resources/2016/pdf2016-guia-ej131-01.png)
 
-2. $f(x)=\begin{cases}2,&-\pi/2<x<\pi/2\\0,&-\pi<x<-\pi/2\ \text{o}\ \pi/2<x<\pi\end{cases}$;
+2. $`f(x)=\begin{cases}2,&-\pi/2<x<\pi/2\\0,&-\pi<x<-\pi/2\ \text{o}\ \pi/2<x<\pi\end{cases}`$;
    período $2\pi$.
 
 ![Función 131.2](../../../resources/2016/pdf2016-guia-ej131-02.png)
 
-3. $f(x)=\begin{cases}0,&-\pi<x<0\\3,&0<x<\pi\end{cases}$; período $2\pi$.
+3. $`f(x)=\begin{cases}0,&-\pi<x<0\\3,&0<x<\pi\end{cases}`$; período $2\pi$.
 
 ![Función 131.3](../../../resources/2016/pdf2016-guia-ej131-03.png)
 
-4. $f(x)=\begin{cases}x,&0<x<\pi\\-x,&-\pi<x<0\end{cases}$; período $2\pi$.
+4. $`f(x)=\begin{cases}x,&0<x<\pi\\-x,&-\pi<x<0\end{cases}`$; período $2\pi$.
 
 ![Función 131.4](../../../resources/2016/pdf2016-guia-ej131-04.png)
 
@@ -1787,11 +1798,11 @@ $2\pi$.
 
 ![Función 131.5](../../../resources/2016/pdf2016-guia-ej131-05.png)
 
-6. $f(x)=\begin{cases}x,&0<x<\pi\\\pi,&-\pi<x<0\end{cases}$; período $2\pi$.
+6. $`f(x)=\begin{cases}x,&0<x<\pi\\\pi,&-\pi<x<0\end{cases}`$; período $2\pi$.
 
 ![Función 131.6](../../../resources/2016/pdf2016-guia-ej131-06.png)
 
-7. $f(x)=\begin{cases}0,&-\pi<x<0\\\operatorname{sen}x,&0<x<\pi\end{cases}$;
+7. $`f(x)=\begin{cases}0,&-\pi<x<0\\\mathop{\mathrm{sen}}\nolimits x,&0<x<\pi\end{cases}`$;
    período $2\pi$.
 
 ![Función 131.7](../../../resources/2016/pdf2016-guia-ej131-07.png)
@@ -1804,7 +1815,7 @@ $2\pi$.
 
 ![Función 131.9](../../../resources/2016/pdf2016-guia-ej131-09.png)
 
-10. $f(x)=\begin{cases}0,&-\pi<x<0\\x^2,&0<x<\pi\end{cases}$; período $2\pi$.
+10. $`f(x)=\begin{cases}0,&-\pi<x<0\\x^2,&0<x<\pi\end{cases}`$; período $2\pi$.
 
 ![Función 131.10](../../../resources/2016/pdf2016-guia-ej131-10.png)
 
@@ -1813,7 +1824,7 @@ $2\pi$.
 Desarrollar en series de Fourier las siguientes funciones periódicas de periodo
 $2L\ne2\pi$.
 
-1. $f(x)=\begin{cases}0,&-2<x<0\\x,&0<x<2\end{cases}$; período $2L=4$.
+1. $`f(x)=\begin{cases}0,&-2<x<0\\x,&0<x<2\end{cases}`$; período $2L=4$.
 
 ![Función 132.1](../../../resources/2016/pdf2016-guia-ej132-01.png)
 
@@ -1821,7 +1832,7 @@ $2L\ne2\pi$.
 
 ![Función 132.2](../../../resources/2016/pdf2016-guia-ej132-02.png)
 
-3. $f(x)=\begin{cases}-\operatorname{sen}4x,&-\pi/4<x<0\\\cos4x,&0<x<\pi/4\end{cases}$;
+3. $`f(x)=\begin{cases}-\mathop{\mathrm{sen}}\nolimits 4x,&-\pi/4<x<0\\\cos4x,&0<x<\pi/4\end{cases}`$;
    período $2L=\pi/2$.
 
 ![Función 132.3](../../../resources/2016/pdf2016-guia-ej132-03.png)

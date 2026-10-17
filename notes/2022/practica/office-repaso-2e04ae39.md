@@ -7,7 +7,7 @@
 > y las repeticiones del original se conservan.
 
 1\. Evaluar la integral de línea.
-$e^x\cos 2y\,dx-2e^x\mathop{\mathrm{sen}}\nolimits2y\,dy$ $C:x^2+y^2=a^2$
+$`e^x\cos 2y\,dx-2e^x\mathop{\mathrm{sen}}\nolimits2y\,dy`$ $C:x^2+y^2=a^2$
 
 2\. Calcular el área de la región R aplicando el teorema de Green.
 

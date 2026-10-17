@@ -356,11 +356,11 @@ operando podemos dar una forma equivalente mediante una función real de variabl
 real basándonos en las “fórmulas de Euler”. Recordemos:
 
 $$
-e^{i\beta x}=\cos\beta x+i\operatorname{sen}\beta x
+e^{i\beta x}=\cos\beta x+i\mathop{\mathrm{sen}}\nolimits \beta x
 $$
 
 $$
-e^{-i\beta x}=\cos\beta x-i\operatorname{sen}\beta x
+e^{-i\beta x}=\cos\beta x-i\mathop{\mathrm{sen}}\nolimits \beta x
 $$
 
 entonces
@@ -375,16 +375,16 @@ $$
 $$
 \begin{aligned}
 y&=e^{\alpha x}(C_1e^{i\beta x}+C_2e^{-i\beta x})\\
-&=e^{\alpha x}[C_1(\cos\beta x+i\operatorname{sen}\beta x)
-+C_2(\cos\beta x-i\operatorname{sen}\beta x)]\\
-&=e^{\alpha x}[(C_1+C_2)\cos\beta x+i(C_1-C_2)\operatorname{sen}\beta x]
+&=e^{\alpha x}[C_1(\cos\beta x+i\mathop{\mathrm{sen}}\nolimits \beta x)
++C_2(\cos\beta x-i\mathop{\mathrm{sen}}\nolimits \beta x)]\\
+&=e^{\alpha x}[(C_1+C_2)\cos\beta x+i(C_1-C_2)\mathop{\mathrm{sen}}\nolimits \beta x]
 \end{aligned}
 $$
 
 si $C_1+C_2=P;\quad i(C_1-C_2)=Q$
 
 $$
-y=e^{\alpha x}(P\cos\beta x+Q\operatorname{sen}\beta x)
+y=e^{\alpha x}(P\cos\beta x+Q\mathop{\mathrm{sen}}\nolimits \beta x)
 $$
 
 Supongamos ahora una ecuación diferencial general completa, o sea que su segundo
@@ -458,8 +458,8 @@ $$
 $$
 
 en los casos que $b(x)$ contiene un polinomio, términos de forma
-$\operatorname{sen}px,\cos px;\ e^{px}$ siendo $p$ una constante, o bién,
-combinaciones de sumas y productos de estos términos. Para facilitar la
+$\mathop{\mathrm{sen}}\nolimits px,\cos px;\ e^{px}$ siendo $p$ una constante, o
+bién, combinaciones de sumas y productos de estos términos. Para facilitar la
 comprensión del método, nos plantearemos problemas prácticos para su discusión,
 en los que mantendremos inalterable el primer miembro, por simplicidad.
 
@@ -535,51 +535,52 @@ $$
 
 ### II. Caso en que b(x) tenga forma trigonométrica
 
-que puede expresarse bajo la forma $\operatorname{sen}px$, $\cos px$, ó la
-combinación de ambas:
+que puede expresarse bajo la forma $\mathop{\mathrm{sen}}\nolimits px$,
+$\cos px$, ó la combinación de ambas:
 
 Supongamos la ecuación
 
 $$
-y''+y'-6y=6\operatorname{sen}3x
+y''+y'-6y=6\mathop{\mathrm{sen}}\nolimits 3x
 $$
 
 sabemos por cálculo anterior que $Y_c=C_1e^{2x}+C_2e^{-3x}$. Para hallar $Y_p$
 nos preguntaremos qué funciones derivadas una vez, dos veces, etc. dan la
-función $\operatorname{sen}3x$ ó $k\operatorname{sen}3x$ (siendo $k=$ cte). Es
-evidente que los términos $\operatorname{sen}3x$ ó $\cos3x$ lo darán, por lo
-tanto podemos ensayar como solución particular
+función $\mathop{\mathrm{sen}}\nolimits 3x$ ó
+$k\mathop{\mathrm{sen}}\nolimits 3x$ (siendo $k=$ cte). Es evidente que los
+términos $\mathop{\mathrm{sen}}\nolimits 3x$ ó $\cos3x$ lo darán, por lo tanto
+podemos ensayar como solución particular
 
 $$
-Y_p=A\operatorname{sen}3x+B\cos3x
+Y_p=A\mathop{\mathrm{sen}}\nolimits 3x+B\cos3x
 $$
 
 siendo $A$, $B$ constantes, resolviendo sus derivadas y reemplazando en la
 ecuación tenemos:
 
 $$
-Y_p'=3A\cos3x-3B\operatorname{sen}3x
+Y_p'=3A\cos3x-3B\mathop{\mathrm{sen}}\nolimits 3x
 $$
 
 $$
-Y_p''=-9A\operatorname{sen}3x-9B\cos3x
+Y_p''=-9A\mathop{\mathrm{sen}}\nolimits 3x-9B\cos3x
 $$
 
 $$
-(-9A\operatorname{sen}3x-9B\cos3x)+(3A\cos3x-3B\operatorname{sen}3x)
--6(A\operatorname{sen}3x+B\cos3x)=6\operatorname{sen}3x
+(-9A\mathop{\mathrm{sen}}\nolimits 3x-9B\cos3x)+(3A\cos3x-3B\mathop{\mathrm{sen}}\nolimits 3x)
+-6(A\mathop{\mathrm{sen}}\nolimits 3x+B\cos3x)=6\mathop{\mathrm{sen}}\nolimits 3x
 $$
 
 $$
-(-15A-3B)\operatorname{sen}3x+(-15B+3A)\cos3x=6\operatorname{sen}3x
+(-15A-3B)\mathop{\mathrm{sen}}\nolimits 3x+(-15B+3A)\cos3x=6\mathop{\mathrm{sen}}\nolimits 3x
 $$
 
 comparando los coeficientes, resulta $A=-5/8;\ B=-1/8$, por lo tanto la solución
 particular es:
 
 $$
-Y_p=-\frac58\operatorname{sen}3x-\frac{\cos3x}{8}
-\Rightarrow Y_g=C_1e^{2x}+C_2e^{-3x}-\frac58\operatorname{sen}3x-\frac{\cos3x}{8}
+Y_p=-\frac58\mathop{\mathrm{sen}}\nolimits 3x-\frac{\cos3x}{8}
+\Rightarrow Y_g=C_1e^{2x}+C_2e^{-3x}-\frac58\mathop{\mathrm{sen}}\nolimits 3x-\frac{\cos3x}{8}
 $$
 
 En el caso de funciones trigonométricas como la resuelta, pueden presentarse
@@ -594,19 +595,20 @@ términos la función $b(x)$.
 
 Debemos decidir, qué forma supondremos la solución particular.
 
-Veamos: por el término $2\cos2x$, supondremos $A\operatorname{sen}2x+B\cos2x$
-por el término $3x+2$ el polinomio de primer grado $Cx+D$, por el término $6e^x$
-proponemos $ke^x$ por lo que la forma propuesta:
+Veamos: por el término $2\cos2x$, supondremos
+$A\mathop{\mathrm{sen}}\nolimits 2x+B\cos2x$ por el término $3x+2$ el polinomio
+de primer grado $Cx+D$, por el término $6e^x$ proponemos $ke^x$ por lo que la
+forma propuesta:
 
 $$
-Y_p=A\operatorname{sen}2x+B\cos2x+Cx+D+ke^x
+Y_p=A\mathop{\mathrm{sen}}\nolimits 2x+B\cos2x+Cx+D+ke^x
 $$
 
 basándonos en las propiedades operacionales de las derivadas de funciones, es
 posible plantear soluciones en forma separadas:
 
 $$
-Y_{p_1}=A\operatorname{sen}2x+B\cos2x
+Y_{p_1}=A\mathop{\mathrm{sen}}\nolimits 2x+B\cos2x
 $$
 
 $$
@@ -623,23 +625,23 @@ derivadas sucesivas, como en los problemas anteriores ya resueltos. Supongamos
 entonces:
 
 $$
-Y_p=A\operatorname{sen}2x+B\cos2x+Cx+D+ke^x
+Y_p=A\mathop{\mathrm{sen}}\nolimits 2x+B\cos2x+Cx+D+ke^x
 $$
 
 $$
-Y_p'=2A\cos2x-2B\operatorname{sen}2x+C+ke^x
+Y_p'=2A\cos2x-2B\mathop{\mathrm{sen}}\nolimits 2x+C+ke^x
 $$
 
 $$
-Y_p''=-4A\operatorname{sen}2x-4B\cos2x+ke^x
+Y_p''=-4A\mathop{\mathrm{sen}}\nolimits 2x-4B\cos2x+ke^x
 $$
 
 reemplazando en la ecuación
 
 $$
-(-4A\operatorname{sen}2x-4B\cos2x+ke^x)
-+(2A\cos2x-2B\operatorname{sen}2x+C+ke^x)
--6(A\operatorname{sen}2x+B\cos2x+Cx+D+ke^x)
+(-4A\mathop{\mathrm{sen}}\nolimits 2x-4B\cos2x+ke^x)
++(2A\cos2x-2B\mathop{\mathrm{sen}}\nolimits 2x+C+ke^x)
+-6(A\mathop{\mathrm{sen}}\nolimits 2x+B\cos2x+Cx+D+ke^x)
 =2\cos2x+3x+2+6e^x
 $$
 
@@ -651,7 +653,7 @@ A=\frac1{26};\quad B=\frac5{26};\quad C=\frac12;
 $$
 
 $$
-Y_p=\frac1{26}\operatorname{sen}2x+\frac5{26}\cos2x
+Y_p=\frac1{26}\mathop{\mathrm{sen}}\nolimits 2x+\frac5{26}\cos2x
 +\frac x2-\frac14+\frac32e^x
 $$
 
@@ -660,7 +662,7 @@ solución particular.
 La solución general será $Y_g=Y_c+Y_p$
 
 $$
-Y_g=C_1e^{2x}+C_2e^{-3x}+\frac{\operatorname{sen}2x}{26}
+Y_g=C_1e^{2x}+C_2e^{-3x}+\frac{\mathop{\mathrm{sen}}\nolimits 2x}{26}
 +\frac5{26}\cos2x+\frac x2-\frac14+\frac{3e^x}{2}
 $$
 
@@ -672,8 +674,8 @@ constantes general completas, el método se aplica
 
 en este caso no será válido proponer una solución complementaria “a menos de una
 constante”, propondremos como caso de excepción la solución particular
-$Y_p=x(A\operatorname{sen}px+B\cos px)$ y seguiremos el mismo procedimiento
-descripto para el caso anterior.
+$Y_p=x(A\mathop{\mathrm{sen}}\nolimits px+B\cos px)$ y seguiremos el mismo
+procedimiento descripto para el caso anterior.
 
 ### III. Caso en que b(x) tenga forma exponencial del tipo Aeᵖˣ
 

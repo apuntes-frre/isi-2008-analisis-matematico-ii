@@ -55,8 +55,9 @@ como (1) donde
 
 - los coeficientes $a_i$, $i=0,1,\ldots,n$ son constantes y
 - $g(x)$ es una constante $k$, una función polinomial, una función exponencial
-  $e^{\alpha x}$, una función seno o coseno $\operatorname{sen}\beta x$ o
-  $\cos\beta x$ o sumas finitas y productos de estas funciones.
+  $e^{\alpha x}$, una función seno o coseno
+  $\mathop{\mathrm{sen}}\nolimits \beta x$ o $\cos\beta x$ o sumas finitas y
+  productos de estas funciones.
 
 **NOTA.** Estrictamente hablando, $g(x)=k$ (constante) es una función
 polinomial. Puesto que probablemente una función constante no es lo primero en
@@ -71,15 +72,15 @@ g(x)=10,\quad g(x)=x^2-5x,\quad g(x)=15x-6+8e^{-x},
 $$
 
 $$
-g(x)=\operatorname{sen}3x-5x\cos2x,\quad
- g(x)=xe^x\operatorname{sen}x+(3x^2-1)e^{4x}.
+g(x)=\mathop{\mathrm{sen}}\nolimits 3x-5x\cos2x,\quad
+ g(x)=xe^x\mathop{\mathrm{sen}}\nolimits x+(3x^2-1)e^{4x}.
 $$
 
 Es decir, $g(x)$ es una combinación lineal de funciones de la clase
 
 $$
 P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0,\quad
-P(x)e^{\alpha x},\quad P(x)e^{\alpha x}\operatorname{sen}\beta x
+P(x)e^{\alpha x},\quad P(x)e^{\alpha x}\mathop{\mathrm{sen}}\nolimits \beta x
 \quad\text{y}\quad P(x)e^{\alpha x}\cos\beta x,
 $$
 
@@ -89,7 +90,7 @@ método de coeficientes indeterminados no es aplicable a ecuaciones de la forma
 
 $$
 g(x)=\ln x,\quad g(x)=\frac1x,\quad g(x)=\tan x,\quad
- g(x)=\operatorname{sen}^{-1}x,
+ g(x)=\mathop{\mathrm{sen}}\nolimits ^{-1}x,
 $$
 
 etcétera. Las ecuaciones diferenciales en las que la entrada $g(x)$ es una
@@ -177,30 +178,32 @@ $$
 
 ### EJEMPLO 2. Solución particular usando coeficientes indeterminados
 
-Encuentre una solución particular de $y''-y'+y=2\operatorname{sen}3x$.
+Encuentre una solución particular de
+$y''-y'+y=2\mathop{\mathrm{sen}}\nolimits 3x$.
 
 **SOLUCIÓN.** Una primera suposición natural para una solución particular sería
-$A\operatorname{sen}3x$. Pero debido a que las derivadas sucesivas de
-$\operatorname{sen}3x$ producen $\operatorname{sen}3x$ y $\cos3x$, se puede
-suponer una solución particular que incluye ambos términos:
+$A\mathop{\mathrm{sen}}\nolimits 3x$. Pero debido a que las derivadas sucesivas
+de $\mathop{\mathrm{sen}}\nolimits 3x$ producen
+$\mathop{\mathrm{sen}}\nolimits 3x$ y $\cos3x$, se puede suponer una solución
+particular que incluye ambos términos:
 
 $$
-y_p=A\cos3x+B\operatorname{sen}3x.
+y_p=A\cos3x+B\mathop{\mathrm{sen}}\nolimits 3x.
 $$
 
 Derivando $y_p$ y sustituyendo los resultados en la ecuación diferencial, se
 obtiene, después de reagrupar,
 
 $$
-y_p''-y_p'+y_p=(-8A-3B)\cos3x+(3A-8B)\operatorname{sen}3x
-=2\operatorname{sen}3x
+y_p''-y_p'+y_p=(-8A-3B)\cos3x+(3A-8B)\mathop{\mathrm{sen}}\nolimits 3x
+=2\mathop{\mathrm{sen}}\nolimits 3x
 $$
 
 o
 
 $$
-\boxed{-8A-3B}\cos3x+\boxed{3A-8B}\operatorname{sen}3x
-=0\cos3x+2\operatorname{sen}3x.
+\boxed{-8A-3B}\cos3x+\boxed{3A-8B}\mathop{\mathrm{sen}}\nolimits 3x
+=0\cos3x+2\mathop{\mathrm{sen}}\nolimits 3x.
 $$
 
 ![Relación de coeficientes trigonométricos en la página 142](../../../resources/2020/pdf2020-zill-01/coeficientes-p142-b.png)
@@ -217,7 +220,7 @@ se obtiene $A=\frac6{73}$ y $B=-\frac{16}{73}$. Una solución particular de la
 ecuación es
 
 $$
-y_p=\frac6{73}\cos3x-\frac{16}{73}\operatorname{sen}3x.
+y_p=\frac6{73}\cos3x-\frac{16}{73}\mathop{\mathrm{sen}}\nolimits 3x.
 $$
 
 Como se mencionó, la forma que se supone para la solución particular $y_p$ es
@@ -387,21 +390,22 @@ y_p=(Ax^3+Bx^2+Cx+E)e^{-x}.
 $$
 
 Observe que no hay duplicación entre los términos en $y_p$ y los términos en la
-función complementaria $y_c=e^{4x}(c_1\cos3x+c_2\operatorname{sen}3x)$.
+función complementaria
+$y_c=e^{4x}(c_1\cos3x+c_2\mathop{\mathrm{sen}}\nolimits 3x)$.
 
 ## Página 145
 
 b) La función $g(x)=x\cos x$ es similar al elemento 11 de la tabla 4.1 excepto,
 por supuesto, que se usa un polinomio lineal en vez de uno cuadrático y $\cos x$
-y $\operatorname{sen}x$ en lugar de $\cos4x$ y $\operatorname{sen}4x$ en la
-forma de $y_p$:
+y $\mathop{\mathrm{sen}}\nolimits x$ en lugar de $\cos4x$ y
+$\mathop{\mathrm{sen}}\nolimits 4x$ en la forma de $y_p$:
 
 $$
-y_p=(Ax+B)\cos x+(Cx+E)\operatorname{sen}x.
+y_p=(Ax+B)\cos x+(Cx+E)\mathop{\mathrm{sen}}\nolimits x.
 $$
 
 Nuevamente observe que no hay duplicación de términos entre $y_p$ y
-$y_c=c_1\cos2x+c_2\operatorname{sen}2x$.
+$y_c=c_1\cos2x+c_2\mathop{\mathrm{sen}}\nolimits 2x$.
 
 Si $g(x)$ consiste en una suma de, digamos, $m$ términos de la clase listada en
 la tabla, entonces (como en el ejemplo 3) la suposición para una solución
@@ -423,15 +427,15 @@ sucesivas de $g(x)$.*
 Determine la forma de una solución particular de
 
 $$
-y''-9y'+14y=3x^2-5\operatorname{sen}2x+7xe^{6x}.
+y''-9y'+14y=3x^2-5\mathop{\mathrm{sen}}\nolimits 2x+7xe^{6x}.
 $$
 
 SOLUCIÓN
 
 Se supone que a $3x^2$ le corresponde $y_{p_1}=Ax^2+Bx+C$.
 
-Se considera que a $-5\operatorname{sen}2x$ le corresponde
-$y_{p_2}=E\cos2x+F\operatorname{sen}2x$.
+Se considera que a $-5\mathop{\mathrm{sen}}\nolimits 2x$ le corresponde
+$y_{p_2}=E\cos2x+F\mathop{\mathrm{sen}}\nolimits 2x$.
 
 Se supone que a $7xe^{6x}$ le corresponde $y_{p_3}=(Gx+H)e^{6x}$.
 
@@ -439,7 +443,7 @@ Entonces la presunción para la solución particular es
 
 $$
 y_p=y_{p_1}+y_{p_2}+y_{p_3}=Ax^2+Bx+C+E\cos2x
-+F\operatorname{sen}2x+(Gx+H)e^{6x}.
++F\mathop{\mathrm{sen}}\nolimits 2x+(Gx+H)e^{6x}.
 $$
 
 En esta suposición ningún término duplica un término de
@@ -488,32 +492,33 @@ esa duplicación.*
 
 ### EJEMPLO 8. Un problema con valores iniciales
 
-Resuelva $y''+y=4x+10\operatorname{sen}x$, $y(\pi)=0$, $y'(\pi)=2$.
+Resuelva $y''+y=4x+10\mathop{\mathrm{sen}}\nolimits x$, $y(\pi)=0$, $y'(\pi)=2$.
 
 **SOLUCIÓN.** La solución de la ecuación homogénea asociada $y''+y=0$ es
-$y_c=c_1\cos x+c_2\operatorname{sen}x$. Debido a que
-$g(x)=4x+10\operatorname{sen}x$ es la suma de un polinomio lineal y una función
-seno, la suposición normal para $y_p$, de las entradas 2 y 5 de la tabla 4.1,
-sería la suma de $y_{p_1}=Ax+B$ y $y_{p_2}=C\cos x+E\operatorname{sen}x$:
+$y_c=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x$. Debido a que
+$g(x)=4x+10\mathop{\mathrm{sen}}\nolimits x$ es la suma de un polinomio lineal y
+una función seno, la suposición normal para $y_p$, de las entradas 2 y 5 de la
+tabla 4.1, sería la suma de $y_{p_1}=Ax+B$ y
+$y_{p_2}=C\cos x+E\mathop{\mathrm{sen}}\nolimits x$:
 
 $$
-y_p=Ax+B+C\cos x+E\operatorname{sen}x.\tag{5}
+y_p=Ax+B+C\cos x+E\mathop{\mathrm{sen}}\nolimits x.\tag{5}
 $$
 
-Pero hay una duplicación obvia de los términos $\cos x$ y $\operatorname{sen}x$
-en esta forma supuesta y dos términos de la función complementaria. Esta
-duplicación se elimina simplemente multiplicando $y_{p_2}$ por $x$. En lugar de
-(5) ahora se usa
+Pero hay una duplicación obvia de los términos $\cos x$ y
+$\mathop{\mathrm{sen}}\nolimits x$ en esta forma supuesta y dos términos de la
+función complementaria. Esta duplicación se elimina simplemente multiplicando
+$y_{p_2}$ por $x$. En lugar de (5) ahora se usa
 
 $$
-y_p=Ax+B+Cx\cos x+Ex\operatorname{sen}x.\tag{6}
+y_p=Ax+B+Cx\cos x+Ex\mathop{\mathrm{sen}}\nolimits x.\tag{6}
 $$
 
 Derivando esta expresión y sustituyendo los resultados en la ecuación
 diferencial, se obtiene
 
 $$
-y_p''+y_p=Ax+B-2C\operatorname{sen}x+2E\cos x=4x+10\operatorname{sen}x,
+y_p''+y_p=Ax+B-2C\mathop{\mathrm{sen}}\nolimits x+2E\cos x=4x+10\mathop{\mathrm{sen}}\nolimits x,
 $$
 
 y por tanto $A=4$, $B=0$, $-2C=10$, y $2E=0$. Las soluciones del sistema son
@@ -521,30 +526,30 @@ inmediatas: $A=4$, $B=0$, $C=-5$, y $E=0$. Por tanto de la ecuación (6) se
 obtiene $y_p=4x-5x\cos x$. La solución general de la ecuación es
 
 $$
-y=y_c+y_p=c_1\cos x+c_2\operatorname{sen}x+4x-5x\cos x.
+y=y_c+y_p=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x+4x-5x\cos x.
 $$
 
 Ahora se aplican las condiciones iniciales prescritas a la solución general de
 la ecuación. Primero,
-$y(\pi)=c_1\cos\pi+c_2\operatorname{sen}\pi+4\pi-5\pi\cos\pi=0$ produce
-$c_1=9\pi$ puesto que $\cos\pi=-1$ y $\operatorname{sen}\pi=0$. Ahora, de la
-derivada
+$y(\pi)=c_1\cos\pi+c_2\mathop{\mathrm{sen}}\nolimits \pi+4\pi-5\pi\cos\pi=0$
+produce $c_1=9\pi$ puesto que $\cos\pi=-1$ y
+$\mathop{\mathrm{sen}}\nolimits \pi=0$. Ahora, de la derivada
 
 $$
-y'=-9\pi\operatorname{sen}x+c_2\cos x+4+5x\operatorname{sen}x-5\cos x
+y'=-9\pi\mathop{\mathrm{sen}}\nolimits x+c_2\cos x+4+5x\mathop{\mathrm{sen}}\nolimits x-5\cos x
 $$
 
 y
 
 $$
-y'(\pi)=-9\pi\operatorname{sen}\pi+c_2\cos\pi+4
-+5\pi\operatorname{sen}\pi-5\cos\pi=2
+y'(\pi)=-9\pi\mathop{\mathrm{sen}}\nolimits \pi+c_2\cos\pi+4
++5\pi\mathop{\mathrm{sen}}\nolimits \pi-5\cos\pi=2
 $$
 
 encontramos $c_2=7$. La solución del problema con valores iniciales es entonces
 
 $$
-y=9\pi\cos x+7\operatorname{sen}x+4x-5x\cos x.
+y=9\pi\cos x+7\mathop{\mathrm{sen}}\nolimits x+4x-5x\cos x.
 $$
 
 ### EJEMPLO 9. Uso de la regla de multiplicación

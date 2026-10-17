@@ -11,26 +11,26 @@ parciales – Derivadas direccionales
 
 ## 1. Representar los conjuntos de puntos
 
-a. $A=\{(x,y)/x-y\geq0\}$
+a. $`A=\{(x,y)/x-y\geq0\}`$
 
-b. $B=\{(x,y)/x^2+y^2\leq9\}$
+b. $`B=\{(x,y)/x^2+y^2\leq9\}`$
 
-c. $C=\{(x,y)/y\geq2x-3\}$
+c. $`C=\{(x,y)/y\geq2x-3\}`$
 
-d. $D=\{(x,y)/y\geq x^2+2x-1\}$
+d. $`D=\{(x,y)/y\geq x^2+2x-1\}`$
 
-e. $E=\{(x,y)/x=1/n;\ n\in\mathbb N\}$
+e. $`E=\{(x,y)/x=1/n;\ n\in\mathbb N\}`$
 
-f. $F=\{(x,y)/x\cdot y\leq1\}$
+f. $`F=\{(x,y)/x\cdot y\leq1\}`$
 
-g. $G=\{(x,y)/r^2<x^2+y^2\leq R^2\}$ $r<R$ y ambos reales
+g. $`G=\{(x,y)/r^2<x^2+y^2\leq R^2\}`$ $r<R$ y ambos reales
 
-h. $H=\{(x,y)/|x|<1\land|y|<2\}$
+h. $`H=\{(x,y)/|x|<1\land|y|<2\}`$
 
-i. $I=\{(x,y)/d(P,A)=d(P,B)\}$ con $P(x,y)$; $A(x_a,y_a)$; $B(x_b,y_b)$ $d=$
+i. $`I=\{(x,y)/d(P,A)=d(P,B)\}`$ con $P(x,y)$; $A(x_a,y_a)$; $B(x_b,y_b)$ $d=$
 distancia
 
-j. $J=\{(x,y,z)/x^2+y^2+z^2\leq4\}$
+j. $`J=\{(x,y,z)/x^2+y^2+z^2\leq4\}`$
 
 ## 2
 
@@ -60,7 +60,7 @@ remarcando el conjunto de nivel 0.
 
 a. $f(x,y)=\sqrt{4-x^2-y^2}$
 
-b. $f(x,y)=\operatorname{arcsen}(x+y)$
+b. $f(x,y)=\mathop{\mathrm{arcsen}}\nolimits (x+y)$
 
 c. $f(x,y)=\sqrt{4-x^2-4y^2}$
 
@@ -159,7 +159,7 @@ g. $f(x,y)=\frac{y}{x^2+y^2}$
 h.
 
 $$
-f(x,y)=\begin{cases}\dfrac{\operatorname{sen}xy}{xy}&xy\ne0\\1&xy=0\end{cases}
+f(x,y)=\begin{cases}\dfrac{\mathop{\mathrm{sen}}\nolimits xy}{xy}&xy\ne0\\1&xy=0\end{cases}
 $$
 
 i.
@@ -207,9 +207,9 @@ $\frac{\partial w}{\partial t}$ y $\frac{\partial w}{\partial s}$.
 Se dan las ecuaciones paramétricas de dos proyectiles. ¿A qué velocidad o ritmo
 cambia la distancia entre los dos objetos en el valor $t=\frac\pi2$?
 
-a. $x_1=10\cos2t,\ y_1=6\operatorname{sen}2t$ primer objeto
+a. $x_1=10\cos2t,\ y_1=6\mathop{\mathrm{sen}}\nolimits 2t$ primer objeto
 
-b. $x_2=10\cos2t,\ y_2=6\operatorname{sen}2t$ segundo objeto
+b. $x_2=10\cos2t,\ y_2=6\mathop{\mathrm{sen}}\nolimits 2t$ segundo objeto
 
 ## 20
 
@@ -300,7 +300,7 @@ el error porcentual máximo al medir la aceleración debido a errores de 3% en v
 ## 33
 
 Definir la derivada de la función z=f(x,y) en la dirección
-$\vec u=\cos\theta\vec i+\operatorname{sen}\theta\vec j$.
+$\vec u=\cos\theta\vec i+\mathop{\mathrm{sen}}\nolimits \theta\vec j$.
 
 ## 34
 
@@ -310,7 +310,8 @@ direccional de z=f(x,y).
 ## 35
 
 Redactar un párrafo que describa la derivada direccional de la función f en la
-dirección de $\vec u=\cos\theta\vec i+\operatorname{sen}\theta\vec j$ cuando a)
+dirección de
+$\vec u=\cos\theta\vec i+\mathop{\mathrm{sen}}\nolimits \theta\vec j$ cuando a)
 $\theta=0°$ b) $\theta=90°$
 
 ## 36
@@ -328,8 +329,8 @@ dada por $z=f(x,y)$
 
 ## 39
 
-Hallar la derivada de $f(x,y)=x^2\operatorname{sen}2y$ en el punto $(1,\pi/2)$,
-en la dirección v=3i-4j
+Hallar la derivada de $f(x,y)=x^2\mathop{\mathrm{sen}}\nolimits 2y$ en el punto
+$(1,\pi/2)$, en la dirección v=3i-4j
 
 ## 40
 

@@ -21,7 +21,7 @@ $$
 
 ### 1.) Transformación de una integral de línea en una de área
 
-Evaluar $\int_C x^4\,dx+xy\,dx$, donde C es la curva triangular que une los
+Evaluar $`\int_C x^4\,dx+xy\,dx`$, donde C es la curva triangular que une los
 puntos $(0;0)$, $(0;1)$ y $(1;0)$, orientada positivamente.
 
 **SOLUCIÓN:**
@@ -60,7 +60,7 @@ Determine el área de la región limitada por la hipocicloide que tiene la
 ecuación vectorial
 
 $$
-r(t)=\cos^3t\,\mathbf i+\operatorname{sen}^3t\,\mathbf j,\quad0\leq t\leq2\pi
+r(t)=\cos^3t\,\mathbf i+\mathop{\mathrm{sen}}\nolimits ^3t\,\mathbf j,\quad0\leq t\leq2\pi
 $$
 
 ![Hipocicloide con extremos en los ejes unitarios](../../../resources/2020/pdf2020-083-green/hipocicloide.png)
@@ -74,7 +74,7 @@ x=\cos^3t\Rightarrow x^{2/3}=\cos^2t
 $$
 
 $$
-y=\operatorname{sen}^3t\Rightarrow y^{2/3}=\operatorname{sen}^2t
+y=\mathop{\mathrm{sen}}\nolimits ^3t\Rightarrow y^{2/3}=\mathop{\mathrm{sen}}\nolimits ^2t
 $$
 
 Sumando miembro a miembro tenemos:
@@ -93,18 +93,18 @@ Green nos permite transformar esta integral en una de línea, usando como
 trayectoria la hipocicloide del enunciado y definiendo una función apropiada
 para la integración. Veamos:
 
-El área de una región D viene dada por $A=\iint_D1\,dA$. Por lo tanto, para
+El área de una región D viene dada por $`A=\iint_D1\,dA`$. Por lo tanto, para
 aplicar Green deberíamos encontrar funciones P, Q /
 $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=1$. Un par de
 funciones sencillas que cumplen esta condición son $P=0,Q=x$. Si recordamos la
 parametrización, escribimos:
 
 $$
-x=\cos^3t\Rightarrow dx=-3\cos^2t\operatorname{sen}t\,dt
+x=\cos^3t\Rightarrow dx=-3\cos^2t\mathop{\mathrm{sen}}\nolimits t\,dt
 $$
 
 $$
-y=\operatorname{sen}^3t\Rightarrow dy=3\operatorname{sen}^2t\cos t\,dt
+y=\mathop{\mathrm{sen}}\nolimits ^3t\Rightarrow dy=3\mathop{\mathrm{sen}}\nolimits ^2t\cos t\,dt
 $$
 
 Luego:
@@ -113,13 +113,13 @@ $$
 \begin{aligned}
 A&=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)dA
 =\int_C P\,dx+Q\,dy\\
-&=\int_0^{2\pi}\cos^3t\,3\operatorname{sen}^2t\cos t\,dt
-=3\int_0^{2\pi}\cos^4t\operatorname{sen}^2t\,dt\\
-&=3\int_0^{2\pi}\cos^2t\frac{\operatorname{sen}^22t}{4}\,dt
-=3\int_0^{2\pi}\left(\frac{1+\cos2t}{2}\right)\frac{\operatorname{sen}^22t}{4}\,dt\\
-&=\frac38\int_0^{2\pi}(\operatorname{sen}^22t+\operatorname{sen}^22t\cos2t)\,dt\\
-&=\frac38\int_0^{2\pi}\left(\frac{1-\cos4t}{2}+\operatorname{sen}^22t\cos2t\right)dt\\
-&=\frac38\left[\frac12t-\frac{\operatorname{sen}4t}{8}+\frac{\operatorname{sen}^32t}{6}\right]_0^{2\pi}
+&=\int_0^{2\pi}\cos^3t\,3\mathop{\mathrm{sen}}\nolimits ^2t\cos t\,dt
+=3\int_0^{2\pi}\cos^4t\mathop{\mathrm{sen}}\nolimits ^2t\,dt\\
+&=3\int_0^{2\pi}\cos^2t\frac{\mathop{\mathrm{sen}}\nolimits ^22t}{4}\,dt
+=3\int_0^{2\pi}\left(\frac{1+\cos2t}{2}\right)\frac{\mathop{\mathrm{sen}}\nolimits ^22t}{4}\,dt\\
+&=\frac38\int_0^{2\pi}(\mathop{\mathrm{sen}}\nolimits ^22t+\mathop{\mathrm{sen}}\nolimits ^22t\cos2t)\,dt\\
+&=\frac38\int_0^{2\pi}\left(\frac{1-\cos4t}{2}+\mathop{\mathrm{sen}}\nolimits ^22t\cos2t\right)dt\\
+&=\frac38\left[\frac12t-\frac{\mathop{\mathrm{sen}}\nolimits 4t}{8}+\frac{\mathop{\mathrm{sen}}\nolimits ^32t}{6}\right]_0^{2\pi}
 =\frac38\pi
 \end{aligned}
 $$
@@ -151,25 +151,25 @@ a) Parametricemos el círculo.
 
 $$
 \begin{cases}
-x=\cos t\Rightarrow dx=-\operatorname{sen}t\,dt\\
-y=\operatorname{sen}t\Rightarrow dy=\cos t\,dt
+x=\cos t\Rightarrow dx=-\mathop{\mathrm{sen}}\nolimits t\,dt\\
+y=\mathop{\mathrm{sen}}\nolimits t\Rightarrow dy=\cos t\,dt
 \end{cases},\quad0\leq t\leq2\pi
 $$
 
 $$
-P(x(t);y(t))=\frac{-\operatorname{sen}t}{\operatorname{sen}^2t+\cos^2t}
-=-\operatorname{sen}t\,dt\Rightarrow P\,dx=\operatorname{sen}^2t\,dt
+P(x(t);y(t))=\frac{-\mathop{\mathrm{sen}}\nolimits t}{\mathop{\mathrm{sen}}\nolimits ^2t+\cos^2t}
+=-\mathop{\mathrm{sen}}\nolimits t\,dt\Rightarrow P\,dx=\mathop{\mathrm{sen}}\nolimits ^2t\,dt
 $$
 
 $$
-Q(x(t);y(t))=\frac{\cos t}{\operatorname{sen}^2t+\cos^2t}
+Q(x(t);y(t))=\frac{\cos t}{\mathop{\mathrm{sen}}\nolimits ^2t+\cos^2t}
 =\cos t\,dt\Rightarrow Q\,dx=\cos^2t\,dt
 $$
 
 Integrando tendremos, así:
 
 $$
-\int_C P\,dx+Q\,dy=\int_0^{2\pi}(\operatorname{sen}^2t+\cos^2t)\,dt=2\pi
+\int_C P\,dx+Q\,dy=\int_0^{2\pi}(\mathop{\mathrm{sen}}\nolimits ^2t+\cos^2t)\,dt=2\pi
 $$
 
 b) Haciendo los cálculos directamente en coordenadas cartesianas es:
@@ -244,24 +244,24 @@ $$
 Parametrizando estas curvas tenemos
 
 $$
-C_1\begin{cases}x=b\cos t\Rightarrow dx=-b\operatorname{sen}t\\
-y=b\operatorname{sen}t\Rightarrow dy=b\cos t\end{cases},\quad0\leq t\leq2\pi
+C_1\begin{cases}x=b\cos t\Rightarrow dx=-b\mathop{\mathrm{sen}}\nolimits t\\
+y=b\mathop{\mathrm{sen}}\nolimits t\Rightarrow dy=b\cos t\end{cases},\quad0\leq t\leq2\pi
 $$
 
 $$
-C_2\begin{cases}x=a\cos t\Rightarrow dx=-a\operatorname{sen}t\\
-y=a\operatorname{sen}t\Rightarrow dy=a\cos t\end{cases},\quad0\leq t\leq2\pi
+C_2\begin{cases}x=a\cos t\Rightarrow dx=-a\mathop{\mathrm{sen}}\nolimits t\\
+y=a\mathop{\mathrm{sen}}\nolimits t\Rightarrow dy=a\cos t\end{cases},\quad0\leq t\leq2\pi
 $$
 
 Reemplazando con esto en (1) tendremos:
 
 $$
 \begin{aligned}
-I_x&=\rho\left[\int_0^{2\pi}-\tfrac13b^3\operatorname{sen}^3t(-b\operatorname{sen}t)\,dt
-+\int_0^{2\pi}\tfrac13a^3\operatorname{sen}^3t(-a\operatorname{sen}t)\,dt\right]\\
-&=\rho\tfrac13(b^4-a^4)\int_0^{2\pi}\operatorname{sen}^4t\,dt\\
-&=\rho\tfrac13(b^4-a^4)\int_0^{2\pi}\operatorname{sen}^2t(1-\cos^2t)\,dt\\
-&=\tfrac13\rho(b^4-a^4)\int_0^{2\pi}\left(\operatorname{sen}^2t-\frac{\operatorname{sen}^22t}{4}\right)dt\\
+I_x&=\rho\left[\int_0^{2\pi}-\tfrac13b^3\mathop{\mathrm{sen}}\nolimits ^3t(-b\mathop{\mathrm{sen}}\nolimits t)\,dt
++\int_0^{2\pi}\tfrac13a^3\mathop{\mathrm{sen}}\nolimits ^3t(-a\mathop{\mathrm{sen}}\nolimits t)\,dt\right]\\
+&=\rho\tfrac13(b^4-a^4)\int_0^{2\pi}\mathop{\mathrm{sen}}\nolimits ^4t\,dt\\
+&=\rho\tfrac13(b^4-a^4)\int_0^{2\pi}\mathop{\mathrm{sen}}\nolimits ^2t(1-\cos^2t)\,dt\\
+&=\tfrac13\rho(b^4-a^4)\int_0^{2\pi}\left(\mathop{\mathrm{sen}}\nolimits ^2t-\frac{\mathop{\mathrm{sen}}\nolimits ^22t}{4}\right)dt\\
 &=\tfrac13\rho(b^4-a^4)\int_0^{2\pi}\left(\frac{1-\cos t}{2}-\frac{1-\cos4t}{8}\right)dt\\
 &=\tfrac14\rho(b^4-a^4)\pi
 =\tfrac14(b^2+a^2)\rho\pi(b^2-a^2)
@@ -274,10 +274,10 @@ de una longitud o suma de longitudes al cuadrado por la masa del rígido.v
 
 ## Notas de transcripción
 
-- En 1, el original escribe $xy\,dx$ en el enunciado y en la integral inicial,
+- En 1, el original escribe $`xy\,dx`$ en el enunciado y en la integral inicial,
   aunque luego emplea $Q=xy$.
-- En 3, el original añade $dt$ a los valores de P y Q, y escribe $Q\,dx$ en la
-  línea que termina en $\cos^2t\,dt$.
+- En 3, el original añade $dt$ a los valores de P y Q, y escribe $`Q\,dx`$ en la
+  línea que termina en $`\cos^2t\,dt`$.
 - En 4, escribe $P=\tfrac13y^3$ en la elección de P, pero emplea $-\tfrac13y^3$
   en la aplicación. La parametrización de $C_2$ tiene el signo representado en
   el original.

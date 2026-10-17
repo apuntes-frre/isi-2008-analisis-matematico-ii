@@ -34,7 +34,7 @@ $$
 Se puede pasar a coordenadas polares haciendo
 
 $$
-x=r\cos\theta;\ y=r\operatorname{sen}\theta
+x=r\cos\theta;\ y=r\mathop{\mathrm{sen}}\nolimits \theta
 \quad\text{con }0\leq r\leq1;\ 0\leq\theta\leq2\pi
 $$
 
@@ -47,11 +47,11 @@ $$
 Hallar el área de la superficie dada por $z=f(x,y)$ sobre la región R.
 
 1. $f(x,y)=2x+2y$; $R$: triángulo cuyos vértices son $(0,0),(2,0),(0,2)$.
-1. $f(x,y)=8+2x+2y$, $R:\{(x,y):x^2+y^2\leq4\}$.
-1. $f(x,y)=9+x^2-y^2$, $R:\{(x,y):x^2+y^2\leq4\}$.
-1. $f(x,y)=\sqrt{x^2+y^2}$, $R:\{(x,y):0\leq f(x,y)\leq1\}$.
-1. $f(x,y)=\sqrt{a-x^2-y^2}$, $R:\{(x,y):x^2+y^2\leq b^2,\ 0<b<a\}$.
-1. $f(x,y)=\sqrt{a-x^2-y^2}$, $R:\{(x,y):x^2+y^2\leq a^2\}$.
+1. $f(x,y)=8+2x+2y$, $`R:\{(x,y):x^2+y^2\leq4\}`$.
+1. $f(x,y)=9+x^2-y^2$, $`R:\{(x,y):x^2+y^2\leq4\}`$.
+1. $f(x,y)=\sqrt{x^2+y^2}$, $`R:\{(x,y):0\leq f(x,y)\leq1\}`$.
+1. $f(x,y)=\sqrt{a-x^2-y^2}$, $`R:\{(x,y):x^2+y^2\leq b^2,\ 0<b<a\}`$.
+1. $f(x,y)=\sqrt{a-x^2-y^2}$, $`R:\{(x,y):x^2+y^2\leq a^2\}`$.
 
 > Nota de transcripción: se conservan el valor aproximado $5.33$ y las
 > expresiones con $a$ del original, sin corregirlos.

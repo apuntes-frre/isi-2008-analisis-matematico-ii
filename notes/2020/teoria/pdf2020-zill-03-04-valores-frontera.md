@@ -104,8 +104,8 @@ En $x=L$ las condiciones de extremo libre son
 - $y''(L)=0$ porque el momento de flexión es cero y
 - $y'''(L)=0$ porque la fuerza de corte es cero.
 
-La función $F(x)=dM/dx=EI\,d^3y/dx^3$ se llama fuerza de corte. Si un extremo de
-la viga está **apoyado simplemente o abisagrado** (a lo que también se conoce
+La función $`F(x)=dM/dx=EI\,d^3y/dx^3`$ se llama fuerza de corte. Si un extremo
+de la viga está **apoyado simplemente o abisagrado** (a lo que también se conoce
 como **apoyo con perno o fulcro**) entonces se debe tener $y=0$ y $y''=0$ en ese
 extremo. En la tabla 5.1 se resumen las condiciones en la frontera que se
 relacionan con (4). Véase la figura 5.2.2.
@@ -207,17 +207,18 @@ $\alpha$ denota un número positivo. Con esta notación las raíces de la ecuaci
 auxiliar $m^2-\alpha^2=0$ son $m_1=\alpha$ y $m_2=-\alpha$. Puesto que el
 intervalo en el que se está trabajando es finito, se elige escribir la solución
 general de $y''-\alpha^2y=0$ como
-$y=c_1\cosh\alpha x+c_2\operatorname{senh}\alpha x$. Ahora $y(0)$ es
+$y=c_1\cosh\alpha x+c_2\mathop{\mathrm{senh}}\nolimits \alpha x$. Ahora $y(0)$
+es
 
 $$
-y(0)=c_1\cosh0+c_2\operatorname{senh}0=c_1\cdot1+c_2\cdot0=c_1,
+y(0)=c_1\cosh0+c_2\mathop{\mathrm{senh}}\nolimits 0=c_1\cdot1+c_2\cdot0=c_1,
 $$
 
 y por tanto, $y(0)=0$ significa que $c_1=0$. Así
-$y=c_2\operatorname{senh}\alpha x$. La segunda condición $y(L)=0$ requiere que
-$c_2\operatorname{senh}\alpha L=0$. Para $\alpha\ne0$,
-$\operatorname{senh}\alpha L\ne0$; en consecuencia, se está forzado a elegir
-$c_2=0$. De nuevo la solución del PVF es la solución trivial $y=0$.
+$y=c_2\mathop{\mathrm{senh}}\nolimits \alpha x$. La segunda condición $y(L)=0$
+requiere que $c_2\mathop{\mathrm{senh}}\nolimits \alpha L=0$. Para $\alpha\ne0$,
+$\mathop{\mathrm{senh}}\nolimits \alpha L\ne0$; en consecuencia, se está forzado
+a elegir $c_2=0$. De nuevo la solución del PVF es la solución trivial $y=0$.
 
 > Observe que aquí se emplean funciones hiperbólicas. Vuelva a leer “Dos
 > ecuaciones que merecen conocerse” de la página 135.
@@ -225,17 +226,19 @@ $c_2=0$. De nuevo la solución del PVF es la solución trivial $y=0$.
 **Caso III:** Para $\lambda>0$ se escribe $\lambda=\alpha^2$, donde $\alpha$ es
 un número positivo. Debido a que la ecuación auxiliar $m^2+\alpha^2=0$ tiene
 raíces complejas $m_1=i\alpha$ y $m_2=-i\alpha$, la solución general de
-$y''+\alpha^2y=0$ es $y=c_1\cos\alpha x+c_2\operatorname{sen}\alpha x$. Como
-antes, $y(0)=0$ produce $c_1=0$ y por tanto $y=c_2\operatorname{sen}\alpha x$.
-Ahora la última condición $y(L)=0$, o
+$y''+\alpha^2y=0$ es
+$y=c_1\cos\alpha x+c_2\mathop{\mathrm{sen}}\nolimits \alpha x$. Como antes,
+$y(0)=0$ produce $c_1=0$ y por tanto
+$y=c_2\mathop{\mathrm{sen}}\nolimits \alpha x$. Ahora la última condición
+$y(L)=0$, o
 
 $$
-c_2\operatorname{sen}\alpha L=0,
+c_2\mathop{\mathrm{sen}}\nolimits \alpha L=0,
 $$
 
 se satisface al elegir $c_2=0$. Pero esto significa que $y=0$. Si se requiere
-$c_2\ne0$, entonces $\operatorname{sen}\alpha L=0$ se satisface siempre que
-$\alpha L$ sea un múltiplo entero de $\pi$.
+$c_2\ne0$, entonces $\mathop{\mathrm{sen}}\nolimits \alpha L=0$ se satisface
+siempre que $\alpha L$ sea un múltiplo entero de $\pi$.
 
 $$
 \alpha L=n\pi\quad\text{o}\quad\alpha=\frac{n\pi}L\quad\text{o}\quad
@@ -243,10 +246,11 @@ $$
 $$
 
 Por tanto, para cualquier número real $c_2$ distinto de cero,
-$y=c_2\operatorname{sen}(n\pi x/L)$ es una solución del problema para cada $n$.
-Debido a que la ecuación diferencial es homogénea, cualquier múltiplo constante
-de una solución también es una solución, así que si se desea se podría
-simplemente tomar $c_2=1$. En otras palabras, para cada número de la sucesión
+$y=c_2\mathop{\mathrm{sen}}\nolimits (n\pi x/L)$ es una solución del problema
+para cada $n$. Debido a que la ecuación diferencial es homogénea, cualquier
+múltiplo constante de una solución también es una solución, así que si se desea
+se podría simplemente tomar $c_2=1$. En otras palabras, para cada número de la
+sucesión
 
 $$
 \lambda_1=\frac{\pi^2}{L^2},\qquad\lambda_2=\frac{4\pi^2}{L^2},\qquad\lambda_3=\frac{9\pi^2}{L^2},\quad\ldots,
@@ -257,9 +261,9 @@ $$
 la función *correspondiente* en la sucesión
 
 $$
-y_1=\operatorname{sen}\frac\pi Lx,\qquad
-y_2=\operatorname{sen}\frac{2\pi}Lx,\qquad
-y_3=\operatorname{sen}\frac{3\pi}Lx,\quad\ldots,
+y_1=\mathop{\mathrm{sen}}\nolimits \frac\pi Lx,\qquad
+y_2=\mathop{\mathrm{sen}}\nolimits \frac{2\pi}Lx,\qquad
+y_3=\mathop{\mathrm{sen}}\nolimits \frac{3\pi}Lx,\quad\ldots,
 $$
 
 es una solución no trivial del problema original.
@@ -268,8 +272,8 @@ Los números $\lambda_n=n^2\pi^2/L^2$, $n=1,2,3,\ldots$ para los cuales el
 problema con valores en la frontera del ejemplo 2 tiene soluciones no triviales
 que se conocen como **eigenvalores** (valores propios). Las soluciones no
 triviales que dependen de estos valores de $\lambda_n$,
-$y_n=c_2\operatorname{sen}(n\pi x/L)$ o simplemente
-$y_n=\operatorname{sen}(n\pi x/L)$, se llaman **funciones propias**
+$y_n=c_2\mathop{\mathrm{sen}}\nolimits (n\pi x/L)$ o simplemente
+$y_n=\mathop{\mathrm{sen}}\nolimits (n\pi x/L)$, se llaman **funciones propias**
 (eigenfunciones).
 
 ### Pandeo de una columna vertical delgada
@@ -320,14 +324,15 @@ y''+\lambda y=0,\qquad y(0)=0,\quad y(L)=0
 $$
 
 es idéntico al problema del ejemplo 2. Del caso III de esa descripción se ve que
-las deflexiones son $y_n(x)=c_2\operatorname{sen}(n\pi x/L)$ que corresponden a
-los eigenvalores $\lambda_n=P_n/EI=n^2\pi^2/L^2$, $n=1,2,3,\ldots$. Desde el
-punto de vista físico, esto significa que la columna experimenta flexión sólo
-cuando la fuerza compresiva es uno de los valores $P_n=n^2\pi^2EI/L^2$,
-$n=1,2,3,\ldots$. Estas fuerzas diferentes se llaman **cargas críticas**. La
-deflexión correspondiente a la carga crítica más pequeña $P_1=\pi^2EI/L^2$,
-llamada **carga de Euler**, es $y_1(x)=c_2\operatorname{sen}(\pi x/L)$ y se
-conoce como **primer modo de pandeo**.
+las deflexiones son $y_n(x)=c_2\mathop{\mathrm{sen}}\nolimits (n\pi x/L)$ que
+corresponden a los eigenvalores $\lambda_n=P_n/EI=n^2\pi^2/L^2$,
+$n=1,2,3,\ldots$. Desde el punto de vista físico, esto significa que la columna
+experimenta flexión sólo cuando la fuerza compresiva es uno de los valores
+$P_n=n^2\pi^2EI/L^2$, $n=1,2,3,\ldots$. Estas fuerzas diferentes se llaman
+**cargas críticas**. La deflexión correspondiente a la carga crítica más pequeña
+$P_1=\pi^2EI/L^2$, llamada **carga de Euler**, es
+$y_1(x)=c_2\mathop{\mathrm{sen}}\nolimits (\pi x/L)$ y se conoce como **primer
+modo de pandeo**.
 
 Las curvas de deflexión del ejemplo 3 que corresponden a $n=1$, $n=2$ y $n=3$ se
 muestran en la figura 5.2.5. Observe que si la columna original tiene alguna
@@ -375,12 +380,12 @@ $[x,x+\Delta x]$. Primero, vemos en la figura 5.2.6c se ve que la fuerza
 vertical neta es
 
 $$
-F=T\operatorname{sen}\theta_2-T\operatorname{sen}\theta_1.\tag{7}
+F=T\mathop{\mathrm{sen}}\nolimits \theta_2-T\mathop{\mathrm{sen}}\nolimits \theta_1.\tag{7}
 $$
 
 Cuando los ángulos $\theta_1$ y $\theta_2$ (medidos en radianes) son pequeños,
-se tiene $\operatorname{sen}\theta_2\approx\tan\theta_2$ y
-$\operatorname{sen}\theta_1\approx\tan\theta_1$. Además, puesto que
+se tiene $\mathop{\mathrm{sen}}\nolimits \theta_2\approx\tan\theta_2$ y
+$\mathop{\mathrm{sen}}\nolimits \theta_1\approx\tan\theta_1$. Además, puesto que
 $\tan\theta_2$ y $\tan\theta_1$, son, a su vez, pendientes de las rectas que
 contienen los vectores $\mathbf T_2$ y $\mathbf T_1$ también se puede escribir
 
@@ -396,7 +401,7 @@ $$
 
 Segundo, se puede obtener una forma diferente de esta misma fuerza neta usando
 la segunda ley de Newton, $F=ma$. Aquí la masa del resorte en el intervalo es
-$m=\rho\,\Delta x$; la aceleración centrípeta de un cuerpo que gira con
+$`m=\rho\,\Delta x`$; la aceleración centrípeta de un cuerpo que gira con
 velocidad angular $\omega$ en un círculo de radio $r$ es $a=r\omega^2$. Con
 $\Delta x$ pequeña se toma $r=y$. Así la fuerza vertical neta es también
 aproximadamente igual a
@@ -475,7 +480,8 @@ b) Use un programa de graficación para trazar la curva de deflexión cuando
 $w_0=48EI$ y $L=1$.
 
 **4.** a) La viga está empotrada en su extremo izquierdo y apoyada simplemente
-en su extremo derecho, y $w(x)=w_0\operatorname{sen}(\pi x/L)$, $0<x<L$.
+en su extremo derecho, y $w(x)=w_0\mathop{\mathrm{sen}}\nolimits (\pi x/L)$,
+$0<x<L$.
 
 b) Utilice un programa de graficación para trazar la curva de deflexión cuando
 $w_0=2\pi^3EI$ y $L=1$.
@@ -646,7 +652,7 @@ críticas de rotación angular son $\omega_n=\frac12\sqrt{(4n^2\pi^2+1)/\rho}$ y
 las deflexiones correspondientes son
 
 $$
-y_n(x)=c_2x^{-1/2}\operatorname{sen}(n\pi\ln x),\qquad n=1,2,3,\ldots.
+y_n(x)=c_2x^{-1/2}\mathop{\mathrm{sen}}\nolimits (n\pi\ln x),\qquad n=1,2,3,\ldots.
 $$
 
 b) Utilice un programa de graficación para trazar las curvas de deflexión en el
@@ -734,6 +740,6 @@ $$
 y''+\lambda y=0,\qquad y(0)=0,\quad y(1)+y'(1)=0
 $$
 
-son $\lambda_n=\alpha_n^2$ y $y_n=\operatorname{sen}\alpha_nx$, respectivamente,
-donde $\alpha_n$, $n=1,2,3,\ldots$ son las raíces positivas consecutivas de la
-ecuación $\tan\alpha=-\alpha$.
+son $\lambda_n=\alpha_n^2$ y $y_n=\mathop{\mathrm{sen}}\nolimits \alpha_nx$,
+respectivamente, donde $\alpha_n$, $n=1,2,3,\ldots$ son las raíces positivas
+consecutivas de la ecuación $\tan\alpha=-\alpha$.

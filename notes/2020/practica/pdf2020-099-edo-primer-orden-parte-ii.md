@@ -11,7 +11,7 @@
 
 1. $y'+2xy=0$
 1. $2xy'=y$
-1. $(1+x^3)\,dy-x^2y\,dx=0$. Solución particular para $x=2$ e $y=1$.
+1. $`(1+x^3)\,dy-x^2y\,dx=0`$. Solución particular para $x=2$ e $y=1$.
 1. $yy'=\frac{1-2x}{y}$
 1. $xy'+y=y^2$
 1. $xyy'=1-x^2$
@@ -26,20 +26,21 @@ $$
 
 1. Ídem para $x^2y'=y^2-2x^2$.
 
-1. Ídem para $(3y^2+3xy+x^2)\,dx=(x^2+2xy)\,dy$.
+1. Ídem para $`(3y^2+3xy+x^2)\,dx=(x^2+2xy)\,dy`$.
 
 1. Solución particular en $(1;-1)$ para $y'=\frac{y^2-2xy-x^2}{y^2+2xy-x^2}$.
 
 1. Solución particular para $x_0=1$ e $y_0=0$ de
-   $x\,dy-y\,dx=\sqrt{x^2-y^2}\,dx$.
+   $`x\,dy-y\,dx=\sqrt{x^2-y^2}\,dx`$.
 
 ## 3. Resolver las ecuaciones diferenciales por el método que corresponda en cada caso
 
-a) $(4x+1)\,dx-2y\,dy=0$
+a) $`(4x+1)\,dx-2y\,dy=0`$
 
-b) $2y\operatorname{sen}x\,dx=\cos x\,dy-2\,dx$; para $x=0$ e $y=3$
+b) $`2y\mathop{\mathrm{sen}}\nolimits x\,dx=\cos x\,dy-2\,dx`$; para $x=0$ e
+$y=3$
 
-c) $(x^2-2y)\,dx+(y-2x)\,dy=0$
+c) $`(x^2-2y)\,dx+(y-2x)\,dy=0`$
 
 d) $y'=\frac{y^2-2xy-x^2}{y^2+2xy-x^2}$ encontrar la solución particular que
 pasa por $P(1,-1)$

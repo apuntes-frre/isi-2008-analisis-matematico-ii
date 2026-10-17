@@ -149,14 +149,16 @@ desprecie las constantes de integración.\]
 ### Problemas para analizar
 
 **18.** En el problema 1 vimos que $\cos x$ y $e^x$ eran soluciones de la
-ecuación no lineal $(y'')^2-y^2=0$. Compruebe que $\operatorname{sen}x$ y
-$e^{-x}$ también son soluciones. Sin intentar resolver la ecuación diferencial,
-analice cómo se pueden encontrar estas soluciones usando su conocimiento acerca
-de las ecuaciones lineales. Sin intentar comprobar, analice por qué las
-combinaciones lineales $y=c_1e^x+c_2e^{-x}+c_3\cos x+c_4\operatorname{sen}x$ y
-$y=c_2e^{-x}+c_4\operatorname{sen}x$ no son, en general, soluciones, pero las
-dos combinaciones lineales especiales $y=c_1e^x+c_2e^{-x}$ y
-$y=c_3\cos x+c_4\operatorname{sen}x$ *deben* satisfacer la ecuación diferencial.
+ecuación no lineal $(y'')^2-y^2=0$. Compruebe que
+$\mathop{\mathrm{sen}}\nolimits x$ y $e^{-x}$ también son soluciones. Sin
+intentar resolver la ecuación diferencial, analice cómo se pueden encontrar
+estas soluciones usando su conocimiento acerca de las ecuaciones lineales. Sin
+intentar comprobar, analice por qué las combinaciones lineales
+$y=c_1e^x+c_2e^{-x}+c_3\cos x+c_4\mathop{\mathrm{sen}}\nolimits x$ y
+$y=c_2e^{-x}+c_4\mathop{\mathrm{sen}}\nolimits x$ no son, en general,
+soluciones, pero las dos combinaciones lineales especiales $y=c_1e^x+c_2e^{-x}$
+y $y=c_3\cos x+c_4\mathop{\mathrm{sen}}\nolimits x$ *deben* satisfacer la
+ecuación diferencial.
 
 **19.** Analice cómo se puede aplicar el método de reducción de orden
 considerado en esta sección a la ecuación diferencial de tercer orden
@@ -186,7 +188,7 @@ integración para expresar al tiempo $t$ en términos de $x$.
 es
 
 $$
-\frac{d^2x}{dt^2}+\operatorname{sen}x=0.
+\frac{d^2x}{dt^2}+\mathop{\mathrm{sen}}\nolimits x=0.
 $$
 
 Use un programa de solución numérica para investigar en forma gráfica las
@@ -195,7 +197,7 @@ movimiento del objeto para $t\ge0$ y para diferentes elecciones de $x_1$.
 Investigue la ecuación
 
 $$
-\frac{d^2x}{dt^2}+\frac{dx}{dt}+\operatorname{sen}x=0
+\frac{d^2x}{dt^2}+\frac{dx}{dt}+\mathop{\mathrm{sen}}\nolimits x=0
 $$
 
 en la misma forma. Proponga una interpretación física posible del término
@@ -238,8 +240,8 @@ b) $f_1(x)=x^n$, $f_2(x)=x^{n+1}$, $n=1,2,\ldots$, $(-\infty,\infty)$.
 
 c) $f_1(x)=x$, $f_2(x)=x+1$, $(-\infty,\infty)$.
 
-d) $f_1(x)=\cos\left(x+\frac\pi2\right)$, $f_2(x)=\operatorname{sen}x$,
-$(-\infty,\infty)$.
+d) $f_1(x)=\cos\left(x+\frac\pi2\right)$,
+$f_2(x)=\mathop{\mathrm{sen}}\nolimits x$, $(-\infty,\infty)$.
 
 e) $f_1(x)=0$, $f_2(x)=x$, $(-5,5)$.
 
@@ -266,13 +268,13 @@ a) $g(x)=e^x\ln x$.
 
 b) $g(x)=x^3\cos x$.
 
-c) $g(x)=\frac{\operatorname{sen}x}{e^x}$.
+c) $g(x)=\frac{\mathop{\mathrm{sen}}\nolimits x}{e^x}$.
 
 d) $g(x)=2x^{-2}e^x$.
 
-e) $g(x)=\operatorname{sen}^2x$.
+e) $g(x)=\mathop{\mathrm{sen}}\nolimits ^2x$.
 
-f) $g(x)=\frac{e^x}{\operatorname{sen}x}$.
+f) $g(x)=\frac{e^x}{\mathop{\mathrm{sen}}\nolimits x}$.
 
 En los problemas del 9 a 24 use los procedimientos desarrollados en este
 capítulo para encontrar la solución general de cada ecuación diferencial.
@@ -293,7 +295,7 @@ capítulo para encontrar la solución general de cada ecuación diferencial.
 
 **16.** $y''-2y'+y=x^2e^x$.
 
-**17.** $y'''-5y''+6y'=8+2\operatorname{sen}x$.
+**17.** $y'''-5y''+6y'=8+2\mathop{\mathrm{sen}}\nolimits x$.
 
 **18.** $y'''-y''=6$.
 
@@ -313,11 +315,11 @@ capítulo para encontrar la solución general de cada ecuación diferencial.
 diferencial en los dos casos $\omega\ne\alpha$ y $\omega=\alpha$. No determine
 los coeficientes en $y_p$.
 
-a) $y''+\omega^2y=\operatorname{sen}\alpha x$.
+a) $y''+\omega^2y=\mathop{\mathrm{sen}}\nolimits \alpha x$.
 
 b) $y''-\omega^2y=e^{\alpha x}$.
 
-**26.** a) Dado que $y=\operatorname{sen}x$ es una solución de
+**26.** a) Dado que $y=\mathop{\mathrm{sen}}\nolimits x$ es una solución de
 
 $$
 y^{(4)}+2y'''+11y''+2y'+10y=0,
@@ -335,7 +337,7 @@ ecuación homogénea.
 $y^{(4)}-2y''+y=0$ en términos de funciones hiperbólicas.
 
 b) Escriba la forma de una solución particular de
-$y^{(4)}-2y''+y=\operatorname{senh}x$.
+$y^{(4)}-2y''+y=\mathop{\mathrm{senh}}\nolimits x$.
 
 **28.** Considere la ecuación diferencial
 
@@ -356,7 +358,7 @@ condiciones indicadas.
 
 **30.** $y''+2y'+y=0$, $y(-1)=0$, $y'(0)=0$.
 
-**31.** $y''-y=x+\operatorname{sen}x$, $y(0)=2$, $y'(0)=3$.
+**31.** $y''-y=x+\mathop{\mathrm{sen}}\nolimits x$, $y(0)=2$, $y'(0)=3$.
 
 **32.** $y''+y=\sec^3x$, $y(0)=1$, $y'(0)=\frac12$.
 
@@ -410,5 +412,5 @@ $$
 ### Problema 40
 
 $$
-\begin{aligned}(D+2)x+(D+1)y&=\operatorname{sen}2t,\\5x+(D+3)y&=\cos2t.\end{aligned}
+\begin{aligned}(D+2)x+(D+1)y&=\mathop{\mathrm{sen}}\nolimits 2t,\\5x+(D+3)y&=\cos2t.\end{aligned}
 $$

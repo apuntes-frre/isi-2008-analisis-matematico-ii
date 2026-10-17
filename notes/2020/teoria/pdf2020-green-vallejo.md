@@ -147,11 +147,11 @@ $$
 En los siguientes ejercicios, eliminar $t$ de las curvas parametrizadas que se
 proponen. Representar la curva y determinar su orientación.
 
-1. $\begin{cases}x=t-1\\y=t^3\end{cases}$
-1. $\begin{cases}x=t-1\\y=t(t+4)\end{cases}$
-1. $\begin{cases}x=a\cos t\\y=b\sin t\end{cases}$
-1. $\begin{cases}x=a\cos^3t\\y=a\sin^3t\end{cases}$
-1. $\begin{cases}x=\sin t\\y=\cot s\end{cases}$
+1. $`\begin{cases}x=t-1\\y=t^3\end{cases}`$
+1. $`\begin{cases}x=t-1\\y=t(t+4)\end{cases}`$
+1. $`\begin{cases}x=a\cos t\\y=b\sin t\end{cases}`$
+1. $`\begin{cases}x=a\cos^3t\\y=a\sin^3t\end{cases}`$
+1. $`\begin{cases}x=\sin t\\y=\cot s\end{cases}`$
 
 Solución: (1) $y=(x+1)^3$, (2) $y=x^2+2x-3$, (3) $(x/a)^2+(y/b)^2=1$, (4)
 $(x/a)^{2/3}+(y/b)^{2/3}=1$, (5) $4y^4-4y^2+x^2=0$.
@@ -251,7 +251,7 @@ $$
 (donde $k$ es la constante de proporcionalidad), ya que $y$ es la distancia de
 $P$ a la recta que pasa por los extremos. Calcular la masa total equivale a
 sumar la densidad sobre todos los puntos de la curva, y así lo que queremos
-calcular es $m=\int_C\lambda(s)\,ds$, donde $C$ es la curva que describe el
+calcular es $`m=\int_C\lambda(s)\,ds`$, donde $C$ es la curva que describe el
 alambre, la semicircunferencia de radio $a$. Una parametrización para $C$ es:
 
 $$
@@ -363,7 +363,7 @@ $$
 F_1(x,y)=xy,\quad F_2(x,y)=x^2,
 $$
 
-y, por tanto, lo que queremos es $\int_C xy\,dx+x^2\,dy$. De las ecuaciones de
+y, por tanto, lo que queremos es $`\int_C xy\,dx+x^2\,dy`$. De las ecuaciones de
 $C$, resulta (véase la (6)):
 
 $$
@@ -384,7 +384,7 @@ $$
 $$
 
 **Nota 5** La interpretación física de la integral
-$\int_C F_1(x,y)\,dx+F_2(x,y)\,dy$ es la del trabajo que realiza el campo
+$`\int_C F_1(x,y)\,dx+F_2(x,y)\,dy`$ es la del trabajo que realiza el campo
 vectorial $F(x,y)=(F_1(x,y),F_2(x,y))$ cuando una partícula se desplaza desde el
 punto $P$ al $Q$ siguiendo la trayectoria $C$.
 
@@ -563,7 +563,7 @@ $$
 
    Solución: (a) $34/3$, (b) $11$, (c) $14$, (d) $32/3$.
 
-1. Calcular la integral $\int(2x-y+4)\,dx+(5y+3x-6)\,dy$ sobre las aristas del
+1. Calcular la integral $`\int(2x-y+4)\,dx+(5y+3x-6)\,dy`$ sobre las aristas del
    triángulo en el plano $XY$ de vértices $(0,0)$, $(3,0)$ y $(3,2)$. Solución:
    $12$.
 
@@ -579,7 +579,7 @@ dobles (o integrales de área).
 
 **Notación 1** Cuando escribamos una integral de línea a lo largo de una curva
 cerrada $C$, utilizaremos el símbolo $\oint_C$, como en
-$\oint_C F_1(x,y)\,dx+F_2(x,y)\,dy$.
+$`\oint_C F_1(x,y)\,dx+F_2(x,y)\,dy`$.
 
 ¹ Otra forma de decir que una curva es cerrada, es afirmando que su punto
 inicial y el final coinciden.
@@ -676,7 +676,7 @@ $$
 C\equiv\begin{cases}x=a\cos t\\y=b\sin t\end{cases},\quad t\in[0,2\pi].
 $$
 
-Ahora, aplicando la fórmula (9) con $dx=-a\sin t\,dt$ i $dy=b\cos t\,dt$:
+Ahora, aplicando la fórmula (9) con $`dx=-a\sin t\,dt`$ i $`dy=b\cos t\,dt`$:
 
 $$
 \begin{aligned}

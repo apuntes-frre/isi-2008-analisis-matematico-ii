@@ -50,7 +50,7 @@ ejemplo, para rescribir el sistema
 
 $$
 \begin{aligned}
-x''+2x'+y''&=x+3y+\operatorname{sen}t\\
+x''+2x'+y''&=x+3y+\mathop{\mathrm{sen}}\nolimits t\\
 x'+y'&=-4x+2y+e^{-t}
 \end{aligned}
 $$
@@ -60,12 +60,12 @@ dependientes en un miembro y se agrupan las mismas variables.
 
 $$
 \begin{aligned}
-x''+2x'-x+y''-3y&=\operatorname{sen}t\\
+x''+2x'-x+y''-3y&=\mathop{\mathrm{sen}}\nolimits t\\
 x'-4x+y'-2y&=e^{-t}
 \end{aligned}
 \quad\text{es lo mismo que}\quad
 \begin{aligned}
-(D^2+2D-1)x+(D^2-3)y&=\operatorname{sen}t\\
+(D^2+2D-1)x+(D^2-3)y&=\mathop{\mathrm{sen}}\nolimits t\\
 (D-4)x+(D-2)y&=e^{-t}.
 \end{aligned}
 $$
@@ -247,8 +247,8 @@ $$
 
 Puesto que las raíces de la ecuación auxiliar $m(m^2+4)=0$ son $m_1=0$, $m_2=2i$
 y $m_3=-2i$, la función complementaria es
-$y_c=c_1+c_2\cos2t+c_3\operatorname{sen}2t$. Para determinar la solución
-particular $y_p$, se usan coeficientes indeterminados suponiendo que
+$y_c=c_1+c_2\cos2t+c_3\mathop{\mathrm{sen}}\nolimits 2t$. Para determinar la
+solución particular $y_p$, se usan coeficientes indeterminados suponiendo que
 $y_p=At^3+Bt^2+Ct$. Por tanto $y_p'=3At^2+2Bt+C$, $y_p''=6At+2B$, $y_p'''=6A$,
 
 $$
@@ -259,7 +259,7 @@ La última igualdad indica que $12A=1$, $8B=2$ y $6A+4C=0$; por tanto
 $A=\frac1{12}$, $B=\frac14$, y $C=-\frac18$. Así
 
 $$
-y=y_c+y_p=c_1+c_2\cos2t+c_3\operatorname{sen}2t
+y=y_c+y_p=c_1+c_2\cos2t+c_3\mathop{\mathrm{sen}}\nolimits 2t
 +\frac1{12}t^3+\frac14t^2-\frac18t. \tag{10}
 $$
 
@@ -269,13 +269,13 @@ $$
 [(D-4)-D(D+1)]x=t^2\quad\text{o}\quad(D^2+4)x=-t^2.
 $$
 
-Debe ser obvio que $x_c=c_4\cos2t+c_5\operatorname{sen}2t$ y que se pueden
-aplicar coeficientes indeterminados para obtener una solución particular de la
-forma $x_p=At^2+Bt+C$. En este caso usando derivadas y álgebra usuales se
+Debe ser obvio que $x_c=c_4\cos2t+c_5\mathop{\mathrm{sen}}\nolimits 2t$ y que se
+pueden aplicar coeficientes indeterminados para obtener una solución particular
+de la forma $x_p=At^2+Bt+C$. En este caso usando derivadas y álgebra usuales se
 obtiene $x_p=-\frac14t^2+\frac18$, y así
 
 $$
-x=x_c+x_p=c_4\cos2t+c_5\operatorname{sen}2t-\frac14t^2+\frac18. \tag{11}
+x=x_c+x_p=c_4\cos2t+c_5\mathop{\mathrm{sen}}\nolimits 2t-\frac14t^2+\frac18. \tag{11}
 $$
 
 Ahora se expresan $c_4$ y $c_5$ en términos de $c_2$ y $c_3$ sustituyendo (10) y
@@ -283,7 +283,7 @@ Ahora se expresan $c_4$ y $c_5$ en términos de $c_2$ y $c_3$ sustituyendo (10) 
 después de combinar términos,
 
 $$
-(c_5-2c_4-2c_2)\operatorname{sen}2t+(2c_5+c_4+2c_3)\cos2t=0,
+(c_5-2c_4-2c_2)\mathop{\mathrm{sen}}\nolimits 2t+(2c_5+c_4+2c_3)\cos2t=0,
 $$
 
 así $c_5-2c_4-2c_2=0$ y $2c_5+c_4+2c_3=0$. Despejando $c_4$ y $c_5$ en términos
@@ -292,9 +292,9 @@ $c_5=\frac15(2c_2-4c_3)$. Por último, se encuentra que una solución de (8) es
 
 $$
 \begin{aligned}
-x(t)&=-\frac15(4c_2+2c_3)\cos2t+\frac15(2c_2-4c_3)\operatorname{sen}2t
+x(t)&=-\frac15(4c_2+2c_3)\cos2t+\frac15(2c_2-4c_3)\mathop{\mathrm{sen}}\nolimits 2t
 -\frac14t^2+\frac18,\\
-y(t)&=c_1+c_2\cos2t+c_3\operatorname{sen}2t+\frac1{12}t^3+\frac14t^2-\frac18t.
+y(t)&=c_1+c_2\cos2t+c_3\mathop{\mathrm{sen}}\nolimits 2t+\frac1{12}t^3+\frac14t^2-\frac18t.
 \end{aligned}
 $$
 
@@ -366,37 +366,37 @@ $x_1(t)\to0$ y $x_2(t)\to0$ conforme $t\to\infty$.
 En los problemas 1 a 20 resuelva el sistema de ecuaciones diferenciales dado por
 eliminación sistemática.
 
-1. $\begin{aligned}dx/dt&=2x-y\\dy/dt&=x\end{aligned}$
-1. $\begin{aligned}dx/dt&=4x+7y\\dy/dt&=x-2y\end{aligned}$
-1. $\begin{aligned}dx/dt&=-y+t\\dy/dt&=x-t\end{aligned}$
-1. $\begin{aligned}dx/dt-4y&=1\\dy/dt+x&=2\end{aligned}$
-1. $\begin{aligned}(D^2+5)x-2y&=0\\-2x+(D^2+2)y&=0\end{aligned}$
-1. $\begin{aligned}(D+1)x+(D-1)y&=2\\3x+(D+2)y&=-1\end{aligned}$
-1. $\begin{aligned}d^2x/dt^2&=4y+e^t\\d^2y/dt^2&=4x-e^t\end{aligned}$
-1. $\begin{aligned}d^2x/dt^2+dy/dt&=-5x\\dx/dt+dy/dt&=-x+4y\end{aligned}$
-1. $\begin{aligned}Dx+D^2y&=e^{3t}\\(D+1)x+(D-1)y&=4e^{3t}\end{aligned}$
+1. $`\begin{aligned}dx/dt&=2x-y\\dy/dt&=x\end{aligned}`$
+1. $`\begin{aligned}dx/dt&=4x+7y\\dy/dt&=x-2y\end{aligned}`$
+1. $`\begin{aligned}dx/dt&=-y+t\\dy/dt&=x-t\end{aligned}`$
+1. $`\begin{aligned}dx/dt-4y&=1\\dy/dt+x&=2\end{aligned}`$
+1. $`\begin{aligned}(D^2+5)x-2y&=0\\-2x+(D^2+2)y&=0\end{aligned}`$
+1. $`\begin{aligned}(D+1)x+(D-1)y&=2\\3x+(D+2)y&=-1\end{aligned}`$
+1. $`\begin{aligned}d^2x/dt^2&=4y+e^t\\d^2y/dt^2&=4x-e^t\end{aligned}`$
+1. $`\begin{aligned}d^2x/dt^2+dy/dt&=-5x\\dx/dt+dy/dt&=-x+4y\end{aligned}`$
+1. $`\begin{aligned}Dx+D^2y&=e^{3t}\\(D+1)x+(D-1)y&=4e^{3t}\end{aligned}`$
 
 ## Página 173
 
-10. $\begin{aligned}D^2x-Dy&=t\\(D+3)x+(D+3)y&=2\end{aligned}$
-01. $\begin{aligned}(D^2-1)x-y&=0\\(D-1)x+Dy&=0\end{aligned}$
-01. $\begin{aligned}(2D^2-D-1)x-(2D+1)y&=1\\(D-1)x+Dy&=-1\end{aligned}$
-01. $\begin{aligned}2dx/dt-5x+dy/dt&=e^t\\dx/dt-x+dy/dt&=5e^t\end{aligned}$
-01. $\begin{aligned}dx/dt+dy/dt&=e^t\\-d^2x/dt^2+dx/dt+x+y&=0\end{aligned}$
-01. $\begin{aligned}(D-1)x+(D^2+1)y&=1\\(D^2-1)x+(D+1)y&=2\end{aligned}$
-01. $\begin{aligned}D^2x-2(D^2+D)y&=\operatorname{sen}t\\x+Dy&=0\end{aligned}$
-01. $\begin{aligned}Dx&=y\\Dy&=z\\Dz&=x\end{aligned}$
-01. $\begin{aligned}Dx+z&=e^t\\(D-1)x+Dy+Dz&=0\\x+2y+Dz&=e^t\end{aligned}$
-01. $\begin{aligned}dx/dt&=6y\\dy/dt&=x+z\\dz/dt&=x+y\end{aligned}$
-01. $\begin{aligned}dx/dt&=-x+z\\dy/dt&=-y+z\\dz/dt&=-x+y\end{aligned}$
+10. $`\begin{aligned}D^2x-Dy&=t\\(D+3)x+(D+3)y&=2\end{aligned}`$
+01. $`\begin{aligned}(D^2-1)x-y&=0\\(D-1)x+Dy&=0\end{aligned}`$
+01. $`\begin{aligned}(2D^2-D-1)x-(2D+1)y&=1\\(D-1)x+Dy&=-1\end{aligned}`$
+01. $`\begin{aligned}2dx/dt-5x+dy/dt&=e^t\\dx/dt-x+dy/dt&=5e^t\end{aligned}`$
+01. $`\begin{aligned}dx/dt+dy/dt&=e^t\\-d^2x/dt^2+dx/dt+x+y&=0\end{aligned}`$
+01. $`\begin{aligned}(D-1)x+(D^2+1)y&=1\\(D^2-1)x+(D+1)y&=2\end{aligned}`$
+01. $`\begin{aligned}D^2x-2(D^2+D)y&=\mathop{\mathrm{sen}}\nolimits t\\x+Dy&=0\end{aligned}`$
+01. $`\begin{aligned}Dx&=y\\Dy&=z\\Dz&=x\end{aligned}`$
+01. $`\begin{aligned}Dx+z&=e^t\\(D-1)x+Dy+Dz&=0\\x+2y+Dz&=e^t\end{aligned}`$
+01. $`\begin{aligned}dx/dt&=6y\\dy/dt&=x+z\\dz/dt&=x+y\end{aligned}`$
+01. $`\begin{aligned}dx/dt&=-x+z\\dy/dt&=-y+z\\dz/dt&=-x+y\end{aligned}`$
 
 En los problemas 21 y 22 resuelva el problema con valores iniciales.
 
-21. $\begin{aligned}dx/dt&=-5x-y\\dy/dt&=4x-y\end{aligned}$
+21. $`\begin{aligned}dx/dt&=-5x-y\\dy/dt&=4x-y\end{aligned}`$
 
     $x(1)=0,\ y(1)=1$
 
-01. $\begin{aligned}dx/dt&=y-1\\dy/dt&=-3x+2y\end{aligned}$
+01. $`\begin{aligned}dx/dt&=y-1\\dy/dt&=-3x+2y\end{aligned}`$
 
     $x(0)=0,\ y(0)=0$
 
@@ -469,7 +469,7 @@ En los problemas 21 y 22 resuelva el problema con valores iniciales.
 En el ejemplo introductorio de la página 169 se conserva el cambio impreso de
 $x'+y'=-4x+2y+e^{-t}$ a $x'-4x+y'-2y=e^{-t}$ y $(D-4)x+(D-2)y=e^{-t}$, sin
 corregir el signo. Se conserva en el ejemplo 2 la expresión impresa
-$(c_5-2c_4-2c_2)\operatorname{sen}2t$ y la ecuación de coeficientes que la
-sigue. En el ejercicio 27 a) el original escribe $x_2(t)=10$, $x_3(t)=5$; no se
-sustituye $t$ por 0. Las figuras 3.3.1 y 3.3.7 son referencias a páginas ajenas
-al extracto y no aparecen en estas páginas.
+$(c_5-2c_4-2c_2)\mathop{\mathrm{sen}}\nolimits 2t$ y la ecuación de coeficientes
+que la sigue. En el ejercicio 27 a) el original escribe $x_2(t)=10$, $x_3(t)=5$;
+no se sustituye $t$ por 0. Las figuras 3.3.1 y 3.3.7 son referencias a páginas
+ajenas al extracto y no aparecen en estas páginas.

@@ -30,7 +30,7 @@ Fuente: `Funciones_vectoriales.pdf`, páginas 1–2.
    | -- | -- |
    | $z=x^2+y^2$, $x+y=0$ | $x=t$ |
    | $z=x^2+y^2$, $z=4$ | $X=2\cos t$ |
-   | $x^2+y^2=4$, $z=x^2$ | $X=2\operatorname{sen}t$ |
+   | $x^2+y^2=4$, $z=x^2$ | $X=2\mathop{\mathrm{sen}}\nolimits t$ |
 
 1. El vector posición $\vec{r}(t)$ describe la trayectoria de un objeto que se
    mueve en el espacio. Hallar la velocidad, la rapidez y la aceleración del
@@ -40,15 +40,16 @@ Fuente: `Funciones_vectoriales.pdf`, páginas 1–2.
 
    b. $\vec{r}(t)=t\vec{i}+t\vec{j}+\sqrt{9-t^2}\vec{k}$
 
-   c. $\vec{r}(t)=(e^t\cos t,e^t\operatorname{sen}t,e^t)$
+   c. $\vec{r}(t)=(e^t\cos t,e^t\mathop{\mathrm{sen}}\nolimits t,e^t)$
 
 ## Vectores tangentes y normales
 
 Sea $C$ una curva suave en un intervalo abierto $I$, representada por $r(t)$:
 
-**Vector unitario tangente** $T(t)=\frac{r'(t)}{\|r'(t)\|}$, $r'(t)\ne0$
+**Vector unitario tangente** $`T(t)=\frac{r'(t)}{\|r'(t)\|}`$, $r'(t)\ne0$
 
-**Vector unitario normal principal** $N(t)=\frac{T'(t)}{\|T'(t)\|}$, $T'(t)\ne0$
+**Vector unitario normal principal** $`N(t)=\frac{T'(t)}{\|T'(t)\|}`$,
+$T'(t)\ne0$
 
 **Teorema:** Si $r(t)$ es el vector posición de una curva suave $C$ y $N(t)$
 existe, entonces el vector aceleración $a(t)$ se encuentra en el plano
@@ -82,7 +83,7 @@ la aceleración**.
    d. $r(t)=4t^2\vec{j}+\vec{k}$
 
 1. Considerar la hélice representada por
-   $\vec{r}(t)=(2\cos t,2\operatorname{sen}t,t)$
+   $\vec{r}(t)=(2\cos t,2\mathop{\mathrm{sen}}\nolimits t,t)$
 
    a. Expresar la longitud de arco $s$ de la hélice como función de $t$
 

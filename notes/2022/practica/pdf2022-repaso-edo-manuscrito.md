@@ -18,7 +18,7 @@
    $y'(0)=-7$ sabiendo que dos soluciones linealmente independientes de la
    homogénea son $e^x$ y $e^{-4x}$.
 
-1. Resolver la siguiente EDO: $dy=\operatorname{sen}(x+y)\,dx$.
+1. Resolver la siguiente EDO: $`dy=\mathop{\mathrm{sen}}\nolimits (x+y)\,dx`$.
 
 1. Sea
 
@@ -35,6 +35,6 @@
    c) El valor límite de la corriente.
 
    d) En vez de una batería se conecta un generador
-   $E(t)=60\operatorname{sen}(30t)$ [V], ¿determinar $I(t)$=?
+   $E(t)=60\mathop{\mathrm{sen}}\nolimits (30t)$ [V], ¿determinar $I(t)$=?
 
 Scanned with CamScanner.

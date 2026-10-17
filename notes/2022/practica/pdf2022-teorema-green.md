@@ -6,19 +6,20 @@
 
 ## Página 1 — Calcular las integrales aplicando el T. de Green
 
-**11.** $\displaystyle\int_C2xy\,dx+(x+y)\,dy$.
+**11.** $`\displaystyle\int_C2xy\,dx+(x+y)\,dy`$.
 
 $C$: frontera de la región comprendida entre las gráficas de $y=0$ y $y=1-x^2$.
 
 Respuesta: 4/3.
 
-**13.** $\displaystyle\int_C(x^2-y^2)\,dx+2xy\,dy$.
+**13.** $`\displaystyle\int_C(x^2-y^2)\,dx+2xy\,dy`$.
 
 $C$: $x^2+y^2=16$.
 
 Respuesta: 0.
 
-**15.** $\displaystyle\int_C e^x\cos2y\,dx-2e^x\operatorname{sen}2y\,dy$.
+**15.**
+$`\displaystyle\int_C e^x\cos2y\,dx-2e^x\mathop{\mathrm{sen}}\nolimits 2y\,dy`$.
 
 $C$: $x^2+y^2=a^2$.
 

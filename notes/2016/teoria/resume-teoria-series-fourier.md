@@ -74,8 +74,9 @@ Una función y=f(x) es **IMPAR** si $\forall x:f(-x)=-f(x)$.
 
 ![Ejemplos de funciones impares](../../../resources/2016/resume-teoria-series-fourier/p03-impares.png)
 
-a) $f(x)=\operatorname{sen}(jx)$; b) $f(x)=\operatorname{tg}(x)$; c) $f(x)=x^n$,
-$n\in\mathbb Z$ e impar.
+a) $f(x)=\mathop{\mathrm{sen}}\nolimits (jx)$; b)
+$f(x)=\mathop{\mathrm{tg}}\nolimits (x)$; c) $f(x)=x^n$, $n\in\mathbb Z$ e
+impar.
 
 ### Propiedades de las funciones impares
 
@@ -147,8 +148,8 @@ $$
 ![Periodicidad de seno, coseno y tangente](../../../resources/2016/resume-teoria-series-fourier/p05-periodicas.png)
 
 $$
-\operatorname{sen}(x+2\pi)=\operatorname{sen}(x),\quad
-\cos(x+2\pi)=\cos(x),\quad\operatorname{tg}(x+\pi)=\operatorname{tg}(x)
+\mathop{\mathrm{sen}}\nolimits (x+2\pi)=\mathop{\mathrm{sen}}\nolimits (x),\quad
+\cos(x+2\pi)=\cos(x),\quad\mathop{\mathrm{tg}}\nolimits (x+\pi)=\mathop{\mathrm{tg}}\nolimits (x)
 $$
 
 En los dos primeros casos el período es 2π y en el tercero es π. Como
@@ -165,7 +166,7 @@ $$
 
 ### Propiedades de las funciones periódicas
 
-**Propiedad 1:** Si $f(x+p)=f(x)\;\forall x\in\mathbb R$ y $n\in\mathbb Z$,
+**Propiedad 1:** Si $`f(x+p)=f(x)\;\forall x\in\mathbb R`$ y $n\in\mathbb Z$,
 $n\ne0$ entonces y $f(x+np)=f(x)$, de modo que **“cualquier múltiplo entero del
 período, también es período de la misma función”**. El período “p” de menor
 valor se denomina *período primitivo de la función*.
@@ -181,7 +182,7 @@ función de período p/a $\forall a>0$.
 Demostración: en la función f(ax) le asignaremos a x el valor x+p/a
 
 f(a(x+p/a)) distribuyendo queda f(ax+a.p/a)=f(ax+p) y como
-$f(x+p)=f(x)\;\forall x\in\mathbb R$ incluso para (a.x)
+$`f(x+p)=f(x)\;\forall x\in\mathbb R`$ incluso para (a.x)
 
 entonces f(a(x+p/a))=f(ax) con lo cual queda demostrado que su período es p/a
 
@@ -227,7 +228,7 @@ Por lo tanto h(x+p)=h(x)
 **Propiedad 5:** Supongamos la función:
 
 $$
-f(x)=2\operatorname{sen}x+\frac32\operatorname{sen}2x+\operatorname{sen}3x
+f(x)=2\mathop{\mathrm{sen}}\nolimits x+\frac32\mathop{\mathrm{sen}}\nolimits 2x+\mathop{\mathrm{sen}}\nolimits 3x
 $$
 
 es una suma de funciones periódicas; la primera de las cuales (sen x) tiene
@@ -293,13 +294,14 @@ Verificamos las siguientes expresiones, donde m y n son número enteros.
 $$
 \int_{-\pi}^{\pi}\cos nx\,dx=0\;\therefore\;
 \int_{-\pi}^{\pi}\cos nx\,dx=\frac1n\int_{-\pi}^{\pi}\cos(nx)\,d(nx)
-=\left.\frac1n\operatorname{sen}nx\right|_{-\pi}^{\pi}=0
+=\left.\frac1n\mathop{\mathrm{sen}}\nolimits nx\right|_{-\pi}^{\pi}=0
 $$
 
-**Fórmula 2:** $\int_{-\pi}^{\pi}\operatorname{sen}nx\,dx=0$ es nula por ser
-**sen nx** una función impar.
+**Fórmula 2:** $`\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits nx\,dx=0`$ es
+nula por ser **sen nx** una función impar.
 
-**Fórmula 3:** $\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\cos(nx)dx=0$ por lo
+**Fórmula 3:**
+$\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\cos(nx)dx=0$ por lo
 tanto, dado que el integrando es el producto de dos funciones, una par (cos nx)
 y una impar (sen mx), la resultante será otra función impar y como los límites
 de integración son simétricos, la integral es nula.
@@ -307,31 +309,31 @@ de integración son simétricos, la integral es nula.
 **Fórmula 4:**
 
 $$
-\int_{-\pi}^{\pi}\operatorname{sen}(mx)\operatorname{sen}(nx)dx
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\mathop{\mathrm{sen}}\nolimits (nx)dx
 =\begin{cases}0&\text{si }m\ne n\\\pi&\text{si }m=n\end{cases}
 $$
 
 a) Primer caso $m\ne n$
 
 $$
-\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\operatorname{sen}(nx)dx
-=\frac12\left[\frac{\operatorname{sen}(m-n)\cdot x}{m-n}
--\frac{\operatorname{sen}(m+n)\cdot x}{m+n}\right]_{-\pi}^{\pi}
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\mathop{\mathrm{sen}}\nolimits (nx)dx
+=\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\cdot x}{m-n}
+-\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\cdot x}{m+n}\right]_{-\pi}^{\pi}
 $$
 
 $$
-\frac12\left[\frac{\operatorname{sen}(m-n)\cdot\pi}{m-n}
--\frac{\operatorname{sen}(m+n)\cdot\pi}{m+n}\right]=0
+\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\cdot\pi}{m-n}
+-\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\cdot\pi}{m+n}\right]=0
 $$
 
 b) Segundo caso si m=n
 
 $$
 \begin{aligned}
-\int_{-\pi}^{\pi}\operatorname{sen}(mx)\cdot\operatorname{sen}(mx)dx
-&=\int_{-\pi}^{\pi}\operatorname{sen}^2(mx)dx
-=\frac1m\int_{-\pi}^{\pi}\operatorname{sen}^2(mx)d(mx)\\
-&=\frac1{2\cdot m}[mx-\operatorname{sen}(mx)\cdot\cos(mx)]_{-\pi}^{\pi}\\
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits (mx)\cdot\mathop{\mathrm{sen}}\nolimits (mx)dx
+&=\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits ^2(mx)dx
+=\frac1m\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits ^2(mx)d(mx)\\
+&=\frac1{2\cdot m}[mx-\mathop{\mathrm{sen}}\nolimits (mx)\cdot\cos(mx)]_{-\pi}^{\pi}\\
 &=\frac1{2\cdot m}[m\pi-m(-\pi)]==\frac{2\cdot m\pi}{2m}=\pi
 \end{aligned}
 $$
@@ -349,12 +351,12 @@ a. Primer caso $m\ne n$
 
 $$
 \int_{-\pi}^{\pi}\cos(mx)\cdot\cos(nx)dx
-=\frac12\left[\frac{\operatorname{sen}(m-n)\cdot x}{m-n}
--\frac{\operatorname{sen}(m+n)\cdot x}{m+n}\right]_{-\pi}^{\pi}
+=\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\cdot x}{m-n}
+-\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\cdot x}{m+n}\right]_{-\pi}^{\pi}
 $$
 
-$\frac12\left[\frac{\operatorname{sen}(m-n)\cdot\pi}{m-n}
--\frac{\operatorname{sen}(m+n)\cdot\pi}{m+n}\right]=0$ por ser
+$\frac12\left[\frac{\mathop{\mathrm{sen}}\nolimits (m-n)\cdot\pi}{m-n}
+-\frac{\mathop{\mathrm{sen}}\nolimits (m+n)\cdot\pi}{m+n}\right]=0$ por ser
 $m\pm n\in\mathbb Z$, por lo tanto la integral es nula.
 
 b. Segundo caso si m=n
@@ -363,7 +365,7 @@ $$
 \begin{aligned}
 \int_{-\pi}^{\pi}\cos(mx)\cdot\cos(nx)dx
 &=\int_{-\pi}^{\pi}\cos^2(mx)dx=\frac1m\int_{-\pi}^{\pi}\cos^2(mx)d(mx)\\
-&=\frac1{2\cdot m}[mx+\operatorname{sen}(mx)\cdot\cos(mx)]_{-\pi}^{\pi}\\
+&=\frac1{2\cdot m}[mx+\mathop{\mathrm{sen}}\nolimits (mx)\cdot\cos(mx)]_{-\pi}^{\pi}\\
 &=\frac1{2\cdot m}[m\pi-m(-\pi)]==\frac{2\cdot m\pi}{2m}=\pi
 \end{aligned}
 $$
@@ -372,7 +374,7 @@ $$
 
 $$
 P(x)=\frac12+\sum_{k=1}^n\cos kx
-=\frac{\operatorname{sen}(n+\frac12)x}{2\operatorname{sen}\frac x2}
+=\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)x}{2\mathop{\mathrm{sen}}\nolimits \frac x2}
 $$
 
 Desarrollando:
@@ -416,46 +418,46 @@ $$
 P(x)=\frac12\cdot
 \frac{\frac{e^{ix(n+\frac12)}-e^{-ix(n+\frac12)}}{2i}}
 {\frac{e^{\frac12ix}-e^{-\frac12ix}}{2i}}
-=\frac12\frac{\operatorname{sen}(n+\frac12)x}{\operatorname{sen}(\frac12x)}
+=\frac12\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)x}{\mathop{\mathrm{sen}}\nolimits (\frac12x)}
 $$
 
 con lo que queda demostrado.
 
 **Fórmula 7:** Si a la igualdad
-$\frac12+\sum_{k=1}^n\cos x=\frac{\operatorname{sen}(n+\frac12)x}{2\operatorname{sen}(\frac12x)}$
+$\frac12+\sum_{k=1}^n\cos x=\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)x}{2\mathop{\mathrm{sen}}\nolimits (\frac12x)}$
 se la integra entre -π y π
 
 ## Página 10
 
 $$
 \frac12\int_{-\pi}^{\pi}dx+\sum_{k=1}^n\int_{-\pi}^{\pi}\cos x\cdot dx
-=\int_{-\pi}^{\pi}\frac{\operatorname{sen}(n+\frac12)x}{2\operatorname{sen}(\frac12x)}\cdot dx
+=\int_{-\pi}^{\pi}\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)x}{2\mathop{\mathrm{sen}}\nolimits (\frac12x)}\cdot dx
 $$
 
 En el primer miembro tendremos:
 
 $$
-\frac12\cdot2\pi+\sum_{k=1}^n\frac2k\cdot\operatorname{sen}k\pi=\pi
+\frac12\cdot2\pi+\sum_{k=1}^n\frac2k\cdot\mathop{\mathrm{sen}}\nolimits k\pi=\pi
 $$
 
 en consecuencia tendremos:
 
 $$
-\int_{-\pi}^{\pi}\frac{\operatorname{sen}(n+\frac12)x}{2\operatorname{sen}(\frac12x)}\cdot dx=\pi
+\int_{-\pi}^{\pi}\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)x}{2\mathop{\mathrm{sen}}\nolimits (\frac12x)}\cdot dx=\pi
 $$
 
 De la misma manera que el caso 6, se demuestra:
 
 $$
-\sum_{k=1}^n\frac2k\cdot\operatorname{sen}k\pi
-=\frac12\operatorname{cotg}\frac x2
--\frac{\cos(n+\frac12)x}{\operatorname{sen}\frac x2}
+\sum_{k=1}^n\frac2k\cdot\mathop{\mathrm{sen}}\nolimits k\pi
+=\frac12\mathop{\mathrm{cotg}}\nolimits \frac x2
+-\frac{\cos(n+\frac12)x}{\mathop{\mathrm{sen}}\nolimits \frac x2}
 $$
 
 Funciones continuas por tramos en [a,b], entonces se verificará que:
 
 $$
-\lim_{\lambda\to0}\int_a^b f(x)\operatorname{sen}\lambda x\cdot dx=0
+\lim_{\lambda\to0}\int_a^b f(x)\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx=0
 \quad\text{o bien que}\quad
 \lim_{\lambda\to0}\int_a^b f(x)\cos\lambda x\cdot dx=0
 $$
@@ -464,7 +466,7 @@ $$
 Llamemos:
 
 $$
-I(\lambda)=\int_a^b f(x)\operatorname{sen}\lambda x\cdot dx\tag{1}
+I(\lambda)=\int_a^b f(x)\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx\tag{1}
 $$
 
 haciendo $x=t+\frac\pi\lambda$
@@ -473,8 +475,8 @@ $$
 \begin{cases}
 x=a\Rightarrow t=a-\frac\pi\lambda\;\wedge\;x=b\Rightarrow t=b-\frac\pi\lambda\\
 f(x)=f(t+\frac\pi\lambda)\\
-\operatorname{sen}\frac\pi\lambda x=\operatorname{sen}\lambda(t+\frac\pi\lambda)
-=\operatorname{sen}(\lambda t+\pi)=-\operatorname{sen}\lambda t
+\mathop{\mathrm{sen}}\nolimits \frac\pi\lambda x=\mathop{\mathrm{sen}}\nolimits \lambda(t+\frac\pi\lambda)
+=\mathop{\mathrm{sen}}\nolimits (\lambda t+\pi)=-\mathop{\mathrm{sen}}\nolimits \lambda t
 \end{cases}
 $$
 
@@ -482,9 +484,9 @@ Por lo tanto:
 
 $$
 I(\lambda)=-\int_{a-\frac\pi\lambda}^{b-\frac\pi\lambda}
-f(t+\tfrac\pi\lambda)\cdot\operatorname{sen}\lambda t\cdot dt
+f(t+\tfrac\pi\lambda)\cdot\mathop{\mathrm{sen}}\nolimits \lambda t\cdot dt
 =\int_{a-\frac\pi\lambda}^{b-\frac\pi\lambda}
-f(x+\tfrac\pi\lambda)\cdot\operatorname{sen}\lambda x\cdot dx\tag{2}
+f(x+\tfrac\pi\lambda)\cdot\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx\tag{2}
 $$
 
 sumando las expresiones (1)y(2)tendremos:
@@ -493,16 +495,17 @@ sumando las expresiones (1)y(2)tendremos:
 
 $$
 \begin{aligned}
-2\cdot I(\lambda)&=-\int_{a-\frac\pi\lambda}^a f(x+\tfrac\pi\lambda)\operatorname{sen}\lambda x\cdot dx\\
-&\quad+\int_a^{b-\frac\pi\lambda}[f(x)-f(x+\tfrac\pi\lambda)]\operatorname{sen}\lambda x\cdot dx
-+\int_{b-\frac\pi\lambda}^b f(x)\operatorname{sen}\lambda x\cdot dx
+2\cdot I(\lambda)&=-\int_{a-\frac\pi\lambda}^a f(x+\tfrac\pi\lambda)\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx\\
+&\quad+\int_a^{b-\frac\pi\lambda}[f(x)-f(x+\tfrac\pi\lambda)]\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx
++\int_{b-\frac\pi\lambda}^b f(x)\mathop{\mathrm{sen}}\nolimits \lambda x\cdot dx
 \end{aligned}
 $$
 
 llamando M al máximo valor de la función f(x) en (a,b);
-$|f(x)|\le M\;\forall x\in(a,b)$
+$`|f(x)|\le M\;\forall x\in(a,b)`$
 
-y considerando que $|\operatorname{sen}\lambda x|\le1$, reemplazando resulta
+y considerando que $|\mathop{\mathrm{sen}}\nolimits \lambda x|\le1$,
+reemplazando resulta
 
 $$
 2\cdot|I(\lambda)|\le M\int_{a-\frac\pi\lambda}^a dx
@@ -532,7 +535,7 @@ En consecuencia:
 $$
 2\cdot|I(\lambda)|\le2M\cdot\frac\varepsilon{2M}+\varepsilon
 \Rightarrow|I(\lambda)|<\varepsilon;\quad\forall\lambda>i\lambda
-\quad\text{siendo }\lambda i=\operatorname{máx}(K_1,K_2)
+\quad\text{siendo }\lambda i=\mathop{\mathrm{máx}}\nolimits (K_1,K_2)
 $$
 
 Este teorema puede extenderse a funciones seccionalmente continuas en un
@@ -564,7 +567,7 @@ negativos de la onda (presente en la gran mayoría de electrodomésticos) se
 obtiene la función definida de la siguiente forma:
 
 $$
-f(t)=\begin{cases}0&\text{si }-p/2<t<0\\E\cdot\operatorname{sen}\omega t&\text{si }0<t<p/2\end{cases}
+f(t)=\begin{cases}0&\text{si }-p/2<t<0\\E\cdot\mathop{\mathrm{sen}}\nolimits \omega t&\text{si }0<t<p/2\end{cases}
 \quad\text{siendo }p=\frac{2\pi}\omega
 $$
 
@@ -601,7 +604,7 @@ continua con un número finito de discontinuidades finitas en ´[-π,π] y
 supongamos puede ser desarrollada en una serie de Fourier de la forma:
 
 $$
-f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\operatorname{sen}nx)
+f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\mathop{\mathrm{sen}}\nolimits nx)
 $$
 
 Donde a₀,aₙ, y bₙ son los coeficientes cuya determinación estudiaremos. Este
@@ -613,7 +616,7 @@ condiciones se verifica dicha convergencia. Supongamos su desarrollo de la
 forma:
 
 $$
-f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\operatorname{sen}nx)
+f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\mathop{\mathrm{sen}}\nolimits nx)
 \quad\text{donde }a_0,a_n\text{ y }b_n\text{ son constantes.}
 $$
 
@@ -622,7 +625,7 @@ $$
 $$
 \int_{-\pi}^{\pi}f(x)dx=\int_{-\pi}^{\pi}\frac{a_0}2dx
 +\sum_{n=1}^{\infty}\left(a_n\int_{-\pi}^{\pi}\cos nx\cdot dx
-+b_n\int_{-\pi}^{\pi}\operatorname{sen}nx\,dx\right)
++b_n\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits nx\,dx\right)
 $$
 
 Conforme a lo demostrado anteriormente las integrales que aparecen dentro del
@@ -640,12 +643,12 @@ a_0=\frac1\pi\int_{-\pi}^{\pi}f(x)\cdot dx
 $$
 
 - Multiplicamos ambos miembros del desarrollo por
-  $\cos kx\;\forall x\in\mathbb N$, integrando:
+  $`\cos kx\;\forall x\in\mathbb N`$, integrando:
 
 $$
 \int_{-\pi}^{\pi}f(x)\cos kx\,dx==\frac{a_0}2\int_{-\pi}^{\pi}\cos kx\,dx
 \sum_{n=1}^{\infty}\left(a_n\int_{-\pi}^{\pi}\cos kx\cdot\cos nx\cdot dx
-+b_n\int_{-\pi}^{\pi}\cos kx\cdot\operatorname{sen}nx\,dx\right)
++b_n\int_{-\pi}^{\pi}\cos kx\cdot\mathop{\mathrm{sen}}\nolimits nx\,dx\right)
 $$
 
 Todas las integrales del segundo miembro son nulas con la excepción de la
@@ -675,10 +678,10 @@ $$
 
 $$
 \begin{aligned}
-\int_{-\pi}^{\pi}f(x)\operatorname{sen}kx\,dx
-&=\frac{a_0}2\int_{-\pi}^{\pi}\operatorname{sen}kx\cdot dx
-\sum_{n=1}^{\infty}\left(a_n\int_{-\pi}^{\pi}\operatorname{sen}kx\cdot\cos nx\cdot dx\right.\\
-&\qquad\left.+b_n\int_{-\pi}^{\pi}\operatorname{sen}kx\cdot\operatorname{sen}nx\,dx\right)
+\int_{-\pi}^{\pi}f(x)\mathop{\mathrm{sen}}\nolimits kx\,dx
+&=\frac{a_0}2\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits kx\cdot dx
+\sum_{n=1}^{\infty}\left(a_n\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits kx\cdot\cos nx\cdot dx\right.\\
+&\qquad\left.+b_n\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits kx\cdot\mathop{\mathrm{sen}}\nolimits nx\,dx\right)
 \end{aligned}
 $$
 
@@ -686,18 +689,18 @@ De acuerdo a lo demostrado anteriormente todas las integrales del segundo
 miembro son nulas exceptuando:
 
 $$
-\int_{-\pi}^{\pi}\operatorname{sen}kx\cdot\operatorname{sen}nx\cdot dx=\pi\quad\text{si }k=n
+\int_{-\pi}^{\pi}\mathop{\mathrm{sen}}\nolimits kx\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx=\pi\quad\text{si }k=n
 $$
 
 $$
-\int_{-\pi}^{\pi}f(x)\operatorname{sen}kx\,dx
-=\int_{-\pi}^{\pi}(\operatorname{sen}nx)^2\cdot dx=b_n\pi
+\int_{-\pi}^{\pi}f(x)\mathop{\mathrm{sen}}\nolimits kx\,dx
+=\int_{-\pi}^{\pi}(\mathop{\mathrm{sen}}\nolimits nx)^2\cdot dx=b_n\pi
 $$
 
 de donde
 
 $$
-b_n=\frac1\pi\int_{-\pi}^{\pi}f(x)\cdot\operatorname{sen}nx\cdot dx
+b_n=\frac1\pi\int_{-\pi}^{\pi}f(x)\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx
 $$
 
 Las fórmulas obtenidas para la determinación de los coeficientes a₀,aₙ, y bₙ se
@@ -705,7 +708,7 @@ les da, el nombre de “Fórmulas de Euler”, para la determinación de los
 coeficientes de Fourier de la serie:
 
 $$
-f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\operatorname{sen}nx)
+f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\mathop{\mathrm{sen}}\nolimits nx)
 $$
 
 ### Condiciones de Dirichlet
@@ -739,7 +742,7 @@ condiciones necesarias y suficientes, tampoco lo es suficientes ser continuas en
 Para sumas parciales de una Serie de Fourier
 
 $$
-S_n(x)=\frac{a_0}2+\sum_{k=1}^n(a_k\cdot\cos kx+b_k\cdot\operatorname{sen}kx)
+S_n(x)=\frac{a_0}2+\sum_{k=1}^n(a_k\cdot\cos kx+b_k\cdot\mathop{\mathrm{sen}}\nolimits kx)
 \quad\forall k\in\mathbb N
 $$
 
@@ -750,17 +753,17 @@ Donde
 $$
 a_0=\frac1\pi\int_{-\pi}^{\pi}f(t)\cdot dt\qquad
  a_k=\frac1\pi\int_{-\pi}^{\pi}f(t)\cdot\cos kt\cdot dt\qquad
- b_k=\frac1\pi\int_{-\pi}^{\pi}f(t)\cdot\operatorname{sen}kt\cdot dt
+ b_k=\frac1\pi\int_{-\pi}^{\pi}f(t)\cdot\mathop{\mathrm{sen}}\nolimits kt\cdot dt
 $$
 
 $$
 \begin{aligned}
 S_n(x)&=\frac1{2\pi}\int_{-\pi}^{\pi}f(t)\cdot dt
-+\frac1\pi\sum_{k=1}^n f(t)\cdot(\cos kx\cdot\cos kt+\operatorname{sen}kx\cdot\operatorname{sen}kt)\,dt\\
++\frac1\pi\sum_{k=1}^n f(t)\cdot(\cos kx\cdot\cos kt+\mathop{\mathrm{sen}}\nolimits kx\cdot\mathop{\mathrm{sen}}\nolimits kt)\,dt\\
 &=\frac1{2\pi}\int_{-\pi}^{\pi}f(t)\cdot dt
 +\frac1\pi\sum_{k=1}^n f(t)\cdot\cos k(t-x)\,dt\\
 &=\frac1\pi\int_{-\pi}^{\pi}f(t)\cdot\left[\frac12+\frac1\pi\sum_{k=1}^n\cos k(t-x)\right]dt\\
-&=\frac1\pi\int_{-\pi}^{\pi}f(t)\frac{\operatorname{sen}(n+\frac12)(t-x)}{2\cdot\operatorname{sen}\frac{t-x}2}dt
+&=\frac1\pi\int_{-\pi}^{\pi}f(t)\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)(t-x)}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac{t-x}2}dt
 \end{aligned}
 $$
 
@@ -779,7 +782,7 @@ Sustituyendo estos valores:
 
 $$
 S_n(x)=\frac1\pi\int_{-\pi-x}^{\pi-x}f(x+s)
-\frac{\operatorname{sen}(n+\frac12)s}{2\cdot\operatorname{sen}\frac s2}ds
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
 $$
 
 Como el integrando tiene un período 2π, podemos reemplazar el intervalo
@@ -788,7 +791,7 @@ $[-\pi,\pi]$, por lo tanto la sumatoria será:
 
 $$
 S_n(x)=\frac1\pi\int_{-\pi}^{\pi}f(x+s)
-\frac{\operatorname{sen}(n+\frac12)s}{2\cdot\operatorname{sen}\frac s2}ds
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
 $$
 
 ### Convergencia de la serie de Fourier
@@ -796,7 +799,7 @@ $$
 Sea f(x) continua por tramos en $(-\infty,\infty)$ con período 2π y se supone
 que:
 
-$f(x)=\frac12[f(x^+)+f(x^-)]\;\forall x$ entonces el desarrollo de la serie de
+$`f(x)=\frac12[f(x^+)+f(x^-)]\;\forall x`$ entonces el desarrollo de la serie de
 Fourier para f(x) converge a f(x₀) en cada x₀, donde f(x) tenga una derivada por
 la derecha y por la izquierda.
 
@@ -828,34 +831,34 @@ Por la fórmula de Dirichlet:
 
 $$
 S_n(x_0)=\frac1\pi\int_{-\pi}^{\pi}f(x_0+s)
-\frac{\operatorname{sen}(n+\frac12)s}{2\cdot\operatorname{sen}\frac s2}ds\tag{1}
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds\tag{1}
 $$
 
 $$
 f(x_0)=\frac1\pi f(x_0)\cdot\pi
-=\frac1\pi f(x_0)\int_{-\pi}^{\pi}\frac{\operatorname{sen}(n+\frac12)s}{2\cdot\operatorname{sen}\frac s2}ds
-=\frac1\pi\int_{-\pi}^{\pi}f(x_0)\cdot\frac{\operatorname{sen}(n+\frac12)s}{2\cdot\operatorname{sen}\frac s2}ds\tag{2}
+=\frac1\pi f(x_0)\int_{-\pi}^{\pi}\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
+=\frac1\pi\int_{-\pi}^{\pi}f(x_0)\cdot\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds\tag{2}
 $$
 
 Si restamos (1) y (2) obtendremos:
 
 $$
-S_n(x_0)-f(x_0)=\frac1\pi\int_{-\pi}^{\pi}\frac{f(x_0+s)-f(x_0)}{2\cdot\operatorname{sen}\frac s2}
-\cdot\operatorname{sen}(n+\tfrac12)s\cdot ds
+S_n(x_0)-f(x_0)=\frac1\pi\int_{-\pi}^{\pi}\frac{f(x_0+s)-f(x_0)}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}
+\cdot\mathop{\mathrm{sen}}\nolimits (n+\tfrac12)s\cdot ds
 $$
 
 multiplicando y dividiendo por s, $\forall s\ne0$
 
 $$
 S_n(x_0)-f(x_0)=\frac1\pi\int_{-\pi}^{\pi}
-\left[\frac{f(x_0+s)-f(x_0)}s\cdot\frac{s/2}{\operatorname{sen}\frac s2}\right]
-\cdot\operatorname{sen}(n+\tfrac12)s\cdot ds
+\left[\frac{f(x_0+s)-f(x_0)}s\cdot\frac{s/2}{\mathop{\mathrm{sen}}\nolimits \frac s2}\right]
+\cdot\mathop{\mathrm{sen}}\nolimits (n+\tfrac12)s\cdot ds
 $$
 
 Llamemos g(s) al primer factor del integrando
 
 $$
-g(s)=\frac{f(x_0+s)-f(x_0)}s\cdot\frac{s/2}{\operatorname{sen}\frac s2}
+g(s)=\frac{f(x_0+s)-f(x_0)}s\cdot\frac{s/2}{\mathop{\mathrm{sen}}\nolimits \frac s2}
 $$
 
 Por ser f(x) continua, es g(s) continua $\forall s\ne0$.
@@ -865,7 +868,7 @@ s=0, por lo que g(s) es seccionalmente continua en el período $[-\pi,\pi]$.
 
 Aplicando el lema de Rieman-Lebesgue ya visto, es:
 
-$\lim_{n\to\infty}\frac1\pi\int_{-\pi}^{\pi}g(s)\cdot\operatorname{sen}[(n+\frac12)\cdot s]ds=0$
+$\lim_{n\to\infty}\frac1\pi\int_{-\pi}^{\pi}g(s)\cdot\mathop{\mathrm{sen}}\nolimits [(n+\frac12)\cdot s]ds=0$
 por lo tanto: $|S_n(x_0)-f(x_0)|<\varepsilon$ para $n>K$.
 
 **Segundo caso:** Cuando x₀ es un punto de discontinuidad de f(x).
@@ -874,39 +877,39 @@ por lo tanto: $|S_n(x_0)-f(x_0)|<\varepsilon$ para $n>K$.
 
 *Demostración:*
 
-$S_n(x)=\frac{a_0}2+\sum_{k=1}^{\infty}(a_k\cdot\cos kx+b_k\cdot\operatorname{sen}kx)
+$S_n(x)=\frac{a_0}2+\sum_{k=1}^{\infty}(a_k\cdot\cos kx+b_k\cdot\mathop{\mathrm{sen}}\nolimits kx)
 \quad\forall k\in\mathbb N$, converge a
 
 $\frac12[f(x_0+0)+f(x_0-0)]$ por lo tanto
 
 $$
 S_n(x_0)=\frac1\pi\int_{-\pi}^0 f(x_0+s)
-\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
 +\frac1\pi\int_0^{\pi} f(x_0+s)
-\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds\tag{1}
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds\tag{1}
 $$
 
 Además por descomposición de la **Fórmula 7** en **Fórmulas de posterior
 aplicación**, por ser un integrando par:
 
 $$
-\int_{-\pi}^0\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds=\frac\pi2
+\int_{-\pi}^0\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds=\frac\pi2
 $$
 
 $$
-\int_0^{\pi}\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds=\frac\pi2
+\int_0^{\pi}\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds=\frac\pi2
 $$
 
 Por lo tanto multiplicando la primera integral por $\frac{f(x_0-0)}\pi$ y la
 segunda por $\frac{f(x_0+0)}\pi$ tendremos:
 
 $$
-\frac1\pi\int_{-\pi}^0 f(x_0-0)\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds
+\frac1\pi\int_{-\pi}^0 f(x_0-0)\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
 =\frac{f(x_0-0)}2
 $$
 
 $$
-\frac1\pi\int_0^{\pi} f(x_0+0)\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds
+\frac1\pi\int_0^{\pi} f(x_0+0)\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
 =\frac{f(x_0+0)}2
 $$
 
@@ -914,8 +917,8 @@ Y sumando ambas igualdades obtenemos otra igualdad:
 
 $$
 \frac{f(x_0+0)}2+\frac{f(x_0-0)}2
-=\frac1\pi\int_{-\pi}^0 f(x_0-0)\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds
-+\frac1\pi\int_0^{\pi} f(x_0+0)\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds\tag{2}
+=\frac1\pi\int_{-\pi}^0 f(x_0-0)\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
++\frac1\pi\int_0^{\pi} f(x_0+0)\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds\tag{2}
 $$
 
 Restando (1)-(2) tenemos:
@@ -924,23 +927,23 @@ $$
 \begin{aligned}
 S_n(x_0)-\frac{f(x_0+0)}2-\frac{f(x_0-0)}2
 &=\frac1\pi\int_{-\pi}^0[f(x_0+s)-f(x_0-0)]
-\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds\\
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds\\
 &\quad+\frac1\pi\int_0^{\pi}[f(x_0+s)-f(x_0+0)]
-\frac{\operatorname{sen}(n+\frac12)\cdot s}{2\cdot\operatorname{sen}\frac s2}ds
+\frac{\mathop{\mathrm{sen}}\nolimits (n+\frac12)\cdot s}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}ds
 \end{aligned}
 $$
 
-$g_1(s)=\frac{f(x_0+s)-f(x_0-0)}{2\cdot\operatorname{sen}\frac s2}$ es continua
-en el intervalo [-π,0]
+$g_1(s)=\frac{f(x_0+s)-f(x_0-0)}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}$
+es continua en el intervalo [-π,0]
 
 para $s\to0^-$
-$\frac{f(x_0+s)-f(x_0-0)}{s/2}\cdot\frac{s/2}{2\cdot\operatorname{sen}\frac s2}
+$\frac{f(x_0+s)-f(x_0-0)}{s/2}\cdot\frac{s/2}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}
 \to\frac{f'(x_0^-)}2$ existe, por lo tanto $g_1(s)$ es continua.
 
 ## Página 18
 
 para $s\to0^+$
-$\frac{f(x_0+s)-f(x_0+0)}{s/2}\cdot\frac{s/2}{2\cdot\operatorname{sen}\frac s2}
+$\frac{f(x_0+s)-f(x_0+0)}{s/2}\cdot\frac{s/2}{2\cdot\mathop{\mathrm{sen}}\nolimits \frac s2}
 \to\frac{f'(x_0^+)}2$ existe, por lo tanto $g_2(s)$ es continua.
 
 Aplicando el teorema de Rieman-Lebesgue, ambas integrales tenderán a cero cuando
@@ -971,7 +974,7 @@ $$
 En cambio por ser el producto f(x). sen nx una función impar, se tendrá:
 
 $$
-b_n=\frac1\pi\int_{-\pi}^{\pi}f(x)\cdot\operatorname{sen}nx\cdot dx=0
+b_n=\frac1\pi\int_{-\pi}^{\pi}f(x)\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx=0
 $$
 
 Los coeficientes de los términos sinusoidales serán todos nulos, por lo tanto el
@@ -991,7 +994,7 @@ $$
 Si f(x) es impar entonces
 
 $$
-\begin{cases}f(x)\cdot\cos nx&\text{es impar}\\f(x)\cdot\operatorname{sen}nx&\text{es par}\end{cases}
+\begin{cases}f(x)\cdot\cos nx&\text{es impar}\\f(x)\cdot\mathop{\mathrm{sen}}\nolimits nx&\text{es par}\end{cases}
 $$
 
 Por lo tanto:
@@ -1005,8 +1008,8 @@ por ser los integrandos funciones impares, por lo cual el desarrollo de la serie
 de Fourier para funciones impares quedaría:
 
 $$
-f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}b_n\operatorname{sen}nx
-\qquad\text{donde }b_n=\frac2\pi\int_0^{\pi}f(x)\cdot\operatorname{sen}nx\cdot dx
+f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}b_n\mathop{\mathrm{sen}}\nolimits nx
+\qquad\text{donde }b_n=\frac2\pi\int_0^{\pi}f(x)\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx
 $$
 
 ### Desarrollo en serie de Fourier para funciones de período 2L
@@ -1036,7 +1039,7 @@ condiciones, $\varphi(t)$ puede ser desarrollada en serie de Fourier de la forma
 conocida:
 
 $$
-\varphi(t)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cdot\cos nt+b_k\cdot\operatorname{sen}nt)\tag{1}
+\varphi(t)=\frac{a_0}2+\sum_{n=1}^{\infty}(a_n\cdot\cos nt+b_k\cdot\mathop{\mathrm{sen}}\nolimits nt)\tag{1}
 $$
 
 Donde los coeficientes a₀,aₙ, y bₙ están dados por la fórmula de Euler:
@@ -1044,7 +1047,7 @@ Donde los coeficientes a₀,aₙ, y bₙ están dados por la fórmula de Euler:
 $$
 a_0=\frac1\pi\int_{-\pi}^{\pi}\varphi(t)\cdot dt\qquad
  a_n=\frac1\pi\int_{-\pi}^{\pi}\varphi(t)\cdot\cos nt\cdot dt\qquad
- b_n=\frac1\pi\int_{-\pi}^{\pi}\varphi(t)\cdot\operatorname{sen}nt\cdot dt
+ b_n=\frac1\pi\int_{-\pi}^{\pi}\varphi(t)\cdot\mathop{\mathrm{sen}}\nolimits nt\cdot dt
 $$
 
 ## Página 20
@@ -1054,15 +1057,15 @@ $t=\frac\pi L\cdot x$ y $dt=\frac\pi L\cdot dx$.
 
 Además sabemos que $\varphi(t)=f(x)$, también los límites de integración:
 
-cuando $t=\pi\to x=\frac L\pi\cdot\pi=L\;\therefore\;\text{si }t=\pi\to x=L$
+cuando $`t=\pi\to x=\frac L\pi\cdot\pi=L\;\therefore\;\text{si }t=\pi\to x=L`$
 
 cuando
-$t=-\pi\to x=\frac L\pi\cdot(-\pi)=-L\;\therefore\;\text{si }t=-\pi\to x=-L$
+$`t=-\pi\to x=\frac L\pi\cdot(-\pi)=-L\;\therefore\;\text{si }t=-\pi\to x=-L`$
 
 reemplazando en (1) todas las expresiones encontradas:
 
 $$
-f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}\left(a_n\cdot\cos\frac{n\pi x}L+b_n\cdot\operatorname{sen}\frac{n\pi x}L\right)
+f(x)=\frac{a_0}2+\sum_{n=1}^{\infty}\left(a_n\cdot\cos\frac{n\pi x}L+b_n\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi x}L\right)
 $$
 
 Los coeficientes serán:
@@ -1088,13 +1091,13 @@ a_n=\frac1L\int_{-L}^L f(x)\cdot\cos\frac{n\pi x}L dx
 $$
 
 $$
-b_n=\frac1\pi\int_{-\pi}^{\pi}\varphi(t)\cdot\operatorname{sen}nt\cdot dt
-=\frac1\pi\int_{-L}^L f(x)\cdot\frac\pi L\cdot\operatorname{sen}\frac{n\pi x}L\cdot dx
-=\frac1L\int_{-L}^L f(x)\cdot\operatorname{sen}\frac{n\pi x}L\cdot dx
+b_n=\frac1\pi\int_{-\pi}^{\pi}\varphi(t)\cdot\mathop{\mathrm{sen}}\nolimits nt\cdot dt
+=\frac1\pi\int_{-L}^L f(x)\cdot\frac\pi L\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi x}L\cdot dx
+=\frac1L\int_{-L}^L f(x)\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi x}L\cdot dx
 $$
 
 $$
-b_n=\frac1L\int_{-L}^L f(x)\cdot\operatorname{sen}\frac{n\pi x}L\cdot dx
+b_n=\frac1L\int_{-L}^L f(x)\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\pi x}L\cdot dx
 $$
 
 **Ejemplo 1:** Desarrollar en Serie de Fourier la forma simétrica de una onda
@@ -1133,15 +1136,15 @@ a_n&=\frac2\pi\left[\int_0^{\frac\pi2}K\cdot\cos nx\cdot dx
 +\int_{\frac\pi2}^{\pi}(-K)\cdot\cos nx\cdot dx\right]\\
 &=\frac{2\cdot K}\pi\left[\int_0^{\frac\pi2}\cos nx\cdot dx
 -\int_{\frac\pi2}^{\pi}\cos nx\cdot dx\right]\\
-&=\frac{2\cdot K}{\pi\cdot n}\left(\operatorname{sen}n\frac\pi2+\operatorname{sen}n\frac\pi2\right)
-=\frac{4\cdot K}{\pi\cdot n}\operatorname{sen}n\frac\pi2
+&=\frac{2\cdot K}{\pi\cdot n}\left(\mathop{\mathrm{sen}}\nolimits n\frac\pi2+\mathop{\mathrm{sen}}\nolimits n\frac\pi2\right)
+=\frac{4\cdot K}{\pi\cdot n}\mathop{\mathrm{sen}}\nolimits n\frac\pi2
 \end{aligned}
 $$
 
 ya que sen n.0=sen n.π=0
 
 esto indica que
-$a_0=0;\;a_1=\frac{4K}\pi;\;a_2=0;\;a_3=\frac{-4K}{3\pi};\;a_4=0;\;a_5=\frac{4K}{5\pi}\;\ldots$
+$`a_0=0;\;a_1=\frac{4K}\pi;\;a_2=0;\;a_3=\frac{-4K}{3\pi};\;a_4=0;\;a_5=\frac{4K}{5\pi}\;\ldots`$
 
 donde todos los términos de orden par se anulan y los de orden impar son
 alternadamente positivos y negativos, tomando $\frac{4K}\pi$ factor común:
@@ -1168,19 +1171,19 @@ anteriormente, se reduce a una suma de términos senoidales, mientras que a₀=a
 $\forall n\in\mathbb N$ y solo debemos calcular bₙ.
 
 $$
-b_n=\frac2\pi\int_0^{\pi}f(x)\cdot\operatorname{sen}nx\cdot dx
-\;\therefore\;f(x)=\sum_{n=1}^{\infty}b_n\operatorname{sen}nx
+b_n=\frac2\pi\int_0^{\pi}f(x)\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx
+\;\therefore\;f(x)=\sum_{n=1}^{\infty}b_n\mathop{\mathrm{sen}}\nolimits nx
 $$
 
 ## Página 22
 
 $$
-b_n=\frac2\pi\int_0^{\pi}K\cdot\operatorname{sen}nx\cdot dx
-=\frac{2K}\pi\int_0^{\pi}\operatorname{sen}nx\cdot dx
-=\frac{2K}{n\cdot\pi}\int_0^{\pi}\operatorname{sen}nx\cdot d(n\cdot x)=
+b_n=\frac2\pi\int_0^{\pi}K\cdot\mathop{\mathrm{sen}}\nolimits nx\cdot dx
+=\frac{2K}\pi\int_0^{\pi}\mathop{\mathrm{sen}}\nolimits nx\cdot dx
+=\frac{2K}{n\cdot\pi}\int_0^{\pi}\mathop{\mathrm{sen}}\nolimits nx\cdot d(n\cdot x)=
 $$
 
-$b_n=\frac{2K}{n\cdot\pi}[-\operatorname{con}n\cdot\pi-(-\cos0)]
+$b_n=\frac{2K}{n\cdot\pi}[-\mathop{\mathrm{con}}\nolimits n\cdot\pi-(-\cos0)]
 =\frac{2K}{n\cdot\pi}(\cos0-\cos n\cdot\pi)=\frac{2K}{n\cdot\pi}(1-(-1)^n)$
 término general del coeficiente bₙ.
 
@@ -1196,9 +1199,9 @@ Como vemos el factor $\frac{4K}\pi$ es común a todos los términos, por lo tant
 el desarrollo en serie de Fourier será:
 
 $$
-f(x)=\frac{4K}\pi(\operatorname{sen}x+\tfrac13\operatorname{sen}3x
-+\tfrac15\operatorname{sen}5x+\tfrac17\operatorname{sen}7x+\cdots
-+\tfrac1{2n-1}\operatorname{sen}(2n-1)x+\cdots)
+f(x)=\frac{4K}\pi(\mathop{\mathrm{sen}}\nolimits x+\tfrac13\mathop{\mathrm{sen}}\nolimits 3x
++\tfrac15\mathop{\mathrm{sen}}\nolimits 5x+\tfrac17\mathop{\mathrm{sen}}\nolimits 7x+\cdots
++\tfrac1{2n-1}\mathop{\mathrm{sen}}\nolimits (2n-1)x+\cdots)
 $$
 
 ![a) Función Original; b) Serie de Fourier n=3; c) Serie de Fourier n=6](../../../resources/2016/resume-teoria-series-fourier/p22-onda-impar.png)

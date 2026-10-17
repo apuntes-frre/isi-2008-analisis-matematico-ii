@@ -192,42 +192,43 @@ y''+9y=\frac14\csc3x.
 $$
 
 Debido a que las raíces de la ecuación auxiliar $m^2+9=0$ son $m_1=3i$ y
-$m_2=-3i$, la función complementaria es $y_c=c_1\cos3x+c_2\operatorname{sen}3x$.
-Usando $y_1=\cos3x$, $y_2=\operatorname{sen}3x$, y $f(x)=\frac14\csc3x$,
-obtenemos
+$m_2=-3i$, la función complementaria es
+$y_c=c_1\cos3x+c_2\mathop{\mathrm{sen}}\nolimits 3x$. Usando $y_1=\cos3x$,
+$y_2=\mathop{\mathrm{sen}}\nolimits 3x$, y $f(x)=\frac14\csc3x$, obtenemos
 
 $$
-W(\cos3x,\operatorname{sen}3x)=
-\begin{vmatrix}\cos3x&\operatorname{sen}3x\\
--3\operatorname{sen}3x&3\cos3x\end{vmatrix}=3,
+W(\cos3x,\mathop{\mathrm{sen}}\nolimits 3x)=
+\begin{vmatrix}\cos3x&\mathop{\mathrm{sen}}\nolimits 3x\\
+-3\mathop{\mathrm{sen}}\nolimits 3x&3\cos3x\end{vmatrix}=3,
 $$
 
 $$
-W_1=\begin{vmatrix}0&\operatorname{sen}3x\\\frac14\csc3x&3\cos3x\end{vmatrix}
+W_1=\begin{vmatrix}0&\mathop{\mathrm{sen}}\nolimits 3x\\\frac14\csc3x&3\cos3x\end{vmatrix}
 =-\frac14,\qquad
-W_2=\begin{vmatrix}\cos3x&0\\-3\operatorname{sen}3x&\frac14\csc3x\end{vmatrix}
-=\frac14\frac{\cos3x}{\operatorname{sen}3x}.
+W_2=\begin{vmatrix}\cos3x&0\\-3\mathop{\mathrm{sen}}\nolimits 3x&\frac14\csc3x\end{vmatrix}
+=\frac14\frac{\cos3x}{\mathop{\mathrm{sen}}\nolimits 3x}.
 $$
 
 Integrando
 
 $$
 u_1'=\frac{W_1}W=-\frac1{12}\quad\text{y}\quad
-u_2'=\frac{W_2}W=\frac1{12}\frac{\cos3x}{\operatorname{sen}3x}
+u_2'=\frac{W_2}W=\frac1{12}\frac{\cos3x}{\mathop{\mathrm{sen}}\nolimits 3x}
 $$
 
-Se obtiene $u_1=-\frac1{12}x$ y $u_2=\frac1{36}\ln|\operatorname{sen}3x|$. Así
-una solución particular es
+Se obtiene $u_1=-\frac1{12}x$ y
+$u_2=\frac1{36}\ln|\mathop{\mathrm{sen}}\nolimits 3x|$. Así una solución
+particular es
 
 $$
-y_p=-\frac1{12}x\cos3x+\frac1{36}(\operatorname{sen}3x)\ln|\operatorname{sen}3x|.
+y_p=-\frac1{12}x\cos3x+\frac1{36}(\mathop{\mathrm{sen}}\nolimits 3x)\ln|\mathop{\mathrm{sen}}\nolimits 3x|.
 $$
 
 La solución general de la ecuación es
 
 $$
-y=y_c+y_p=c_1\cos3x+c_2\operatorname{sen}3x-\frac1{12}x\cos3x
-+\frac1{36}(\operatorname{sen}3x)\ln|\operatorname{sen}3x|. \tag{7}
+y=y_c+y_p=c_1\cos3x+c_2\mathop{\mathrm{sen}}\nolimits 3x-\frac1{12}x\cos3x
++\frac1{36}(\mathop{\mathrm{sen}}\nolimits 3x)\ln|\mathop{\mathrm{sen}}\nolimits 3x|. \tag{7}
 $$
 
 ## Página 160
@@ -363,10 +364,10 @@ ii) En los problemas siguientes, no dude en simplificar la forma de $y_p$.
 Dependiendo de cómo se encuentren las antiderivadas de $u_1'$ y $u_2'$, es
 posible que no se obtenga la misma $y_p$ que se da en la sección de respuestas.
 Por ejemplo, en el problema 3 de los ejercicios 4.6 tanto
-$y_p=\frac12\operatorname{sen}x-\frac12x\cos x$ como
-$y_p=\frac14\operatorname{sen}x-\frac12x\cos x$ son respuestas válidas. En
-cualquier caso la solución general $y=y_c+y_p$ se simplifica a
-$y=c_1\cos x+c_2\operatorname{sen}x-\frac12x\cos x$. ¿Por qué?
+$y_p=\frac12\mathop{\mathrm{sen}}\nolimits x-\frac12x\cos x$ como
+$y_p=\frac14\mathop{\mathrm{sen}}\nolimits x-\frac12x\cos x$ son respuestas
+válidas. En cualquier caso la solución general $y=y_c+y_p$ se simplifica a
+$y=c_1\cos x+c_2\mathop{\mathrm{sen}}\nolimits x-\frac12x\cos x$. ¿Por qué?
 
 ### Ejercicios 4.6
 
@@ -377,17 +378,17 @@ variación de parámetros.
 
 1. $y''+y=\sec x$
 1. $y''+y=\tan x$
-1. $y''+y=\operatorname{sen}x$
+1. $y''+y=\mathop{\mathrm{sen}}\nolimits x$
 1. $y''+y=\sec\theta\tan\theta$
 1. $y''+y=\cos^2x$
 1. $y''+y=\sec^2x$
 1. $y''-y=\cosh x$
-1. $y''-y=\operatorname{senh}2x$
+1. $y''-y=\mathop{\mathrm{senh}}\nolimits 2x$
 1. $y''-4y=e^{2x}/x$
 1. $y''-9y=9x/e^{3x}$
 1. $y''+3y'+2y=1/(1+e^x)$
 1. $y''-2y'+y=e^x/(1+x^2)$
-1. $y''+3y'+2y=\operatorname{sen}e^x$
+1. $y''+3y'+2y=\mathop{\mathrm{sen}}\nolimits e^x$
 1. $y''-2y'+y=e^t\arctan t$
 1. $y''+2y'+y=e^{-t}\ln t$
 1. $2y''+2y'+y=4\sqrt{x}$
@@ -410,11 +411,11 @@ Determine la solución general de la ecuación homogénea.
 
 23. $x^2y''+xy'+(x^2-\frac14)y=x^{3/2};$
 
-    $y_1=x^{-1/2}\cos x,\ y_2=x^{-1/2}\operatorname{sen}x$
+    $y_1=x^{-1/2}\cos x,\ y_2=x^{-1/2}\mathop{\mathrm{sen}}\nolimits x$
 
 01. $x^2y''+xy'+y=\sec(\ln x);$
 
-    $y_1=\cos(\ln x),\ y_2=\operatorname{sen}(\ln x)$
+    $y_1=\cos(\ln x),\ y_2=\mathop{\mathrm{sen}}\nolimits (\ln x)$
 
 En los problemas 25 y 26 resuelva la ecuación diferencial de tercer orden usando
 variación de parámetros.
@@ -428,7 +429,7 @@ En los problemas 27 y 28 analice cómo pueden combinarse los métodos de
 coeficientes indeterminados y variación de parámetros para resolver la ecuación
 diferencial. Lleve a cabo sus ideas.
 
-27. $3y''-6y'+30y=15\operatorname{sen}x+e^x\tan3x$
+27. $3y''-6y'+30y=15\mathop{\mathrm{sen}}\nolimits x+e^x\tan3x$
 
 01. $y''-2y'+y=4x^2-3+x^{-1}e^x$
 

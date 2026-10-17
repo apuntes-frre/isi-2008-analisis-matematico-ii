@@ -15,7 +15,7 @@ Fuente: `Diferenciales.pdf`, página 1.
 
    a. $z=x\cos y-y\cos x$
 
-   b. $z=e^x\operatorname{sen}y$
+   b. $z=e^x\mathop{\mathrm{sen}}\nolimits y$
 
    c. $w(x,y,z)=\frac{x+y}{z-2y}$
 
@@ -24,7 +24,7 @@ Fuente: `Diferenciales.pdf`, página 1.
 
    a. $f(x,y)=9-x^2-y^2$
 
-   b. $f(x,y)=x\operatorname{sen}y$
+   b. $f(x,y)=x\mathop{\mathrm{sen}}\nolimits y$
 
    c. $f(x,y)=\frac{x}{y}$
 

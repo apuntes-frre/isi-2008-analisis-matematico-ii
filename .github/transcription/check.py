@@ -10,6 +10,7 @@ import argparse
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import string
 import subprocess
 from urllib.parse import unquote, urlsplit
 
@@ -21,6 +22,7 @@ PARSER = MarkdownIt("commonmark").enable("table").use(dollarmath_plugin)
 FORMAT_OPTIONS = {"wrap": 80, "compact_tables": True}
 CONTENT_DIRS = {"notes", "resources", "study-guides"}
 BAD_TEXT = re.compile(r"\ufffd|\(cid:\d+\)|[\ue000-\uf8ff\U000f0000-\U000ffffd\U00100000-\U0010fffd]")
+MARKDOWN_ESCAPE = re.compile(r"\\[" + re.escape(string.punctuation) + "]")
 
 
 def formatted(text: str) -> str:
@@ -34,7 +36,10 @@ def math_expressions(text: str) -> list[tuple[str, bool]]:
             expressions.append((token.content.strip(), True))
         for child in token.children or []:
             if child.type == "math_inline":
-                expressions.append((child.content, False))
+                content = child.content
+                if content.startswith("`") and content.endswith("`"):
+                    content = content[1:-1]
+                expressions.append((content, False))
     return expressions
 
 
@@ -119,6 +124,9 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
             for child in token.children or []:
                 if child.type in {"text", "math_inline"} and BAD_TEXT.search(child.content):
                     errors.append("carácter perdido, privado o marcador cid: revisar el original")
+                if child.type == "math_inline" and MARKDOWN_ESCAPE.search(child.content):
+                    if not (child.content.startswith("`") and child.content.endswith("`")):
+                        errors.append("GitHub altera escapes Markdown en LaTeX en línea; usar $`...`$")
         elif token.type.startswith("math_block") or token.type == "html_block":
             if BAD_TEXT.search(token.content):
                 errors.append("carácter perdido, privado o marcador cid: revisar el original")
@@ -184,6 +192,8 @@ Negación: $F = \overline{A}B + A\overline{B}$; fracción: $\frac{a_1}{2^n}$.
 
 Operador compatible con GitHub: $\mathop{\mathrm{sen}}\nolimits x$.
 
+Escapes protegidos: $`\{x\in\mathbb R\mid x>0\}`$ y $`x\,dx`$.
+
 $$
 \begin{bmatrix}
 a & b \\
@@ -207,6 +217,11 @@ $$
         errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
         if not any("GitHub rechaza" in error for error in errors):
             raise ValueError("No se detecta la macro que GitHub rechaza")
+    if math_expressions(r"$`x\,dx`$") != [(r"x\,dx", False)]:
+        raise ValueError("No se extrae la expresión protegida de GitHub")
+    errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(r"$x\,dx$"))
+    if not any("GitHub altera escapes" in error for error in errors):
+        raise ValueError("No se detecta el escape Markdown sin protección")
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 

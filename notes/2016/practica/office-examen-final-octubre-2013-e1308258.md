@@ -38,11 +38,12 @@ Ejercicio Nº 3
 
 Resuelva la siguiente ecuación diferencial:
 
-$\frac{d^2y(x)}{dx^2}+y(x)=x^2\operatorname{sen}(x)$
+$\frac{d^2y(x)}{dx^2}+y(x)=x^2\mathop{\mathrm{sen}}\nolimits (x)$
 
 Ejercicio Nº 4
 
-Encontrar las coordenadas del baricentro de $\{(x,y)\mid x^2/2\leq y\leq4-|x|\}$
+Encontrar las coordenadas del baricentro de
+$`\{(x,y)\mid x^2/2\leq y\leq4-|x|\}`$
 
 Ejercicio Nª 5
 

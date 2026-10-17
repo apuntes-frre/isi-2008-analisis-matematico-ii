@@ -23,8 +23,8 @@ Fuente: `Derivadas (1).pdf`, página 1.
 1. Hallar las pendientes en las direcciones de $x$ y de $y$ de la superficie
    dada por $f(x,y)=-\frac{x^2}{2}-y^2+\frac{25}{8}$ en el punto $(1/2,1,2)$.
 
-1. Mostrar que la función $f(x,y)=e^x\operatorname{sen}y$ satisface la ecuación
-   de Laplace
+1. Mostrar que la función $f(x,y)=e^x\mathop{\mathrm{sen}}\nolimits y$ satisface
+   la ecuación de Laplace
    $\frac{\partial^2 z}{\partial x^2}+\frac{\partial^2 z}{\partial y^2}=0$.
 
 1. ¿En qué puntos del dominio de $f(x,y)$ se anulan simultáneamente las

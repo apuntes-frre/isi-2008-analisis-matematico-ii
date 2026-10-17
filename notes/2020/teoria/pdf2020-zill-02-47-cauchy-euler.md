@@ -155,7 +155,7 @@ $$
 \frac{d^2y}{dx^2}+\frac b{ax}\frac{dy}{dx}+\frac c{ax^2}y=0
 $$
 
-y haciendo las identificaciones $P(x)=b/ax$ y $\int(b/ax)\,dx=(b/a)\ln x$. Así
+y haciendo las identificaciones $P(x)=b/ax$ y $`\int(b/ax)\,dx=(b/a)\ln x`$. Así
 
 $$
 \begin{aligned}
@@ -223,13 +223,13 @@ $$
 que, por la fórmula de Euler, es lo mismo que
 
 $$
-x^{i\beta}=\cos(\beta\ln x)+i\operatorname{sen}(\beta\ln x).
+x^{i\beta}=\cos(\beta\ln x)+i\mathop{\mathrm{sen}}\nolimits (\beta\ln x).
 $$
 
 De forma similar,
 
 $$
-x^{-i\beta}=\cos(\beta\ln x)-i\operatorname{sen}(\beta\ln x).
+x^{-i\beta}=\cos(\beta\ln x)-i\mathop{\mathrm{sen}}\nolimits (\beta\ln x).
 $$
 
 Si se suman y restan los dos últimos resultados, se obtiene
@@ -237,7 +237,7 @@ Si se suman y restan los dos últimos resultados, se obtiene
 $$
 x^{i\beta}+x^{-i\beta}=2\cos(\beta\ln x)
 \quad\text{y}\quad
-x^{i\beta}-x^{-i\beta}=2i\operatorname{sen}(\beta\ln x),
+x^{i\beta}-x^{-i\beta}=2i\mathop{\mathrm{sen}}\nolimits (\beta\ln x),
 $$
 
 respectivamente. Del hecho de que $y=C_1x^{\alpha+i\beta}+C_2x^{\alpha-i\beta}$
@@ -253,24 +253,24 @@ o
 
 $$
 y_1=2x^\alpha\cos(\beta\ln x)
-\quad\text{y}\quad y_2=2ix^\alpha\operatorname{sen}(\beta\ln x)
+\quad\text{y}\quad y_2=2ix^\alpha\mathop{\mathrm{sen}}\nolimits (\beta\ln x)
 $$
 
 también son soluciones. Como
-$W(x^\alpha\cos(\beta\ln x),x^\alpha\operatorname{sen}(\beta\ln x))
+$W(x^\alpha\cos(\beta\ln x),x^\alpha\mathop{\mathrm{sen}}\nolimits (\beta\ln x))
 =\beta x^{2\alpha-1}\ne0$, $\beta>0$ en el intervalo $(0,\infty)$, se concluye
 que
 
 $$
 y_1=x^\alpha\cos(\beta\ln x)\quad\text{y}\quad
-y_2=x^\alpha\operatorname{sen}(\beta\ln x)
+y_2=x^\alpha\mathop{\mathrm{sen}}\nolimits (\beta\ln x)
 $$
 
 constituyen un conjunto fundamental de soluciones reales de la ecuación
 diferencial. Así la solución general es
 
 $$
-y=x^\alpha[c_1\cos(\beta\ln x)+c_2\operatorname{sen}(\beta\ln x)]. \tag{4}
+y=x^\alpha[c_1\cos(\beta\ln x)+c_2\mathop{\mathrm{sen}}\nolimits (\beta\ln x)]. \tag{4}
 $$
 
 ### Ejemplo 3. Problema con valores iniciales
@@ -289,7 +289,7 @@ $m_1=\frac12+2i$ y $m_2=\frac12-2i$. Con las identificaciones $\alpha=\frac12$ y
 $\beta=2$ se ve de (4) que la solución general de la ecuación diferencial es
 
 $$
-y=x^{1/2}[c_1\cos(2\ln x)+c_2\operatorname{sen}(2\ln x)].
+y=x^{1/2}[c_1\cos(2\ln x)+c_2\mathop{\mathrm{sen}}\nolimits (2\ln x)].
 $$
 
 Aplicando las condiciones iniciales $y(1)=-1$, $y'(1)=-\frac12$ la solución
@@ -333,7 +333,7 @@ $$
 
 En este caso veremos que $y=x^m$ es una solución de la ecuación diferencial para
 $m_1=-2$, $m_2=2i$ y $m_3=-2i$. Por tanto, la solución general es
-$y=c_1x^{-2}+c_2\cos(2\ln x)+c_3\operatorname{sen}(2\ln x)$.
+$y=c_1x^{-2}+c_2\cos(2\ln x)+c_3\mathop{\mathrm{sen}}\nolimits (2\ln x)$.
 
 El método de coeficientes indeterminados que se describió en las secciones 4.5 y
 4.6 no se aplica, *en general*, a las ecuaciones diferenciales lineales con

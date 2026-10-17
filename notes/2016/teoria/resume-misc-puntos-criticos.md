@@ -113,19 +113,19 @@ Los puntos críticos son: $(1,2)$; $(-1,-2)$; $(2,1)$; $(-2,-1)$.
   \begin{cases}f_{xx}=6x&f_{xy}=6y\\f_{yx}=6y&f_{yy}=6x\end{cases}
   $$
 
-Punto $(1,2)$ $\longrightarrow Hf(1,2)=\begin{pmatrix}6&12\\12&6\end{pmatrix}$
+Punto $(1,2)$ $`\longrightarrow Hf(1,2)=\begin{pmatrix}6&12\\12&6\end{pmatrix}`$
 $\longrightarrow |H|=36-144<0\Rightarrow(1,2)$ es punto de silla.
 
 Punto $(-1,-2)$
-$\longrightarrow Hf(-1,-2)=\begin{pmatrix}-6&-12\\-12&-6\end{pmatrix}$
+$`\longrightarrow Hf(-1,-2)=\begin{pmatrix}-6&-12\\-12&-6\end{pmatrix}`$
 $\longrightarrow |H|=36-144<0\Rightarrow(-1,-2)$ es punto de silla.
 
-Punto $(2,1)$ $\longrightarrow Hf(2,1)=\begin{pmatrix}12&6\\6&12\end{pmatrix}$
+Punto $(2,1)$ $`\longrightarrow Hf(2,1)=\begin{pmatrix}12&6\\6&12\end{pmatrix}`$
 $\longrightarrow |H|=144-36>0$; $A>0\Rightarrow(2,1)$ es un mínimo local. Su
 valor es $f(2,1)=-28$.
 
 Punto $(-2,-1)$
-$\longrightarrow Hf(-2,-1)=\begin{pmatrix}-12&-6\\-6&-12\end{pmatrix}$
+$`\longrightarrow Hf(-2,-1)=\begin{pmatrix}-12&-6\\-6&-12\end{pmatrix}`$
 $\longrightarrow |H|=144-36>0$; $A<0\Rightarrow(-2,-1)$ es un máximo local. Su
 valor es $f(-2,-1)=28$.
 
@@ -232,7 +232,7 @@ $\nabla f(x_0,y_0)=(0,0)$.
 
 Normalmente la clasificación de los puntos críticos de una función de varias
 variables se hace estudiando la forma cuadrática
-$Hf(x_0,y_0)=\begin{pmatrix}A&B\\B&C\end{pmatrix}$. Los criterios de
+$`Hf(x_0,y_0)=\begin{pmatrix}A&B\\B&C\end{pmatrix}`$. Los criterios de
 clasificación pueden verse en Sydsaeter pp. 420 y ss.
 
 ### Nota 3
@@ -262,8 +262,8 @@ XHX^T=XCDC^TX^T\Rightarrow XHX^T=(XC)D(XC)^T
 $$
 
 Si $X=(x,y)$ y $\lambda_1$ y $\lambda_2$ son los autovalores de matriz $H$, con
-autovectores asociados $\begin{pmatrix}u_1\\u_2\end{pmatrix}$ y
-$\begin{pmatrix}v_1\\v_2\end{pmatrix}$, ortonormales, entonces
+autovectores asociados $`\begin{pmatrix}u_1\\u_2\end{pmatrix}`$ y
+$`\begin{pmatrix}v_1\\v_2\end{pmatrix}`$, ortonormales, entonces
 
 $$
 (x,y)H\begin{pmatrix}x\\y\end{pmatrix}
@@ -294,21 +294,21 @@ $$
 =\lambda_1(x^2+y^2)+\lambda_2(x^2+y^2)
 $$
 
-Esto indica que el signo de $(x,y)H\begin{pmatrix}x\\y\end{pmatrix}$ depende de
-$\lambda_1$ y $\lambda_2$, pues $(x^2+y^2)\ge0$ siempre. (Recuérdese que si $C$
-es ortogonal, entonces: $(u_1,u_2)\cdot(u_1,u_2)=1$ y
+Esto indica que el signo de $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}`$ depende
+de $\lambda_1$ y $\lambda_2$, pues $(x^2+y^2)\ge0$ siempre. (Recuérdese que si
+$C$ es ortogonal, entonces: $(u_1,u_2)\cdot(u_1,u_2)=1$ y
 $(v_1,v_2)\cdot(v_1,v_2)=1$.)
 
 En consecuencia:
 
 - si ambos autovalores son positivos $\Rightarrow$
-  $(x,y)H\begin{pmatrix}x\\y\end{pmatrix}>0\Rightarrow f(x_0,y_0)\le f(x,y)$
+  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}>0\Rightarrow f(x_0,y_0)\le f(x,y)`$
   $\longrightarrow$ en $(x_0,y_0)$ se tiene un mínimo.
 - si ambos autovalores son negativos $\Rightarrow$
-  $(x,y)H\begin{pmatrix}x\\y\end{pmatrix}<0\Rightarrow f(x_0,y_0)\ge f(x,y)$
+  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}<0\Rightarrow f(x_0,y_0)\ge f(x,y)`$
   $\longrightarrow$ en $(x_0,y_0)$ se tiene un máximo.
 - si los autovalores tienen signos distintos $\Rightarrow$
-  $(x,y)H\begin{pmatrix}x\\y\end{pmatrix}$ toma signos distintos $\Rightarrow$
+  $`(x,y)H\begin{pmatrix}x\\y\end{pmatrix}`$ toma signos distintos $\Rightarrow$
   en $(x_0,y_0)$ se tiene un punto de silla.
 
 ### Nota 4
@@ -320,7 +320,7 @@ $$
 $$
 
 En efecto, la ecuación característica de
-$Hf(x_0,y_0)=\begin{pmatrix}A&B\\B&C\end{pmatrix}$ es
+$`Hf(x_0,y_0)=\begin{pmatrix}A&B\\B&C\end{pmatrix}`$ es
 
 $$
 \begin{vmatrix}A-\lambda&B\\B&C-\lambda\end{vmatrix}

@@ -58,7 +58,7 @@ origen si:
 
 $$
 f(x,y)=\begin{cases}
-\dfrac{y\operatorname{sen}x}{x}&\text{si }(x,y)\neq(0,y)\\
+\dfrac{y\mathop{\mathrm{sen}}\nolimits x}{x}&\text{si }(x,y)\neq(0,y)\\
 0&\text{si }(x,y)=(0,y)
 \end{cases}
 $$
@@ -68,7 +68,8 @@ si $x=g(y)$ es la trayectoria ortogonal que pasa por $(0,0)$ a la familia de
 curvas $y=Ce^{-2x}$.
 
 E3) Siendo $z=f(X)$ con $X=(t^2u,ut)$ calcular $z'_u$ para $(u,t)=(0,0)$ si z
-viene definida implícitamente por $xe^y-z+\operatorname{sen}(xz)=0$.
+viene definida implícitamente por
+$xe^y-z+\mathop{\mathrm{sen}}\nolimits (xz)=0$.
 
 E4) Dada la imagen de la función vectorial: $F(u,v)=(2uv,v^2,u^2-v)$:
 

@@ -21,14 +21,14 @@ componentes rectangulares son los tres números g(1), g(2), g(3). Es el radio
 vector del punto que tiene estos tres números como coordenadas cartesianas
 rectangulares. La longitud de este vector, cuyo punto de aplicación es el origen
 de los ejes y su extremo libre el punto mencionado, llamado su norma que
-designaremos por $\|g\|$ es el número no-negativo tal que:
+designaremos por $`\|g\|`$ es el número no-negativo tal que:
 
 $$
 \|g\|^2=[g(1)]^2+[g(2)]^2+[g(3)]^2=\sum_{r=1}^3[g(r)]^2\tag{1}
 $$
 
-Si en particular $\|g\|=1$, se dice que g es un vector unidad, llamado también
-“vector normal” o normalizado. Si $\|g\|=0$, entonces cada una de sus
+Si en particular $`\|g\|=1`$, se dice que g es un vector unidad, llamado también
+“vector normal” o normalizado. Si $`\|g\|=0`$, entonces cada una de sus
 componentes es cero y g es conocido como “vector cero”.
 
 La combinación lineal $c_1\cdot g_1+c_2\cdot g_2$ de dos vectores $g_{1}$ y
@@ -58,7 +58,7 @@ $$
 $$
 
 donde $\theta$ es el ángulo formado por los dos vectores que está definido
-cuando ninguno de los dos es el vector cero. Cuando $\|g_2\|=1$, entonces
+cuando ninguno de los dos es el vector cero. Cuando $`\|g_2\|=1`$, entonces
 ($g_{1}$,$g_{2}$) es la proyección de $g_{1}$ sobre la dirección de $g_{2}$. Se
 desprende, que la condición para que dos vectores no-cero “sean ortogonales”, es
 decir, el uno perpendicular al otro, puede escribirse:
@@ -83,7 +83,7 @@ a partir de él, un sistema de vectores unidad $\varphi_{n}$ que tengan las
 mismas direcciones dividiendo cada vector por su longitud. Los componentes de
 $\varphi_{1}$, por ejemplo son:
 
-$\phi_1(r)=\|g_1\|^{-1}\cdot g_1(r)$ (r=1,2,3). Este nuevo sistema de vectores
+$`\phi_1(r)=\|g_1\|^{-1}\cdot g_1(r)`$ (r=1,2,3). Este nuevo sistema de vectores
 unidad mutuamente perpendiculares $\varphi_{n}$ se llama “sistema ortonormal”,
 tal sistema puede describirse por medio de productos interiores, poniendo:
 
@@ -264,10 +264,10 @@ que es una medida de la distancia media entre sus gráficas.
 ## Página PDF 23 — Hoja N° 22
 
 (n=1,2,…). Si ninguna de las funciones $g_{n}$ tiene norma cero cada función
-$g_{n}$ puede normalizarse sin más que dividirla por la constante $\|g_n\|$. La
-nueva sucesión así obtenida
+$g_{n}$ puede normalizarse sin más que dividirla por la constante $`\|g_n\|`$.
+La nueva sucesión así obtenida
 
-$\phi_n(x)=\|g_n\|^{-1}\cdot g_n(x)$ (n=1,2,…) es normal (longitud unitaria) y
+$`\phi_n(x)=\|g_n\|^{-1}\cdot g_n(x)`$ (n=1,2,…) es normal (longitud unitaria) y
 ortogonal, abreviadamente es “ortonormal”, en el intervalo, esto es,
 
 $$
@@ -290,14 +290,14 @@ interiores se llama Intervalo Fundamental. Podemos citar como ejemplo de una
 sucesión ortogonal de funciones a el conjunto
 
 $$
-\left\{\operatorname{sen}\frac{n\cdot\pi x}c\right\}\quad(n=1,2,3,\ldots)\tag{a}
+\left\{\mathop{\mathrm{sen}}\nolimits \frac{n\cdot\pi x}c\right\}\quad(n=1,2,3,\ldots)\tag{a}
 $$
 
 ortogonal en el intervalo (0,c). Todas las funciones de esta sucesión (a) tienen
 por norma: c/2 común y, por lo tanto, la sucesión ortonormal es el conjunto
 
 $$
-\left\{\sqrt{\frac2c}\cdot\operatorname{sen}\frac{n\cdot\pi x}c\right\}
+\left\{\sqrt{\frac2c}\cdot\mathop{\mathrm{sen}}\nolimits \frac{n\cdot\pi x}c\right\}
 \quad\forall\;0\le x\le c\;\wedge\;(n=1,2,\ldots)
 $$
 
@@ -310,7 +310,7 @@ ortogonal en el intervalo ($-\pi,\pi$) y su norma será $1/\sqrt\pi$.
 La doble sucesión:
 
 $$
-\{\operatorname{sen}x,\operatorname{sen}2x,\operatorname{sen}3x,\ldots,1,\cos x,\cos2x,\cos3x,\ldots\}
+\{\mathop{\mathrm{sen}}\nolimits x,\mathop{\mathrm{sen}}\nolimits 2x,\mathop{\mathrm{sen}}\nolimits 3x,\ldots,1,\cos x,\cos2x,\cos3x,\ldots\}
 $$
 
 es ortogonal en el intervalo ($-\pi,\pi$), obsérvese que incluye la
