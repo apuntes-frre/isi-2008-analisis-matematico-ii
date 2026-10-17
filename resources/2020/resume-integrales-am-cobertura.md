@@ -36,7 +36,7 @@ no son contenido docente y no se incorporan al apunte.
 
 Se preservan las erratas señaladas al final de la nota, entre ellas la dimensión
 indicada en las páginas 12 y 29 y el producto
-$\boldsymbol T_u\times\boldsymbol T_u$ de la página 27. No se resuelven los
+$`\boldsymbol T_u\times\boldsymbol T_u`$ de la página 27. No se resuelven los
 ejercicios de las páginas 28 y 32. No hay texto ni fórmulas pendientes de
 lectura.
 

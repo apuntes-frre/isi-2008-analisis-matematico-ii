@@ -18,29 +18,29 @@ EXAMEN FINAL AGOSTO DEL 2015 ANALISIS MATEMATICO II
 
 Ejercicio Nº 1
 
-a) Demostrar que $F=(x^3-2xy^3)\vec i-3x^2y^2\vec j$ es un campo vectorial
+a) Demostrar que $`F=(x^3-2xy^3)\vec i-3x^2y^2\vec j`$ es un campo vectorial
 gradiente.
 
 b) Evaluar la integral de F a lo largo de la trayectoria
 
-$$
+```math
 x=\cos^3\theta,\ y=\mathop{\mathrm{sen}}\nolimits ^3\theta,\quad0\leq\theta\leq\frac\pi2
-$$
+```
 
 Ejercicio Nº 2
 
-Hallar los puntos de la superficie $z^2-xy=1$ más cercanos al origen.
+Hallar los puntos de la superficie $`z^2-xy=1`$ más cercanos al origen.
 
 Ejercicio Nº 3
 
 ¿En qué dirección es igual a cero la derivada direccional de
-$f(x,y)=\frac{x^2-y^2}{x^2+y^2}$ en $(1,1)$?
+$`f(x,y)=\frac{x^2-y^2}{x^2+y^2}`$ en $`(1,1)`$?
 
 Ejercicio Nº 4
 
-a) Esbozar las curvas de nivel de $f(x,y)=-x^2-9y^2$ para $c=0,-1,-10$
+a) Esbozar las curvas de nivel de $`f(x,y)=-x^2-9y^2`$ para $`c=0,-1,-10`$
 
-b) Sobre este esbozo, trazar $\nabla f$ en $(1,1)$. Explique.
+b) Sobre este esbozo, trazar $`\nabla f`$ en $`(1,1)`$. Explique.
 
 ______________________________________________________________________
 
@@ -49,15 +49,15 @@ ______________________________________________________________________
 1\) **Enuncie** el Teorema de Derivación de las funciones compuestas (regla de la
 cadena).
 
-**Dada** $h(x;y)=f(x/y)$, verifique: $x.h'_x+y.h'_y=0$.
+**Dada** $`h(x;y)=f(x/y)`$, verifique: $`x.h'_x+y.h'_y=0`$.
 
 2\) **Defina** solución general y solución particular de una ecuación diferencial
-ordinaria de orden $n$. Dada $y''-y'=0$, **halle** la solución particular que en
-el punto $(0;y_0)$ tiene recta tangente de ecuación $y=2$.
+ordinaria de orden $`n`$. Dada $`y''-y'=0`$, **halle** la solución particular
+que en el punto $`(0;y_0)`$ tiene recta tangente de ecuación $`y=2`$.
 
 3\) **Defina** cómo son los coeficientes de una Serie de Fourier si a la función
-original, de período $2\pi$, se le produjo un desfasaje de $(\frac38\pi)$ y se
-duplicó la frecuencia. Represente gráficamente.
+original, de período $`2\pi`$, se le produjo un desfasaje de $`(\frac38\pi)`$ y
+se duplicó la frecuencia. Represente gráficamente.
 
 4\) **Desarrolle** las aplicaciones geométricas y físicas de las integrales
 múltiples.

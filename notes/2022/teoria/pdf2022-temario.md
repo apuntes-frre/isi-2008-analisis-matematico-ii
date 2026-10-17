@@ -11,10 +11,10 @@
 1. Solución del caso general, llamado caso de Bernoullie, en una ecuación
    diferencial de primer orden.
 1. Casos posibles de integración de campos escalares, cuando su dominio está
-   incluido en $\mathbb R^3$.
+   incluido en $`\mathbb R^3`$.
 1. Integración de campos vectoriales conservativos, considerar el caso de campos
-   cuyo dominio está incluido en $\mathbb R^2$.
+   cuyo dominio está incluido en $`\mathbb R^2`$.
 1. Concepto de flujo de campo vectorial.
-1. Longitud de arco de curva, cuando la misma está incluida en $\mathbb R^3$.
+1. Longitud de arco de curva, cuando la misma está incluida en $`\mathbb R^3`$.
 
 Nota de transcripción: se conserva «Bernoullie» del original.

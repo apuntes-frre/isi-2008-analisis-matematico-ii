@@ -14,37 +14,37 @@ El modelo matemático resultante corresponde a una ecuación diferencial que es
 resoluble según una metodología, explique los aspectos teóricos básicos.
 
 Sea la función
-$f(x,y):A \subset R^{2} \rightarrow R\text{/}\ f(x,y) = x\sin\left( \frac{1}{y} \right)$
-. 1-Describa su dominio 2- Obtenga $\lim_{(x,y) \rightarrow (0,0)}{f(x,y)}$
+$`f(x,y):A \subset R^{2} \rightarrow R\text{/}\ f(x,y) = x\sin\left( \frac{1}{y} \right)`$
+. 1-Describa su dominio 2- Obtenga $`\lim_{(x,y) \rightarrow (0,0)}{f(x,y)}`$
 
 Describa teóricamente las consideraciones que necesarias para justificar los
 resultados solicitados del ejercicio dado.
 
 Siendo
 
-$$
+```math
 f(x) = \left\{ \begin{array}{r}
 x + \frac{\pi}{2}\ \ \  - \pi < x < 0 \\
 - x + \frac{\pi}{2}\ \ 0 < x < \pi
 \end{array} \right.
-$$
+```
 
-con $f(x) = f(x + 2\pi)$, expresable como
-$f(x) = \frac{4}{\pi}(\cos x + \frac{1}{3^{2}}\cos{3x} + \frac{1}{5^{2}}\cos{5x\ } + \ldots)$.
+con $`f(x) = f(x + 2\pi)`$, expresable como
+$`f(x) = \frac{4}{\pi}(\cos x + \frac{1}{3^{2}}\cos{3x} + \frac{1}{5^{2}}\cos{5x\ } + \ldots)`$.
 Si considera necesario puede utilizar los datos dados para expresar el
 desarrollo de
 
-$$
+```math
 h(t) = \left\{ \begin{array}{r}
 t + 1\ \ \ \ \  - 1 < t < 0 \\
 - t + 1\ \ 0 < t < 1
 \end{array} \right.
-$$
+```
 
-con $h(t + 2) = h(t)$
+con $`h(t + 2) = h(t)`$
 
 Describa los aspectos teóricos básicos necesarios para obtener el desarrollo de
 Fourier del ejemplo dado.
 
-Calcular $\int_{0}^{1}{\int_{y}^{1}{e^{x^{2}}\ dx\ \ dy}}$ Expresar el resultado
-numérico con un decimal de aproximación.
+Calcular $`\int_{0}^{1}{\int_{y}^{1}{e^{x^{2}}\ dx\ \ dy}}`$ Expresar el
+resultado numérico con un decimal de aproximación.

@@ -54,9 +54,9 @@ proporcional.
 
 a. Expresión matemática de la producción en función de la capacidad.\\
 
-$$
+```math
 \frac{x^{2}}{60000^{2}} + \frac{y^{2}}{80000^{2}} + \frac{z^{2}}{120000^{2}} = 1
-$$
+```
 
 b.
 ![Figura del original](../../../resources/2020/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5/image2.png)Expresión
@@ -77,9 +77,9 @@ A (\$20 por unidad); B (\$10 por unidad); C (\$8 por unidad)
 
 a. Expresión matemática de la utilidad en función del costo:\\
 
-$$
+```math
 \frac{x^{2}}{{(20*60000)}^{2}} + \frac{y^{2}}{{(10*80000)}^{2}} + \frac{z^{2}}{{(8*120000)}^{2}} = 1
-$$
+```
 
 b. Expresión gráfica de la utilidad en función del costo:\
 ![Figura del original](../../../resources/2020/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5/image3.png)\
@@ -102,9 +102,9 @@ producción bajo condición máxima.
 a. Expresión matemática de la producción en función de la capacidad, con la
 producción mínima del 60% que impone el gobierno.\\
 
-$$
+```math
 \frac{x^{2}}{60000^{2}} + \frac{y^{2}}{80000^{2}} + \frac{z^{2}}{120000^{2}} = 1
-$$
+```
 
 , donde Z ≥ 72000,(que representa el barbijo común), ya que siempre trabaja a
 producción Máxima y esta no puede ser menor al 60% (72000)
@@ -113,7 +113,7 @@ b. Expresión gráfica de la producción en función de la capacidad.\
 ![Figura del original](../../../resources/2020/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5/image4.png)\
 dicha expresión gráfica corresponde a la gráfica de un elipsoide vertical en el
 origen de las coordenadas definido para el primer octante y todos los puntos de
-su superficie y su intersección del plano $Z=72000$, donde representan las
+su superficie y su intersección del plano $`Z=72000`$, donde representan las
 proporciones de producción entre barbijos comunes, industriales y quirúrgicos,
 cumpliendo con la producción mínima del 60% de barbijos comunes (Z)
 
@@ -123,9 +123,9 @@ cual es la condición de producción en términos matemáticos y gráficos.
 a. Expresión matemática de la utilidad en función del costo, con la producción
 mínima del 60% que impone el gobierno.\\
 
-$$
+```math
 \frac{x^{2}}{{(20*60000)}^{2}} + \frac{y^{2}}{{(10*80000)}^{2}} + \frac{z^{2}}{{(8*120000)}^{2}} = 1
-$$
+```
 
 , donde Z ≥ 160000, ya que la utilidad mínima que se obtiene por parte de los
 barbijos comunes, es de 160000(60% de las ventas de barbijos comunes).
@@ -134,7 +134,7 @@ b. Expresión gráfica de la utilidad en función del costo.\
 ![Figura del original](../../../resources/2020/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5/image5.png)\
 dicha expresión gráfica corresponde a la gráfica de un elipsoide horizontal en
 el origen de las coordenadas definido para el primer octante y todos los puntos
-de su superficie y su intersección del plano $Z=160000$, donde representan las
+de su superficie y su intersección del plano $`Z=160000`$, donde representan las
 proporciones de utilidad entre barbijos comunes, industriales y quirúrgicos,
 cumpliendo con la producción mínima del 60% de barbijos comunes (Z)\
 \
@@ -152,11 +152,11 @@ a. Gráficamente:\
 \
 dicha expresión gráfica corresponde a la gráfica de un elipsoide vertical en el
 origen de las coordenadas definido para el primer octante y todos los puntos de
-su superficie y su intersección con los planos plano $Z=72000$ (condición 1), y
-$Z=2Y$ (condición 2) donde representan las proporciones de producción entre
+su superficie y su intersección con los planos plano $`Z=72000`$ (condición 1),
+y $`Z=2Y`$ (condición 2) donde representan las proporciones de producción entre
 barbijos comunes, industriales y quirúrgicos, cumpliendo con la producción
-mínima del 60% de barbijos comunes ($Z=72000$) y 2 barbijos comunes por cada de
-tipo industrial($Z=2Y$).\
+mínima del 60% de barbijos comunes ($`Z=72000`$) y 2 barbijos comunes por cada
+de tipo industrial($`Z=2Y`$).\
 \
 \
 \
@@ -172,14 +172,14 @@ tipo industrial($Z=2Y$).\
 \
 \
 \
-Vista Lateral ($x=0$)\
+Vista Lateral ($`x=0`$)\
 ![Figura del original](../../../resources/2020/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5/image7.png)
 
 b. Analíticamente:\
 es posible mantener la producción al máximo, de 2 barbijos comunes, por cada
 barbijo industrial, y una producción mínima del 60% del barbijo en el segmento
-resultante entre los 2 puntos, definidos por la intersección de $Z=2Y$ y Z=
-72000, y $Z=2Y$ y las tangentes con el elipsoide vertical.
+resultante entre los 2 puntos, definidos por la intersección de $`Z=2Y`$ y Z=
+72000, y $`Z=2Y`$ y las tangentes con el elipsoide vertical.
 
 Intente una solución posible de cumplimiento, aunque sea aproximada y determine
 la utilidad de la empresa.\

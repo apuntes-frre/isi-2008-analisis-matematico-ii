@@ -33,12 +33,12 @@
 1. Calcular el área de la región limitada por las gráficas de las ecuaciones
    graficando previamente el recinto de integración:
 
-   a. $\sqrt{x}+\sqrt{y}=2,\ x=0,\ y=0$
+   a. $`\sqrt{x}+\sqrt{y}=2,\ x=0,\ y=0`$
 
-   b. $y=x^{3/2},\ y=2x$
+   b. $`y=x^{3/2},\ y=2x`$
 
-   c. $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$
+   c. $`\frac{x^2}{a^2}+\frac{y^2}{b^2}=1`$
 
 1. Hallar el volumen de los sólidos limitados por las superficies:
 
-   a. $z=\frac{y}{2}\quad\text{con }0\leq x\leq4,\ 0\leq y\leq2$
+   a. $`z=\frac{y}{2}\quad\text{con }0\leq x\leq4,\ 0\leq y\leq2`$

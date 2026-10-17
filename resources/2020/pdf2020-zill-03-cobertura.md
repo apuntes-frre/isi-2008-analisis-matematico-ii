@@ -89,17 +89,17 @@ sustituyen el texto de ecuaciones. Las dos tablas se mantienen en texto.
 - No se identificaron fragmentos ilegibles dentro del rango asignado. No quedan
   páginas, ejercicios ni soluciones impresas pendientes de esta parte.
 - PDF 61: se conserva que la ecuación del ejemplo 3 se llama «autónoma» después
-  de mencionar su dependencia explícita en $x$.
+  de mencionar su dependencia explícita en $`x`$.
 - PDF 66: se conserva la expresión «no hay fuerzas restauradoras» del
   planteamiento de movimiento libre.
 - PDF 69: se conserva la dirección «hacia arriba» impresa para el segundo paso
   por la posición de equilibrio.
-- PDF 73: se conserva «última ecuación homogénea» y el numerador $dx^2$ de la
+- PDF 73: se conserva «última ecuación homogénea» y el numerador $`dx^2`$ de la
   ecuación auxiliar impresa del ejemplo 6, cotejado en ampliación.
 - PDF 74: se mantienen las referencias «5.12a» y «5.12b» y la mención de
   «vibraciones libres amortiguadas» del texto.
-- PDF 77: se conserva $Z^2$, no $X^2$, en la primera igualdad que sigue a la
-  definición de $X$; ambas líneas se cotejaron en ampliación. También se
+- PDF 77: se conserva $`Z^2`$, no $`X^2`$, en la primera igualdad que sigue a la
+  definición de $`X`$; ambas líneas se cotejaron en ampliación. También se
   mantiene la referencia al «ejemplo 11» al final del ejemplo 10.
 - PDF 87: se conserva «masa del resorte» en la descripción de la cuerda.
 - PDF 90: se conserva «problema con valores iniciales» en la consigna de los

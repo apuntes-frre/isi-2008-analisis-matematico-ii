@@ -32,7 +32,7 @@ def formatted(text: str) -> str:
 def math_expressions(text: str) -> list[tuple[str, bool]]:
     expressions = []
     for token in PARSER.parse(text):
-        if token.type.startswith("math_block"):
+        if token.type.startswith("math_block") or (token.type == "fence" and token.info.strip() == "math"):
             expressions.append((token.content.strip(), True))
         for child in token.children or []:
             if child.type == "math_inline":
@@ -127,9 +127,11 @@ def check_text(root: Path, path: Path, text: str) -> list[str]:
                 if child.type == "math_inline" and MARKDOWN_ESCAPE.search(child.content):
                     if not (child.content.startswith("`") and child.content.endswith("`")):
                         errors.append("GitHub altera escapes Markdown en LaTeX en línea; usar $`...`$")
-        elif token.type.startswith("math_block") or token.type == "html_block":
+        elif token.type.startswith("math_block") or token.type == "html_block" or (token.type == "fence" and token.info.strip() == "math"):
             if BAD_TEXT.search(token.content):
                 errors.append("carácter perdido, privado o marcador cid: revisar el original")
+            if token.type.startswith("math_block") and (MARKDOWN_ESCAPE.search(token.content) or re.search(r"[*_<>]", token.content)):
+                errors.append("GitHub puede alterar metacaracteres Markdown en el bloque; usar un bloque ```math")
     output = formatted(text)
     equations = math_expressions(text)
     if equations != math_expressions(output):
@@ -194,12 +196,12 @@ Operador compatible con GitHub: $\mathop{\mathrm{sen}}\nolimits x$.
 
 Escapes protegidos: $`\{x\in\mathbb R\mid x>0\}`$ y $`x\,dx`$.
 
-$$
+```math
 \begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}
-$$
+```
 
 - [x] GFM
 
@@ -213,7 +215,7 @@ $$
     for expression, display in math_expressions(output):
         subprocess.run(["katex"] + (["--display-mode"] if display else []), input=expression,
                        text=True, check=True, stdout=subprocess.DEVNULL)
-    for source in [r"$\operatorname{sen}x$", "$$\n\\operatorname{sen}x\n$$"]:
+    for source in [r"$\operatorname{sen}x$", "$$\n\\operatorname{sen}x\n$$", "```math\n\\operatorname{sen}x\n```"]:
         errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(source))
         if not any("GitHub rechaza" in error for error in errors):
             raise ValueError("No se detecta la macro que GitHub rechaza")
@@ -222,6 +224,11 @@ $$
     errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted(r"$x\,dx$"))
     if not any("GitHub altera escapes" in error for error in errors):
         raise ValueError("No se detecta el escape Markdown sin protección")
+    if math_expressions("```math\nx+1\n```") != [("x+1", True)]:
+        raise ValueError("No se extrae el bloque matemático de GitHub")
+    errors = check_text(Path.cwd(), Path.cwd() / "self-test.md", formatted("$$\nx^*+\\left\\{x\\right\\}\n$$"))
+    if not any("GitHub puede alterar" in error for error in errors):
+        raise ValueError("No se detecta el bloque con metacaracteres sin protección")
     print("✓ GFM + LaTeX: preservación, idempotencia y renderizado comprobados")
 
 

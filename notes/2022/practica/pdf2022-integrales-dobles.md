@@ -15,41 +15,44 @@
 Ejercicios tomados de Stewart-Capítulo 15.
 
 **25.** Encuentre el volumen del sólido que está debajo del plano
-$4x+6y-2z+15=0$ y arriba del rectángulo
+$`4x+6y-2z+15=0`$ y arriba del rectángulo
 $`R=\{(x,y)\mid-1\leq x\leq2,-1\leq y\leq1\}`$.
 
 **26.** Determine el volumen del sólido que está debajo del paraboloide
-hiperbólico $z=3y^2-x^2+2$ arriba del rectángulo $R=[-1,1]\times[1,2]$.
+hiperbólico $`z=3y^2-x^2+2`$ arriba del rectángulo $`R=[-1,1]\times[1,2]`$.
 
 ## 17-22 Evalúe la integral doble
 
-**17.** $`\iint_D x\cos y\,dA`$, $D$ está acotada por $y=0$, $y=x^2$, $x=1$.
+**17.** $`\iint_D x\cos y\,dA`$, $`D`$ está acotada por $`y=0`$, $`y=x^2`$,
+$`x=1`$.
 
-**18.** $`\iint_D(x^2+2y)\,dA`$, $D$ está acotada por $y=x$, $y=x^3$, $x\geq0$.
+**18.** $`\iint_D(x^2+2y)\,dA`$, $`D`$ está acotada por $`y=x`$, $`y=x^3`$,
+$`x\geq0`$.
 
-**19.** $`\iint_D y^2\,dA`$, $D$ es la región triangular con vértices $(0,1)$,
-$(1,2)$ y $(4,1)$.
+**19.** $`\iint_D y^2\,dA`$, $`D`$ es la región triangular con vértices
+$`(0,1)`$, $`(1,2)`$ y $`(4,1)`$.
 
-**20.** $`\iint_D xy^2\,dA`$, $D$ está encerrada por $x=0$ y $x=\sqrt{1-y^2}$.
+**20.** $`\iint_D xy^2\,dA`$, $`D`$ está encerrada por $`x=0`$ y
+$`x=\sqrt{1-y^2}`$.
 
-**21.** $`\iint_D(2x-y)\,dA`$, $D$ está acotada por la circunferencia con centro
-en el origen y radio 2.
+**21.** $`\iint_D(2x-y)\,dA`$, $`D`$ está acotada por la circunferencia con
+centro en el origen y radio 2.
 
 ## 23-32 Encuentre el volumen del sólido dado
 
-**23.** Bajo el plano $x-2y+z=1$ y arriba de la región acotada por $x+y=1$ y
-$x^2+y=1$.
+**23.** Bajo el plano $`x-2y+z=1`$ y arriba de la región acotada por $`x+y=1`$ y
+$`x^2+y=1`$.
 
-**24.** Bajo la superficie $z=1+x^2y^2$ y arriba de la región acotada por
-$x=y^2$ y $x=4$.
+**24.** Bajo la superficie $`z=1+x^2y^2`$ y arriba de la región acotada por
+$`x=y^2`$ y $`x=4`$.
 
-**25.** Bajo de la superficie $z=xy$ y arriba del triángulo con vértices
-$(1,1)$, $(4,1)$ y $(1,2)$.
+**25.** Bajo de la superficie $`z=xy`$ y arriba del triángulo con vértices
+$`(1,1)`$, $`(4,1)`$ y $`(1,2)`$.
 
-**26.** Encerrado por el paraboloide $z=x^2+3y^2$ y los planos $x=0$, $y=1$,
-$y=x$, $z=0$.
+**26.** Encerrado por el paraboloide $`z=x^2+3y^2`$ y los planos $`x=0`$,
+$`y=1`$, $`y=x`$, $`z=0`$.
 
-**27.** Acotado por los planos coordenados y el plano $3x+2y+z=6$.
+**27.** Acotado por los planos coordenados y el plano $`3x+2y+z=6`$.
 
 ## Página 2 — 43-48 Bosqueje la región de integración y cambie el orden de integración
 
