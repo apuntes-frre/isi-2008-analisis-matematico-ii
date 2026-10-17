@@ -1,0 +1,4115 @@
+{
+  "canonical_source": "OneDrive-FacultadRegionalResistencia/Facultad/Materias Homogeneas/Analisis Matemático II",
+  "inventory_date": "2026-10-15",
+  "consolidated_date": "2026-10-16",
+  "file_count": 172,
+  "unique_sha256_count": 117,
+  "statuses_unique": {
+    "transcrito-atribucion-pendiente": 4,
+    "transcrito-revisado": 94,
+    "administrativo-excluido": 1,
+    "bibliografia-separada": 7,
+    "transcrito-con-limites-de-fuente": 4,
+    "identificatorio-excluido": 1,
+    "transcrito-con-fragmento-oculto-en-original": 1,
+    "transcrito-con-fragmentos-ocultos-en-original": 1,
+    "caratula-sin-contenido": 1,
+    "contenedor-deduplicado": 1,
+    "otra-materia-separada": 1,
+    "solucionario-separado": 1
+  },
+  "sources": [
+    {
+      "id": 1,
+      "source": "2016/2do_Parcial_IQ_2016.docx",
+      "archive_year": "2016",
+      "sha256": "f26d5b94928a15f78832f3c6455924d821dcb8ae1e075a0232ceaa0fa67a872f",
+      "bytes": 22986,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-2do-parcial-iq-2016-f26d5b94.md"
+      ],
+      "status": "transcrito-atribucion-pendiente",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "attribution": "material-externo-o-atribucion-pendiente",
+      "attribution_reason": "Nombre IQ; atribución a ISI no demostrada."
+    },
+    {
+      "id": 2,
+      "source": "2016/Análisis vectorial (1).pdf",
+      "archive_year": "2016",
+      "sha256": "da628be5df05a861c8879fe3598d791d0093491274f711f978dd5c412760379f",
+      "bytes": 388608,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-analisis-vectorial.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "source": "2016/Análisis vectorial.pdf",
+      "archive_year": "2016",
+      "sha256": "da628be5df05a861c8879fe3598d791d0093491274f711f978dd5c412760379f",
+      "bytes": 388608,
+      "pdf_pages": 2,
+      "duplicate_of": 2,
+      "outputs": [
+        "notes/2016/practica/pdf2016-analisis-vectorial.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "source": "2016/documento-identificatorio-excluido-249df690",
+      "archive_year": "2016",
+      "sha256": "249df690c649000e73672c45a2ef64b6aaaba31d67b844091a285f5005141194",
+      "bytes": 12279,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "administrativo-excluido",
+      "reason": "Listado identificatorio; no se publican datos personales.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 5,
+      "source": "2016/Calculo 2 de varias variables - Larson 9 Ed (1).pdf",
+      "archive_year": "2016",
+      "sha256": "d353560131adea3ca51a84ce77992a632d276ac118e4a7e3d120d8b8a4301190",
+      "bytes": 58511233,
+      "pdf_pages": 526,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Cálculo 2 de varias variables. Ron Larson y Bruce H. Edwards. Novena edición, McGraw-Hill 2010, ISBN 978-970-10-7134-2. Portada y legales PDF 5–6.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 6,
+      "source": "2016/Consideraciones sobre Series de Fourier.pdf",
+      "archive_year": "2016",
+      "sha256": "d051fd73983dfffa7583db8f924b14dc6ff68e085f5b124f07c538f568de9dc9",
+      "bytes": 478956,
+      "pdf_pages": 6,
+      "duplicate_of": null,
+      "status": "transcrito-revisado",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "losses": [],
+      "outputs": [
+        "notes/2016/teoria/resume-teoria-consideraciones-series-fourier.md"
+      ]
+    },
+    {
+      "id": 7,
+      "source": "2016/Derivadas (1).pdf",
+      "archive_year": "2016",
+      "sha256": "f31924fc8772bdd04f7ea07897071d29a45f71dc52b071a3609477c0a4d52c7c",
+      "bytes": 491504,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-derivadas-parciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "source": "2016/Derivadas.pdf",
+      "archive_year": "2016",
+      "sha256": "f31924fc8772bdd04f7ea07897071d29a45f71dc52b071a3609477c0a4d52c7c",
+      "bytes": 491504,
+      "pdf_pages": 1,
+      "duplicate_of": 7,
+      "outputs": [
+        "notes/2016/practica/pdf2016-derivadas-parciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "source": "2016/Diferenciales BIS.docx",
+      "archive_year": "2016",
+      "sha256": "eed625bc514ad61ec2772547eb080f3616eb63debe7750588b9a6b9c1383a07a",
+      "bytes": 15221,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-diferenciales-bis-eed625bc.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 10,
+      "source": "2016/Diferenciales.docx",
+      "archive_year": "2016",
+      "sha256": "eed625bc514ad61ec2772547eb080f3616eb63debe7750588b9a6b9c1383a07a",
+      "bytes": 15221,
+      "pdf_pages": null,
+      "duplicate_of": 9,
+      "outputs": [
+        "notes/2016/practica/office-diferenciales-bis-eed625bc.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "source": "2016/Diferenciales.pdf",
+      "archive_year": "2016",
+      "sha256": "aa463643dea563d1d43bb2856273135d22634dc157748742d7a18ced3e9385d4",
+      "bytes": 429187,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-diferenciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "source": "2016/Espacio Métrico.pdf",
+      "archive_year": "2016",
+      "sha256": "76b592cff32df803867c0be7509cbebce81f46363d94be871f93bce475fd4648",
+      "bytes": 325594,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-espacio-metrico.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "source": "2016/Evaluación 3.docx",
+      "archive_year": "2016",
+      "sha256": "c3dbf26490a6b03c746cb61d27ff0f6df9d085575ce873d66ccdb87b6ce140a3",
+      "bytes": 129778,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-evaluacion-3-c3dbf264.md"
+      ],
+      "status": "transcrito-atribucion-pendiente",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "attribution": "material-externo-o-atribucion-pendiente"
+    },
+    {
+      "id": 14,
+      "source": "2016/Extremos condicionados.pdf",
+      "archive_year": "2016",
+      "sha256": "d884d40f2f40675e17855d27383134413497907bfe3677fb0d9cc5a96936e1fc",
+      "bytes": 287581,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-extremos-condicionados.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "source": "2016/Extremos_absolutos_y_relativos.pdf",
+      "archive_year": "2016",
+      "sha256": "deb4ef3e05937e3e9557087c9c62a4cb5fefe7565b3568d5cffde5dde0a62707",
+      "bytes": 581754,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-extremos-absolutos-y-relativos.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 16,
+      "source": "2016/Funciones de dos o más variables.pdf",
+      "archive_year": "2016",
+      "sha256": "e0f38d684e896ef8d93f07c3e6e801035f982882e408aa3b009398677c5d2f04",
+      "bytes": 781723,
+      "pdf_pages": 4,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-funciones-de-dos-o-mas-variables.md"
+      ],
+      "status": "transcrito-con-limites-de-fuente",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [
+        "Etiquetas pequeñas borrosas de la figura final; imagen original conservada."
+      ]
+    },
+    {
+      "id": 17,
+      "source": "2016/Funciones_vectoriales.pdf",
+      "archive_year": "2016",
+      "sha256": "fa54e1ff334cfc21455c6d01e3be3daada5b32be99863e2fdd8b47de24e6504a",
+      "bytes": 302829,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-funciones-vectoriales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "source": "2016/Gradiente.pdf",
+      "archive_year": "2016",
+      "sha256": "093d85e918e12a62438e776133a0e237c3a502ed53f4ccfc2984c8e9f773047f",
+      "bytes": 482449,
+      "pdf_pages": 3,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-gradiente.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "source": "2016/Gráfica de funciones de dos variables.pdf",
+      "archive_year": "2016",
+      "sha256": "ec8d56fc8042f0ce726b877e69c9c4c2dd842f75cd2e1eec6dcbcedd1c49aea3",
+      "bytes": 448237,
+      "pdf_pages": 9,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 7,
+        "figures": 10,
+        "definitions": 4
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-grafica-funciones-dos-variables.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 20,
+      "source": "2016/Gráficas Cuádricas.pdf",
+      "archive_year": "2016",
+      "sha256": "97e56cb8a4db202d1a927a3a98466cdbc85ed0990f082d23095e6aeb4daaa9b3",
+      "bytes": 117705,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-graficas-cuadricas.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "source": "2016/Guia completa TP.pdf",
+      "archive_year": "2016",
+      "sha256": "81904abdbf3a7b1f30e98ca1d94690f9ce5c9f797e5893ae5601d54833cc12bd",
+      "bytes": 669066,
+      "pdf_pages": 30,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-guia-completa-tp.md"
+      ],
+      "status": "transcrito-con-limites-de-fuente",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "losses": [
+        "Glifos no representados por el PDF en ejercicios 108 y 111; marcados sin reconstrucción."
+      ]
+    },
+    {
+      "id": 22,
+      "source": "2016/Integrales de línea.pdf",
+      "archive_year": "2016",
+      "sha256": "82f202de675475aa05074c207f57a65b42fbc77406c12896f356a9651db79f08",
+      "bytes": 577275,
+      "pdf_pages": 3,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-integrales-de-linea.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 23,
+      "source": "2016/Integrales.pdf",
+      "archive_year": "2016",
+      "sha256": "68e0519be849eb9f920ac5d44ff32ec51004f230497282ea931306da70e8cc4c",
+      "bytes": 473896,
+      "pdf_pages": 29,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-integrales-multiples.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": 24,
+      "source": "2016/Interpretacion_geometrica_de_la_derivada_parcial (1).pdf",
+      "archive_year": "2016",
+      "sha256": "70536437b847c0b3bc55691b2e9618fbe3ccc746c28bda061e9cdae6e51c53ef",
+      "bytes": 328940,
+      "pdf_pages": 4,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 2,
+        "figures": 5,
+        "theorems": 1,
+        "figure_groups": 3
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 25,
+      "source": "2016/Interpretacion_geometrica_de_la_derivada_parcial.pdf",
+      "archive_year": "2016",
+      "sha256": "70536437b847c0b3bc55691b2e9618fbe3ccc746c28bda061e9cdae6e51c53ef",
+      "bytes": 328940,
+      "pdf_pages": 4,
+      "duplicate_of": 24,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 2,
+        "figures": 5,
+        "theorems": 1,
+        "figure_groups": 3
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 26,
+      "source": "2016/Interpretación geométrica de la derivada parcial (1).pdf",
+      "archive_year": "2016",
+      "sha256": "70536437b847c0b3bc55691b2e9618fbe3ccc746c28bda061e9cdae6e51c53ef",
+      "bytes": 328940,
+      "pdf_pages": 4,
+      "duplicate_of": 24,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 2,
+        "figures": 5,
+        "theorems": 1,
+        "figure_groups": 3
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 27,
+      "source": "2016/Interpretación geométrica de la derivada parcial.pdf",
+      "archive_year": "2016",
+      "sha256": "70536437b847c0b3bc55691b2e9618fbe3ccc746c28bda061e9cdae6e51c53ef",
+      "bytes": 328940,
+      "pdf_pages": 4,
+      "duplicate_of": 24,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 2,
+        "figures": 5,
+        "theorems": 1,
+        "figure_groups": 3
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 28,
+      "source": "2016/Límites y Continuidad(1).docx",
+      "archive_year": "2016",
+      "sha256": "da57352e6852a55dfe6a4235f797ac53ca322bc053fcf0c15fc391b2bd911c6e",
+      "bytes": 17766,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-limites-y-continuidad-1-da57352e.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 29,
+      "source": "2016/Límites y continuidad.docx",
+      "archive_year": "2016",
+      "sha256": "fd2ed1c36cb75cdc0ef9aeb1649796f27d4f5f8360418ee71af246bb1b504591",
+      "bytes": 11654,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-limites-y-continuidad-fd2ed1c3.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "source": "2016/Modelos Exámenes Finales/Diferenciales BIS.docx",
+      "archive_year": "2016",
+      "sha256": "3746bd935fcbba91b01c4461fe553b0a60e6d92a607e23c614e7bab356cfa9fc",
+      "bytes": 20446,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-diferenciales-bis-3746bd93.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "source": "2016/Modelos Exámenes Finales/EXAMEN FINAL 15-10-14.doc",
+      "archive_year": "2016",
+      "sha256": "a5a837d673193c5698c44b37f6395443143430ce1efa6b3e8254aee48e2ad2ae",
+      "bytes": 76288,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-15-10-14-a5a837d6.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 32,
+      "source": "2016/Modelos Exámenes Finales/EXAMEN FINAL abril 2015.docx",
+      "archive_year": "2016",
+      "sha256": "2d848173eb215f98f3f294cd1eda32b935415984c764f0ad02e95d22d11fe024",
+      "bytes": 15474,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-abril-2015-2d848173.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 33,
+      "source": "2016/Modelos Exámenes Finales/Examen Final  09-2012.docx",
+      "archive_year": "2016",
+      "sha256": "f411a299249375444978148dc615a8efed18ee25ca47f973f06004d4c4196e38",
+      "bytes": 21618,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-09-2012-f411a299.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2012,
+      "printed_date": "05/09/2012"
+    },
+    {
+      "id": 34,
+      "source": "2016/Modelos Exámenes Finales/Examen Final 01 08 2012.docx",
+      "archive_year": "2016",
+      "sha256": "cc2b304a16a269635ceb3a1a6cadf9afa811b3738d7debd02144e63f527da747",
+      "bytes": 12910,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-01-08-2012-cc2b304a.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 35,
+      "source": "2016/Modelos Exámenes Finales/Examen Final Octubre 2013.docx",
+      "archive_year": "2016",
+      "sha256": "e130825804382a86225cfb5a8952ecdbff685106b0269271df48337f5897e2d9",
+      "bytes": 19062,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-octubre-2013-e1308258.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "printed_year": 2013,
+      "printed_date": "16/10/2013"
+    },
+    {
+      "id": 36,
+      "source": "2016/Modelos Exámenes Finales/ExamenFinal11-04-2012.docx",
+      "archive_year": "2016",
+      "sha256": "5b646805aee4eade08c8f3e8ad005c904b4be61c19f75c37187b473dd37fbbd0",
+      "bytes": 16285,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-examenfinal11-04-2012-5b646805.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 37,
+      "source": "2016/Modelos Exámenes Finales/Final ANA2 Julio 2015.docx",
+      "archive_year": "2016",
+      "sha256": "150daf1755c224364e8c9657b65b2037ee5888d4500f4f766f6f9c2fc8883193",
+      "bytes": 13393,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-final-ana2-julio-2015-150daf17.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 38,
+      "source": "2016/Modelos Exámenes Finales/ex_fin_15_12_2010[1].docx",
+      "archive_year": "2016",
+      "sha256": "b7896a58a17199ba0eca6a007281f430132b7df556114393a9152567e5e10ec1",
+      "bytes": 14889,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-ex-fin-15-12-2010-1-b7896a58.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 39,
+      "source": "2016/Modelos Exámenes Finales/ex_final_23-2-11[1].docx",
+      "archive_year": "2016",
+      "sha256": "be3df17ff38e3aa7bc6d7dd78016f18a91b63139a7785ab617c333db0520d001",
+      "bytes": 13662,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-ex-final-23-2-11-1-be3df17f.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 40,
+      "source": "2016/Modelos Exámenes Finales/ex_final_9-2-11[1].docx",
+      "archive_year": "2016",
+      "sha256": "b4eb29d78628a622fa555c4f1201c10ba346c71e2fb997c70574f0ae8b61ad07",
+      "bytes": 22801,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-ex-final-9-2-11-1-b4eb29d7.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 41,
+      "source": "2016/Modelos Exámenes Finales/exam final 5ago 2015.doc",
+      "archive_year": "2016",
+      "sha256": "46dfb1c1c620526db5a28e402c0c3e0db50b2fd9d6c587653460d4c03e91e48e",
+      "bytes": 98816,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-exam-final-5ago-2015-46dfb1c1.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2015,
+      "printed_date": "agosto de 2015"
+    },
+    {
+      "id": 42,
+      "source": "2016/Modelos Exámenes Finales/final diciembre 2012.docx",
+      "archive_year": "2016",
+      "sha256": "2615883009699c100e6215a4adc49a9ce3d1997ab48dfbba9f43cae4007d378a",
+      "bytes": 13212,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-final-diciembre-2012-26158830.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2012,
+      "printed_date": "05/12/2012"
+    },
+    {
+      "id": 43,
+      "source": "2016/Modelos Exámenes Finales/final julio.docx",
+      "archive_year": "2016",
+      "sha256": "5337d5964e6d736b357ea3eceaa63ed7138cbd22c90197cb3e2ed25b87611352",
+      "bytes": 15784,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-final-julio-5337d596.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "printed_year": 2012,
+      "printed_date": "11/07/2012"
+    },
+    {
+      "id": 44,
+      "source": "2016/Modelos Exámenes Finales/final.docx",
+      "archive_year": "2016",
+      "sha256": "0aae5398549bd22a33f33bac48e99d1f08cffd6c0caa91e0e1a03cf0f3e0dfdc",
+      "bytes": 14183,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-final-0aae5398.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 45,
+      "source": "2016/Modelos Exámenes Finales/prop final 19 de diciembre 2014_2.docx",
+      "archive_year": "2016",
+      "sha256": "a467c3c12f88dd466df570b1a6d8bd0226a62c9d51236b8132ee0ca33feb274c",
+      "bytes": 14924,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-prop-final-19-de-diciembre-2014-2-a467c3c1.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2014,
+      "printed_date": "19/12/2014"
+    },
+    {
+      "id": 46,
+      "source": "2016/Modelos de ejercicios (1).docx",
+      "archive_year": "2016",
+      "sha256": "601e75625210a3149f1f60e84a9672a584cd73a1c09e4251b44ea49cc0ccb11e",
+      "bytes": 24742,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "source": "2016/Modelos de ejercicios (2).docx",
+      "archive_year": "2016",
+      "sha256": "601e75625210a3149f1f60e84a9672a584cd73a1c09e4251b44ea49cc0ccb11e",
+      "bytes": 24742,
+      "pdf_pages": null,
+      "duplicate_of": 46,
+      "outputs": [
+        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 48,
+      "source": "2016/Modelos de ejercicios(3).docx",
+      "archive_year": "2016",
+      "sha256": "601e75625210a3149f1f60e84a9672a584cd73a1c09e4251b44ea49cc0ccb11e",
+      "bytes": 24742,
+      "pdf_pages": null,
+      "duplicate_of": 46,
+      "outputs": [
+        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 49,
+      "source": "2016/Modelos de ejercicios.docx",
+      "archive_year": "2016",
+      "sha256": "601e75625210a3149f1f60e84a9672a584cd73a1c09e4251b44ea49cc0ccb11e",
+      "bytes": 24742,
+      "pdf_pages": null,
+      "duplicate_of": 46,
+      "outputs": [
+        "notes/2016/practica/office-modelos-de-ejercicios-1-601e7562.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 50,
+      "source": "2016/PREGUNTAS TEORICAS DE FINALES DE ANALISIS II.docx",
+      "archive_year": "2016",
+      "sha256": "c7c838f983da848ad4d5b5f23b135453756f3b22cfbac74d858cc5992e186807",
+      "bytes": 17387,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/office-preguntas-teoricas-de-finales-de-analisis-ii-c7c838f9.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 51,
+      "source": "2016/documento-identificatorio-excluido-65d93eb3",
+      "archive_year": "2016",
+      "sha256": "65d93eb36c7ffe10a1eb0dc4e53f8d11c1bf82afb2095db185f17e12a3a86336",
+      "bytes": 130790,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "identificatorio-excluido",
+      "reason": "Versión nominativa de evaluación; se conserva la versión no nominativa en la transcripción de Evaluación 3. No se publican datos personales.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 52,
+      "source": "2016/Práctica 4°parcial.pdf",
+      "archive_year": "2016",
+      "sha256": "f841293a1657801ff36ae4d7b4d80d8c141cfc3b29e54bc192ee28db6666574a",
+      "bytes": 318271,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-practica-cuarto-parcial.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 53,
+      "source": "2016/Presentación ISI.ppsx",
+      "archive_year": "2016",
+      "sha256": "f9625638a3bc6750ba1a57c6643b77e066b47e4cb06103780e1b6ffe9f8294a9",
+      "bytes": 100697,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/office-presentacion-isi-f9625638.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": 54,
+      "source": "2016/Problemas ecuaciones Diferenciales.pdf",
+      "archive_year": "2016",
+      "sha256": "81bf4a15fb4b12dc44ca4c8a94cf3a933b25dea70abaf83447dd2bdc34497dc2",
+      "bytes": 290322,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/pdf2016-aplicaciones-edo-primer-orden.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 55,
+      "source": "2016/Puntos criticos.pdf",
+      "archive_year": "2016",
+      "sha256": "ee906476edc881400cbdba4a6f54e3af0b4fcda6c021ef802f3cf7d1410c6e39",
+      "bytes": 128988,
+      "pdf_pages": 5,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "losses": [],
+      "author": "José María Martínez Mediano",
+      "printed_year": null,
+      "counts": {
+        "examples": 7,
+        "figures": 7,
+        "notes": 4
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-puntos-criticos.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 56,
+      "source": "2016/Qué esperamos del estudiante.pdf",
+      "archive_year": "2016",
+      "sha256": "a45b53c14dc56f254ab544075761e387526629bd6179a9a2b78cbc4a47befe29",
+      "bytes": 40639,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-que-esperamos-del-estudiante.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 57,
+      "source": "2016/Resumen cuadricas.pdf",
+      "archive_year": "2016",
+      "sha256": "9f2ff6593e3ce9be0a47efbb49a5291061b91bd7c38b3ce833d3574da1decdcc",
+      "bytes": 2172189,
+      "pdf_pages": 4,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "exercises": 7,
+        "examples": 3,
+        "figures": 5,
+        "tables": 1
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-resumen-cuadricas.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 58,
+      "source": "2016/Series de Fourier- Práctica.pdf",
+      "archive_year": "2016",
+      "sha256": "2450a37dd647a328a5926335be4b06834f5c975bb44f9796e36be85eeab9493c",
+      "bytes": 402940,
+      "pdf_pages": 3,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "exercises": 11,
+        "figures": 3
+      },
+      "outputs": [
+        "notes/2016/practica/resume-misc-series-fourier.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 59,
+      "source": "2016/Series de Fourier.pdf",
+      "archive_year": "2016",
+      "sha256": "9f1f944b3949952f8afa409575d5f39b5b664b9ce9d59f87f2536faf70276010",
+      "bytes": 1384941,
+      "pdf_pages": 22,
+      "duplicate_of": null,
+      "status": "transcrito-con-fragmento-oculto-en-original",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "losses": [
+        "Página 13: parte de última viñeta y fórmula tapadas por recuadro de a_n en el PDF original; marcado explícitamente."
+      ],
+      "outputs": [
+        "notes/2016/teoria/resume-teoria-series-fourier.md"
+      ]
+    },
+    {
+      "id": 60,
+      "source": "2016/Sist de fn implícitas y derivadas.jpg",
+      "archive_year": "2016",
+      "sha256": "2ea37a837873488bde410e1b602b1f9245068b48881d442ff3d68f485b244271",
+      "bytes": 33814,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "figures": 1
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-sistema-funciones-implicitas.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 61,
+      "source": "2016/Taylor en dos variables.docx",
+      "archive_year": "2016",
+      "sha256": "24c0fef04c8ca7be8454121901b3e1c5b34b3513c17a44e11f43666e1889c6ca",
+      "bytes": 697378,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/office-taylor-en-dos-variables-24c0fef0.md"
+      ],
+      "status": "transcrito-con-fragmentos-ocultos-en-original",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "losses": [
+        {
+          "figure": 6,
+          "location": "coeficiente del término x^3, entre los fragmentos 7.0 y 132017",
+          "cause": "cifras parcialmente tapadas por eje verde y trazos de gráfica",
+          "treatment": "marcador editorial en LaTeX; no se infieren dígitos"
+        },
+        {
+          "figure": 6,
+          "location": "final de la expresión después de -2",
+          "cause": "no visible en la captura original, paréntesis sin cierre",
+          "treatment": "fragmento abierto y marcador editorial, sin completar"
+        }
+      ],
+      "printed_year": null,
+      "counts": {
+        "figures": 13,
+        "source_document_pages": 7
+      }
+    },
+    {
+      "id": 62,
+      "source": "2016/Teórico Ecuaciones diferenciales.pdf",
+      "archive_year": "2016",
+      "sha256": "97a5e4f9889d33dfc28a3e4511ee24863eb23c4261f63e6ff4431c250bfa198e",
+      "bytes": 858543,
+      "pdf_pages": 14,
+      "duplicate_of": null,
+      "status": "transcrito-revisado",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "losses": [],
+      "outputs": [
+        "notes/2016/teoria/resume-teoria-ecuaciones-diferenciales.md"
+      ]
+    },
+    {
+      "id": 63,
+      "source": "2016/Teórico Multiplicadores de Lagrange.pdf",
+      "archive_year": "2016",
+      "sha256": "5dbe7f56c564d67459aaf1722e25cd1f6464ff2f95a7c8aa9d01736f4e514288",
+      "bytes": 466574,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-multiplicadores-de-lagrange.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 64,
+      "source": "2016/Trab Práctico para 2º parc AMII IQ UTN.docx",
+      "archive_year": "2016",
+      "sha256": "2237ac28d0ac3f5f5b4993a88fdf5423019df07602a332cae5ecd86eec78ddc5",
+      "bytes": 164350,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-trab-practico-para-2o-parc-amii-iq-utn-2237ac28.md"
+      ],
+      "status": "transcrito-atribucion-pendiente",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "printed_year": 2016,
+      "attribution": "material-externo-o-atribucion-pendiente"
+    },
+    {
+      "id": 65,
+      "source": "2016/integrales .pdf",
+      "archive_year": "2016",
+      "sha256": "7067adc5c7834a1d27909cfb0511d530ccd3048ef182f9bfccaaf9c15889264a",
+      "bytes": 91580,
+      "pdf_pages": 4,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": "Earl W. Swokowski (referencia bibliográfica)",
+      "printed_year": 1979,
+      "counts": {
+        "formulas": 120
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-integrales-tabla-120.md"
+      ],
+      "status": "transcrito-revisado",
+      "printed_date": "1979 en referencia bibliográfica; no fecha propia del apunte"
+    },
+    {
+      "id": 66,
+      "source": "2016/introduccion-al-analisis-matematico-calculo2-hebe-t-rabuffetti.pdf",
+      "archive_year": "2016",
+      "sha256": "4ca27e088420d24e92cbf121ec33bb0959309e7e107d0e05273c0104d89b777e",
+      "bytes": 28914375,
+      "pdf_pages": 224,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Introducción al análisis matemático (Cálculo 2). Hebe T. Rabuffetti. Quinta edición, El Ateneo 1994, ISBN 950-02-5281-3; portada y legales PDF 1–2. 224 escaneos dobles.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 67,
+      "source": "2016/repaso.docx",
+      "archive_year": "2016",
+      "sha256": "c3fa8140c4aa9084ce63e7b20f263b54562e70cdb9c4ffb80252278d7a7e5453",
+      "bytes": 16558,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2016/practica/office-repaso-c3fa8140.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 68,
+      "source": "2016/tabla de integrales.pdf",
+      "archive_year": "2016",
+      "sha256": "9f191edaf3d321237a1ca577c04d73421c192b7ca96e05f6ece73689bc7b150f",
+      "bytes": 66099,
+      "pdf_pages": 6,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "formulas": 85
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-tabla-integrales-anexo-d.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 69,
+      "source": "2020/1-2-Introduccion y Presentacion/Programa de Análisis Matemático II.pdf",
+      "archive_year": "2020",
+      "sha256": "94543eec2bb449dbd186ad1dbfced5a1bcc2ff03bfdf5376d97f79e9bfa5982a",
+      "bytes": 25037,
+      "pdf_pages": 4,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 4
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-069-programa.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 70,
+      "source": "2020/1-2-Introduccion y Presentacion/Qué esperamos del estudiante.pdf",
+      "archive_year": "2020",
+      "sha256": "a45b53c14dc56f254ab544075761e387526629bd6179a9a2b78cbc4a47befe29",
+      "bytes": 40639,
+      "pdf_pages": 1,
+      "duplicate_of": 56,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-que-esperamos-del-estudiante.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 71,
+      "source": "2020/1-2-Introduccion y Presentacion/integrales .pdf",
+      "archive_year": "2020",
+      "sha256": "7067adc5c7834a1d27909cfb0511d530ccd3048ef182f9bfccaaf9c15889264a",
+      "bytes": 91580,
+      "pdf_pages": 4,
+      "duplicate_of": 65,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": "Earl W. Swokowski (referencia bibliográfica)",
+      "printed_year": 1979,
+      "counts": {
+        "formulas": 120
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-integrales-tabla-120.md"
+      ],
+      "status": "transcrito-revisado",
+      "printed_date": "1979 en referencia bibliográfica; no fecha propia del apunte"
+    },
+    {
+      "id": 72,
+      "source": "2020/1-2-Introduccion y Presentacion/tabla de integrales.pdf",
+      "archive_year": "2020",
+      "sha256": "9f191edaf3d321237a1ca577c04d73421c192b7ca96e05f6ece73689bc7b150f",
+      "bytes": 66099,
+      "pdf_pages": 6,
+      "duplicate_of": 68,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "formulas": 85
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-tabla-integrales-anexo-d.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 73,
+      "source": "2020/10-Integrales Multiples/Integrales múltiples.pdf",
+      "archive_year": "2020",
+      "sha256": "3cba9373b9a8891b131b956f889987a89a3b0f7d69b15d7d3b75cfc656ce134d",
+      "bytes": 516788,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-073-integrales-multiples.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 74,
+      "source": "2020/10-Integrales Multiples/Integrales.pdf",
+      "archive_year": "2020",
+      "sha256": "68e0519be849eb9f920ac5d44ff32ec51004f230497282ea931306da70e8cc4c",
+      "bytes": 473896,
+      "pdf_pages": 29,
+      "duplicate_of": 23,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-integrales-multiples.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": 75,
+      "source": "2020/10-Integrales Multiples/Trabajo práctico N° 5.pdf",
+      "archive_year": "2020",
+      "sha256": "2cb7bfe417e48afd7b5b86f086bbc85bb4a5376d7dd67067028737995bc6fb94",
+      "bytes": 134821,
+      "pdf_pages": 6,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 6
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-075-trabajo-practico-5.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 76,
+      "source": "2020/11-Integrales de Superficie/Área de una superficie.pdf",
+      "archive_year": "2020",
+      "sha256": "e64d52bf7fc68a29903dfd20eee8ad8b492fcce677eee8c0a0289fc213818a68",
+      "bytes": 362850,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 2
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-076-area-superficie.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 77,
+      "source": "2020/12-Analisis Vectorial/Análisis Vectorial (1) - Libro.pdf",
+      "archive_year": "2020",
+      "sha256": "8754f9538e059d017e04fcda610af00a20f249952c3c767a2cf200338cbf515e",
+      "bytes": 2982783,
+      "pdf_pages": 10,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 10,
+        "examples": 9,
+        "theorems": 3,
+        "tables": 1,
+        "figures": 6,
+        "cover_illustration": 1
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-077-analisis-vectorial-libro.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 78,
+      "source": "2020/12-Analisis Vectorial/Análisis vectorial.pdf",
+      "archive_year": "2020",
+      "sha256": "da628be5df05a861c8879fe3598d791d0093491274f711f978dd5c412760379f",
+      "bytes": 388608,
+      "pdf_pages": 2,
+      "duplicate_of": 2,
+      "outputs": [
+        "notes/2016/practica/pdf2016-analisis-vectorial.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 79,
+      "source": "2020/12-Analisis Vectorial/Ejercicios de Campos Vectoriales.pdf",
+      "archive_year": "2020",
+      "sha256": "19c9a5e6360bf85b9fde970b32493cf78fdea51ec3ad4fa96bf1a1b02a505a35",
+      "bytes": 226190,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 2
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-079-campos-vectoriales.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 80,
+      "source": "2020/12-Analisis Vectorial/Funciones_vectoriales.pdf",
+      "archive_year": "2020",
+      "sha256": "fa54e1ff334cfc21455c6d01e3be3daada5b32be99863e2fdd8b47de24e6504a",
+      "bytes": 302829,
+      "pdf_pages": 2,
+      "duplicate_of": 17,
+      "outputs": [
+        "notes/2016/practica/pdf2016-funciones-vectoriales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 81,
+      "source": "2020/12-Analisis Vectorial/Integrales de línea (1).pdf",
+      "archive_year": "2020",
+      "sha256": "82f202de675475aa05074c207f57a65b42fbc77406c12896f356a9651db79f08",
+      "bytes": 577275,
+      "pdf_pages": 3,
+      "duplicate_of": 22,
+      "outputs": [
+        "notes/2016/practica/pdf2016-integrales-de-linea.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 82,
+      "source": "2020/12-Analisis Vectorial/Integrales de línea.pdf",
+      "archive_year": "2020",
+      "sha256": "82f202de675475aa05074c207f57a65b42fbc77406c12896f356a9651db79f08",
+      "bytes": 577275,
+      "pdf_pages": 3,
+      "duplicate_of": 22,
+      "outputs": [
+        "notes/2016/practica/pdf2016-integrales-de-linea.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 83,
+      "source": "2020/13-Teoriema de Green/Ejercicios Resueltos Green.pdf",
+      "archive_year": "2020",
+      "sha256": "6caf52eebf5743acbbc6d29bf24159984eafba9f1ee3821730521ce4b0d3d774",
+      "bytes": 64089,
+      "pdf_pages": 5,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 5
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-083-ejercicios-resueltos-green.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 84,
+      "source": "2020/13-Teoriema de Green/T. Green.pdf",
+      "archive_year": "2020",
+      "sha256": "91b91b026cb4e2526d8808125d968eade0dac19b452cef318bab28874fd0316b",
+      "bytes": 369282,
+      "pdf_pages": 19,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "losses": [],
+      "author": "José Antonio Vallejo",
+      "printed_year": 2007,
+      "counts": {
+        "sections": 6,
+        "definitions": 6,
+        "examples": 10,
+        "notes": 5,
+        "notation": 1,
+        "theorems": 1,
+        "numbered_exercises": 30,
+        "tables": 1,
+        "figures": 7
+      },
+      "coverage": "resources/2020/pdf2020-green-vallejo-cobertura.md",
+      "outputs": [
+        "notes/2020/teoria/pdf2020-green-vallejo.md"
+      ],
+      "status": "transcrito-revisado",
+      "attribution": "material-externo-o-atribucion-pendiente",
+      "attribution_reason": "José Antonio Vallejo, Universidad Autónoma de San Luis Potosí, 16 de noviembre de 2007; curso externo."
+    },
+    {
+      "id": 85,
+      "source": "2020/14-teorema de Stockes y Divergencia/Integrales_AM.pdf",
+      "archive_year": "2020",
+      "sha256": "a5b25ccaf48d5b3930ed873bcbfb5f0a1eae705a83aac7174c53a730ff118a04",
+      "bytes": 306067,
+      "pdf_pages": 32,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": 2011,
+      "counts": {
+        "slides": 32,
+        "examples_motivation": 3,
+        "examples_mathematical": 6,
+        "exercises_unsolved": 2,
+        "diagram_groups": 3,
+        "diagrams": 5,
+        "emblems": 1,
+        "media": 4
+      },
+      "coverage": "resources/2020/resume-integrales-am-cobertura.md",
+      "outputs": [
+        "notes/2020/teoria/resume-integrales-am.md"
+      ],
+      "status": "transcrito-revisado",
+      "attribution": "material-externo-o-atribucion-pendiente",
+      "attribution_reason": "Curso 2011-12, septiembre 2011; institución no identificada, sin atribución UTN/ISI.",
+      "printed_date": "septiembre 2011; curso 2011-12"
+    },
+    {
+      "id": 86,
+      "source": "2020/14-teorema de Stockes y Divergencia/Teorema de Stokes.ppsx",
+      "archive_year": "2020",
+      "sha256": "ead627d9a3c38dde1088747f5580faca460c8570f440c4e9a57a94de71fa3085",
+      "bytes": 398337,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2020/teoria/office-teorema-de-stokes-ead627d9.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2020/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 87,
+      "source": "2020/15-EDO 2do Orden/Apunte Ecuaciones Diferenciales.pdf",
+      "archive_year": "2020",
+      "sha256": "e7ee4b28ce1fdd20356bd33debe8ace1f98c7ede85a9b09bcb46ee2b461c5502",
+      "bytes": 1298280,
+      "pdf_pages": 47,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "losses": [],
+      "author": "Ing. Leopoldo S. de Urrutia",
+      "printed_year": null,
+      "counts": {
+        "pages": 47,
+        "figures": 4,
+        "tables": 3,
+        "exercises": 89,
+        "exercise_groups": 8
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-087-edo-01-primer-orden.md",
+        "notes/2020/teoria/pdf2020-087-edo-02-segundo-orden.md",
+        "notes/2020/teoria/pdf2020-087-edo-03-series-metodos-numericos.md",
+        "notes/2020/teoria/pdf2020-087-edo-04-operadores-ejercitacion.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 88,
+      "source": "2020/15-EDO 2do Orden/Ecuaciones diferenciales con aplicaciones de modelado - Zill.pdf",
+      "archive_year": "2020",
+      "sha256": "4373f88aeb43912f458f3c255587f7a4e7bc4516e309cfd99a6a2b59070fea64",
+      "bytes": 6056817,
+      "pdf_pages": 91,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2020/teoria/pdf2020-zill-01-a-teoria-lineal.md",
+        "notes/2020/teoria/pdf2020-zill-01-b-reduccion-orden.md",
+        "notes/2020/teoria/pdf2020-zill-01-c-coeficientes-constantes.md",
+        "notes/2020/teoria/pdf2020-zill-01-d-superposicion.md",
+        "notes/2020/teoria/pdf2020-zill-02-44-superposicion.md",
+        "notes/2020/teoria/pdf2020-zill-02-45-anulador.md",
+        "notes/2020/teoria/pdf2020-zill-02-46-variacion.md",
+        "notes/2020/teoria/pdf2020-zill-02-47-cauchy-euler.md",
+        "notes/2020/teoria/pdf2020-zill-02-48-eliminacion.md",
+        "notes/2020/teoria/pdf2020-zill-02-49-no-lineales.md",
+        "notes/2020/teoria/pdf2020-zill-03-01-no-lineales-repaso.md",
+        "notes/2020/teoria/pdf2020-zill-03-02-modelos-valores-iniciales.md",
+        "notes/2020/teoria/pdf2020-zill-03-03-ejercicios-modelos.md",
+        "notes/2020/teoria/pdf2020-zill-03-04-valores-frontera.md",
+        "notes/2020/teoria/pdf2020-zill-03-05-modelos-no-lineales.md"
+      ],
+      "status": "transcrito-con-limites-de-fuente",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "author": "Zill, según el nombre del archivo; edición y año no identificados en el extracto",
+      "attribution": "lectura-bibliografica-externa",
+      "attribution_reason": "Extracto sin portada; no se atribuye a la cátedra ISI",
+      "coverage": "resources/2020/pdf2020-zill-cobertura.md",
+      "counts_by_range": [
+        {
+          "reviewed_pages": 30,
+          "notes": 4,
+          "proposed_exercises": 125,
+          "proposed_exercises_by_section": {
+            "4.1": 42,
+            "4.2": 23,
+            "4.3": 60
+          },
+          "numbered_examples": 26,
+          "numbered_examples_complete": 25,
+          "numbered_examples_continued_next_range": 1,
+          "numbered_figures": 10,
+          "chapter_illustrations": 1,
+          "equation_diagrams": 2,
+          "media_files": 13,
+          "tables": 1,
+          "table_rows": 12
+        },
+        {
+          "assigned_pdf_pages": 30,
+          "notes": 6,
+          "section_fragments": 6,
+          "complete_sections": 4,
+          "complete_examples": 24,
+          "example_continuations": 1,
+          "numbered_exercises": 228,
+          "figures": 8,
+          "figure_panels": 9,
+          "tables": 0,
+          "footnotes": 1,
+          "math_blocks": 196,
+          "math_inline": 963
+        },
+        {
+          "notes": 5,
+          "reviewed_pages": 31,
+          "display_math_blocks": 132,
+          "numbered_problems": 158,
+          "examples": 14,
+          "tables": 2,
+          "numbered_figures": 34,
+          "unnumbered_illustrations": 1,
+          "png_files": 35,
+          "graphic_panels_including_subpanels": 48
+        }
+      ],
+      "losses": []
+    },
+    {
+      "id": 89,
+      "source": "2020/15-EDO 2do Orden/Ejemplo 2.pdf",
+      "archive_year": "2020",
+      "sha256": "db46592a79349afb82f4ec7cf2dced0cfe31d5a2ec92f23ec924684b6dd22b30",
+      "bytes": 254136,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-089-ejemplo-edo-2.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 90,
+      "source": "2020/15-EDO 2do Orden/Ejemplo 3.pdf",
+      "archive_year": "2020",
+      "sha256": "4eaa117917d60f01f63f97bc224735cbd484b7e2cbd3ed8af1b7dfcb1a8a87e2",
+      "bytes": 308986,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-090-ejemplo-edo-3.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 91,
+      "source": "2020/15-EDO 2do Orden/Ejemplo EDO.pdf",
+      "archive_year": "2020",
+      "sha256": "2a5a3ef4f28bb05ee280219121f14387fbcf6e956d8965ac08a37dfc2ef8b49c",
+      "bytes": 345726,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-091-ejemplo-edo.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 92,
+      "source": "2020/15-EDO 2do Orden/HOJA DE RUTA UNIDAD 9.pdf",
+      "archive_year": "2020",
+      "sha256": "d46e5133bd0196ebb80cb76440b4852e8a11bcecfdc30a5c49cfc55041e04d10",
+      "bytes": 328579,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/teoria/pdf2020-092-hoja-ruta-unidad-9.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 93,
+      "source": "2020/3-Series de Fourier/Apunte de Clases del Ing. Urrutia.pdf",
+      "archive_year": "2020",
+      "sha256": "f9aa75bd0cd5f1b1344ab92e135e54bb5420f9f4362f6f5af6806e89c8d69c5e",
+      "bytes": 1667922,
+      "pdf_pages": 57,
+      "duplicate_of": null,
+      "status": "transcrito-con-limites-de-fuente",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "losses": [
+        {
+          "pages": [
+            17,
+            18,
+            19
+          ],
+          "kind": "source-scan-cuts",
+          "detail": "Original cuts continuation at bottom of PDF17 and PDF19; adjoining phrases in PDF18 are incomplete. Marked in note, no reconstruction."
+        },
+        {
+          "pages": [
+            57
+          ],
+          "kind": "source-unreadable-glyph",
+          "detail": "Third graph first condition: no distinguishable comparison sign between -pi and x; explicitly marked."
+        }
+      ],
+      "coverage": "resources/2020/pdf2020-fourier-urrutia-cobertura.md",
+      "outputs": [
+        "notes/2020/teoria/pdf2020-fourier-urrutia-01-conceptos.md",
+        "notes/2020/teoria/pdf2020-fourier-urrutia-02-ortogonalidad.md",
+        "notes/2020/teoria/pdf2020-fourier-urrutia-03-series.md",
+        "notes/2020/teoria/pdf2020-fourier-urrutia-04-ejemplos.md",
+        "notes/2020/teoria/pdf2020-fourier-urrutia-05-otras-formas.md"
+      ],
+      "author": "Ing. Leopoldo S. de Urrutia"
+    },
+    {
+      "id": 94,
+      "source": "2020/3-Series de Fourier/Series de Fourier (1).pdf",
+      "archive_year": "2020",
+      "sha256": "9f1f944b3949952f8afa409575d5f39b5b664b9ce9d59f87f2536faf70276010",
+      "bytes": 1384941,
+      "pdf_pages": 22,
+      "duplicate_of": 59,
+      "status": "transcrito-con-fragmento-oculto-en-original",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "losses": [
+        "Página 13: parte de última viñeta y fórmula tapadas por recuadro de a_n en el PDF original; marcado explícitamente."
+      ],
+      "outputs": [
+        "notes/2016/teoria/resume-teoria-series-fourier.md"
+      ]
+    },
+    {
+      "id": 95,
+      "source": "2020/3-Series de Fourier/Series de Fourier.pdf",
+      "archive_year": "2020",
+      "sha256": "2450a37dd647a328a5926335be4b06834f5c975bb44f9796e36be85eeab9493c",
+      "bytes": 402940,
+      "pdf_pages": 3,
+      "duplicate_of": 58,
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "exercises": 11,
+        "figures": 3
+      },
+      "outputs": [
+        "notes/2016/practica/resume-misc-series-fourier.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 96,
+      "source": "2020/3-Series de Fourier/fourier.pdf",
+      "archive_year": "2020",
+      "sha256": "53f931d5baece0f847a1b616c9bf1a97dbad10e45aec9ba3d17a9070e29daa51",
+      "bytes": 590814,
+      "pdf_pages": 14,
+      "duplicate_of": null,
+      "status": "transcrito-revisado",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "losses": [
+        "Varias curvas ausentes en cinco gráficos del PDF; conservados ejes y leyendas."
+      ],
+      "author": "Ing. César Flores",
+      "printed_year": null,
+      "outputs": [
+        "notes/2020/teoria/pdf2020-fourier-flores.md"
+      ]
+    },
+    {
+      "id": 97,
+      "source": "2020/4-Ec Diferenciales de Primer Orden/Ecuaciones_Diferenciales_con_Problemas_c.pdf",
+      "archive_year": "2020",
+      "sha256": "ab6c4145fbc8abf186ca0514defd94661927e095a42d5c62b504f0032902cfc5",
+      "bytes": 8728290,
+      "pdf_pages": 610,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Ecuaciones diferenciales con problemas con valores en la frontera. Dennis G. Zill y Michael R. Cullen. Séptima edición, Cengage 2009, ISBN 978-607-481-314-2; portada y legales PDF 1–5.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 98,
+      "source": "2020/4-Ec Diferenciales de Primer Orden/Práctico de EDO de Primer Orden.pdf",
+      "archive_year": "2020",
+      "sha256": "f05d663bab1d72c29a789d0f1886916c14fa3461710ada522af273105b20c18b",
+      "bytes": 409326,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-098-edo-primer-orden-continuacion.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 99,
+      "source": "2020/4-Ec Diferenciales de Primer Orden/Práctico de Ecuaciones Diferenciales de Primer Orden.pdf",
+      "archive_year": "2020",
+      "sha256": "9923c8a8e66aa2c657c03a0530609c07165233eb8657fe1c6b568fd6aee80bfd",
+      "bytes": 652536,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 2
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-099-edo-primer-orden-parte-ii.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 100,
+      "source": "2020/4-Ec Diferenciales de Primer Orden/Problemas ecuaciones Diferenciales.pdf",
+      "archive_year": "2020",
+      "sha256": "81bf4a15fb4b12dc44ca4c8a94cf3a933b25dea70abaf83447dd2bdc34497dc2",
+      "bytes": 290322,
+      "pdf_pages": 1,
+      "duplicate_of": 54,
+      "outputs": [
+        "notes/2016/practica/pdf2016-aplicaciones-edo-primer-orden.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 101,
+      "source": "2020/4-Ec Diferenciales de Primer Orden/Teórico Ecuaciones diferenciales.pdf",
+      "archive_year": "2020",
+      "sha256": "97a5e4f9889d33dfc28a3e4511ee24863eb23c4261f63e6ff4431c250bfa198e",
+      "bytes": 858543,
+      "pdf_pages": 14,
+      "duplicate_of": 62,
+      "status": "transcrito-revisado",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "losses": [],
+      "outputs": [
+        "notes/2016/teoria/resume-teoria-ecuaciones-diferenciales.md"
+      ]
+    },
+    {
+      "id": 102,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Analalsis II- Rabuffetti.pdf",
+      "archive_year": "2020",
+      "sha256": "5d386053cb0877e15f32c9cfc44df0626a6fa99abadef8cf39942a7248a564ff",
+      "bytes": 15546413,
+      "pdf_pages": 226,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Copia escaneada de 226 páginas, portada rotulada Análisis II y anotación Cálculo 2 - Hebe Rabuffetti; índice PDF 3 y 5. Sin portada editorial o año verificados. No se asume igualdad por hash con fuente 66.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 103,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Calculo_de_Varias_Variables_Stewars.pdf",
+      "archive_year": "2020",
+      "sha256": "4f369dc78f478e9ffd01cd965556d9f2a2cd8c6c36d2c85950f6fc435390fab3",
+      "bytes": 31401110,
+      "pdf_pages": 634,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Cálculo de varias variables. Trascendentes tempranas. James Stewart. Séptima edición, Cengage 2012, ISBN 978-607-481-898-7; portada y legales PDF 2–3.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 104,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Espacio Métrico.pdf",
+      "archive_year": "2020",
+      "sha256": "76b592cff32df803867c0be7509cbebce81f46363d94be871f93bce475fd4648",
+      "bytes": 325594,
+      "pdf_pages": 2,
+      "duplicate_of": 12,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-espacio-metrico.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 105,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Funciones de dos o más variables.pdf",
+      "archive_year": "2020",
+      "sha256": "e0f38d684e896ef8d93f07c3e6e801035f982882e408aa3b009398677c5d2f04",
+      "bytes": 781723,
+      "pdf_pages": 4,
+      "duplicate_of": 16,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-funciones-de-dos-o-mas-variables.md"
+      ],
+      "status": "transcrito-con-limites-de-fuente",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [
+        "Etiquetas pequeñas borrosas de la figura final; imagen original conservada."
+      ]
+    },
+    {
+      "id": 106,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Funciones1.pdf",
+      "archive_year": "2020",
+      "sha256": "1508d89c0afbc3c8eeb7912b976da04f8933f16689c954ebeb4590b449e445fa",
+      "bytes": 815336,
+      "pdf_pages": 5,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 5
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-106-campos-escalares.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 107,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Gráfica de funciones de dos variables.pdf",
+      "archive_year": "2020",
+      "sha256": "ec8d56fc8042f0ce726b877e69c9c4c2dd842f75cd2e1eec6dcbcedd1c49aea3",
+      "bytes": 448237,
+      "pdf_pages": 9,
+      "duplicate_of": 19,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 7,
+        "figures": 10,
+        "definitions": 4
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-grafica-funciones-dos-variables.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 108,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Guía Complementaria Campos escalares.pdf",
+      "archive_year": "2020",
+      "sha256": "0004e6de1d765c0edd401bb67ea3dda1626118fe8e33b349dd915c2c42f51460",
+      "bytes": 781810,
+      "pdf_pages": 8,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 8
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-108-guia-complementaria.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 109,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Probelmas de Aplicacion Campo Escalar.docx",
+      "archive_year": "2020",
+      "sha256": "cba1ebb523ca357d09be00fe124e3845810682ad5e7e48795842eafe810d3538",
+      "bytes": 2426823,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2020/practica/office-probelmas-de-aplicacion-campo-escalar-cba1ebb5.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2020/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "printed_year": 2020
+    },
+    {
+      "id": 110,
+      "source": "2020/5-Funciones de Varias Variables ( Campo Escalar)/Problema de aplicación.pdf",
+      "archive_year": "2020",
+      "sha256": "8cfd7f63c879f1606b2dc9b18acd5b1d7de5b77139cf5eb029dabc31f2f3e4dd",
+      "bytes": 124435,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-110-problema-aplicacion.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 111,
+      "source": "2020/6-Derivadas Parciales/Derivadas.pdf",
+      "archive_year": "2020",
+      "sha256": "f31924fc8772bdd04f7ea07897071d29a45f71dc52b071a3609477c0a4d52c7c",
+      "bytes": 491504,
+      "pdf_pages": 1,
+      "duplicate_of": 7,
+      "outputs": [
+        "notes/2016/practica/pdf2016-derivadas-parciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 112,
+      "source": "2020/6-Derivadas Parciales/Interpretación geométrica de la derivada parcial.pdf",
+      "archive_year": "2020",
+      "sha256": "70536437b847c0b3bc55691b2e9618fbe3ccc746c28bda061e9cdae6e51c53ef",
+      "bytes": 328940,
+      "pdf_pages": 4,
+      "duplicate_of": 24,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "examples": 2,
+        "figures": 5,
+        "theorems": 1,
+        "figure_groups": 3
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-interpretacion-geometrica-derivada-parcial.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 113,
+      "source": "2020/7-Ecuaciones Diferenciales/Diferenciales.pdf",
+      "archive_year": "2020",
+      "sha256": "aa463643dea563d1d43bb2856273135d22634dc157748742d7a18ced3e9385d4",
+      "bytes": 429187,
+      "pdf_pages": 1,
+      "duplicate_of": 11,
+      "outputs": [
+        "notes/2016/practica/pdf2016-diferenciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 114,
+      "source": "2020/8-Derivadas Direccionales/Gradiente.pdf",
+      "archive_year": "2020",
+      "sha256": "093d85e918e12a62438e776133a0e237c3a502ed53f4ccfc2984c8e9f773047f",
+      "bytes": 482449,
+      "pdf_pages": 3,
+      "duplicate_of": 18,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-gradiente.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 115,
+      "source": "2020/9-Extremos Relativos de un Campo Escalar/Extremos condicionados.pdf",
+      "archive_year": "2020",
+      "sha256": "d884d40f2f40675e17855d27383134413497907bfe3677fb0d9cc5a96936e1fc",
+      "bytes": 287581,
+      "pdf_pages": 1,
+      "duplicate_of": 14,
+      "outputs": [
+        "notes/2016/practica/pdf2016-extremos-condicionados.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 116,
+      "source": "2020/9-Extremos Relativos de un Campo Escalar/Extremos_absolutos_y_relativos.pdf",
+      "archive_year": "2020",
+      "sha256": "deb4ef3e05937e3e9557087c9c62a4cb5fefe7565b3568d5cffde5dde0a62707",
+      "bytes": 581754,
+      "pdf_pages": 2,
+      "duplicate_of": 15,
+      "outputs": [
+        "notes/2016/practica/pdf2016-extremos-absolutos-y-relativos.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 117,
+      "source": "2020/9-Extremos Relativos de un Campo Escalar/Puntos criticos.pdf",
+      "archive_year": "2020",
+      "sha256": "ee906476edc881400cbdba4a6f54e3af0b4fcda6c021ef802f3cf7d1410c6e39",
+      "bytes": 128988,
+      "pdf_pages": 5,
+      "duplicate_of": 55,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "losses": [],
+      "author": "José María Martínez Mediano",
+      "printed_year": null,
+      "counts": {
+        "examples": 7,
+        "figures": 7,
+        "notes": 4
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-puntos-criticos.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 118,
+      "source": "2020/9-Extremos Relativos de un Campo Escalar/Teórico Multiplicadores de Lagrange.pdf",
+      "archive_year": "2020",
+      "sha256": "5dbe7f56c564d67459aaf1722e25cd1f6464ff2f95a7c8aa9d01736f4e514288",
+      "bytes": 466574,
+      "pdf_pages": 2,
+      "duplicate_of": 63,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-multiplicadores-de-lagrange.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 119,
+      "source": "2020/Caratula AMII.docx",
+      "archive_year": "2020",
+      "sha256": "66f17d72d0c3e7fb81b7ed4c9c6a9848af8a3f4d169870024ea7d778cecf6a97",
+      "bytes": 25983,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "caratula-sin-contenido",
+      "reason": "Carátula sin contenido académico; identificada en revisión Office. No se publica como apunte.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 120,
+      "source": "2020/Exámenes finales-20201220.zip",
+      "archive_year": "2020",
+      "sha256": "ae6241f474203fcc69c8b1fd06c886fa4feadfcfe5ee747b244d21306df49f8c",
+      "bytes": 217157,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "contenedor-deduplicado",
+      "reason": "16 archivos internos verificados por SHA-256: todos coinciden con archivos originales inventariados. Ningún contenido nuevo.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 121,
+      "source": "2020/Modelos Exámenes finales/EXAMEN FINAL 15-10-14.doc",
+      "archive_year": "2020",
+      "sha256": "a5a837d673193c5698c44b37f6395443143430ce1efa6b3e8254aee48e2ad2ae",
+      "bytes": 76288,
+      "pdf_pages": null,
+      "duplicate_of": 31,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-15-10-14-a5a837d6.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 122,
+      "source": "2020/Modelos Exámenes finales/EXAMEN FINAL abril 2015.docx",
+      "archive_year": "2020",
+      "sha256": "2d848173eb215f98f3f294cd1eda32b935415984c764f0ad02e95d22d11fe024",
+      "bytes": 15474,
+      "pdf_pages": null,
+      "duplicate_of": 32,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-abril-2015-2d848173.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 123,
+      "source": "2020/Modelos Exámenes finales/Examen Final  09-2012.docx",
+      "archive_year": "2020",
+      "sha256": "f411a299249375444978148dc615a8efed18ee25ca47f973f06004d4c4196e38",
+      "bytes": 21618,
+      "pdf_pages": null,
+      "duplicate_of": 33,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-09-2012-f411a299.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2012,
+      "printed_date": "05/09/2012"
+    },
+    {
+      "id": 124,
+      "source": "2020/Modelos Exámenes finales/Examen Final 01 08 2012.docx",
+      "archive_year": "2020",
+      "sha256": "cc2b304a16a269635ceb3a1a6cadf9afa811b3738d7debd02144e63f527da747",
+      "bytes": 12910,
+      "pdf_pages": null,
+      "duplicate_of": 34,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-01-08-2012-cc2b304a.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 125,
+      "source": "2020/Modelos Exámenes finales/Examen Final Octubre 2013.docx",
+      "archive_year": "2020",
+      "sha256": "e130825804382a86225cfb5a8952ecdbff685106b0269271df48337f5897e2d9",
+      "bytes": 19062,
+      "pdf_pages": null,
+      "duplicate_of": 35,
+      "outputs": [
+        "notes/2016/practica/office-examen-final-octubre-2013-e1308258.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ],
+      "printed_year": 2013,
+      "printed_date": "16/10/2013"
+    },
+    {
+      "id": 126,
+      "source": "2020/Modelos Exámenes finales/ExamenFinal11-04-2012.docx",
+      "archive_year": "2020",
+      "sha256": "5b646805aee4eade08c8f3e8ad005c904b4be61c19f75c37187b473dd37fbbd0",
+      "bytes": 16285,
+      "pdf_pages": null,
+      "duplicate_of": 36,
+      "outputs": [
+        "notes/2016/practica/office-examenfinal11-04-2012-5b646805.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 127,
+      "source": "2020/Modelos Exámenes finales/Final ANA2 Julio 2015.docx",
+      "archive_year": "2020",
+      "sha256": "150daf1755c224364e8c9657b65b2037ee5888d4500f4f766f6f9c2fc8883193",
+      "bytes": 13393,
+      "pdf_pages": null,
+      "duplicate_of": 37,
+      "outputs": [
+        "notes/2016/practica/office-final-ana2-julio-2015-150daf17.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 128,
+      "source": "2020/Modelos Exámenes finales/ejercicios de final.docx",
+      "archive_year": "2020",
+      "sha256": "3746bd935fcbba91b01c4461fe553b0a60e6d92a607e23c614e7bab356cfa9fc",
+      "bytes": 20446,
+      "pdf_pages": null,
+      "duplicate_of": 30,
+      "outputs": [
+        "notes/2016/practica/office-diferenciales-bis-3746bd93.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 129,
+      "source": "2020/Modelos Exámenes finales/ex_fin_15_12_2010[1].docx",
+      "archive_year": "2020",
+      "sha256": "b7896a58a17199ba0eca6a007281f430132b7df556114393a9152567e5e10ec1",
+      "bytes": 14889,
+      "pdf_pages": null,
+      "duplicate_of": 38,
+      "outputs": [
+        "notes/2016/practica/office-ex-fin-15-12-2010-1-b7896a58.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 130,
+      "source": "2020/Modelos Exámenes finales/ex_final_23-2-11[1].docx",
+      "archive_year": "2020",
+      "sha256": "be3df17ff38e3aa7bc6d7dd78016f18a91b63139a7785ab617c333db0520d001",
+      "bytes": 13662,
+      "pdf_pages": null,
+      "duplicate_of": 39,
+      "outputs": [
+        "notes/2016/practica/office-ex-final-23-2-11-1-be3df17f.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 131,
+      "source": "2020/Modelos Exámenes finales/ex_final_9-2-11[1].docx",
+      "archive_year": "2020",
+      "sha256": "b4eb29d78628a622fa555c4f1201c10ba346c71e2fb997c70574f0ae8b61ad07",
+      "bytes": 22801,
+      "pdf_pages": null,
+      "duplicate_of": 40,
+      "outputs": [
+        "notes/2016/practica/office-ex-final-9-2-11-1-b4eb29d7.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 132,
+      "source": "2020/Modelos Exámenes finales/exam final 5ago 2015.doc",
+      "archive_year": "2020",
+      "sha256": "46dfb1c1c620526db5a28e402c0c3e0db50b2fd9d6c587653460d4c03e91e48e",
+      "bytes": 98816,
+      "pdf_pages": null,
+      "duplicate_of": 41,
+      "outputs": [
+        "notes/2016/practica/office-exam-final-5ago-2015-46dfb1c1.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2015,
+      "printed_date": "agosto de 2015"
+    },
+    {
+      "id": 133,
+      "source": "2020/Modelos Exámenes finales/final diciembre 2012.docx",
+      "archive_year": "2020",
+      "sha256": "2615883009699c100e6215a4adc49a9ce3d1997ab48dfbba9f43cae4007d378a",
+      "bytes": 13212,
+      "pdf_pages": null,
+      "duplicate_of": 42,
+      "outputs": [
+        "notes/2016/practica/office-final-diciembre-2012-26158830.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2012,
+      "printed_date": "05/12/2012"
+    },
+    {
+      "id": 134,
+      "source": "2020/Modelos Exámenes finales/final julio.docx",
+      "archive_year": "2020",
+      "sha256": "5337d5964e6d736b357ea3eceaa63ed7138cbd22c90197cb3e2ed25b87611352",
+      "bytes": 15784,
+      "pdf_pages": null,
+      "duplicate_of": 43,
+      "outputs": [
+        "notes/2016/practica/office-final-julio-5337d596.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "printed_year": 2012,
+      "printed_date": "11/07/2012"
+    },
+    {
+      "id": 135,
+      "source": "2020/Modelos Exámenes finales/final.docx",
+      "archive_year": "2020",
+      "sha256": "0aae5398549bd22a33f33bac48e99d1f08cffd6c0caa91e0e1a03cf0f3e0dfdc",
+      "bytes": 14183,
+      "pdf_pages": null,
+      "duplicate_of": 44,
+      "outputs": [
+        "notes/2016/practica/office-final-0aae5398.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 136,
+      "source": "2020/Modelos Exámenes finales/prop final 19 de diciembre 2014_2.docx",
+      "archive_year": "2020",
+      "sha256": "a467c3c12f88dd466df570b1a6d8bd0226a62c9d51236b8132ee0ca33feb274c",
+      "bytes": 14924,
+      "pdf_pages": null,
+      "duplicate_of": 45,
+      "outputs": [
+        "notes/2016/practica/office-prop-final-19-de-diciembre-2014-2-a467c3c1.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2014,
+      "printed_date": "19/12/2014"
+    },
+    {
+      "id": 137,
+      "source": "2020/Modelos Parciales/RecuperatorioSegundoParcial-1.pdf",
+      "archive_year": "2020",
+      "sha256": "ee809c64f4aa08d5df0d4e6f31366c1fa97d8af3688f2985274a74008de269c7",
+      "bytes": 110424,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": 2020,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-137-recuperatorio-segundo-parcial-k21.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 138,
+      "source": "2020/Modelos Parciales/RecuperatorioSegundoParcial-k2.pdf",
+      "archive_year": "2020",
+      "sha256": "461ee30a466b97ff9289558fa30ec6706cff7732e5f9b831a5e89e90b8ba191f",
+      "bytes": 114703,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": 2020,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-138-recuperatorio-segundo-parcial-k22.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 139,
+      "source": "2020/Modelos Parciales/SegundoParcial-k2.2.pdf",
+      "archive_year": "2020",
+      "sha256": "b8635831d6162ba3b751ead9d647747befa7e2c294fbd201f17ae46ea7eb8822",
+      "bytes": 108103,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "reviewed_pages": [
+        1
+      ],
+      "losses": [],
+      "printed_year": 2020,
+      "counts": {
+        "pages": 1
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-139-segundo-parcial.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 140,
+      "source": "2020/clase practica - limites.docx",
+      "archive_year": "2020",
+      "sha256": "3c5ba32634a50fb49497674c93144445b112fae7b9c383efbbfa14aeeaba22d4",
+      "bytes": 20446,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2020/practica/office-clase-practica-limites-3c5ba326.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2020/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 141,
+      "source": "2022 [Intensivo]/Analisis2_sinNombreLibro.pdf",
+      "archive_year": "2022",
+      "sha256": "e58151372e8251711b9e6de8c7609299254e56d3826ee731b79fd1b758477c33",
+      "bytes": 56309611,
+      "pdf_pages": 141,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Libro mecanografiado sin portada identificable,141 escaneos dobles. Índice PDF 1; no se inventan autor, título o año.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 142,
+      "source": "2022 [Intensivo]/AyGA Examen Final 080922.pdf",
+      "archive_year": "2022",
+      "sha256": "295980346decb9db5be200aa6c457c28aee2f8491175c6d9ea9ac3c305c3d252",
+      "bytes": 149158,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "otra-materia-separada",
+      "reason": "Examen Final Práctico 08/09/2022, Álgebra y Geometría Analítica, UTN FRR. Carrera en blanco, no atribuido a ISI. Una página revisada para clasificación.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 143,
+      "source": "2022 [Intensivo]/CalculoVariasVariables-Stewart.pdf",
+      "archive_year": "2022",
+      "sha256": "4f369dc78f478e9ffd01cd965556d9f2a2cd8c6c36d2c85950f6fc435390fab3",
+      "bytes": 31401110,
+      "pdf_pages": 634,
+      "duplicate_of": 103,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Cálculo de varias variables. Trascendentes tempranas. James Stewart. Séptima edición, Cengage 2012, ISBN 978-607-481-898-7; portada y legales PDF 2–3.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 144,
+      "source": "2022 [Intensivo]/CamScanner 11-08-2020 19.01-3.pdf",
+      "archive_year": "2022",
+      "sha256": "743a8be29ba1adf77ac67e33099234994a7eccdff468f542eba146e8066bc433",
+      "bytes": 4222978,
+      "pdf_pages": 9,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/teoria/pdf2022-masa-resorte-circuitos.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": 145,
+      "source": "2022 [Intensivo]/CamScanner 11-15-2022 18.24.pdf",
+      "archive_year": "2022",
+      "sha256": "e6072dd217f46f42b1328d5790793e92274a155592fcfd3cb967ffe5d3acd8c1",
+      "bytes": 2596453,
+      "pdf_pages": 5,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-hoja-ruta-practico-6.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 146,
+      "source": "2022 [Intensivo]/Cálculo 2 de Varias Variables 9na Edición Ron Larson, Bruce Edwards Lib.pdf",
+      "archive_year": "2022",
+      "sha256": "c6604375dd42bb4aa1c950c4ef7be0e9942356b29fb2f4dac4f733a1bc100e0e",
+      "bytes": 59326010,
+      "pdf_pages": 527,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Cálculo 2 de varias variables. Ron Larson y Bruce H. Edwards, novena edición, McGraw-Hill 2010, ISBN 978-970-10-7134-2; portada y legales PDF 6–7. 527 páginas; hash distinto de fuente 5.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 147,
+      "source": "2022 [Intensivo]/Cronograma de clases Curso Intensivo 2022.pdf",
+      "archive_year": "2022",
+      "sha256": "8914b7e6e2a33b410c8e5361a342aecfbdeaa712e567d2e13752744cf552ff1e",
+      "bytes": 108358,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/teoria/pdf2022-cronograma-intensivo.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2022
+    },
+    {
+      "id": 148,
+      "source": "2022 [Intensivo]/Derivadas Direccionales y Gradiente.pdf",
+      "archive_year": "2022",
+      "sha256": "39a50abbc566511a69511362935e9d0611e1b427a832f36c0f50ed80dbf4b2f4",
+      "bytes": 193296,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-gradiente-derivadas-direccionales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 149,
+      "source": "2022 [Intensivo]/Derivadas.pdf",
+      "archive_year": "2022",
+      "sha256": "f771a05df626db95e054c67d82fccd11e5d9230021db2051c5f66770b6166fcf",
+      "bytes": 262001,
+      "pdf_pages": 3,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-derivadas-parciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 150,
+      "source": "2022 [Intensivo]/Diferenciales.pdf",
+      "archive_year": "2022",
+      "sha256": "bc3e7f015ef353f345f6f1487e3a7732d9a9439f694a66496df65995f5588612",
+      "bytes": 425298,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-diferenciales.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 151,
+      "source": "2022 [Intensivo]/Ecuaciones_Diferenciales_con_Problemas_c.pdf",
+      "archive_year": "2022",
+      "sha256": "ab6c4145fbc8abf186ca0514defd94661927e095a42d5c62b504f0032902cfc5",
+      "bytes": 8728290,
+      "pdf_pages": 610,
+      "duplicate_of": 97,
+      "outputs": [],
+      "status": "bibliografia-separada",
+      "reason": "Ecuaciones diferenciales con problemas con valores en la frontera. Dennis G. Zill y Michael R. Cullen. Séptima edición, Cengage 2009, ISBN 978-607-481-314-2; portada y legales PDF 1–5.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 152,
+      "source": "2022 [Intensivo]/Espacio Métrico.pdf",
+      "archive_year": "2022",
+      "sha256": "76b592cff32df803867c0be7509cbebce81f46363d94be871f93bce475fd4648",
+      "bytes": 325594,
+      "pdf_pages": 2,
+      "duplicate_of": 12,
+      "outputs": [
+        "notes/2016/teoria/pdf2016-espacio-metrico.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 153,
+      "source": "2022 [Intensivo]/Extremos absolutos y relativos.pdf",
+      "archive_year": "2022",
+      "sha256": "deb4ef3e05937e3e9557087c9c62a4cb5fefe7565b3568d5cffde5dde0a62707",
+      "bytes": 581754,
+      "pdf_pages": 2,
+      "duplicate_of": 15,
+      "outputs": [
+        "notes/2016/practica/pdf2016-extremos-absolutos-y-relativos.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2016/pdf2016-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 154,
+      "source": "2022 [Intensivo]/Funciones1 (1).pdf",
+      "archive_year": "2022",
+      "sha256": "1508d89c0afbc3c8eeb7912b976da04f8933f16689c954ebeb4590b449e445fa",
+      "bytes": 815336,
+      "pdf_pages": 5,
+      "duplicate_of": 106,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 5
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-106-campos-escalares.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 155,
+      "source": "2022 [Intensivo]/Funciones1.pdf",
+      "archive_year": "2022",
+      "sha256": "1508d89c0afbc3c8eeb7912b976da04f8933f16689c954ebeb4590b449e445fa",
+      "bytes": 815336,
+      "pdf_pages": 5,
+      "duplicate_of": 106,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "losses": [],
+      "printed_year": null,
+      "counts": {
+        "pages": 5
+      },
+      "outputs": [
+        "notes/2020/practica/pdf2020-106-campos-escalares.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 156,
+      "source": "2022 [Intensivo]/IMG-20221118-WA0008.jpg",
+      "archive_year": "2022",
+      "sha256": "d0e3904b0d67bd4758a69526f72660e3354fc6e86dd655240310f4a0b87e3863",
+      "bytes": 100091,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/teoria/pdf2022-lagrange-variacion-parametros.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 157,
+      "source": "2022 [Intensivo]/Integrales múltiples.pdf",
+      "archive_year": "2022",
+      "sha256": "03b4fda0a8191c3627ef9902ad6d86ce48c1e40857a48c1d01dbd355f6a63b35",
+      "bytes": 168722,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-integrales-dobles.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 158,
+      "source": "2022 [Intensivo]/Nuevo doc 2020-04-06 08.44.09.pdf",
+      "archive_year": "2022",
+      "sha256": "5d7d0051231e847dc064951e90a5f619a106cd654de91384a191c41cf6bb672a",
+      "bytes": 611349,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-repaso-edo-manuscrito.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 159,
+      "source": "2022 [Intensivo]/PDF_RESUELTOS.pdf",
+      "archive_year": "2022",
+      "sha256": "e62753a707a45da447140d26cecaaf33e86dc764125daf3212bfd4659b3aa3ba",
+      "bytes": 48710727,
+      "pdf_pages": 128,
+      "duplicate_of": null,
+      "outputs": [],
+      "status": "solucionario-separado",
+      "reason": "Resueltos. Análisis Matemático II. TP 11 Ecuaciones Diferenciales. Aníbal Kasero, edición 2000, código AR2AP10; portada PDF 1. 128 páginas.",
+      "reviewed_pages": []
+    },
+    {
+      "id": 160,
+      "source": "2022 [Intensivo]/Para rendir el coloquio.pdf",
+      "archive_year": "2022",
+      "sha256": "820dc068e4dbc0907428ccc9f7fa64acf4461a187d54ac13f0ab363171a31fc0",
+      "bytes": 61417,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/teoria/pdf2022-para-rendir-coloquio.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 161,
+      "source": "2022 [Intensivo]/Plano tangente-Linealización.pdf",
+      "archive_year": "2022",
+      "sha256": "6b7f241ec2227053aa56508e08583d51e9a69c1bed36c68a8644193d4d457ed6",
+      "bytes": 76695,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-plano-tangente-linealizacion.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 162,
+      "source": "2022 [Intensivo]/Preguntas.pdf",
+      "archive_year": "2022",
+      "sha256": "bb697615f0012ca683dc8d53ab0dfc740937ed8dcdcc38543fd4124ecac1bd42",
+      "bytes": 408355,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/teoria/pdf2022-temario.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 163,
+      "source": "2022 [Intensivo]/Repaso para el 1er Parcial-Int.pdf",
+      "archive_year": "2022",
+      "sha256": "ec8c57b2aebe655f36f9a53468c188f62348c2f099559415c6495f9cfc8e128f",
+      "bytes": 756701,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-repaso-primer-parcial-intensivo.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 164,
+      "source": "2022 [Intensivo]/RepasoPrimer  Parcial.pdf",
+      "archive_year": "2022",
+      "sha256": "af28985b8268077d7772478a6eee29f8c624fafb66caf0a7645855a70a09487b",
+      "bytes": 128934,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-repaso-primer-parcial.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 165,
+      "source": "2022 [Intensivo]/Series de Fourier.docx",
+      "archive_year": "2022",
+      "sha256": "06f15262bcf5c45da99dfb95c58722ce209571199a972d57a9d280f882e71bf2",
+      "bytes": 40516,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/office-series-de-fourier-06f15262.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 166,
+      "source": "2022 [Intensivo]/TEMARIO  PARA COLOQUIO  TEÓRICO.docx",
+      "archive_year": "2022",
+      "sha256": "a32af611313cde7f6d35957179933cc117a44a950d0e4f1c0fe756898a19e95a",
+      "bytes": 19087,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/teoria/office-temario-para-coloquio-teorico-a32af611.md"
+      ],
+      "status": "transcrito-atribucion-pendiente",
+      "coverage": "resources/2022/office-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "attribution": "material-externo-o-atribucion-pendiente"
+    },
+    {
+      "id": 167,
+      "source": "2022 [Intensivo]/Tabla de integrales (1).pdf",
+      "archive_year": "2022",
+      "sha256": "9f191edaf3d321237a1ca577c04d73421c192b7ca96e05f6ece73689bc7b150f",
+      "bytes": 66099,
+      "pdf_pages": 6,
+      "duplicate_of": 68,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "losses": [],
+      "author": null,
+      "printed_year": null,
+      "counts": {
+        "formulas": 85
+      },
+      "outputs": [
+        "notes/2016/teoria/resume-misc-tabla-integrales-anexo-d.md"
+      ],
+      "status": "transcrito-revisado"
+    },
+    {
+      "id": 168,
+      "source": "2022 [Intensivo]/Teorema de Green.pdf",
+      "archive_year": "2022",
+      "sha256": "7aa142874530afcbd1865a1e8a2ce6cc507c2c3df7c09bc8e026f66b0691a65e",
+      "bytes": 169630,
+      "pdf_pages": 2,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-teorema-green.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 169,
+      "source": "2022 [Intensivo]/Tercer Parcial 3.pdf",
+      "archive_year": "2022",
+      "sha256": "02815cb7c318dfb1ca7d1cb5679e7b092f9ef03daf486afa74902620e4ea7c50",
+      "bytes": 113769,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-tercer-parcial-2020-isi.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ],
+      "printed_year": 2020
+    },
+    {
+      "id": 170,
+      "source": "2022 [Intensivo]/TercerParcial-k2.2.pdf",
+      "archive_year": "2022",
+      "sha256": "90c1b058171af01dae5441d25bff3f8f2f8a4700f49db7031336d042396fb863",
+      "bytes": 87433,
+      "pdf_pages": 1,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/pdf2022-tercer-parcial-k22.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/pdf2022-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 171,
+      "source": "2022 [Intensivo]/Trabajo práctico 1.docx",
+      "archive_year": "2022",
+      "sha256": "62164cd928eef07e4d32b48321041151fd535da795cb89a14c2b58249be3d101",
+      "bytes": 65357,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/office-trabajo-practico-1-62164cd9.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    },
+    {
+      "id": 172,
+      "source": "2022 [Intensivo]/repaso.docx",
+      "archive_year": "2022",
+      "sha256": "2e04ae39143c8140e4fe929fdb906bbcbc1ccd7fee495d07912b8cf56e918830",
+      "bytes": 14652,
+      "pdf_pages": null,
+      "duplicate_of": null,
+      "outputs": [
+        "notes/2022/practica/office-repaso-2e04ae39.md"
+      ],
+      "status": "transcrito-revisado",
+      "coverage": "resources/2022/office-cobertura.md",
+      "reviewed_pages": [
+        1
+      ]
+    }
+  ],
+  "zip_members": [
+    {
+      "entry": "ejercicios de final.docx",
+      "bytes": 20446,
+      "sha256": "3746bd935fcbba91b01c4461fe553b0a60e6d92a607e23c614e7bab356cfa9fc",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/Diferenciales BIS.docx",
+        "2020/Modelos Exámenes finales/ejercicios de final.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-diferenciales-bis-3746bd93.md"
+      ]
+    },
+    {
+      "entry": "ex_fin_15_12_2010[1].docx",
+      "bytes": 14889,
+      "sha256": "b7896a58a17199ba0eca6a007281f430132b7df556114393a9152567e5e10ec1",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/ex_fin_15_12_2010[1].docx",
+        "2020/Modelos Exámenes finales/ex_fin_15_12_2010[1].docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-ex-fin-15-12-2010-1-b7896a58.md"
+      ]
+    },
+    {
+      "entry": "ex_final_23-2-11[1].docx",
+      "bytes": 13662,
+      "sha256": "be3df17ff38e3aa7bc6d7dd78016f18a91b63139a7785ab617c333db0520d001",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/ex_final_23-2-11[1].docx",
+        "2020/Modelos Exámenes finales/ex_final_23-2-11[1].docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-ex-final-23-2-11-1-be3df17f.md"
+      ]
+    },
+    {
+      "entry": "ex_final_9-2-11[1].docx",
+      "bytes": 22801,
+      "sha256": "b4eb29d78628a622fa555c4f1201c10ba346c71e2fb997c70574f0ae8b61ad07",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/ex_final_9-2-11[1].docx",
+        "2020/Modelos Exámenes finales/ex_final_9-2-11[1].docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-ex-final-9-2-11-1-b4eb29d7.md"
+      ]
+    },
+    {
+      "entry": "exam final 5ago 2015.doc",
+      "bytes": 98816,
+      "sha256": "46dfb1c1c620526db5a28e402c0c3e0db50b2fd9d6c587653460d4c03e91e48e",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/exam final 5ago 2015.doc",
+        "2020/Modelos Exámenes finales/exam final 5ago 2015.doc"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-exam-final-5ago-2015-46dfb1c1.md"
+      ]
+    },
+    {
+      "entry": "Examen Final  09-2012.docx",
+      "bytes": 21618,
+      "sha256": "f411a299249375444978148dc615a8efed18ee25ca47f973f06004d4c4196e38",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/Examen Final  09-2012.docx",
+        "2020/Modelos Exámenes finales/Examen Final  09-2012.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-examen-final-09-2012-f411a299.md"
+      ]
+    },
+    {
+      "entry": "Examen Final 01 08 2012.docx",
+      "bytes": 12910,
+      "sha256": "cc2b304a16a269635ceb3a1a6cadf9afa811b3738d7debd02144e63f527da747",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/Examen Final 01 08 2012.docx",
+        "2020/Modelos Exámenes finales/Examen Final 01 08 2012.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-examen-final-01-08-2012-cc2b304a.md"
+      ]
+    },
+    {
+      "entry": "EXAMEN FINAL 15-10-14.doc",
+      "bytes": 76288,
+      "sha256": "a5a837d673193c5698c44b37f6395443143430ce1efa6b3e8254aee48e2ad2ae",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/EXAMEN FINAL 15-10-14.doc",
+        "2020/Modelos Exámenes finales/EXAMEN FINAL 15-10-14.doc"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-examen-final-15-10-14-a5a837d6.md"
+      ]
+    },
+    {
+      "entry": "EXAMEN FINAL abril 2015.docx",
+      "bytes": 15474,
+      "sha256": "2d848173eb215f98f3f294cd1eda32b935415984c764f0ad02e95d22d11fe024",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/EXAMEN FINAL abril 2015.docx",
+        "2020/Modelos Exámenes finales/EXAMEN FINAL abril 2015.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-examen-final-abril-2015-2d848173.md"
+      ]
+    },
+    {
+      "entry": "Examen Final Octubre 2013.docx",
+      "bytes": 19062,
+      "sha256": "e130825804382a86225cfb5a8952ecdbff685106b0269271df48337f5897e2d9",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/Examen Final Octubre 2013.docx",
+        "2020/Modelos Exámenes finales/Examen Final Octubre 2013.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-examen-final-octubre-2013-e1308258.md"
+      ]
+    },
+    {
+      "entry": "ExamenFinal11-04-2012.docx",
+      "bytes": 16285,
+      "sha256": "5b646805aee4eade08c8f3e8ad005c904b4be61c19f75c37187b473dd37fbbd0",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/ExamenFinal11-04-2012.docx",
+        "2020/Modelos Exámenes finales/ExamenFinal11-04-2012.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-examenfinal11-04-2012-5b646805.md"
+      ]
+    },
+    {
+      "entry": "Final ANA2 Julio 2015.docx",
+      "bytes": 13393,
+      "sha256": "150daf1755c224364e8c9657b65b2037ee5888d4500f4f766f6f9c2fc8883193",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/Final ANA2 Julio 2015.docx",
+        "2020/Modelos Exámenes finales/Final ANA2 Julio 2015.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-final-ana2-julio-2015-150daf17.md"
+      ]
+    },
+    {
+      "entry": "final diciembre 2012.docx",
+      "bytes": 13212,
+      "sha256": "2615883009699c100e6215a4adc49a9ce3d1997ab48dfbba9f43cae4007d378a",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/final diciembre 2012.docx",
+        "2020/Modelos Exámenes finales/final diciembre 2012.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-final-diciembre-2012-26158830.md"
+      ]
+    },
+    {
+      "entry": "final julio.docx",
+      "bytes": 15784,
+      "sha256": "5337d5964e6d736b357ea3eceaa63ed7138cbd22c90197cb3e2ed25b87611352",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/final julio.docx",
+        "2020/Modelos Exámenes finales/final julio.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-final-julio-5337d596.md"
+      ]
+    },
+    {
+      "entry": "final.docx",
+      "bytes": 14183,
+      "sha256": "0aae5398549bd22a33f33bac48e99d1f08cffd6c0caa91e0e1a03cf0f3e0dfdc",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/final.docx",
+        "2020/Modelos Exámenes finales/final.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-final-0aae5398.md"
+      ]
+    },
+    {
+      "entry": "prop final 19 de diciembre 2014_2.docx",
+      "bytes": 14924,
+      "sha256": "a467c3c12f88dd466df570b1a6d8bd0226a62c9d51236b8132ee0ca33feb274c",
+      "same_as": [
+        "2016/Modelos Exámenes Finales/prop final 19 de diciembre 2014_2.docx",
+        "2020/Modelos Exámenes finales/prop final 19 de diciembre 2014_2.docx"
+      ],
+      "outputs": [
+        "notes/2016/practica/office-prop-final-19-de-diciembre-2014-2-a467c3c1.md"
+      ]
+    }
+  ]
+}
